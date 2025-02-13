@@ -1,0 +1,27 @@
+[0.033s] Invoking command in '/home/ehoaglin/ros2_ws/src/build/dingo_gazebo': /usr/bin/cmake /home/ehoaglin/ros2_ws/src/dingo_gazebo -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ehoaglin/ros2_ws/src/install/dingo_gazebo
+[0.104s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.104s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.104s]   CMake.
+[0.104s] 
+[0.105s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.105s]   CMake that the project does not need compatibility with older versions.
+[0.105s] 
+[0.105s] [0m
+[2.126s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[2.126s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[2.126s]   asked CMake to find a package configuration file provided by "catkin", but
+[2.126s]   CMake did not find one.
+[2.126s] 
+[2.126s]   Could not find a package configuration file provided by "catkin" with any
+[2.127s]   of the following names:
+[2.127s] 
+[2.127s]     catkinConfig.cmake
+[2.127s]     catkin-config.cmake
+[2.127s] 
+[2.127s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[2.127s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[2.128s]   provides a separate development package or SDK, be sure it has been
+[2.128s]   installed.
+[2.128s] 
+[2.128s] [0m
+[2.129s] -- Configuring incomplete, errors occurred!

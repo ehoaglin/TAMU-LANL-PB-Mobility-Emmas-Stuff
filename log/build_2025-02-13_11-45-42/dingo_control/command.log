@@ -1,0 +1,3 @@
+Invoking command in '/home/ehoaglin/ros2_ws/build/dingo_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(myenv) /usr/bin/cmake /home/ehoaglin/ros2_ws/src/dingo_control -DCMAKE_INSTALL_PREFIX=/home/ehoaglin/ros2_ws/install/dingo_control
+Invoked command in '/home/ehoaglin/ros2_ws/build/dingo_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(myenv) /usr/bin/cmake /home/ehoaglin/ros2_ws/src/dingo_control -DCMAKE_INSTALL_PREFIX=/home/ehoaglin/ros2_ws/install/dingo_control
+Invoking command in '/home/ehoaglin/ros2_ws/build/dingo_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(myenv) /usr/bin/cmake --build /home/ehoaglin/ros2_ws/build/dingo_control -- -j12 -l12

@@ -1,0 +1,43 @@
+[0.015s] Invoking command in '/home/ehoaglin/ros2_ws/src/dingo_control/build/dingo_control': /usr/bin/cmake /home/ehoaglin/ros2_ws/src/dingo_control -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/ehoaglin/ros2_ws/src/dingo_control/install/dingo_control
+[0.029s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.291s] -- Found rclpy: 7.1.3 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.291s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.502s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.515s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.531s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.549s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.605s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.616s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.942s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):
+[0.942s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.942s]   dingo_control --arguments-file
+[0.942s]   /home/ehoaglin/ros2_ws/src/dingo_control/build/dingo_control/rosidl_adapter__arguments__src/msg/TaskSpace.msg.json
+[0.942s]   --output-dir
+[0.942s]   /home/ehoaglin/ros2_ws/src/dingo_control/build/dingo_control/rosidl_adapter/dingo_control
+[0.942s]   --output-file
+[0.942s]   /home/ehoaglin/ros2_ws/src/dingo_control/build/dingo_control/rosidl_adapter/src/msg/TaskSpace.msg.idls)
+[0.943s]   returned error code 1:
+[0.943s] 
+[0.943s]   Traceback (most recent call last):
+[0.943s] 
+[0.943s]     File "<frozen runpy>", line 198, in _run_module_as_main
+[0.943s]     File "<frozen runpy>", line 88, in _run_code
+[0.943s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.943s]       sys.exit(main())
+[0.943s]                ^^^^^^
+[0.943s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/main.py", line 58, in main
+[0.943s]       output_file.parent.mkdir(exist_ok=True)
+[0.944s]     File "/usr/lib/python3.12/pathlib.py", line 1313, in mkdir
+[0.944s]       os.mkdir(self, mode)
+[0.944s] 
+[0.944s]   FileNotFoundError: [Errno 2] No such file or directory:
+[0.944s]   '/home/ehoaglin/ros2_ws/src/dingo_control/build/dingo_control/rosidl_adapter/src/msg'
+[0.944s] 
+[0.944s] 
+[0.944s] Call Stack (most recent call first):
+[0.944s]   /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)
+[0.944s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[0.945s] 
+[0.945s] [0m
+[0.945s] -- Configuring incomplete, errors occurred!
+[0.949s] Invoked command in '/home/ehoaglin/ros2_ws/src/dingo_control/build/dingo_control' returned '1': /usr/bin/cmake /home/ehoaglin/ros2_ws/src/dingo_control -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/ehoaglin/ros2_ws/src/dingo_control/install/dingo_control

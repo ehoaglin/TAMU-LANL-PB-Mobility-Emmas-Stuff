@@ -1,0 +1,1 @@
+Invoking command in '/home/ehoaglin/ros2_ws/src/build/dingo_control': /usr/bin/cmake /home/ehoaglin/ros2_ws/src/dingo_control -DCMAKE_INSTALL_PREFIX=/home/ehoaglin/ros2_ws/src/install/dingo_control

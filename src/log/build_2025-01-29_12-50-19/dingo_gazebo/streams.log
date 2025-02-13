@@ -1,0 +1,5 @@
+[0.027s] Invoking command in '/home/ehoaglin/ros2_ws/src/build/dingo_gazebo': /usr/bin/cmake --build /home/ehoaglin/ros2_ws/src/build/dingo_gazebo -- -j12 -l12
+[0.050s] -- Configuring done (0.0s)
+[0.052s] -- Generating done (0.0s)
+[0.053s] -- Build files have been written to: /home/ehoaglin/ros2_ws/src/build/dingo_gazebo
+[0.089s] Invoked command in '/home/ehoaglin/ros2_ws/src/build/dingo_gazebo' returned '0': /usr/bin/cmake --build /home/ehoaglin/ros2_ws/src/build/dingo_gazebo -- -j12 -l12

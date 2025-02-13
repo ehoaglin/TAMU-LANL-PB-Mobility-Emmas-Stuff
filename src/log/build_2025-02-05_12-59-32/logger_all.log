@@ -1,0 +1,391 @@
+[0.177s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.177s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fb4629b56a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fb4629b52e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fb4629b52e0>>)
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.207s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ehoaglin/ros2_ws/src'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(dingo) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(dingo) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(dingo) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(dingo) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(dingo) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(dingo) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(dingo) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(dingo) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(dingo) by extension 'ros'
+[0.229s] DEBUG:colcon.colcon_core.package_identification:Package 'dingo' with type 'ros.ament_cmake' and name 'dingo'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_control) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_control) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_control) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_control) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_control) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_control) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_control) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_control) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_control) by extension 'ros'
+[0.231s] DEBUG:colcon.colcon_core.package_identification:Failed to parse potential ROS package manifest in'dingo_control': Error(s) in package 'dingo_control/package.xml':
+Error(s):
+- The generic dependency on 'geometry_msgs' is redundant with: build_depend, exec_depend
+- The manifest of package "dingo_control" (with format version 2) must not contain the following tags: member_of_group
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_control) by extensions ['cmake', 'python']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_control) by extension 'cmake'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_control) by extension 'python'
+[0.234s] DEBUG:colcon.colcon_core.package_identification:Package 'dingo_control' with type 'cmake' and name 'dingo_control'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_description) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_description) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_description) by extension 'ignore_ament_install'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_description) by extensions ['colcon_pkg']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_description) by extension 'colcon_pkg'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_description) by extensions ['colcon_meta']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_description) by extension 'colcon_meta'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_description) by extensions ['ros']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_description) by extension 'ros'
+[0.236s] DEBUG:colcon.colcon_core.package_identification:Package 'dingo_description' with type 'ros.catkin' and name 'dingo_description'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_gazebo) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_gazebo) by extension 'ignore_ament_install'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_gazebo) by extensions ['colcon_pkg']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_gazebo) by extension 'colcon_pkg'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_gazebo) by extensions ['colcon_meta']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_gazebo) by extension 'colcon_meta'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_gazebo) by extensions ['ros']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_gazebo) by extension 'ros'
+[0.237s] DEBUG:colcon.colcon_core.package_identification:Package 'dingo_gazebo' with type 'ros.catkin' and name 'dingo_gazebo'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_hardware_interfacing) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_hardware_interfacing) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_hardware_interfacing) by extension 'ignore_ament_install'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_hardware_interfacing) by extensions ['colcon_pkg']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_hardware_interfacing) by extension 'colcon_pkg'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_hardware_interfacing) by extensions ['colcon_meta']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_hardware_interfacing) by extension 'colcon_meta'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_hardware_interfacing) by extensions ['ros']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_hardware_interfacing) by extension 'ros'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_hardware_interfacing) by extensions ['cmake', 'python']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_hardware_interfacing) by extension 'cmake'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_hardware_interfacing) by extension 'python'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_hardware_interfacing) by extensions ['python_setup_py']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_hardware_interfacing) by extension 'python_setup_py'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_hardware_interfacing/dingo_input_interfacing) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_hardware_interfacing/dingo_input_interfacing) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_hardware_interfacing/dingo_input_interfacing) by extension 'ignore_ament_install'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_hardware_interfacing/dingo_input_interfacing) by extensions ['colcon_pkg']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_hardware_interfacing/dingo_input_interfacing) by extension 'colcon_pkg'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_hardware_interfacing/dingo_input_interfacing) by extensions ['colcon_meta']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_hardware_interfacing/dingo_input_interfacing) by extension 'colcon_meta'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_hardware_interfacing/dingo_input_interfacing) by extensions ['ros']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_hardware_interfacing/dingo_input_interfacing) by extension 'ros'
+[0.239s] DEBUG:colcon.colcon_core.package_identification:Package 'dingo_hardware_interfacing/dingo_input_interfacing' with type 'ros.catkin' and name 'dingo_input_interfacing'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_hardware_interfacing/dingo_peripheral_interfacing) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_hardware_interfacing/dingo_peripheral_interfacing) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_hardware_interfacing/dingo_peripheral_interfacing) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_hardware_interfacing/dingo_peripheral_interfacing) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_hardware_interfacing/dingo_peripheral_interfacing) by extension 'colcon_pkg'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_hardware_interfacing/dingo_peripheral_interfacing) by extensions ['colcon_meta']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_hardware_interfacing/dingo_peripheral_interfacing) by extension 'colcon_meta'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_hardware_interfacing/dingo_peripheral_interfacing) by extensions ['ros']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_hardware_interfacing/dingo_peripheral_interfacing) by extension 'ros'
+[0.240s] DEBUG:colcon.colcon_core.package_identification:Package 'dingo_hardware_interfacing/dingo_peripheral_interfacing' with type 'ros.catkin' and name 'dingo_peripheral_interfacing'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_hardware_interfacing/dingo_servo_interfacing) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_hardware_interfacing/dingo_servo_interfacing) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_hardware_interfacing/dingo_servo_interfacing) by extension 'ignore_ament_install'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_hardware_interfacing/dingo_servo_interfacing) by extensions ['colcon_pkg']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_hardware_interfacing/dingo_servo_interfacing) by extension 'colcon_pkg'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_hardware_interfacing/dingo_servo_interfacing) by extensions ['colcon_meta']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_hardware_interfacing/dingo_servo_interfacing) by extension 'colcon_meta'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_hardware_interfacing/dingo_servo_interfacing) by extensions ['ros']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(dingo_hardware_interfacing/dingo_servo_interfacing) by extension 'ros'
+[0.242s] DEBUG:colcon.colcon_core.package_identification:Package 'dingo_hardware_interfacing/dingo_servo_interfacing' with type 'ros.catkin' and name 'dingo_servo_interfacing'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.261s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/ehoaglin/ros2_ws/install
+[0.263s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 403 installed packages in /opt/ros/jazzy
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'dingo_control' build argument 'cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'dingo_control' build argument 'cmake_target' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'dingo_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'dingo_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'dingo_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'dingo_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'dingo_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'dingo_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'dingo_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.314s] DEBUG:colcon.colcon_core.verb:Building package 'dingo_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ehoaglin/ros2_ws/src/build/dingo_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ehoaglin/ros2_ws/src/install/dingo_control', 'merge_install': False, 'path': '/home/ehoaglin/ros2_ws/src/dingo_control', 'symlink_install': False, 'test_result_base': None}
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'dingo_description' build argument 'cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'dingo_description' build argument 'cmake_target' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'dingo_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'dingo_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'dingo_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'dingo_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'dingo_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'dingo_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'dingo_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.314s] DEBUG:colcon.colcon_core.verb:Building package 'dingo_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ehoaglin/ros2_ws/src/build/dingo_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ehoaglin/ros2_ws/src/install/dingo_description', 'merge_install': False, 'path': '/home/ehoaglin/ros2_ws/src/dingo_description', 'symlink_install': False, 'test_result_base': None}
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'dingo_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'dingo_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'dingo_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'dingo_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'dingo_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'dingo_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'dingo_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'dingo_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'dingo_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.315s] DEBUG:colcon.colcon_core.verb:Building package 'dingo_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ehoaglin/ros2_ws/src/build/dingo_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ehoaglin/ros2_ws/src/install/dingo_gazebo', 'merge_install': False, 'path': '/home/ehoaglin/ros2_ws/src/dingo_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'dingo_input_interfacing' build argument 'cmake_args' from command line to 'None'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'dingo_input_interfacing' build argument 'cmake_target' from command line to 'None'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'dingo_input_interfacing' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'dingo_input_interfacing' build argument 'cmake_clean_cache' from command line to 'False'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'dingo_input_interfacing' build argument 'cmake_clean_first' from command line to 'False'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'dingo_input_interfacing' build argument 'cmake_force_configure' from command line to 'False'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'dingo_input_interfacing' build argument 'ament_cmake_args' from command line to 'None'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'dingo_input_interfacing' build argument 'catkin_cmake_args' from command line to 'None'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'dingo_input_interfacing' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.315s] DEBUG:colcon.colcon_core.verb:Building package 'dingo_input_interfacing' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ehoaglin/ros2_ws/src/build/dingo_input_interfacing', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing', 'merge_install': False, 'path': '/home/ehoaglin/ros2_ws/src/dingo_hardware_interfacing/dingo_input_interfacing', 'symlink_install': False, 'test_result_base': None}
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'dingo_peripheral_interfacing' build argument 'cmake_args' from command line to 'None'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'dingo_peripheral_interfacing' build argument 'cmake_target' from command line to 'None'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'dingo_peripheral_interfacing' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'dingo_peripheral_interfacing' build argument 'cmake_clean_cache' from command line to 'False'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'dingo_peripheral_interfacing' build argument 'cmake_clean_first' from command line to 'False'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'dingo_peripheral_interfacing' build argument 'cmake_force_configure' from command line to 'False'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'dingo_peripheral_interfacing' build argument 'ament_cmake_args' from command line to 'None'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'dingo_peripheral_interfacing' build argument 'catkin_cmake_args' from command line to 'None'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'dingo_peripheral_interfacing' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.316s] DEBUG:colcon.colcon_core.verb:Building package 'dingo_peripheral_interfacing' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ehoaglin/ros2_ws/src/build/dingo_peripheral_interfacing', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing', 'merge_install': False, 'path': '/home/ehoaglin/ros2_ws/src/dingo_hardware_interfacing/dingo_peripheral_interfacing', 'symlink_install': False, 'test_result_base': None}
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'dingo_servo_interfacing' build argument 'cmake_args' from command line to 'None'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'dingo_servo_interfacing' build argument 'cmake_target' from command line to 'None'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'dingo_servo_interfacing' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'dingo_servo_interfacing' build argument 'cmake_clean_cache' from command line to 'False'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'dingo_servo_interfacing' build argument 'cmake_clean_first' from command line to 'False'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'dingo_servo_interfacing' build argument 'cmake_force_configure' from command line to 'False'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'dingo_servo_interfacing' build argument 'ament_cmake_args' from command line to 'None'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'dingo_servo_interfacing' build argument 'catkin_cmake_args' from command line to 'None'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'dingo_servo_interfacing' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.317s] DEBUG:colcon.colcon_core.verb:Building package 'dingo_servo_interfacing' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ehoaglin/ros2_ws/src/build/dingo_servo_interfacing', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ehoaglin/ros2_ws/src/install/dingo_servo_interfacing', 'merge_install': False, 'path': '/home/ehoaglin/ros2_ws/src/dingo_hardware_interfacing/dingo_servo_interfacing', 'symlink_install': False, 'test_result_base': None}
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'dingo' build argument 'cmake_args' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'dingo' build argument 'cmake_target' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'dingo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'dingo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'dingo' build argument 'cmake_clean_first' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'dingo' build argument 'cmake_force_configure' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'dingo' build argument 'ament_cmake_args' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'dingo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'dingo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.317s] DEBUG:colcon.colcon_core.verb:Building package 'dingo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ehoaglin/ros2_ws/src/build/dingo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ehoaglin/ros2_ws/src/install/dingo', 'merge_install': False, 'path': '/home/ehoaglin/ros2_ws/src/dingo', 'symlink_install': False, 'test_result_base': None}
+[0.317s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.318s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.318s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ehoaglin/ros2_ws/src/dingo_control'
+[0.321s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.321s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.321s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.324s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/ehoaglin/ros2_ws/src/dingo_hardware_interfacing/dingo_input_interfacing' with build type 'catkin'
+[0.324s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ehoaglin/ros2_ws/src/dingo_hardware_interfacing/dingo_input_interfacing'
+[0.324s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.325s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.328s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/ehoaglin/ros2_ws/src/dingo_hardware_interfacing/dingo_servo_interfacing' with build type 'catkin'
+[0.329s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ehoaglin/ros2_ws/src/dingo_hardware_interfacing/dingo_servo_interfacing'
+[0.329s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.329s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.334s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/ehoaglin/ros2_ws/src/dingo_description' with build type 'catkin'
+[0.350s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ehoaglin/ros2_ws/src/dingo_description'
+[0.351s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.351s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.355s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/ehoaglin/ros2_ws/src/dingo_gazebo' with build type 'catkin'
+[0.356s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ehoaglin/ros2_ws/src/dingo_gazebo'
+[0.356s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.356s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.360s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/ehoaglin/ros2_ws/src/dingo_hardware_interfacing/dingo_peripheral_interfacing' with build type 'catkin'
+[0.360s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ehoaglin/ros2_ws/src/dingo_hardware_interfacing/dingo_peripheral_interfacing'
+[0.360s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.360s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.370s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ehoaglin/ros2_ws/src/build/dingo_control': /usr/bin/cmake /home/ehoaglin/ros2_ws/src/dingo_control -DCMAKE_INSTALL_PREFIX=/home/ehoaglin/ros2_ws/src/install/dingo_control
+[0.375s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ehoaglin/ros2_ws/src/build/dingo_input_interfacing': /usr/bin/cmake --build /home/ehoaglin/ros2_ws/src/build/dingo_input_interfacing -- -j12 -l12
+[0.380s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ehoaglin/ros2_ws/src/build/dingo_servo_interfacing': /usr/bin/cmake --build /home/ehoaglin/ros2_ws/src/build/dingo_servo_interfacing -- -j12 -l12
+[0.382s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ehoaglin/ros2_ws/src/build/dingo_description': /usr/bin/cmake --build /home/ehoaglin/ros2_ws/src/build/dingo_description -- -j12 -l12
+[0.395s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ehoaglin/ros2_ws/src/build/dingo_gazebo': /usr/bin/cmake --build /home/ehoaglin/ros2_ws/src/build/dingo_gazebo -- -j12 -l12
+[0.402s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ehoaglin/ros2_ws/src/build/dingo_peripheral_interfacing': /usr/bin/cmake --build /home/ehoaglin/ros2_ws/src/build/dingo_peripheral_interfacing -- -j12 -l12
+[0.427s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ehoaglin/ros2_ws/src/build/dingo_servo_interfacing' returned '0': /usr/bin/cmake --build /home/ehoaglin/ros2_ws/src/build/dingo_servo_interfacing -- -j12 -l12
+[0.441s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ehoaglin/ros2_ws/src/build/dingo_servo_interfacing': /usr/bin/cmake --install /home/ehoaglin/ros2_ws/src/build/dingo_servo_interfacing
+[0.444s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ehoaglin/ros2_ws/src/build/dingo_gazebo' returned '0': /usr/bin/cmake --build /home/ehoaglin/ros2_ws/src/build/dingo_gazebo -- -j12 -l12
+[0.444s] WARNING:colcon.colcon_cmake.task.cmake.build:Could not run installation step for package 'dingo_gazebo' because it has no 'install' target
+[0.446s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dingo_gazebo)
+[0.449s] Level 1:colcon.colcon_core.environment:checking '/home/ehoaglin/ros2_ws/src/install/dingo_gazebo' for CMake module files
+[0.449s] Level 1:colcon.colcon_core.environment:checking '/home/ehoaglin/ros2_ws/src/install/dingo_gazebo' for CMake config files
+[0.454s] Level 1:colcon.colcon_core.environment:checking '/home/ehoaglin/ros2_ws/src/install/dingo_gazebo/bin'
+[0.455s] Level 1:colcon.colcon_core.environment:checking '/home/ehoaglin/ros2_ws/src/install/dingo_gazebo/lib/pkgconfig/dingo_gazebo.pc'
+[0.455s] Level 1:colcon.colcon_core.environment:checking '/home/ehoaglin/ros2_ws/src/install/dingo_gazebo/lib/python3.12/site-packages'
+[0.456s] Level 1:colcon.colcon_core.environment:checking '/home/ehoaglin/ros2_ws/src/install/dingo_gazebo/bin'
+[0.456s] INFO:colcon.colcon_core.shell:Creating package script '/home/ehoaglin/ros2_ws/src/install/dingo_gazebo/share/dingo_gazebo/package.ps1'
+[0.458s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ehoaglin/ros2_ws/src/install/dingo_gazebo/share/dingo_gazebo/package.dsv'
+[0.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/ehoaglin/ros2_ws/src/install/dingo_gazebo/share/dingo_gazebo/package.sh'
+[0.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/ehoaglin/ros2_ws/src/install/dingo_gazebo/share/dingo_gazebo/package.bash'
+[0.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/ehoaglin/ros2_ws/src/install/dingo_gazebo/share/dingo_gazebo/package.zsh'
+[0.460s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ehoaglin/ros2_ws/src/install/dingo_gazebo/share/colcon-core/packages/dingo_gazebo)
+[0.463s] WARNING:colcon.colcon_cmake.task.cmake.build:Could not run installation step for package 'dingo_description' because it has no 'install' target
+[0.463s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ehoaglin/ros2_ws/src/build/dingo_description' returned '0': /usr/bin/cmake --build /home/ehoaglin/ros2_ws/src/build/dingo_description -- -j12 -l12
+[0.463s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dingo_description)
+[0.464s] Level 1:colcon.colcon_core.environment:checking '/home/ehoaglin/ros2_ws/src/install/dingo_description' for CMake module files
+[0.464s] Level 1:colcon.colcon_core.environment:checking '/home/ehoaglin/ros2_ws/src/install/dingo_description' for CMake config files
+[0.464s] Level 1:colcon.colcon_core.environment:checking '/home/ehoaglin/ros2_ws/src/install/dingo_description/bin'
+[0.465s] Level 1:colcon.colcon_core.environment:checking '/home/ehoaglin/ros2_ws/src/install/dingo_description/lib/pkgconfig/dingo_description.pc'
+[0.465s] Level 1:colcon.colcon_core.environment:checking '/home/ehoaglin/ros2_ws/src/install/dingo_description/lib/python3.12/site-packages'
+[0.465s] Level 1:colcon.colcon_core.environment:checking '/home/ehoaglin/ros2_ws/src/install/dingo_description/bin'
+[0.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/ehoaglin/ros2_ws/src/install/dingo_description/share/dingo_description/package.ps1'
+[0.466s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ehoaglin/ros2_ws/src/install/dingo_description/share/dingo_description/package.dsv'
+[0.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/ehoaglin/ros2_ws/src/install/dingo_description/share/dingo_description/package.sh'
+[0.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/ehoaglin/ros2_ws/src/install/dingo_description/share/dingo_description/package.bash'
+[0.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/ehoaglin/ros2_ws/src/install/dingo_description/share/dingo_description/package.zsh'
+[0.467s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ehoaglin/ros2_ws/src/install/dingo_description/share/colcon-core/packages/dingo_description)
+[0.473s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ehoaglin/ros2_ws/src/build/dingo_peripheral_interfacing' returned '0': /usr/bin/cmake --build /home/ehoaglin/ros2_ws/src/build/dingo_peripheral_interfacing -- -j12 -l12
+[0.474s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ehoaglin/ros2_ws/src/build/dingo_peripheral_interfacing': /usr/bin/cmake --install /home/ehoaglin/ros2_ws/src/build/dingo_peripheral_interfacing
+[0.475s] Level 1:colcon.colcon_core.shell:create_environment_hook('dingo_servo_interfacing', 'ros_package_path')
+[0.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ehoaglin/ros2_ws/src/install/dingo_servo_interfacing/share/dingo_servo_interfacing/hook/ros_package_path.ps1'
+[0.476s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ehoaglin/ros2_ws/src/build/dingo_servo_interfacing' returned '0': /usr/bin/cmake --install /home/ehoaglin/ros2_ws/src/build/dingo_servo_interfacing
+[0.477s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ehoaglin/ros2_ws/src/install/dingo_servo_interfacing/share/dingo_servo_interfacing/hook/ros_package_path.dsv'
+[0.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ehoaglin/ros2_ws/src/install/dingo_servo_interfacing/share/dingo_servo_interfacing/hook/ros_package_path.sh'
+[0.478s] Level 1:colcon.colcon_core.shell:create_environment_hook('dingo_servo_interfacing', 'pkg_config_path')
+[0.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ehoaglin/ros2_ws/src/install/dingo_servo_interfacing/share/dingo_servo_interfacing/hook/pkg_config_path.ps1'
+[0.479s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ehoaglin/ros2_ws/src/install/dingo_servo_interfacing/share/dingo_servo_interfacing/hook/pkg_config_path.dsv'
+[0.480s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ehoaglin/ros2_ws/src/install/dingo_servo_interfacing/share/dingo_servo_interfacing/hook/pkg_config_path.sh'
+[0.481s] Level 1:colcon.colcon_core.shell:create_environment_hook('dingo_servo_interfacing', 'pkg_config_path_multiarch')
+[0.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ehoaglin/ros2_ws/src/install/dingo_servo_interfacing/share/dingo_servo_interfacing/hook/pkg_config_path_multiarch.ps1'
+[0.482s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ehoaglin/ros2_ws/src/install/dingo_servo_interfacing/share/dingo_servo_interfacing/hook/pkg_config_path_multiarch.dsv'
+[0.483s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ehoaglin/ros2_ws/src/install/dingo_servo_interfacing/share/dingo_servo_interfacing/hook/pkg_config_path_multiarch.sh'
+[0.484s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dingo_servo_interfacing)
+[0.484s] Level 1:colcon.colcon_core.environment:checking '/home/ehoaglin/ros2_ws/src/install/dingo_servo_interfacing' for CMake module files
+[0.484s] Level 1:colcon.colcon_core.environment:checking '/home/ehoaglin/ros2_ws/src/install/dingo_servo_interfacing' for CMake config files
+[0.485s] Level 1:colcon.colcon_core.shell:create_environment_hook('dingo_servo_interfacing', 'cmake_prefix_path')
+[0.485s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ehoaglin/ros2_ws/src/install/dingo_servo_interfacing/share/dingo_servo_interfacing/hook/cmake_prefix_path.ps1'
+[0.485s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ehoaglin/ros2_ws/src/install/dingo_servo_interfacing/share/dingo_servo_interfacing/hook/cmake_prefix_path.dsv'
+[0.486s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ehoaglin/ros2_ws/src/install/dingo_servo_interfacing/share/dingo_servo_interfacing/hook/cmake_prefix_path.sh'
+[0.487s] Level 1:colcon.colcon_core.environment:checking '/home/ehoaglin/ros2_ws/src/install/dingo_servo_interfacing/bin'
+[0.487s] Level 1:colcon.colcon_core.environment:checking '/home/ehoaglin/ros2_ws/src/install/dingo_servo_interfacing/lib/pkgconfig/dingo_servo_interfacing.pc'
+[0.487s] Level 1:colcon.colcon_core.environment:checking '/home/ehoaglin/ros2_ws/src/install/dingo_servo_interfacing/lib/python3.12/site-packages'
+[0.487s] Level 1:colcon.colcon_core.environment:checking '/home/ehoaglin/ros2_ws/src/install/dingo_servo_interfacing/bin'
+[0.488s] INFO:colcon.colcon_core.shell:Creating package script '/home/ehoaglin/ros2_ws/src/install/dingo_servo_interfacing/share/dingo_servo_interfacing/package.ps1'
+[0.489s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ehoaglin/ros2_ws/src/install/dingo_servo_interfacing/share/dingo_servo_interfacing/package.dsv'
+[0.490s] INFO:colcon.colcon_core.shell:Creating package script '/home/ehoaglin/ros2_ws/src/install/dingo_servo_interfacing/share/dingo_servo_interfacing/package.sh'
+[0.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/ehoaglin/ros2_ws/src/install/dingo_servo_interfacing/share/dingo_servo_interfacing/package.bash'
+[0.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/ehoaglin/ros2_ws/src/install/dingo_servo_interfacing/share/dingo_servo_interfacing/package.zsh'
+[0.492s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ehoaglin/ros2_ws/src/install/dingo_servo_interfacing/share/colcon-core/packages/dingo_servo_interfacing)
+[0.496s] Level 1:colcon.colcon_core.shell:create_environment_hook('dingo_peripheral_interfacing', 'ros_package_path')
+[0.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing/share/dingo_peripheral_interfacing/hook/ros_package_path.ps1'
+[0.498s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing/share/dingo_peripheral_interfacing/hook/ros_package_path.dsv'
+[0.502s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ehoaglin/ros2_ws/src/build/dingo_peripheral_interfacing' returned '0': /usr/bin/cmake --install /home/ehoaglin/ros2_ws/src/build/dingo_peripheral_interfacing
+[0.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing/share/dingo_peripheral_interfacing/hook/ros_package_path.sh'
+[0.503s] Level 1:colcon.colcon_core.shell:create_environment_hook('dingo_peripheral_interfacing', 'pkg_config_path')
+[0.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing/share/dingo_peripheral_interfacing/hook/pkg_config_path.ps1'
+[0.504s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing/share/dingo_peripheral_interfacing/hook/pkg_config_path.dsv'
+[0.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing/share/dingo_peripheral_interfacing/hook/pkg_config_path.sh'
+[0.505s] Level 1:colcon.colcon_core.shell:create_environment_hook('dingo_peripheral_interfacing', 'pkg_config_path_multiarch')
+[0.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing/share/dingo_peripheral_interfacing/hook/pkg_config_path_multiarch.ps1'
+[0.506s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing/share/dingo_peripheral_interfacing/hook/pkg_config_path_multiarch.dsv'
+[0.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing/share/dingo_peripheral_interfacing/hook/pkg_config_path_multiarch.sh'
+[0.507s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dingo_peripheral_interfacing)
+[0.507s] Level 1:colcon.colcon_core.environment:checking '/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing' for CMake module files
+[0.508s] Level 1:colcon.colcon_core.environment:checking '/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing' for CMake config files
+[0.508s] Level 1:colcon.colcon_core.shell:create_environment_hook('dingo_peripheral_interfacing', 'cmake_prefix_path')
+[0.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing/share/dingo_peripheral_interfacing/hook/cmake_prefix_path.ps1'
+[0.509s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing/share/dingo_peripheral_interfacing/hook/cmake_prefix_path.dsv'
+[0.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing/share/dingo_peripheral_interfacing/hook/cmake_prefix_path.sh'
+[0.510s] Level 1:colcon.colcon_core.environment:checking '/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing/bin'
+[0.510s] Level 1:colcon.colcon_core.environment:checking '/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing/lib/pkgconfig/dingo_peripheral_interfacing.pc'
+[0.511s] Level 1:colcon.colcon_core.environment:checking '/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing/lib/python3.12/site-packages'
+[0.511s] Level 1:colcon.colcon_core.environment:checking '/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing/bin'
+[0.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing/share/dingo_peripheral_interfacing/package.ps1'
+[0.513s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing/share/dingo_peripheral_interfacing/package.dsv'
+[0.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing/share/dingo_peripheral_interfacing/package.sh'
+[0.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing/share/dingo_peripheral_interfacing/package.bash'
+[0.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing/share/dingo_peripheral_interfacing/package.zsh'
+[0.515s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing/share/colcon-core/packages/dingo_peripheral_interfacing)
+[0.831s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ehoaglin/ros2_ws/src/build/dingo_input_interfacing' returned '0': /usr/bin/cmake --build /home/ehoaglin/ros2_ws/src/build/dingo_input_interfacing -- -j12 -l12
+[0.835s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ehoaglin/ros2_ws/src/build/dingo_input_interfacing': /usr/bin/cmake --install /home/ehoaglin/ros2_ws/src/build/dingo_input_interfacing
+[0.888s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ehoaglin/ros2_ws/src/build/dingo_input_interfacing' returned '0': /usr/bin/cmake --install /home/ehoaglin/ros2_ws/src/build/dingo_input_interfacing
+[0.889s] Level 1:colcon.colcon_core.shell:create_environment_hook('dingo_input_interfacing', 'ros_package_path')
+[0.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/share/dingo_input_interfacing/hook/ros_package_path.ps1'
+[0.889s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/share/dingo_input_interfacing/hook/ros_package_path.dsv'
+[0.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/share/dingo_input_interfacing/hook/ros_package_path.sh'
+[0.890s] Level 1:colcon.colcon_ros.task.catkin:checking '/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/lib/python3.12/site-packages'
+[0.890s] Level 1:colcon.colcon_core.shell:create_environment_hook('dingo_input_interfacing', 'catkin_pythonpath')
+[0.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/share/dingo_input_interfacing/hook/catkin_pythonpath.ps1'
+[0.891s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/share/dingo_input_interfacing/hook/catkin_pythonpath.dsv'
+[0.891s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/share/dingo_input_interfacing/hook/catkin_pythonpath.sh'
+[0.891s] Level 1:colcon.colcon_core.shell:create_environment_hook('dingo_input_interfacing', 'pkg_config_path')
+[0.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/share/dingo_input_interfacing/hook/pkg_config_path.ps1'
+[0.892s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/share/dingo_input_interfacing/hook/pkg_config_path.dsv'
+[0.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/share/dingo_input_interfacing/hook/pkg_config_path.sh'
+[0.893s] Level 1:colcon.colcon_core.shell:create_environment_hook('dingo_input_interfacing', 'pkg_config_path_multiarch')
+[0.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/share/dingo_input_interfacing/hook/pkg_config_path_multiarch.ps1'
+[0.893s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/share/dingo_input_interfacing/hook/pkg_config_path_multiarch.dsv'
+[0.894s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/share/dingo_input_interfacing/hook/pkg_config_path_multiarch.sh'
+[0.894s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dingo_input_interfacing)
+[0.895s] Level 1:colcon.colcon_core.environment:checking '/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing' for CMake module files
+[0.895s] Level 1:colcon.colcon_core.environment:checking '/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing' for CMake config files
+[0.895s] Level 1:colcon.colcon_core.shell:create_environment_hook('dingo_input_interfacing', 'cmake_prefix_path')
+[0.896s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/share/dingo_input_interfacing/hook/cmake_prefix_path.ps1'
+[0.896s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/share/dingo_input_interfacing/hook/cmake_prefix_path.dsv'
+[0.896s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/share/dingo_input_interfacing/hook/cmake_prefix_path.sh'
+[0.897s] Level 1:colcon.colcon_core.environment:checking '/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/lib'
+[0.897s] Level 1:colcon.colcon_core.environment:checking '/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/bin'
+[0.897s] Level 1:colcon.colcon_core.environment:checking '/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/lib/pkgconfig/dingo_input_interfacing.pc'
+[0.898s] Level 1:colcon.colcon_core.environment:checking '/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/lib/python3.12/site-packages'
+[0.898s] Level 1:colcon.colcon_core.shell:create_environment_hook('dingo_input_interfacing', 'pythonpath')
+[0.898s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/share/dingo_input_interfacing/hook/pythonpath.ps1'
+[0.898s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/share/dingo_input_interfacing/hook/pythonpath.dsv'
+[0.899s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/share/dingo_input_interfacing/hook/pythonpath.sh'
+[0.899s] Level 1:colcon.colcon_core.environment:checking '/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/bin'
+[0.900s] INFO:colcon.colcon_core.shell:Creating package script '/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/share/dingo_input_interfacing/package.ps1'
+[0.900s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/share/dingo_input_interfacing/package.dsv'
+[0.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/share/dingo_input_interfacing/package.sh'
+[0.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/share/dingo_input_interfacing/package.bash'
+[0.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/share/dingo_input_interfacing/package.zsh'
+[0.902s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/share/colcon-core/packages/dingo_input_interfacing)
+[3.103s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ehoaglin/ros2_ws/src/build/dingo_control' returned '1': /usr/bin/cmake /home/ehoaglin/ros2_ws/src/dingo_control -DCMAKE_INSTALL_PREFIX=/home/ehoaglin/ros2_ws/src/install/dingo_control
+[3.113s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.113s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.113s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[3.114s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.121s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.121s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.122s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.123s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[3.123s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.124s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ehoaglin/ros2_ws/src/install/local_setup.ps1'
+[3.126s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ehoaglin/ros2_ws/src/install/_local_setup_util_ps1.py'
+[3.127s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ehoaglin/ros2_ws/src/install/setup.ps1'
+[3.128s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ehoaglin/ros2_ws/src/install/local_setup.sh'
+[3.130s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ehoaglin/ros2_ws/src/install/_local_setup_util_sh.py'
+[3.130s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ehoaglin/ros2_ws/src/install/setup.sh'
+[3.132s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ehoaglin/ros2_ws/src/install/local_setup.bash'
+[3.132s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ehoaglin/ros2_ws/src/install/setup.bash'
+[3.133s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ehoaglin/ros2_ws/src/install/local_setup.zsh'
+[3.134s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ehoaglin/ros2_ws/src/install/setup.zsh'

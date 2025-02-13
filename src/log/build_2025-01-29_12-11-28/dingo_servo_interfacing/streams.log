@@ -1,0 +1,27 @@
+[0.047s] Invoking command in '/home/ehoaglin/ros2_ws/src/build/dingo_servo_interfacing': /usr/bin/cmake /home/ehoaglin/ros2_ws/src/dingo_hardware_interfacing/dingo_servo_interfacing -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ehoaglin/ros2_ws/src/install/dingo_servo_interfacing
+[0.049s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.049s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.050s]   CMake.
+[0.050s] 
+[0.050s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.050s]   CMake that the project does not need compatibility with older versions.
+[0.050s] 
+[0.050s] [0m
+[2.139s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[2.139s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[2.139s]   asked CMake to find a package configuration file provided by "catkin", but
+[2.139s]   CMake did not find one.
+[2.139s] 
+[2.139s]   Could not find a package configuration file provided by "catkin" with any
+[2.140s]   of the following names:
+[2.140s] 
+[2.140s]     catkinConfig.cmake
+[2.140s]     catkin-config.cmake
+[2.140s] 
+[2.140s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[2.141s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[2.141s]   provides a separate development package or SDK, be sure it has been
+[2.141s]   installed.
+[2.141s] 
+[2.142s] [0m
+[2.142s] -- Configuring incomplete, errors occurred!

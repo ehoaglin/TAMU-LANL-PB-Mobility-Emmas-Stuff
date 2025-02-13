@@ -1,0 +1,34 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /home/ehoaglin/myenv/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rclpy: 7.1.3 (/opt/ros/jazzy/share/rclpy/cmake)
+-- Configuring done (3.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/ehoaglin/ros2_ws/build/dingo_servo_interfacing
+-- Install configuration: ""
+-- Installing: /home/ehoaglin/ros2_ws/install/dingo_servo_interfacing/share/ament_index/resource_index/package_run_dependencies/dingo_servo_interfacing
+-- Installing: /home/ehoaglin/ros2_ws/install/dingo_servo_interfacing/share/ament_index/resource_index/parent_prefix_path/dingo_servo_interfacing
+-- Installing: /home/ehoaglin/ros2_ws/install/dingo_servo_interfacing/share/dingo_servo_interfacing/environment/ament_prefix_path.sh
+-- Installing: /home/ehoaglin/ros2_ws/install/dingo_servo_interfacing/share/dingo_servo_interfacing/environment/ament_prefix_path.dsv
+-- Installing: /home/ehoaglin/ros2_ws/install/dingo_servo_interfacing/share/dingo_servo_interfacing/environment/path.sh
+-- Installing: /home/ehoaglin/ros2_ws/install/dingo_servo_interfacing/share/dingo_servo_interfacing/environment/path.dsv
+-- Installing: /home/ehoaglin/ros2_ws/install/dingo_servo_interfacing/share/dingo_servo_interfacing/local_setup.bash
+-- Installing: /home/ehoaglin/ros2_ws/install/dingo_servo_interfacing/share/dingo_servo_interfacing/local_setup.sh
+-- Installing: /home/ehoaglin/ros2_ws/install/dingo_servo_interfacing/share/dingo_servo_interfacing/local_setup.zsh
+-- Installing: /home/ehoaglin/ros2_ws/install/dingo_servo_interfacing/share/dingo_servo_interfacing/local_setup.dsv
+-- Installing: /home/ehoaglin/ros2_ws/install/dingo_servo_interfacing/share/dingo_servo_interfacing/package.dsv
+-- Installing: /home/ehoaglin/ros2_ws/install/dingo_servo_interfacing/share/ament_index/resource_index/packages/dingo_servo_interfacing
+-- Installing: /home/ehoaglin/ros2_ws/install/dingo_servo_interfacing/share/dingo_servo_interfacing/cmake/dingo_servo_interfacingConfig.cmake
+-- Installing: /home/ehoaglin/ros2_ws/install/dingo_servo_interfacing/share/dingo_servo_interfacing/cmake/dingo_servo_interfacingConfig-version.cmake
+-- Installing: /home/ehoaglin/ros2_ws/install/dingo_servo_interfacing/share/dingo_servo_interfacing/package.xml

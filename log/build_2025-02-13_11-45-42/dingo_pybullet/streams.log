@@ -1,0 +1,25 @@
+[0.041s] Invoking command in '/home/ehoaglin/ros2_ws/build/dingo_pybullet': VIRTUAL_ENV_PROMPT=(myenv) /usr/bin/cmake /home/ehoaglin/ros2_ws/src/dingo_pybullet -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ehoaglin/ros2_ws/install/dingo_pybullet
+[0.192s] -- The C compiler identification is GNU 13.3.0
+[0.884s] -- The CXX compiler identification is GNU 13.3.0
+[1.735s] -- Detecting C compiler ABI info
+[2.029s] -- Detecting C compiler ABI info - done
+[2.042s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.042s] -- Detecting C compile features
+[2.042s] -- Detecting C compile features - done
+[2.155s] -- Detecting CXX compiler ABI info
+[2.462s] -- Detecting CXX compiler ABI info - done
+[2.478s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.479s] -- Detecting CXX compile features
+[2.480s] -- Detecting CXX compile features - done
+[2.481s] -- Configuring done (2.4s)
+[2.482s] -- Generating done (0.0s)
+[2.482s] [33mCMake Warning:
+[2.482s]   Manually-specified variables were not used by the project:
+[2.482s] 
+[2.482s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[2.483s] 
+[2.483s] [0m
+[2.483s] -- Build files have been written to: /home/ehoaglin/ros2_ws/build/dingo_pybullet
+[2.491s] Invoked command in '/home/ehoaglin/ros2_ws/build/dingo_pybullet' returned '0': VIRTUAL_ENV_PROMPT=(myenv) /usr/bin/cmake /home/ehoaglin/ros2_ws/src/dingo_pybullet -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ehoaglin/ros2_ws/install/dingo_pybullet
+[2.496s] Invoking command in '/home/ehoaglin/ros2_ws/build/dingo_pybullet': VIRTUAL_ENV_PROMPT=(myenv) /usr/bin/cmake --build /home/ehoaglin/ros2_ws/build/dingo_pybullet -- -j12 -l12
+[2.877s] Invoked command in '/home/ehoaglin/ros2_ws/build/dingo_pybullet' returned '0': VIRTUAL_ENV_PROMPT=(myenv) /usr/bin/cmake --build /home/ehoaglin/ros2_ws/build/dingo_pybullet -- -j12 -l12

@@ -1,0 +1,7 @@
+{
+  "package_name": "dingo_control",
+  "non_idl_tuples": [
+    "/home/ehoaglin/ros2_ws/src/dingo_control:src/msg/JointSpace.msg",
+    "/home/ehoaglin/ros2_ws/src/dingo_control:src/msg/Angle.msg"
+  ]
+}

@@ -1,0 +1,15 @@
+/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing/share/ament_index/resource_index/package_run_dependencies/dingo_peripheral_interfacing
+/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing/share/ament_index/resource_index/parent_prefix_path/dingo_peripheral_interfacing
+/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing/share/dingo_peripheral_interfacing/environment/ament_prefix_path.sh
+/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing/share/dingo_peripheral_interfacing/environment/ament_prefix_path.dsv
+/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing/share/dingo_peripheral_interfacing/environment/path.sh
+/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing/share/dingo_peripheral_interfacing/environment/path.dsv
+/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing/share/dingo_peripheral_interfacing/local_setup.bash
+/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing/share/dingo_peripheral_interfacing/local_setup.sh
+/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing/share/dingo_peripheral_interfacing/local_setup.zsh
+/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing/share/dingo_peripheral_interfacing/local_setup.dsv
+/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing/share/dingo_peripheral_interfacing/package.dsv
+/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing/share/ament_index/resource_index/packages/dingo_peripheral_interfacing
+/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing/share/dingo_peripheral_interfacing/cmake/dingo_peripheral_interfacingConfig.cmake
+/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing/share/dingo_peripheral_interfacing/cmake/dingo_peripheral_interfacingConfig-version.cmake
+/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing/share/dingo_peripheral_interfacing/package.xml

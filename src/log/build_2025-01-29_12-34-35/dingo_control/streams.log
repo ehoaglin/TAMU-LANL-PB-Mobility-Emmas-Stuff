@@ -1,0 +1,41 @@
+[0.044s] Invoking command in '/home/ehoaglin/ros2_ws/src/build/dingo_control': /usr/bin/cmake /home/ehoaglin/ros2_ws/src/dingo_control -DCMAKE_INSTALL_PREFIX=/home/ehoaglin/ros2_ws/src/install/dingo_control
+[0.141s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.605s] -- Found rclpy: 7.1.3 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.606s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.990s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.014s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.053s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.092s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.207s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.228s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.718s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):
+[1.719s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[1.719s]   dingo_control --arguments-file
+[1.719s]   /home/ehoaglin/ros2_ws/src/build/dingo_control/rosidl_adapter__arguments__src/msg/JointSpace.msg.json
+[1.719s]   --output-dir
+[1.720s]   /home/ehoaglin/ros2_ws/src/build/dingo_control/rosidl_adapter/dingo_control
+[1.720s]   --output-file
+[1.720s]   /home/ehoaglin/ros2_ws/src/build/dingo_control/rosidl_adapter/src/msg/JointSpace.msg.idls)
+[1.720s]   returned error code 1:
+[1.720s] 
+[1.720s]   Traceback (most recent call last):
+[1.721s] 
+[1.721s]     File "<frozen runpy>", line 198, in _run_module_as_main
+[1.721s]     File "<frozen runpy>", line 88, in _run_code
+[1.721s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[1.721s]       sys.exit(main())
+[1.721s]                ^^^^^^
+[1.722s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/main.py", line 58, in main
+[1.722s]       output_file.parent.mkdir(exist_ok=True)
+[1.722s]     File "/usr/lib/python3.12/pathlib.py", line 1313, in mkdir
+[1.722s]       os.mkdir(self, mode)
+[1.722s] 
+[1.723s]   FileNotFoundError: [Errno 2] No such file or directory:
+[1.723s]   '/home/ehoaglin/ros2_ws/src/build/dingo_control/rosidl_adapter/src/msg'
+[1.723s] 
+[1.723s] Call Stack (most recent call first):
+[1.723s]   /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)
+[1.723s]   CMakeLists.txt:18 (rosidl_generate_interfaces)
+[1.724s] 
+[1.724s] [0m
+[1.724s] -- Configuring incomplete, errors occurred!

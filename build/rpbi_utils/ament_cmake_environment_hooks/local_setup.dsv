@@ -1,0 +1,2 @@
+source;share/rpbi_utils/environment/ament_prefix_path.sh
+source;share/rpbi_utils/environment/path.sh

@@ -1,0 +1,27 @@
+[0.028s] Invoking command in '/home/ehoaglin/ros2_ws/src/build/dingo_input_interfacing': /usr/bin/cmake /home/ehoaglin/ros2_ws/src/dingo_hardware_interfacing/dingo_input_interfacing -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing
+[0.052s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.052s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.052s]   CMake.
+[0.052s] 
+[0.052s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.052s]   CMake that the project does not need compatibility with older versions.
+[0.052s] 
+[0.052s] [0m
+[0.961s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[0.963s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.965s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.965s]   CMake did not find one.
+[0.965s] 
+[0.966s]   Could not find a package configuration file provided by "catkin" with any
+[0.966s]   of the following names:
+[0.966s] 
+[0.967s]     catkinConfig.cmake
+[0.967s]     catkin-config.cmake
+[0.968s] 
+[0.968s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.968s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.969s]   provides a separate development package or SDK, be sure it has been
+[0.969s]   installed.
+[0.969s] 
+[0.970s] [0m
+[0.971s] -- Configuring incomplete, errors occurred!

@@ -1,0 +1,20 @@
+[0.042s] Invoking command in '/home/ehoaglin/ros2_ws/src/build/dingo_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ehoaglin/ros2_ws/install/ros2_fundamentals_examples:/opt/ros/jazzy /usr/bin/cmake --build /home/ehoaglin/ros2_ws/src/build/dingo_control -- -j12 -l12
+[0.092s] Invoked command in '/home/ehoaglin/ros2_ws/src/build/dingo_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ehoaglin/ros2_ws/install/ros2_fundamentals_examples:/opt/ros/jazzy /usr/bin/cmake --build /home/ehoaglin/ros2_ws/src/build/dingo_control -- -j12 -l12
+[0.101s] Invoking command in '/home/ehoaglin/ros2_ws/src/build/dingo_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ehoaglin/ros2_ws/install/ros2_fundamentals_examples:/opt/ros/jazzy /usr/bin/cmake --install /home/ehoaglin/ros2_ws/src/build/dingo_control
+[0.110s] -- Install configuration: ""
+[0.110s] -- Up-to-date: /home/ehoaglin/ros2_ws/src/install/dingo_control/share/ament_index/resource_index/package_run_dependencies/dingo_control
+[0.110s] -- Up-to-date: /home/ehoaglin/ros2_ws/src/install/dingo_control/share/ament_index/resource_index/parent_prefix_path/dingo_control
+[0.111s] -- Up-to-date: /home/ehoaglin/ros2_ws/src/install/dingo_control/share/dingo_control/environment/ament_prefix_path.sh
+[0.111s] -- Up-to-date: /home/ehoaglin/ros2_ws/src/install/dingo_control/share/dingo_control/environment/ament_prefix_path.dsv
+[0.111s] -- Up-to-date: /home/ehoaglin/ros2_ws/src/install/dingo_control/share/dingo_control/environment/path.sh
+[0.111s] -- Up-to-date: /home/ehoaglin/ros2_ws/src/install/dingo_control/share/dingo_control/environment/path.dsv
+[0.111s] -- Up-to-date: /home/ehoaglin/ros2_ws/src/install/dingo_control/share/dingo_control/local_setup.bash
+[0.112s] -- Up-to-date: /home/ehoaglin/ros2_ws/src/install/dingo_control/share/dingo_control/local_setup.sh
+[0.112s] -- Up-to-date: /home/ehoaglin/ros2_ws/src/install/dingo_control/share/dingo_control/local_setup.zsh
+[0.112s] -- Up-to-date: /home/ehoaglin/ros2_ws/src/install/dingo_control/share/dingo_control/local_setup.dsv
+[0.113s] -- Installing: /home/ehoaglin/ros2_ws/src/install/dingo_control/share/dingo_control/package.dsv
+[0.113s] -- Up-to-date: /home/ehoaglin/ros2_ws/src/install/dingo_control/share/ament_index/resource_index/packages/dingo_control
+[0.113s] -- Up-to-date: /home/ehoaglin/ros2_ws/src/install/dingo_control/share/dingo_control/cmake/dingo_controlConfig.cmake
+[0.113s] -- Up-to-date: /home/ehoaglin/ros2_ws/src/install/dingo_control/share/dingo_control/cmake/dingo_controlConfig-version.cmake
+[0.113s] -- Up-to-date: /home/ehoaglin/ros2_ws/src/install/dingo_control/share/dingo_control/package.xml
+[0.162s] Invoked command in '/home/ehoaglin/ros2_ws/src/build/dingo_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ehoaglin/ros2_ws/install/ros2_fundamentals_examples:/opt/ros/jazzy /usr/bin/cmake --install /home/ehoaglin/ros2_ws/src/build/dingo_control

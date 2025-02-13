@@ -1,0 +1,1 @@
+Invoking command in '/home/ehoaglin/ros2_ws/src/build/dingo_description': /usr/bin/cmake /home/ehoaglin/ros2_ws/src/dingo_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ehoaglin/ros2_ws/src/install/dingo_description

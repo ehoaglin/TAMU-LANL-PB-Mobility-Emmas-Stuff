@@ -1,0 +1,52 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rpbi/msg/JointInfo.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "geometry_msgs/msg/Quaternion.idl"
+
+module rpbi {
+  module msg {
+    struct JointInfo {
+      int64 joint_index;
+
+      string joint_name;
+
+      int64 joint_type;
+
+      string joint_type_str;
+
+      int64 q_index;
+
+      int64 u_index;
+
+      int64 flags;
+
+      double joint_damping;
+
+      double joint_friction;
+
+      double joint_lower_limit;
+
+      double joint_upper_limit;
+
+      double joint_max_force;
+
+      double joint_max_velocity;
+
+      string link_name;
+
+      geometry_msgs::msg::Point joint_axis;
+
+      geometry_msgs::msg::Point parent_frame_pos;
+
+      geometry_msgs::msg::Quaternion parent_frame_orn;
+
+      int64 parent_index;
+
+      boolean is_fixed;
+
+      boolean is_revolute;
+    };
+  };
+};

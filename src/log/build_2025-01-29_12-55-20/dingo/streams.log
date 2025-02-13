@@ -1,0 +1,20 @@
+[0.038s] Invoking command in '/home/ehoaglin/ros2_ws/src/build/dingo': /usr/bin/cmake --build /home/ehoaglin/ros2_ws/src/build/dingo -- -j12 -l12
+[0.076s] Invoked command in '/home/ehoaglin/ros2_ws/src/build/dingo' returned '0': /usr/bin/cmake --build /home/ehoaglin/ros2_ws/src/build/dingo -- -j12 -l12
+[0.086s] Invoking command in '/home/ehoaglin/ros2_ws/src/build/dingo': /usr/bin/cmake --install /home/ehoaglin/ros2_ws/src/build/dingo
+[0.094s] -- Install configuration: ""
+[0.094s] -- Up-to-date: /home/ehoaglin/ros2_ws/src/install/dingo/share/ament_index/resource_index/package_run_dependencies/dingo
+[0.095s] -- Up-to-date: /home/ehoaglin/ros2_ws/src/install/dingo/share/ament_index/resource_index/parent_prefix_path/dingo
+[0.095s] -- Up-to-date: /home/ehoaglin/ros2_ws/src/install/dingo/share/dingo/environment/ament_prefix_path.sh
+[0.096s] -- Up-to-date: /home/ehoaglin/ros2_ws/src/install/dingo/share/dingo/environment/ament_prefix_path.dsv
+[0.097s] -- Up-to-date: /home/ehoaglin/ros2_ws/src/install/dingo/share/dingo/environment/path.sh
+[0.097s] -- Up-to-date: /home/ehoaglin/ros2_ws/src/install/dingo/share/dingo/environment/path.dsv
+[0.097s] -- Up-to-date: /home/ehoaglin/ros2_ws/src/install/dingo/share/dingo/local_setup.bash
+[0.098s] -- Up-to-date: /home/ehoaglin/ros2_ws/src/install/dingo/share/dingo/local_setup.sh
+[0.098s] -- Up-to-date: /home/ehoaglin/ros2_ws/src/install/dingo/share/dingo/local_setup.zsh
+[0.099s] -- Up-to-date: /home/ehoaglin/ros2_ws/src/install/dingo/share/dingo/local_setup.dsv
+[0.099s] -- Installing: /home/ehoaglin/ros2_ws/src/install/dingo/share/dingo/package.dsv
+[0.100s] -- Up-to-date: /home/ehoaglin/ros2_ws/src/install/dingo/share/ament_index/resource_index/packages/dingo
+[0.100s] -- Up-to-date: /home/ehoaglin/ros2_ws/src/install/dingo/share/dingo/cmake/dingoConfig.cmake
+[0.100s] -- Up-to-date: /home/ehoaglin/ros2_ws/src/install/dingo/share/dingo/cmake/dingoConfig-version.cmake
+[0.101s] -- Up-to-date: /home/ehoaglin/ros2_ws/src/install/dingo/share/dingo/package.xml
+[0.113s] Invoked command in '/home/ehoaglin/ros2_ws/src/build/dingo' returned '0': /usr/bin/cmake --install /home/ehoaglin/ros2_ws/src/build/dingo

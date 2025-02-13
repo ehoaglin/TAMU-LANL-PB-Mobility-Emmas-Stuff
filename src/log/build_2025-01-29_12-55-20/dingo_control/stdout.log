@@ -1,0 +1,28 @@
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclpy: 7.1.3 (/opt/ros/jazzy/share/rclpy/cmake)
+-- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/ehoaglin/ros2_ws/src/build/dingo_control
+-- Install configuration: ""
+-- Installing: /home/ehoaglin/ros2_ws/src/install/dingo_control/share/ament_index/resource_index/package_run_dependencies/dingo_control
+-- Installing: /home/ehoaglin/ros2_ws/src/install/dingo_control/share/ament_index/resource_index/parent_prefix_path/dingo_control
+-- Installing: /home/ehoaglin/ros2_ws/src/install/dingo_control/share/dingo_control/environment/ament_prefix_path.sh
+-- Installing: /home/ehoaglin/ros2_ws/src/install/dingo_control/share/dingo_control/environment/ament_prefix_path.dsv
+-- Installing: /home/ehoaglin/ros2_ws/src/install/dingo_control/share/dingo_control/environment/path.sh
+-- Installing: /home/ehoaglin/ros2_ws/src/install/dingo_control/share/dingo_control/environment/path.dsv
+-- Installing: /home/ehoaglin/ros2_ws/src/install/dingo_control/share/dingo_control/local_setup.bash
+-- Installing: /home/ehoaglin/ros2_ws/src/install/dingo_control/share/dingo_control/local_setup.sh
+-- Installing: /home/ehoaglin/ros2_ws/src/install/dingo_control/share/dingo_control/local_setup.zsh
+-- Installing: /home/ehoaglin/ros2_ws/src/install/dingo_control/share/dingo_control/local_setup.dsv
+-- Installing: /home/ehoaglin/ros2_ws/src/install/dingo_control/share/dingo_control/package.dsv
+-- Installing: /home/ehoaglin/ros2_ws/src/install/dingo_control/share/ament_index/resource_index/packages/dingo_control
+-- Installing: /home/ehoaglin/ros2_ws/src/install/dingo_control/share/dingo_control/cmake/dingo_controlConfig.cmake
+-- Installing: /home/ehoaglin/ros2_ws/src/install/dingo_control/share/dingo_control/cmake/dingo_controlConfig-version.cmake
+-- Installing: /home/ehoaglin/ros2_ws/src/install/dingo_control/share/dingo_control/package.xml

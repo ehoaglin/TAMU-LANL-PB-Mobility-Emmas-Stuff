@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>dingo</name>
+  <version>0.0.0</version>
+  <description>A short description of your package</description>
+
+  <maintainer email="your.email@example.com">Your Name</maintainer>
+  <license>License of your choice</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_cmake_python</buildtool_depend>
+
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+  <!-- <depend>dingo_hardware_interfacing</depend> -->
+  <depend>dingo_control</depend>
+  <depend>dingo_input_interfacing</depend>
+  <depend>dingo_servo_interfacing</depend>
+  <depend>dingo_peripheral_interfacing</depend>
+  <depend>geometry_msgs</depend>
+  <depend>rosidl_default_generators</depend>
+
+
+
+
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+    <member_of_group>rosidl_interface_packages</member_of_group>
+  </export>
+</package>

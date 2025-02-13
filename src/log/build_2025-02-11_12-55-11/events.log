@@ -1,0 +1,10 @@
+[0.000000] (-) TimerEvent: {}
+[0.000151] (-) JobUnselected: {'identifier': 'dingo'}
+[0.000366] (-) JobUnselected: {'identifier': 'dingo_control1'}
+[0.000407] (-) JobUnselected: {'identifier': 'dingo_control1'}
+[0.000422] (-) JobUnselected: {'identifier': 'dingo_description'}
+[0.000662] (-) JobUnselected: {'identifier': 'dingo_gazebo'}
+[0.000740] (-) JobUnselected: {'identifier': 'dingo_input_interfacing'}
+[0.000778] (-) JobUnselected: {'identifier': 'dingo_peripheral_interfacing'}
+[0.000842] (-) JobUnselected: {'identifier': 'dingo_servo_interfacing'}
+[0.000997] (-) EventReactorShutdown: {}

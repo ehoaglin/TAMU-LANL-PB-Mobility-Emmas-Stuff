@@ -1,0 +1,2 @@
+Invoking command in '/home/ehoaglin/ros2_ws/src/build/dingo': /usr/bin/cmake /home/ehoaglin/ros2_ws/src/dingo -DCMAKE_INSTALL_PREFIX=/home/ehoaglin/ros2_ws/src/install/dingo
+Invoked command in '/home/ehoaglin/ros2_ws/src/build/dingo' returned '1': /usr/bin/cmake /home/ehoaglin/ros2_ws/src/dingo -DCMAKE_INSTALL_PREFIX=/home/ehoaglin/ros2_ws/src/install/dingo

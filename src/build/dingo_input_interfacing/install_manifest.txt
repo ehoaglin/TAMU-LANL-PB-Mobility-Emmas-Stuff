@@ -1,0 +1,25 @@
+/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/share/dingo_input_interfacing/environment/pythonpath.sh
+/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/share/dingo_input_interfacing/environment/pythonpath.dsv
+/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/lib/python3.12/site-packages/dingo_input_interfacing-0.0.0-py3.12.egg-info/top_level.txt
+/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/lib/python3.12/site-packages/dingo_input_interfacing-0.0.0-py3.12.egg-info/dependency_links.txt
+/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/lib/python3.12/site-packages/dingo_input_interfacing-0.0.0-py3.12.egg-info/SOURCES.txt
+/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/lib/python3.12/site-packages/dingo_input_interfacing-0.0.0-py3.12.egg-info/PKG-INFO
+/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/lib/python3.12/site-packages/dingo_input_interfacing/__init__.py
+/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/lib/python3.12/site-packages/dingo_input_interfacing/HardwareConfig.py
+/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/lib/python3.12/site-packages/dingo_input_interfacing/Open Notebook.onetoc2
+/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/lib/python3.12/site-packages/dingo_input_interfacing/InputInterface.py
+/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/share/ament_index/resource_index/package_run_dependencies/dingo_input_interfacing
+/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/share/ament_index/resource_index/parent_prefix_path/dingo_input_interfacing
+/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/share/dingo_input_interfacing/environment/ament_prefix_path.sh
+/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/share/dingo_input_interfacing/environment/ament_prefix_path.dsv
+/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/share/dingo_input_interfacing/environment/path.sh
+/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/share/dingo_input_interfacing/environment/path.dsv
+/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/share/dingo_input_interfacing/local_setup.bash
+/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/share/dingo_input_interfacing/local_setup.sh
+/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/share/dingo_input_interfacing/local_setup.zsh
+/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/share/dingo_input_interfacing/local_setup.dsv
+/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/share/dingo_input_interfacing/package.dsv
+/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/share/ament_index/resource_index/packages/dingo_input_interfacing
+/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/share/dingo_input_interfacing/cmake/dingo_input_interfacingConfig.cmake
+/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/share/dingo_input_interfacing/cmake/dingo_input_interfacingConfig-version.cmake
+/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/share/dingo_input_interfacing/package.xml

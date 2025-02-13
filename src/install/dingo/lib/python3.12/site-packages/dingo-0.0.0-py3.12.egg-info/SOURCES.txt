@@ -1,0 +1,7 @@
+setup.py
+dingo/__init__.py
+dingo/status_publisher.py
+dingo.egg-info/PKG-INFO
+dingo.egg-info/SOURCES.txt
+dingo.egg-info/dependency_links.txt
+dingo.egg-info/top_level.txt

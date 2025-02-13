@@ -1,0 +1,53 @@
+[0.044s] Invoking command in '/home/ehoaglin/ros2_ws/build/dingo_input_interfacing': VIRTUAL_ENV_PROMPT=(myenv) /usr/bin/cmake /home/ehoaglin/ros2_ws/src/dingo_hardware_interfacing/dingo_input_interfacing -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ehoaglin/ros2_ws/install/dingo_input_interfacing
+[0.177s] -- The C compiler identification is GNU 13.3.0
+[1.010s] -- The CXX compiler identification is GNU 13.3.0
+[1.856s] -- Detecting C compiler ABI info
+[2.147s] -- Detecting C compiler ABI info - done
+[2.158s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.159s] -- Detecting C compile features
+[2.159s] -- Detecting C compile features - done
+[2.266s] -- Detecting CXX compiler ABI info
+[2.545s] -- Detecting CXX compiler ABI info - done
+[2.563s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.564s] -- Detecting CXX compile features
+[2.564s] -- Detecting CXX compile features - done
+[2.570s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.765s] -- Found Python3: /home/ehoaglin/myenv/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.928s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.069s] -- Found rclpy: 7.1.3 (/opt/ros/jazzy/share/rclpy/cmake)
+[3.073s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[3.242s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[3.272s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[3.297s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.328s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.372s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[3.481s] -- Configuring done (3.4s)
+[3.487s] -- Generating done (0.0s)
+[3.489s] [33mCMake Warning:
+[3.489s]   Manually-specified variables were not used by the project:
+[3.489s] 
+[3.489s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[3.489s] 
+[3.489s] [0m
+[3.491s] -- Build files have been written to: /home/ehoaglin/ros2_ws/build/dingo_input_interfacing
+[3.503s] Invoked command in '/home/ehoaglin/ros2_ws/build/dingo_input_interfacing' returned '0': VIRTUAL_ENV_PROMPT=(myenv) /usr/bin/cmake /home/ehoaglin/ros2_ws/src/dingo_hardware_interfacing/dingo_input_interfacing -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ehoaglin/ros2_ws/install/dingo_input_interfacing
+[3.504s] Invoking command in '/home/ehoaglin/ros2_ws/build/dingo_input_interfacing': VIRTUAL_ENV_PROMPT=(myenv) /usr/bin/cmake --build /home/ehoaglin/ros2_ws/build/dingo_input_interfacing -- -j12 -l12
+[3.552s] Invoked command in '/home/ehoaglin/ros2_ws/build/dingo_input_interfacing' returned '0': VIRTUAL_ENV_PROMPT=(myenv) /usr/bin/cmake --build /home/ehoaglin/ros2_ws/build/dingo_input_interfacing -- -j12 -l12
+[3.554s] Invoking command in '/home/ehoaglin/ros2_ws/build/dingo_input_interfacing': VIRTUAL_ENV_PROMPT=(myenv) /usr/bin/cmake --install /home/ehoaglin/ros2_ws/build/dingo_input_interfacing
+[3.560s] -- Install configuration: ""
+[3.561s] -- Installing: /home/ehoaglin/ros2_ws/install/dingo_input_interfacing/share/ament_index/resource_index/package_run_dependencies/dingo_input_interfacing
+[3.561s] -- Installing: /home/ehoaglin/ros2_ws/install/dingo_input_interfacing/share/ament_index/resource_index/parent_prefix_path/dingo_input_interfacing
+[3.562s] -- Installing: /home/ehoaglin/ros2_ws/install/dingo_input_interfacing/share/dingo_input_interfacing/environment/ament_prefix_path.sh
+[3.562s] -- Installing: /home/ehoaglin/ros2_ws/install/dingo_input_interfacing/share/dingo_input_interfacing/environment/ament_prefix_path.dsv
+[3.562s] -- Installing: /home/ehoaglin/ros2_ws/install/dingo_input_interfacing/share/dingo_input_interfacing/environment/path.sh
+[3.563s] -- Installing: /home/ehoaglin/ros2_ws/install/dingo_input_interfacing/share/dingo_input_interfacing/environment/path.dsv
+[3.563s] -- Installing: /home/ehoaglin/ros2_ws/install/dingo_input_interfacing/share/dingo_input_interfacing/local_setup.bash
+[3.563s] -- Installing: /home/ehoaglin/ros2_ws/install/dingo_input_interfacing/share/dingo_input_interfacing/local_setup.sh
+[3.563s] -- Installing: /home/ehoaglin/ros2_ws/install/dingo_input_interfacing/share/dingo_input_interfacing/local_setup.zsh
+[3.564s] -- Installing: /home/ehoaglin/ros2_ws/install/dingo_input_interfacing/share/dingo_input_interfacing/local_setup.dsv
+[3.564s] -- Installing: /home/ehoaglin/ros2_ws/install/dingo_input_interfacing/share/dingo_input_interfacing/package.dsv
+[3.564s] -- Installing: /home/ehoaglin/ros2_ws/install/dingo_input_interfacing/share/ament_index/resource_index/packages/dingo_input_interfacing
+[3.564s] -- Installing: /home/ehoaglin/ros2_ws/install/dingo_input_interfacing/share/dingo_input_interfacing/cmake/dingo_input_interfacingConfig.cmake
+[3.564s] -- Installing: /home/ehoaglin/ros2_ws/install/dingo_input_interfacing/share/dingo_input_interfacing/cmake/dingo_input_interfacingConfig-version.cmake
+[3.564s] -- Installing: /home/ehoaglin/ros2_ws/install/dingo_input_interfacing/share/dingo_input_interfacing/package.xml
+[3.566s] Invoked command in '/home/ehoaglin/ros2_ws/build/dingo_input_interfacing' returned '0': VIRTUAL_ENV_PROMPT=(myenv) /usr/bin/cmake --install /home/ehoaglin/ros2_ws/build/dingo_input_interfacing

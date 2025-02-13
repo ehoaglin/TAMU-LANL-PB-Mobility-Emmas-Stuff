@@ -1,0 +1,21 @@
+[0.049s] Invoking command in '/home/ehoaglin/ros2_ws/src/build/dingo_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ehoaglin/ros2_ws/install/ros2_fundamentals_examples:/opt/ros/jazzy /usr/bin/cmake /home/ehoaglin/ros2_ws/src/dingo_control -DCMAKE_INSTALL_PREFIX=/home/ehoaglin/ros2_ws/src/install/dingo_control
+[0.074s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.322s] -- Found rclpy: 7.1.3 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.322s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.462s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.470s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.481s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.494s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.521s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.535s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.545s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.804s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:223 (message):
+[0.804s]   Packages installing interfaces must include
+[0.805s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[0.805s]   package.xml
+[0.805s] Call Stack (most recent call first):
+[0.805s]   CMakeLists.txt:12 (rosidl_generate_interfaces)
+[0.805s] 
+[0.805s] [0m
+[0.805s] -- Configuring incomplete, errors occurred!
+[0.811s] Invoked command in '/home/ehoaglin/ros2_ws/src/build/dingo_control' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ehoaglin/ros2_ws/install/ros2_fundamentals_examples:/opt/ros/jazzy /usr/bin/cmake /home/ehoaglin/ros2_ws/src/dingo_control -DCMAKE_INSTALL_PREFIX=/home/ehoaglin/ros2_ws/src/install/dingo_control

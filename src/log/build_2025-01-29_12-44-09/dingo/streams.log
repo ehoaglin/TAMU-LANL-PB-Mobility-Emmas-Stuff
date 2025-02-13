@@ -1,0 +1,37 @@
+[0.037s] Invoking command in '/home/ehoaglin/ros2_ws/src/build/dingo': /usr/bin/cmake /home/ehoaglin/ros2_ws/src/dingo -DCMAKE_INSTALL_PREFIX=/home/ehoaglin/ros2_ws/src/install/dingo
+[0.059s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.280s] -- Found rclpy: 7.1.3 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.280s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package):
+[0.280s]   _ament_cmake_python_install_package Function invoked with incorrect
+[0.280s]   arguments for function named: _ament_cmake_python_install_package
+[0.280s] Call Stack (most recent call first):
+[0.280s]   CMakeLists.txt:22 (ament_python_install_package)
+[0.280s] 
+[0.281s] [0m
+[0.342s] Error parsing '/home/ehoaglin/ros2_ws/src/dingo/package.xml':
+[2.110s] Traceback (most recent call last):
+[2.110s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[2.110s]     main()
+[2.110s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[2.111s]     raise e
+[2.111s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[2.111s]     package = parse_package_string(
+[2.111s]               ^^^^^^^^^^^^^^^^^^^^^
+[2.111s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string
+[2.111s]     raise InvalidPackage('Error(s):%s' % (''.join(['\n- %s' % e for e in errors])), filename)
+[2.111s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/ehoaglin/ros2_ws/src/dingo/package.xml':
+[2.111s] Error(s):
+[2.111s] - The manifest of package "dingo" (with format version 2) must not contain the following tags: member_of_group
+[2.155s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[2.155s]   execute_process(/usr/bin/python3
+[2.155s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[2.155s]   /home/ehoaglin/ros2_ws/src/dingo/package.xml
+[2.155s]   /home/ehoaglin/ros2_ws/src/build/dingo/ament_cmake_core/package.cmake)
+[2.155s]   returned error code 1
+[2.155s] Call Stack (most recent call first):
+[2.155s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[2.155s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)
+[2.156s]   CMakeLists.txt:113 (ament_package)
+[2.156s] 
+[2.156s] [0m
+[2.156s] -- Configuring incomplete, errors occurred!

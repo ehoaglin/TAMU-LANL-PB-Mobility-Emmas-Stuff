@@ -1,0 +1,32 @@
+[0.029s] Invoking command in '/home/ehoaglin/ros2_ws/src/build/dingo_control': /usr/bin/cmake /home/ehoaglin/ros2_ws/src/dingo_control -DCMAKE_INSTALL_PREFIX=/home/ehoaglin/ros2_ws/src/install/dingo_control
+[0.169s] -- The C compiler identification is GNU 13.3.0
+[0.612s] -- The CXX compiler identification is GNU 13.3.0
+[0.999s] -- Detecting C compiler ABI info
+[1.245s] -- Detecting C compiler ABI info - done
+[1.255s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.255s] -- Detecting C compile features
+[1.255s] -- Detecting C compile features - done
+[1.338s] -- Detecting CXX compiler ABI info
+[1.567s] -- Detecting CXX compiler ABI info - done
+[1.575s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.575s] -- Detecting CXX compile features
+[1.575s] -- Detecting CXX compile features - done
+[1.579s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.745s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.878s] -- Found rclpy: 7.1.3 (/opt/ros/jazzy/share/rclpy/cmake)
+[1.882s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[2.079s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.097s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.115s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.135s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.193s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[2.212s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.214s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+[2.214s]   rosidl_generate_interfaces() the passed file
+[2.214s]   'src/dingo_control/msg/JointSpace.msg' doesn't exist relative to the
+[2.214s]   CMAKE_CURRENT_SOURCE_DIR '/home/ehoaglin/ros2_ws/src/dingo_control'
+[2.214s] Call Stack (most recent call first):
+[2.214s]   CMakeLists.txt:24 (rosidl_generate_interfaces)
+[2.215s] 
+[2.215s] [0m
+[2.215s] -- Configuring incomplete, errors occurred!

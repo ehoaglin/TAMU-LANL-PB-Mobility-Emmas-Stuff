@@ -1,0 +1,20 @@
+[0.014s] Invoking command in '/home/ehoaglin/ros2_ws/src/dingo_control/build/dingo_control': /usr/bin/cmake /home/ehoaglin/ros2_ws/src/dingo_control -DCMAKE_INSTALL_PREFIX=/home/ehoaglin/ros2_ws/src/dingo_control/install/dingo_control
+[0.028s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.296s] -- Found rclpy: 7.1.3 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.297s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.539s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.551s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.567s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.586s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.643s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.654s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.657s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+[0.657s]   rosidl_generate_interfaces() the passed file 'src.msg.TaskSpace.msg'
+[0.657s]   doesn't exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.658s]   '/home/ehoaglin/ros2_ws/src/dingo_control'
+[0.658s] Call Stack (most recent call first):
+[0.658s]   CMakeLists.txt:18 (rosidl_generate_interfaces)
+[0.658s] 
+[0.658s] [0m
+[0.658s] -- Configuring incomplete, errors occurred!
+[0.663s] Invoked command in '/home/ehoaglin/ros2_ws/src/dingo_control/build/dingo_control' returned '1': /usr/bin/cmake /home/ehoaglin/ros2_ws/src/dingo_control -DCMAKE_INSTALL_PREFIX=/home/ehoaglin/ros2_ws/src/dingo_control/install/dingo_control

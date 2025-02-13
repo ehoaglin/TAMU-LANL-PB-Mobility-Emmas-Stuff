@@ -1,0 +1,22 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/dingo_peripheral_interfacing__rosidl_generator_c.dir/rosidl_generator_c/dingo_peripheral_interfacing/msg/detail/electrical_measurements__description.c.o"
+  "CMakeFiles/dingo_peripheral_interfacing__rosidl_generator_c.dir/rosidl_generator_c/dingo_peripheral_interfacing/msg/detail/electrical_measurements__description.c.o.d"
+  "CMakeFiles/dingo_peripheral_interfacing__rosidl_generator_c.dir/rosidl_generator_c/dingo_peripheral_interfacing/msg/detail/electrical_measurements__functions.c.o"
+  "CMakeFiles/dingo_peripheral_interfacing__rosidl_generator_c.dir/rosidl_generator_c/dingo_peripheral_interfacing/msg/detail/electrical_measurements__functions.c.o.d"
+  "CMakeFiles/dingo_peripheral_interfacing__rosidl_generator_c.dir/rosidl_generator_c/dingo_peripheral_interfacing/msg/detail/electrical_measurements__type_support.c.o"
+  "CMakeFiles/dingo_peripheral_interfacing__rosidl_generator_c.dir/rosidl_generator_c/dingo_peripheral_interfacing/msg/detail/electrical_measurements__type_support.c.o.d"
+  "libdingo_peripheral_interfacing__rosidl_generator_c.pdb"
+  "libdingo_peripheral_interfacing__rosidl_generator_c.so"
+  "rosidl_generator_c/dingo_peripheral_interfacing/msg/detail/electrical_measurements__description.c"
+  "rosidl_generator_c/dingo_peripheral_interfacing/msg/detail/electrical_measurements__functions.c"
+  "rosidl_generator_c/dingo_peripheral_interfacing/msg/detail/electrical_measurements__functions.h"
+  "rosidl_generator_c/dingo_peripheral_interfacing/msg/detail/electrical_measurements__struct.h"
+  "rosidl_generator_c/dingo_peripheral_interfacing/msg/detail/electrical_measurements__type_support.c"
+  "rosidl_generator_c/dingo_peripheral_interfacing/msg/detail/electrical_measurements__type_support.h"
+  "rosidl_generator_c/dingo_peripheral_interfacing/msg/electrical_measurements.h"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/dingo_peripheral_interfacing__rosidl_generator_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

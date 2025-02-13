@@ -1,0 +1,39 @@
+[0.075s] Invoking command in '/home/ehoaglin/ros2_ws/src/build/dingo_control': /usr/bin/cmake /home/ehoaglin/ros2_ws/src/dingo_control -DCMAKE_INSTALL_PREFIX=/home/ehoaglin/ros2_ws/src/install/dingo_control
+[0.155s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.651s] -- Found rclpy: 7.1.3 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.653s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.882s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.900s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.948s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.978s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.037s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.069s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.092s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.530s] Error parsing '/home/ehoaglin/ros2_ws/src/dingo_control/package.xml':
+[5.077s] Traceback (most recent call last):
+[5.078s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[5.078s]     main()
+[5.078s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[5.079s]     raise e
+[5.079s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[5.079s]     package = parse_package_string(
+[5.079s]               ^^^^^^^^^^^^^^^^^^^^^
+[5.080s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string
+[5.080s]     raise InvalidPackage('Error(s):%s' % (''.join(['\n- %s' % e for e in errors])), filename)
+[5.080s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/ehoaglin/ros2_ws/src/dingo_control/package.xml':
+[5.080s] Error(s):
+[5.081s] - The manifest of package "dingo_control" (with format version 2) must not contain the following tags: member_of_group
+[5.138s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[5.138s]   execute_process(/usr/bin/python3
+[5.138s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[5.139s]   /home/ehoaglin/ros2_ws/src/dingo_control/package.xml
+[5.139s]   /home/ehoaglin/ros2_ws/src/build/dingo_control/ament_cmake_core/package.cmake)
+[5.140s]   returned error code 1
+[5.140s] Call Stack (most recent call first):
+[5.140s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[5.141s]   /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:220 (ament_package_xml)
+[5.141s]   CMakeLists.txt:18 (rosidl_generate_interfaces)
+[5.141s] 
+[5.141s] [0m
+[5.142s] -- Configuring incomplete, errors occurred!
+[5.153s] Invoked command in '/home/ehoaglin/ros2_ws/src/build/dingo_control' returned '1': /usr/bin/cmake /home/ehoaglin/ros2_ws/src/dingo_control -DCMAKE_INSTALL_PREFIX=/home/ehoaglin/ros2_ws/src/install/dingo_control

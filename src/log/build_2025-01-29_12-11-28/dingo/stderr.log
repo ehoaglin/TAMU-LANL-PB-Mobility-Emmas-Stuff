@@ -1,0 +1,26 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+[0m
+[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package):
+  _ament_cmake_python_install_package Function invoked with incorrect
+  arguments for function named: _ament_cmake_python_install_package
+Call Stack (most recent call first):
+  CMakeLists.txt:21 (ament_python_install_package)
+
+[0m
+[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package):
+  _ament_cmake_python_install_package Function invoked with incorrect
+  arguments for function named: _ament_cmake_python_install_package
+Call Stack (most recent call first):
+  CMakeLists.txt:106 (ament_python_install_package)
+
+[0m
+[31mCMake Error at CMakeLists.txt:109 (ament_add_python_executable):
+  Unknown CMake command "ament_add_python_executable".
+
+[0m

@@ -1,0 +1,12 @@
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclpy: 7.1.3 (/opt/ros/jazzy/share/rclpy/cmake)
+-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found dingo_peripheral_interfacing: 0.0.0 (/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing/share/dingo_peripheral_interfacing/cmake)
+-- Found dingo_control: 0.0.0 (/home/ehoaglin/ros2_ws/src/install/dingo_control/share/dingo_control/cmake)
+-- Found dingo_input_interfacing: 0.0.0 (/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/share/dingo_input_interfacing/cmake)
+-- Found dingo_servo_interfacing: 0.0.0 (/home/ehoaglin/ros2_ws/src/install/dingo_servo_interfacing/share/dingo_servo_interfacing/cmake)
+-- Configuring incomplete, errors occurred!

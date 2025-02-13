@@ -1,0 +1,31 @@
+[0.041s] Invoking command in '/home/ehoaglin/ros2_ws/src/build/dingo': /usr/bin/cmake /home/ehoaglin/ros2_ws/src/dingo -DCMAKE_INSTALL_PREFIX=/home/ehoaglin/ros2_ws/src/install/dingo
+[0.066s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.067s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.067s]   CMake.
+[0.067s] 
+[0.068s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.068s]   CMake that the project does not need compatibility with older versions.
+[0.073s] 
+[0.074s] [0m
+[0.074s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.503s] -- Found rclpy: 7.1.3 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.511s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package):
+[0.511s]   _ament_cmake_python_install_package Function invoked with incorrect
+[0.512s]   arguments for function named: _ament_cmake_python_install_package
+[0.512s] Call Stack (most recent call first):
+[0.512s]   CMakeLists.txt:21 (ament_python_install_package)
+[0.512s] 
+[0.512s] [0m
+[0.513s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package):
+[0.513s]   _ament_cmake_python_install_package Function invoked with incorrect
+[0.514s]   arguments for function named: _ament_cmake_python_install_package
+[0.514s] Call Stack (most recent call first):
+[0.514s]   CMakeLists.txt:106 (ament_python_install_package)
+[0.515s] 
+[0.515s] [0m
+[0.515s] [31mCMake Error at CMakeLists.txt:109 (ament_add_python_executable):
+[0.515s]   Unknown CMake command "ament_add_python_executable".
+[0.516s] 
+[0.516s] [0m
+[0.516s] -- Configuring incomplete, errors occurred!
+[0.524s] Invoked command in '/home/ehoaglin/ros2_ws/src/build/dingo' returned '1': /usr/bin/cmake /home/ehoaglin/ros2_ws/src/dingo -DCMAKE_INSTALL_PREFIX=/home/ehoaglin/ros2_ws/src/install/dingo

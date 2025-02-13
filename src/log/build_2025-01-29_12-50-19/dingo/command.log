@@ -1,0 +1,6 @@
+Invoking command in '/home/ehoaglin/ros2_ws/src/build/dingo': /usr/bin/cmake /home/ehoaglin/ros2_ws/src/dingo -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ehoaglin/ros2_ws/src/install/dingo
+Invoked command in '/home/ehoaglin/ros2_ws/src/build/dingo' returned '0': /usr/bin/cmake /home/ehoaglin/ros2_ws/src/dingo -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ehoaglin/ros2_ws/src/install/dingo
+Invoking command in '/home/ehoaglin/ros2_ws/src/build/dingo': /usr/bin/cmake --build /home/ehoaglin/ros2_ws/src/build/dingo -- -j12 -l12
+Invoked command in '/home/ehoaglin/ros2_ws/src/build/dingo' returned '0': /usr/bin/cmake --build /home/ehoaglin/ros2_ws/src/build/dingo -- -j12 -l12
+Invoking command in '/home/ehoaglin/ros2_ws/src/build/dingo': /usr/bin/cmake --install /home/ehoaglin/ros2_ws/src/build/dingo
+Invoked command in '/home/ehoaglin/ros2_ws/src/build/dingo' returned '0': /usr/bin/cmake --install /home/ehoaglin/ros2_ws/src/build/dingo

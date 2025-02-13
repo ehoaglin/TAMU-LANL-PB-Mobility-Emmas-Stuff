@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from rpbi/srv/CalculateInverseKinematics.srv
+// generated code does not contain a copyright notice
+
+#include "ros_pybullet_interface/msg/CalculateInverseKinematicsProblem.idl"
+#include "sensor_msgs/msg/JointState.idl"
+
+module rpbi {
+  module srv {
+    struct CalculateInverseKinematics_Request {
+      ros_pybullet_interface::msg::CalculateInverseKinematicsProblem problem;
+    };
+    struct CalculateInverseKinematics_Response {
+      boolean success;
+
+      string message;
+
+      sensor_msgs::msg::JointState solution;
+    };
+  };
+};

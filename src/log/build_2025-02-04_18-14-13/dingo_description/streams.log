@@ -1,0 +1,2 @@
+[0.036s] Invoking command in '/home/ehoaglin/ros2_ws/src/build/dingo_description': /usr/bin/cmake --build /home/ehoaglin/ros2_ws/src/build/dingo_description -- -j12 -l12
+[0.106s] Invoked command in '/home/ehoaglin/ros2_ws/src/build/dingo_description' returned '0': /usr/bin/cmake --build /home/ehoaglin/ros2_ws/src/build/dingo_description -- -j12 -l12

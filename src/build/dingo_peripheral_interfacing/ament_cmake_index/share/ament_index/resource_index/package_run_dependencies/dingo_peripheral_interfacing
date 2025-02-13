@@ -1,0 +1,1 @@
+numpy;pyserial;logging;os;socket;time;message_runtime;spidev

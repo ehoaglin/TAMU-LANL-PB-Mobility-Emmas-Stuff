@@ -1,0 +1,15 @@
+[0.025s] Invoking command in '/home/ehoaglin/ros2_ws/src/build/dingo_gazebo': /usr/bin/cmake /home/ehoaglin/ros2_ws/src/dingo_gazebo -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ehoaglin/ros2_ws/src/install/dingo_gazebo
+[0.039s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.040s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.040s]   CMake.
+[0.040s] 
+[0.040s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.041s]   CMake that the project does not need compatibility with older versions.
+[0.041s] 
+[0.042s] [0m
+[0.042s] -- Configuring done (0.0s)
+[0.042s] -- Generating done (0.0s)
+[0.043s] -- Build files have been written to: /home/ehoaglin/ros2_ws/src/build/dingo_gazebo
+[0.046s] Invoked command in '/home/ehoaglin/ros2_ws/src/build/dingo_gazebo' returned '0': /usr/bin/cmake /home/ehoaglin/ros2_ws/src/dingo_gazebo -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ehoaglin/ros2_ws/src/install/dingo_gazebo
+[0.048s] Invoking command in '/home/ehoaglin/ros2_ws/src/build/dingo_gazebo': /usr/bin/cmake --build /home/ehoaglin/ros2_ws/src/build/dingo_gazebo -- -j12 -l12
+[0.090s] Invoked command in '/home/ehoaglin/ros2_ws/src/build/dingo_gazebo' returned '0': /usr/bin/cmake --build /home/ehoaglin/ros2_ws/src/build/dingo_gazebo -- -j12 -l12

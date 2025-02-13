@@ -1,0 +1,4 @@
+[31mCMake Error at CMakeLists.txt:16 (ament_add_python_executable):
+  Unknown CMake command "ament_add_python_executable".
+
+[0m

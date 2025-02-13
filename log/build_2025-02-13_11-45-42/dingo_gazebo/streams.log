@@ -1,0 +1,25 @@
+[0.041s] Invoking command in '/home/ehoaglin/ros2_ws/build/dingo_gazebo': VIRTUAL_ENV_PROMPT=(myenv) /usr/bin/cmake /home/ehoaglin/ros2_ws/src/dingo_gazebo -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ehoaglin/ros2_ws/install/dingo_gazebo
+[0.203s] -- The C compiler identification is GNU 13.3.0
+[1.003s] -- The CXX compiler identification is GNU 13.3.0
+[1.852s] -- Detecting C compiler ABI info
+[2.128s] -- Detecting C compiler ABI info - done
+[2.142s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.142s] -- Detecting C compile features
+[2.143s] -- Detecting C compile features - done
+[2.247s] -- Detecting CXX compiler ABI info
+[2.526s] -- Detecting CXX compiler ABI info - done
+[2.542s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.542s] -- Detecting CXX compile features
+[2.543s] -- Detecting CXX compile features - done
+[2.544s] -- Configuring done (2.5s)
+[2.545s] -- Generating done (0.0s)
+[2.546s] [33mCMake Warning:
+[2.546s]   Manually-specified variables were not used by the project:
+[2.546s] 
+[2.546s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[2.546s] 
+[2.547s] [0m
+[2.547s] -- Build files have been written to: /home/ehoaglin/ros2_ws/build/dingo_gazebo
+[2.556s] Invoked command in '/home/ehoaglin/ros2_ws/build/dingo_gazebo' returned '0': VIRTUAL_ENV_PROMPT=(myenv) /usr/bin/cmake /home/ehoaglin/ros2_ws/src/dingo_gazebo -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ehoaglin/ros2_ws/install/dingo_gazebo
+[2.556s] Invoking command in '/home/ehoaglin/ros2_ws/build/dingo_gazebo': VIRTUAL_ENV_PROMPT=(myenv) /usr/bin/cmake --build /home/ehoaglin/ros2_ws/build/dingo_gazebo -- -j12 -l12
+[2.898s] Invoked command in '/home/ehoaglin/ros2_ws/build/dingo_gazebo' returned '0': VIRTUAL_ENV_PROMPT=(myenv) /usr/bin/cmake --build /home/ehoaglin/ros2_ws/build/dingo_gazebo -- -j12 -l12

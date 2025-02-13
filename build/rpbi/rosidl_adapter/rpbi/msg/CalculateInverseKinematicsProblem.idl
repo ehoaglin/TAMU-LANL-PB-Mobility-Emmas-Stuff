@@ -1,0 +1,43 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rpbi/msg/CalculateInverseKinematicsProblem.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module rpbi {
+  module msg {
+    struct CalculateInverseKinematicsProblem {
+      std_msgs::msg::Header header;
+
+      string link_name;
+
+      sequence<double> target_position;
+
+      sequence<double> target_orientation;
+
+      sequence<double> lower_limits;
+
+      sequence<double> upper_limits;
+
+      sequence<double> joint_ranges;
+
+      sequence<double> reset_poses;
+
+      sequence<double> joint_damping;
+
+      @verbatim (language="comment", text=
+        "use 0 for p.IK_DLS or 1 for p.IK_SDLS")
+      int64 solver;
+
+      sequence<double> current_position;
+
+      int64 max_num_iterations;
+
+      double residual_threshold;
+
+      @verbatim (language="comment", text=
+        "used to calculate joint velocity (vel=(solution-currentPosition)/dt), this must be given if robot is in velocity control")
+      double dt;
+    };
+  };
+};

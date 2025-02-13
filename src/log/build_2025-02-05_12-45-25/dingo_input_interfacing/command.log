@@ -1,0 +1,1 @@
+Invoking command in '/home/ehoaglin/ros2_ws/src/build/dingo_input_interfacing': /usr/bin/cmake --build /home/ehoaglin/ros2_ws/src/build/dingo_input_interfacing -- -j12 -l12

@@ -1,0 +1,11 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/ehoaglin/ros2_ws/install/ros2_fundamentals_examples/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/ehoaglin/ros2_ws/install/ros2_fundamentals_examples/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages",
+        "./dingo_control/src/dingo_control"
+    ]
+}

@@ -1,0 +1,4 @@
+Invoking command in '/home/ehoaglin/ros2_ws/src/build/dingo_servo_interfacing': /usr/bin/cmake --build /home/ehoaglin/ros2_ws/src/build/dingo_servo_interfacing -- -j12 -l12
+Invoked command in '/home/ehoaglin/ros2_ws/src/build/dingo_servo_interfacing' returned '0': /usr/bin/cmake --build /home/ehoaglin/ros2_ws/src/build/dingo_servo_interfacing -- -j12 -l12
+Invoking command in '/home/ehoaglin/ros2_ws/src/build/dingo_servo_interfacing': /usr/bin/cmake --install /home/ehoaglin/ros2_ws/src/build/dingo_servo_interfacing
+Invoked command in '/home/ehoaglin/ros2_ws/src/build/dingo_servo_interfacing' returned '0': /usr/bin/cmake --install /home/ehoaglin/ros2_ws/src/build/dingo_servo_interfacing

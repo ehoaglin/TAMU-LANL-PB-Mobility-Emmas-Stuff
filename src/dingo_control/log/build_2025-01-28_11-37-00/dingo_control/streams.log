@@ -1,0 +1,31 @@
+[0.014s] Invoking command in '/home/ehoaglin/ros2_ws/src/dingo_control/build/dingo_control': /usr/bin/cmake /home/ehoaglin/ros2_ws/src/dingo_control -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/ehoaglin/ros2_ws/src/dingo_control/install/dingo_control
+[0.028s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.332s] -- Found rclpy: 7.1.3 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.333s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.586s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.607s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.631s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.662s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.722s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.732s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.014s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:207 (add_custom_target):
+[1.014s]   add_custom_target called with invalid target name "/src/msg/TaskSpace.msg".
+[1.014s]   Target names may not contain a slash.  Use ADD_CUSTOM_COMMAND to generate
+[1.015s]   files.
+[1.015s] Call Stack (most recent call first):
+[1.015s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[1.016s] 
+[1.016s] [0m
+[1.016s] -- Configuring incomplete, errors occurred!
+[1.016s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package):
+[1.017s]   _ament_cmake_python_install_package Function invoked with incorrect
+[1.017s]   arguments for function named: _ament_cmake_python_install_package
+[1.017s] Call Stack (most recent call first):
+[1.018s]   CMakeLists.txt:21 (ament_python_install_package)
+[1.018s] 
+[1.018s] [0m
+[1.018s] [31mCMake Error at CMakeLists.txt:24 (ament_add_python_executable):
+[1.019s]   Unknown CMake command "ament_add_python_executable".
+[1.019s] 
+[1.019s] [0m
+[1.022s] Invoked command in '/home/ehoaglin/ros2_ws/src/dingo_control/build/dingo_control' returned '1': /usr/bin/cmake /home/ehoaglin/ros2_ws/src/dingo_control -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/ehoaglin/ros2_ws/src/dingo_control/install/dingo_control

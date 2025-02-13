@@ -1,0 +1,48 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rpbi/msg/PybulletObject.msg
+// generated code does not contain a copyright notice
+
+
+module rpbi {
+  module msg {
+    module PybulletObject_Constants {
+      const uint8 VISUAL = 0;
+      const uint8 COLLISION = 1;
+      const uint8 DYNAMIC = 2;
+      const uint8 ROBOT = 3;
+      const uint8 SOFT = 4;
+      const uint8 URDF = 5;
+    };
+    @verbatim (language="comment", text=
+      "object types")
+    struct PybulletObject {
+      @verbatim (language="comment", text=
+        "use above")
+      uint8 object_type;
+
+      @verbatim (language="comment", text=
+        "Configuration filename" "\n"
+        "NOTE: if filename is specified then config is ignored")
+      string filename;
+
+      @verbatim (language="comment", text=
+        "Configuration as a string" "\n"
+        "NOTE: this is used when filename is not given" "\n"
+        "" "\n"
+        "If you want to use this then you need to send the configuration as a" "\n"
+        "string that is ultimately a yaml file. The best way to do this is is" "\n"
+        "to use the config_to_str method provided in" "\n"
+        "custom_ros_tools.config. See example below." "\n"
+        "" "\n"
+        "  from custom_ros_tools.config import config_to_str" "\n"
+        "  from ros_pybullet_interface.msg import PybulletObject" "\n"
+        "" "\n"
+        "  # make config" "\n"
+        "  config = {}" "\n"
+        "  # ..." "\n"
+        "" "\n"
+        "  req = PybulletObject(config=config_to_str(config))")
+      string config;
+    };
+  };
+};

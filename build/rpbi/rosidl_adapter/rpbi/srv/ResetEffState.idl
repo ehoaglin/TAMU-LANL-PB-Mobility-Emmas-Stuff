@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from rpbi/srv/ResetEffState.srv
+// generated code does not contain a copyright notice
+
+#include "ros_pybullet_interface/msg/CalculateInverseKinematicsProblem.idl"
+
+module rpbi {
+  module srv {
+    struct ResetEffState_Request {
+      ros_pybullet_interface::msg::CalculateInverseKinematicsProblem problem;
+
+      double duration;
+    };
+    struct ResetEffState_Response {
+      string message;
+
+      boolean success;
+    };
+  };
+};
