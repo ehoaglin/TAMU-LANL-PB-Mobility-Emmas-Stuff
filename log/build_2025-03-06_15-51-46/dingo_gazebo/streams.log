@@ -1,0 +1,2 @@
+[0.053s] Invoking command in '/home/ehoaglin/ros2_ws/build/dingo_gazebo': VIRTUAL_ENV_PROMPT=(myenv) /usr/bin/cmake --build /home/ehoaglin/ros2_ws/build/dingo_gazebo -- -j12 -l12
+[0.522s] Invoked command in '/home/ehoaglin/ros2_ws/build/dingo_gazebo' returned '0': VIRTUAL_ENV_PROMPT=(myenv) /usr/bin/cmake --build /home/ehoaglin/ros2_ws/build/dingo_gazebo -- -j12 -l12

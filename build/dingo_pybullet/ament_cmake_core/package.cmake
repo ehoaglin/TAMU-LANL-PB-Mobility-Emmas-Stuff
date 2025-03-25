@@ -1,7 +1,7 @@
 set(_AMENT_PACKAGE_NAME "dingo_pybullet")
 set(dingo_pybullet_VERSION "1.0.0")
 set(dingo_pybullet_MAINTAINER "lnotspotl <lnotspotl@gmail.com>")
-set(dingo_pybullet_BUILD_DEPENDS "ament_cmake_python" "rclpy" "std_msgs")
+set(dingo_pybullet_BUILD_DEPENDS "ament_cmake_python" "rclpy" "std_msgs" "dingo_description")
 set(dingo_pybullet_BUILDTOOL_DEPENDS "ament_cmake")
 set(dingo_pybullet_BUILD_EXPORT_DEPENDS )
 set(dingo_pybullet_BUILDTOOL_EXPORT_DEPENDS )

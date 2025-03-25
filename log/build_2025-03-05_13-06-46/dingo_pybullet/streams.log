@@ -1,0 +1,44 @@
+[0.209s] Invoking command in '/home/ehoaglin/ros2_ws/build/dingo_pybullet': CMAKE_PREFIX_PATH=/opt/ros/jazzy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/ehoaglin/ros2_ws/build/dingo_pybullet -- -j12 -l12
+[0.404s] Built target ament_cmake_python_copy_dingo_pybullet
+[1.456s] running egg_info
+[1.546s] writing dingo_pybullet.egg-info/PKG-INFO
+[1.549s] writing dependency_links to dingo_pybullet.egg-info/dependency_links.txt
+[1.551s] writing top-level names to dingo_pybullet.egg-info/top_level.txt
+[1.797s] reading manifest file 'dingo_pybullet.egg-info/SOURCES.txt'
+[1.799s] writing manifest file 'dingo_pybullet.egg-info/SOURCES.txt'
+[1.877s] Built target ament_cmake_python_build_dingo_pybullet_egg
+[1.969s] Invoked command in '/home/ehoaglin/ros2_ws/build/dingo_pybullet' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/ehoaglin/ros2_ws/build/dingo_pybullet -- -j12 -l12
+[1.972s] Invoking command in '/home/ehoaglin/ros2_ws/build/dingo_pybullet': CMAKE_PREFIX_PATH=/opt/ros/jazzy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/ehoaglin/ros2_ws/build/dingo_pybullet
+[1.989s] -- Install configuration: ""
+[1.990s] -- Installing: /home/ehoaglin/ros2_ws/install/dingo_pybullet/lib/dingo_pybullet/launch_robot.py
+[1.991s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_pybullet/lib/dingo_pybullet/pybullet_simulation.py
+[1.992s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_pybullet/share/dingo_pybullet/launch
+[1.992s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_pybullet/share/dingo_pybullet/launch/launch_simulation.py
+[1.993s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_pybullet/share/dingo_pybullet/launch/simulation.launch.py
+[1.993s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_pybullet/share/dingo_pybullet/environment/pythonpath.sh
+[1.994s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_pybullet/share/dingo_pybullet/environment/pythonpath.dsv
+[1.994s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_pybullet/lib/python3.12/site-packages/dingo_pybullet-1.0.0-py3.12.egg-info
+[1.994s] -- Installing: /home/ehoaglin/ros2_ws/install/dingo_pybullet/lib/python3.12/site-packages/dingo_pybullet-1.0.0-py3.12.egg-info/top_level.txt
+[1.995s] -- Installing: /home/ehoaglin/ros2_ws/install/dingo_pybullet/lib/python3.12/site-packages/dingo_pybullet-1.0.0-py3.12.egg-info/dependency_links.txt
+[1.995s] -- Installing: /home/ehoaglin/ros2_ws/install/dingo_pybullet/lib/python3.12/site-packages/dingo_pybullet-1.0.0-py3.12.egg-info/SOURCES.txt
+[1.995s] -- Installing: /home/ehoaglin/ros2_ws/install/dingo_pybullet/lib/python3.12/site-packages/dingo_pybullet-1.0.0-py3.12.egg-info/PKG-INFO
+[1.996s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_pybullet/lib/python3.12/site-packages/dingo_pybullet
+[1.996s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_pybullet/lib/python3.12/site-packages/dingo_pybullet/__init__.py
+[1.996s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_pybullet/lib/python3.12/site-packages/dingo_pybullet/scripts
+[2.085s] Listing '/home/ehoaglin/ros2_ws/install/dingo_pybullet/lib/python3.12/site-packages/dingo_pybullet'...
+[2.097s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_pybullet/share/ament_index/resource_index/package_run_dependencies/dingo_pybullet
+[2.097s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_pybullet/share/ament_index/resource_index/parent_prefix_path/dingo_pybullet
+[2.098s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_pybullet/share/dingo_pybullet/environment/ament_prefix_path.sh
+[2.099s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_pybullet/share/dingo_pybullet/environment/ament_prefix_path.dsv
+[2.099s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_pybullet/share/dingo_pybullet/environment/path.sh
+[2.100s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_pybullet/share/dingo_pybullet/environment/path.dsv
+[2.100s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_pybullet/share/dingo_pybullet/local_setup.bash
+[2.100s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_pybullet/share/dingo_pybullet/local_setup.sh
+[2.101s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_pybullet/share/dingo_pybullet/local_setup.zsh
+[2.102s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_pybullet/share/dingo_pybullet/local_setup.dsv
+[2.104s] -- Installing: /home/ehoaglin/ros2_ws/install/dingo_pybullet/share/dingo_pybullet/package.dsv
+[2.109s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_pybullet/share/ament_index/resource_index/packages/dingo_pybullet
+[2.110s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_pybullet/share/dingo_pybullet/cmake/dingo_pybulletConfig.cmake
+[2.111s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_pybullet/share/dingo_pybullet/cmake/dingo_pybulletConfig-version.cmake
+[2.111s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_pybullet/share/dingo_pybullet/package.xml
+[2.112s] Invoked command in '/home/ehoaglin/ros2_ws/build/dingo_pybullet' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/ehoaglin/ros2_ws/build/dingo_pybullet

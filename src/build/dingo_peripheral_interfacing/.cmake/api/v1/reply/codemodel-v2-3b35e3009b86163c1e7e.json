@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-66c5d96709d5a72c1fc3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "dingo_peripheral_interfacing__py",
+					"jsonFile" : "directory-dingo_peripheral_interfacing__py-7701a1a63c96f7ce2e9a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/ehoaglin/ros2_ws/src/build/dingo_peripheral_interfacing/dingo_peripheral_interfacing__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "dingo_peripheral_interfacing",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_dingo_peripheral_interfacing_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_dingo_peripheral_interfacing_egg-b23b8bf8d0aab9df1f9a.json",
+					"name" : "ament_cmake_python_build_dingo_peripheral_interfacing_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_dingo_peripheral_interfacing::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_dingo_peripheral_interfacing-f77098f499585824977e.json",
+					"name" : "ament_cmake_python_copy_dingo_peripheral_interfacing",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_peripheral_interfacing::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_peripheral_interfacing-8bb91c5cb2079c2ed105.json",
+					"name" : "dingo_peripheral_interfacing",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_peripheral_interfacing__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_peripheral_interfacing__cpp-72c72c12def1d383658f.json",
+					"name" : "dingo_peripheral_interfacing__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "dingo_peripheral_interfacing__py::@bc6ff320614b9c0922af",
+					"jsonFile" : "target-dingo_peripheral_interfacing__py-8c43a40f2df71bc388e9.json",
+					"name" : "dingo_peripheral_interfacing__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_peripheral_interfacing__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_peripheral_interfacing__rosidl_generator_c-d99e6a93c35060f367ab.json",
+					"name" : "dingo_peripheral_interfacing__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_peripheral_interfacing__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_peripheral_interfacing__rosidl_generator_py-1cdcdb67cba09c2eb97a.json",
+					"name" : "dingo_peripheral_interfacing__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_peripheral_interfacing__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_peripheral_interfacing__rosidl_generator_type_description-5d480175bdb18bb3118a.json",
+					"name" : "dingo_peripheral_interfacing__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_peripheral_interfacing__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_peripheral_interfacing__rosidl_typesupport_c-e25ce2758a0cea60cc23.json",
+					"name" : "dingo_peripheral_interfacing__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_peripheral_interfacing__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_peripheral_interfacing__rosidl_typesupport_cpp-c8261813107d578faed6.json",
+					"name" : "dingo_peripheral_interfacing__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_peripheral_interfacing__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_peripheral_interfacing__rosidl_typesupport_fastrtps_c-69481eef0e05b5a5d4ff.json",
+					"name" : "dingo_peripheral_interfacing__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_peripheral_interfacing__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_peripheral_interfacing__rosidl_typesupport_fastrtps_cpp-840ac670403f8c7035a1.json",
+					"name" : "dingo_peripheral_interfacing__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_peripheral_interfacing__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_peripheral_interfacing__rosidl_typesupport_introspection_c-dbd0b2dea00bd2c0de86.json",
+					"name" : "dingo_peripheral_interfacing__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_peripheral_interfacing__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_peripheral_interfacing__rosidl_typesupport_introspection_cpp-8ab1ad215443189eac65.json",
+					"name" : "dingo_peripheral_interfacing__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_peripheral_interfacing_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_peripheral_interfacing_s__rosidl_typesupport_c-8c5f0820797635e8ab5f.json",
+					"name" : "dingo_peripheral_interfacing_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_peripheral_interfacing_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_peripheral_interfacing_s__rosidl_typesupport_fastrtps_c-f1edfea2a977003f4db1.json",
+					"name" : "dingo_peripheral_interfacing_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_peripheral_interfacing_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_peripheral_interfacing_s__rosidl_typesupport_introspection_c-b58bc7e181bb2e4ff079.json",
+					"name" : "dingo_peripheral_interfacing_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_peripheral_interfacing_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_peripheral_interfacing_uninstall-c2adf4bf259c7b3ee911.json",
+					"name" : "dingo_peripheral_interfacing_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e7ef045badbd2e72ecde.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ehoaglin/ros2_ws/src/build/dingo_peripheral_interfacing",
+		"source" : "/home/ehoaglin/ros2_ws/src/dingo_hardware_interfacing/dingo_peripheral_interfacing"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

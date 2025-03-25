@@ -1,0 +1,6 @@
+setup.py
+dingo_peripheral_interfacing/__init__.py
+dingo_peripheral_interfacing.egg-info/PKG-INFO
+dingo_peripheral_interfacing.egg-info/SOURCES.txt
+dingo_peripheral_interfacing.egg-info/dependency_links.txt
+dingo_peripheral_interfacing.egg-info/top_level.txt

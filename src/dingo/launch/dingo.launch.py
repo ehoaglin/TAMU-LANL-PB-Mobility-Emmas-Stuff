@@ -31,10 +31,11 @@ def generate_launch_description():
 
         GroupAction([
             Node(
-                package='joy',
-                executable='joy_node',
-                name='JOYSTICK',
-                parameters=[{'autorepeat_rate': 30.0}]
+                package='dualsense_interface',
+                executable='hidraw_to_joy.py',
+                name='hidraw_joy_node',
+                output='screen',
+                parameters=[{'device': '/dev/hidraw0'}]  # Update the device path if necessary
             )
         ], condition=IfCondition(LaunchConfiguration('use_joystick'))),
 
@@ -50,7 +51,7 @@ def generate_launch_description():
         Node(
             package='dingo',
             executable='dingo_driver.py',
-            name='dingo',
+            name='dingo_driver_node',
             output='screen',
             parameters=[
                 {'is_sim': LaunchConfiguration('is_sim')},

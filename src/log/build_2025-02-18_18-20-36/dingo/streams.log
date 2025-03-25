@@ -1,0 +1,60 @@
+[0.747s] Invoking command in '/home/ehoaglin/ros2_ws/src/build/dingo': AMENT_PREFIX_PATH=/home/ehoaglin/ros2_ws/src/install/dingo_servo_interfacing:/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing:/home/ehoaglin/ros2_ws/src/install/dingo_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ehoaglin/ros_pybullet_interface/install/rpbi_examples:/opt/ros/jazzy:/home/ehoaglin/ros2_ws/src/install/dingo_servo_interfacing:/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing:/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing:/home/ehoaglin/ros2_ws/src/install/dingo_control:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing/lib:/home/ehoaglin/ros2_ws/src/install/dingo_control/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/lib/x86_64-linux-gnu/pkgconfig:/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing/lib/python3.12/site-packages:/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/lib/python3.12/site-packages:/home/ehoaglin/ros2_ws/src/install/dingo_control/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ehoaglin/ros2_ws/src/build/dingo -- -j12 -l12
+[0.773s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.072s] -- Found rclpy: 7.1.3 (/opt/ros/jazzy/share/rclpy/cmake)
+[1.072s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.235s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.248s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.265s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.290s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.333s] -- Found dingo_control: 0.0.0 (/home/ehoaglin/ros2_ws/src/install/dingo_control/share/dingo_control/cmake)
+[1.381s] -- Found dingo_input_interfacing: 0.0.0 (/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/share/dingo_input_interfacing/cmake)
+[1.382s] -- Found dingo_servo_interfacing: 0.0.0 (/home/ehoaglin/ros2_ws/src/install/dingo_servo_interfacing/share/dingo_servo_interfacing/cmake)
+[1.383s] -- Found dingo_peripheral_interfacing: 0.0.0 (/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing/share/dingo_peripheral_interfacing/cmake)
+[1.671s] -- Configuring done (0.9s)
+[1.684s] -- Generating done (0.0s)
+[1.688s] -- Build files have been written to: /home/ehoaglin/ros2_ws/src/build/dingo
+[1.761s] Built target ament_cmake_python_copy_dingo
+[2.136s] running egg_info
+[2.163s] writing dingo.egg-info/PKG-INFO
+[2.163s] writing dependency_links to dingo.egg-info/dependency_links.txt
+[2.163s] writing top-level names to dingo.egg-info/top_level.txt
+[2.256s] reading manifest file 'dingo.egg-info/SOURCES.txt'
+[2.263s] writing manifest file 'dingo.egg-info/SOURCES.txt'
+[2.301s] Built target ament_cmake_python_build_dingo_egg
+[2.312s] Invoked command in '/home/ehoaglin/ros2_ws/src/build/dingo' returned '0': AMENT_PREFIX_PATH=/home/ehoaglin/ros2_ws/src/install/dingo_servo_interfacing:/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing:/home/ehoaglin/ros2_ws/src/install/dingo_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ehoaglin/ros_pybullet_interface/install/rpbi_examples:/opt/ros/jazzy:/home/ehoaglin/ros2_ws/src/install/dingo_servo_interfacing:/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing:/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing:/home/ehoaglin/ros2_ws/src/install/dingo_control:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing/lib:/home/ehoaglin/ros2_ws/src/install/dingo_control/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/lib/x86_64-linux-gnu/pkgconfig:/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing/lib/python3.12/site-packages:/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/lib/python3.12/site-packages:/home/ehoaglin/ros2_ws/src/install/dingo_control/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ehoaglin/ros2_ws/src/build/dingo -- -j12 -l12
+[2.314s] Invoking command in '/home/ehoaglin/ros2_ws/src/build/dingo': AMENT_PREFIX_PATH=/home/ehoaglin/ros2_ws/src/install/dingo_servo_interfacing:/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing:/home/ehoaglin/ros2_ws/src/install/dingo_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ehoaglin/ros_pybullet_interface/install/rpbi_examples:/opt/ros/jazzy:/home/ehoaglin/ros2_ws/src/install/dingo_servo_interfacing:/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing:/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing:/home/ehoaglin/ros2_ws/src/install/dingo_control:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing/lib:/home/ehoaglin/ros2_ws/src/install/dingo_control/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/lib/x86_64-linux-gnu/pkgconfig:/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing/lib/python3.12/site-packages:/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/lib/python3.12/site-packages:/home/ehoaglin/ros2_ws/src/install/dingo_control/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --install /home/ehoaglin/ros2_ws/src/build/dingo
+[2.326s] -- Install configuration: ""
+[2.327s] -- Up-to-date: /home/ehoaglin/ros2_ws/src/install/dingo/share/dingo/environment/pythonpath.sh
+[2.327s] -- Up-to-date: /home/ehoaglin/ros2_ws/src/install/dingo/share/dingo/environment/pythonpath.dsv
+[2.327s] -- Up-to-date: /home/ehoaglin/ros2_ws/src/install/dingo/lib/python3.12/site-packages/dingo-0.0.0-py3.12.egg-info
+[2.327s] -- Installing: /home/ehoaglin/ros2_ws/src/install/dingo/lib/python3.12/site-packages/dingo-0.0.0-py3.12.egg-info/top_level.txt
+[2.327s] -- Installing: /home/ehoaglin/ros2_ws/src/install/dingo/lib/python3.12/site-packages/dingo-0.0.0-py3.12.egg-info/dependency_links.txt
+[2.328s] -- Installing: /home/ehoaglin/ros2_ws/src/install/dingo/lib/python3.12/site-packages/dingo-0.0.0-py3.12.egg-info/SOURCES.txt
+[2.328s] -- Installing: /home/ehoaglin/ros2_ws/src/install/dingo/lib/python3.12/site-packages/dingo-0.0.0-py3.12.egg-info/PKG-INFO
+[2.328s] -- Up-to-date: /home/ehoaglin/ros2_ws/src/install/dingo/lib/python3.12/site-packages/dingo
+[2.328s] -- Up-to-date: /home/ehoaglin/ros2_ws/src/install/dingo/lib/python3.12/site-packages/dingo/__init__.py
+[2.328s] -- Up-to-date: /home/ehoaglin/ros2_ws/src/install/dingo/lib/python3.12/site-packages/dingo/status_publisher.py
+[2.396s] Listing '/home/ehoaglin/ros2_ws/src/install/dingo/lib/python3.12/site-packages/dingo'...
+[2.406s] -- Installing: /home/ehoaglin/ros2_ws/src/install/dingo/lib/dingo/dingo_driver.py
+[2.406s] -- Installing: /home/ehoaglin/ros2_ws/src/install/dingo/lib/dingo/run_robot.py
+[2.407s] -- Installing: /home/ehoaglin/ros2_ws/src/install/dingo/share/dingo/launch
+[2.407s] -- Installing: /home/ehoaglin/ros2_ws/src/install/dingo/share/dingo/launch/dingo_simulator.launch
+[2.407s] -- Installing: /home/ehoaglin/ros2_ws/src/install/dingo/share/dingo/launch/dingo.launch
+[2.407s] -- Installing: /home/ehoaglin/ros2_ws/src/install/dingo/share/dingo/launch/dingo_simulator.launch.py
+[2.408s] -- Installing: /home/ehoaglin/ros2_ws/src/install/dingo/share/dingo/launch/dingo.launch.py
+[2.408s] -- Installing: /home/ehoaglin/ros2_ws/src/install/dingo/share/ament_index/resource_index/package_run_dependencies/dingo
+[2.408s] -- Installing: /home/ehoaglin/ros2_ws/src/install/dingo/share/ament_index/resource_index/parent_prefix_path/dingo
+[2.409s] -- Up-to-date: /home/ehoaglin/ros2_ws/src/install/dingo/share/dingo/environment/ament_prefix_path.sh
+[2.409s] -- Up-to-date: /home/ehoaglin/ros2_ws/src/install/dingo/share/dingo/environment/ament_prefix_path.dsv
+[2.409s] -- Up-to-date: /home/ehoaglin/ros2_ws/src/install/dingo/share/dingo/environment/path.sh
+[2.409s] -- Up-to-date: /home/ehoaglin/ros2_ws/src/install/dingo/share/dingo/environment/path.dsv
+[2.410s] -- Up-to-date: /home/ehoaglin/ros2_ws/src/install/dingo/share/dingo/local_setup.bash
+[2.410s] -- Up-to-date: /home/ehoaglin/ros2_ws/src/install/dingo/share/dingo/local_setup.sh
+[2.410s] -- Up-to-date: /home/ehoaglin/ros2_ws/src/install/dingo/share/dingo/local_setup.zsh
+[2.411s] -- Up-to-date: /home/ehoaglin/ros2_ws/src/install/dingo/share/dingo/local_setup.dsv
+[2.412s] -- Installing: /home/ehoaglin/ros2_ws/src/install/dingo/share/dingo/package.dsv
+[2.413s] -- Up-to-date: /home/ehoaglin/ros2_ws/src/install/dingo/share/ament_index/resource_index/packages/dingo
+[2.413s] -- Up-to-date: /home/ehoaglin/ros2_ws/src/install/dingo/share/dingo/cmake/dingoConfig.cmake
+[2.413s] -- Up-to-date: /home/ehoaglin/ros2_ws/src/install/dingo/share/dingo/cmake/dingoConfig-version.cmake
+[2.413s] -- Installing: /home/ehoaglin/ros2_ws/src/install/dingo/share/dingo/package.xml
+[2.414s] Invoked command in '/home/ehoaglin/ros2_ws/src/build/dingo' returned '0': AMENT_PREFIX_PATH=/home/ehoaglin/ros2_ws/src/install/dingo_servo_interfacing:/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing:/home/ehoaglin/ros2_ws/src/install/dingo_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ehoaglin/ros_pybullet_interface/install/rpbi_examples:/opt/ros/jazzy:/home/ehoaglin/ros2_ws/src/install/dingo_servo_interfacing:/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing:/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing:/home/ehoaglin/ros2_ws/src/install/dingo_control:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing/lib:/home/ehoaglin/ros2_ws/src/install/dingo_control/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/lib/x86_64-linux-gnu/pkgconfig:/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing/lib/python3.12/site-packages:/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/lib/python3.12/site-packages:/home/ehoaglin/ros2_ws/src/install/dingo_control/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --install /home/ehoaglin/ros2_ws/src/build/dingo

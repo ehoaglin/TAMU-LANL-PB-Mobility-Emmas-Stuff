@@ -1,0 +1,25 @@
+[0.062s] Invoking command in '/home/ehoaglin/ros2_ws/src/build/dingo_pybullet': /usr/bin/cmake /home/ehoaglin/ros2_ws/src/dingo_pybullet -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ehoaglin/ros2_ws/src/install/dingo_pybullet
+[0.281s] -- The C compiler identification is GNU 13.3.0
+[1.152s] -- The CXX compiler identification is GNU 13.3.0
+[1.863s] -- Detecting C compiler ABI info
+[2.158s] -- Detecting C compiler ABI info - done
+[2.167s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.167s] -- Detecting C compile features
+[2.168s] -- Detecting C compile features - done
+[2.303s] -- Detecting CXX compiler ABI info
+[2.567s] -- Detecting CXX compiler ABI info - done
+[2.576s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.577s] -- Detecting CXX compile features
+[2.577s] -- Detecting CXX compile features - done
+[2.578s] -- Configuring done (2.5s)
+[2.578s] -- Generating done (0.0s)
+[2.579s] [33mCMake Warning:
+[2.579s]   Manually-specified variables were not used by the project:
+[2.579s] 
+[2.579s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[2.579s] 
+[2.579s] [0m
+[2.580s] -- Build files have been written to: /home/ehoaglin/ros2_ws/src/build/dingo_pybullet
+[2.583s] Invoked command in '/home/ehoaglin/ros2_ws/src/build/dingo_pybullet' returned '0': /usr/bin/cmake /home/ehoaglin/ros2_ws/src/dingo_pybullet -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ehoaglin/ros2_ws/src/install/dingo_pybullet
+[2.585s] Invoking command in '/home/ehoaglin/ros2_ws/src/build/dingo_pybullet': /usr/bin/cmake --build /home/ehoaglin/ros2_ws/src/build/dingo_pybullet -- -j12 -l12
+[2.625s] Invoked command in '/home/ehoaglin/ros2_ws/src/build/dingo_pybullet' returned '0': /usr/bin/cmake --build /home/ehoaglin/ros2_ws/src/build/dingo_pybullet -- -j12 -l12

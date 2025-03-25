@@ -15,13 +15,20 @@ from dingo_peripheral_interfacing_msg.msg import ElectricalMeasurements
 #Fetching is_sim and is_physical from arguments
 # Fetching is_sim and is_physical from arguments
 def get_args():
-    rclpy.init(args=sys.argv)
-    node = rclpy.create_node('argument_parser')
-    node.declare_parameter('is_sim', 1)
-    node.declare_parameter('is_physical', 0)
-    node.declare_parameter('use_imu', 0)
-    args = node.get_parameters(['is_sim', 'is_physical', 'use_imu'])
-    rclpy.shutdown()
+    # Default values
+    is_sim = 1
+    is_physical = 0
+    use_imu = 0
+
+    # Parse command-line arguments
+    for arg in sys.argv:
+        if arg.startswith("--is_sim="):
+            is_sim = int(arg.split("=")[1])
+        elif arg.startswith("--is_physical="):
+            is_physical = int(arg.split("=")[1])
+        elif arg.startswith("--use_imu="):
+            use_imu = int(arg.split("=")[1])
+    args = [is_sim, is_physical, use_imu]
     return args
 
 args = get_args()
@@ -30,9 +37,9 @@ if len(args) != 3:  # arguments have not been provided, go to defaults (not sim,
     is_physical = 0
     use_imu = 0
 else:
-    is_sim = int(args[0].value)
-    is_physical = int(args[1].value)
-    use_imu = int(args[2].value)
+    is_sim = int(args[0])
+    is_physical = int(args[1])
+    use_imu = int(args[2])
 
 from dingo_control.Controller import Controller
 from dingo_input_interfacing.InputInterface import InputInterface
@@ -94,11 +101,12 @@ class DingoDriver(Node):
             self.sim_publisher_array = []
             for topic in self.sim_command_topics:
                 self.sim_publisher_array.append(self.create_publisher(Float64, topic, 10)) 
-                # self.node.create_subscription(Bool, "/emergency_stop_status", self.update_emergency_stop_status, 100)
+                #commented out because it is redundant
+                #self.create_subscription(Bool, "/emergency_stop_status", self.update_emergency_stop_status, 100)
 
         # Create config
         self.config = Configuration()
-        kinematics = Kinematics(self.config)
+        kinematics = Kinematics(self, self.config)
         if is_physical:
             self.linkage = Leg_linkage(self.config)
             self.hardware_interface = HardwareInterface(self.linkage)
@@ -115,7 +123,8 @@ class DingoDriver(Node):
 
         self.state = State()
         #rospy.loginfo("Creating input listener...") #changed rospy.loginfo to self.node.get_logger().info
-        self.input_interface = InputInterface(self.config)
+        self.get_logger().info("Creating input listener...")
+        self.input_interface = InputInterface(self, self.config)
         self.get_logger().info("Input listener successfully initialised... Robot will now receive commands via Joy messages")
         # rospy.loginfo("Input listener successfully initialised... Robot will now receive commands via Joy messages")
 
@@ -178,16 +187,16 @@ class DingoDriver(Node):
                     self.imu.read_orientation() if self.use_imu else np.array([0, 0, 0])
                 )
                 [yaw,pitch,roll] = self.state.euler_orientation
-                print('Yaw: ',np.round(yaw,2),'Pitch: ',np.round(pitch,2),'Roll: ',np.round(roll,2))
+#                print('Yaw: ',np.round(yaw,2),'Pitch: ',np.round(pitch,2),'Roll: ',np.round(roll,2))
                 # Step the controller forward by dt
                 self.controller.run(self.state, command)
 
                 # if self.state.behavior_state == BehaviorState.TROT or self.state.behavior_state == BehaviorState.REST:
-                if self.state.behavior_state in [BehaviorState.TROT, BehaviorState.REST]:
+                if self.state.behavior_state == BehaviorState.TROT or self.state.behavior_state == BehaviorState.REST:
                     self.controller.publish_joint_space_command(self.state.joint_angles)
                     self.controller.publish_task_space_command(self.state.rotated_foot_locations)
-                    self.get_logger().info(str(self.state.joint_angles))
-                    self.get_logger().info(f'State.height: {self.state.height}')
+#                    self.get_logger().info(str(self.state.joint_angles))
+#                    self.get_logger().info(f'State.height: {self.state.height}')
 
                     #If running simulator, publish joint angles to gazebo controller:
                     if self.is_sim:
@@ -196,12 +205,12 @@ class DingoDriver(Node):
                         # Update the pwm widths going to the servos
                         self.hardware_interface.set_actuator_postions(self.state.joint_angles)
                     
-                    self.get_logger().info(f'All angles: \n {np.round(np.degrees(self.state.joint_angles),2)}')
+#                    self.get_logger().info(f'All angles: \n {np.round(np.degrees(self.state.joint_angles),2)}')
                     time.end = self.get_clock().now()
                     #Uncomment following line if want to see how long it takes to execute a control iteration
                     #self.get_logger().info(str(time.start-time.end))
 
-                    self.get_logger().info(f'State: \n {self.state}')
+#                    self.get_logger().info(f'State: \n {self.state}')
                 else:
                     if self.is_sim:
                         self.publish_joints_to_sim(self.state.joint_angles)
@@ -260,7 +269,7 @@ class DingoDriver(Node):
             for i in range(3):
                 joint_angles[i] = [msg.fr_foot[j], msg.fl_foot[j], msg.rr_foot[j], msg.rl_foot[j]]
                 j = j+1
-            print(joint_angles)
+#            print(joint_angles)
 
             if self.is_sim:
                 self.publish_joints_to_sim(self, joint_angles)

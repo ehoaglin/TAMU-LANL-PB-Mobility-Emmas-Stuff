@@ -1,16 +1,22 @@
-cmake_minimum_required(VERSION 3.5)
+cmake_minimum_required(VERSION 3.8)
 project(dingo_description)
-
-# find_package(catkin REQUIRED)
-
-# catkin_package()
-
-# find_package(roslaunch)
 
 find_package(ament_cmake REQUIRED)
 find_package(rclpy REQUIRED)
 
-# foreach(dir config launch meshes urdf)
-# 	install(DIRECTORY ${dir}/
-# 		DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/${dir})
-# endforeach(dir)
+# Install URDF files
+install(DIRECTORY urdf/
+  DESTINATION share/${PROJECT_NAME}/urdf
+)
+
+# Install meshes
+install(DIRECTORY meshes/
+  DESTINATION share/${PROJECT_NAME}/meshes
+)
+
+# Install launch files
+install(DIRECTORY launch/
+  DESTINATION share/${PROJECT_NAME}/launch
+)
+
+ament_package()

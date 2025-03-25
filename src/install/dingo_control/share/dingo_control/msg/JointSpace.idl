@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from dingo_control/msg/JointSpace.msg
+// generated code does not contain a copyright notice
+
+#include "dingo_control/msg/Angle.idl"
+#include "std_msgs/msg/Header.idl"
+
+module dingo_control {
+  module msg {
+    struct JointSpace {
+      std_msgs::msg::Header header;
+
+      dingo_control::msg::Angle fl_foot;
+
+      dingo_control::msg::Angle fr_foot;
+
+      dingo_control::msg::Angle rl_foot;
+
+      dingo_control::msg::Angle rr_foot;
+    };
+  };
+};

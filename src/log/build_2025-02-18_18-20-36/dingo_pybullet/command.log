@@ -1,0 +1,4 @@
+Invoking command in '/home/ehoaglin/ros2_ws/src/build/dingo_pybullet': /usr/bin/cmake /home/ehoaglin/ros2_ws/src/dingo_pybullet -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ehoaglin/ros2_ws/src/install/dingo_pybullet
+Invoked command in '/home/ehoaglin/ros2_ws/src/build/dingo_pybullet' returned '0': /usr/bin/cmake /home/ehoaglin/ros2_ws/src/dingo_pybullet -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ehoaglin/ros2_ws/src/install/dingo_pybullet
+Invoking command in '/home/ehoaglin/ros2_ws/src/build/dingo_pybullet': /usr/bin/cmake --build /home/ehoaglin/ros2_ws/src/build/dingo_pybullet -- -j12 -l12
+Invoked command in '/home/ehoaglin/ros2_ws/src/build/dingo_pybullet' returned '0': /usr/bin/cmake --build /home/ehoaglin/ros2_ws/src/build/dingo_pybullet -- -j12 -l12

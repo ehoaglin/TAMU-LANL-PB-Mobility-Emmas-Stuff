@@ -1,0 +1,2 @@
+[console_scripts]
+hidraw_to_joy = dualsense_interface.hidraw_to_joy:main

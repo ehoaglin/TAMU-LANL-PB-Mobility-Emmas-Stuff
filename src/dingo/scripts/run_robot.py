@@ -62,7 +62,7 @@ def main(use_imu=False):
     node = rclpy.create_node('robot_controller')  # Create ROS2 node
 
     signal.signal(signal.SIGINT, signal_handler)
-    
+
     # TODO: Create a publisher for joint states 
     publishers = []
     if is_sim:

@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/dualsense_interface/dualsense_interface.egg-info
+writing ../../build/dualsense_interface/dualsense_interface.egg-info/PKG-INFO
+writing dependency_links to ../../build/dualsense_interface/dualsense_interface.egg-info/dependency_links.txt
+writing entry points to ../../build/dualsense_interface/dualsense_interface.egg-info/entry_points.txt
+writing requirements to ../../build/dualsense_interface/dualsense_interface.egg-info/requires.txt
+writing top-level names to ../../build/dualsense_interface/dualsense_interface.egg-info/top_level.txt
+writing manifest file '../../build/dualsense_interface/dualsense_interface.egg-info/SOURCES.txt'
+reading manifest file '../../build/dualsense_interface/dualsense_interface.egg-info/SOURCES.txt'
+writing manifest file '../../build/dualsense_interface/dualsense_interface.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ehoaglin/ros2_ws/build/dualsense_interface/build
+creating /home/ehoaglin/ros2_ws/build/dualsense_interface/build/lib
+creating /home/ehoaglin/ros2_ws/build/dualsense_interface/build/lib/dualsense_interface
+copying dualsense_interface/__init__.py -> /home/ehoaglin/ros2_ws/build/dualsense_interface/build/lib/dualsense_interface
+copying dualsense_interface/hidraw_to_joy.py -> /home/ehoaglin/ros2_ws/build/dualsense_interface/build/lib/dualsense_interface
+running install
+running install_lib
+creating /home/ehoaglin/ros2_ws/install/dualsense_interface/lib/python3.12/site-packages/dualsense_interface
+copying /home/ehoaglin/ros2_ws/build/dualsense_interface/build/lib/dualsense_interface/__init__.py -> /home/ehoaglin/ros2_ws/install/dualsense_interface/lib/python3.12/site-packages/dualsense_interface
+copying /home/ehoaglin/ros2_ws/build/dualsense_interface/build/lib/dualsense_interface/hidraw_to_joy.py -> /home/ehoaglin/ros2_ws/install/dualsense_interface/lib/python3.12/site-packages/dualsense_interface
+byte-compiling /home/ehoaglin/ros2_ws/install/dualsense_interface/lib/python3.12/site-packages/dualsense_interface/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/ehoaglin/ros2_ws/install/dualsense_interface/lib/python3.12/site-packages/dualsense_interface/hidraw_to_joy.py to hidraw_to_joy.cpython-312.pyc
+running install_data
+creating /home/ehoaglin/ros2_ws/install/dualsense_interface/share/ament_index
+creating /home/ehoaglin/ros2_ws/install/dualsense_interface/share/ament_index/resource_index
+creating /home/ehoaglin/ros2_ws/install/dualsense_interface/share/ament_index/resource_index/packages
+copying resource/dualsense_interface -> /home/ehoaglin/ros2_ws/install/dualsense_interface/share/ament_index/resource_index/packages
+copying package.xml -> /home/ehoaglin/ros2_ws/install/dualsense_interface/share/dualsense_interface
+running install_egg_info
+Copying ../../build/dualsense_interface/dualsense_interface.egg-info to /home/ehoaglin/ros2_ws/install/dualsense_interface/lib/python3.12/site-packages/dualsense_interface-0.0.0-py3.12.egg-info
+running install_scripts
+Installing hidraw_to_joy script to /home/ehoaglin/ros2_ws/install/dualsense_interface/lib/dualsense_interface
+writing list of installed files to '/home/ehoaglin/ros2_ws/build/dualsense_interface/install.log'

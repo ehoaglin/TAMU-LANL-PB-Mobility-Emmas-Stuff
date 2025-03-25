@@ -1,0 +1,6 @@
+setup.py
+dingo_control/__init__.py
+dingo_control.egg-info/PKG-INFO
+dingo_control.egg-info/SOURCES.txt
+dingo_control.egg-info/dependency_links.txt
+dingo_control.egg-info/top_level.txt

@@ -1,0 +1,40 @@
+Built target ament_cmake_python_copy_dingo_pybullet
+running egg_info
+writing dingo_pybullet.egg-info/PKG-INFO
+writing dependency_links to dingo_pybullet.egg-info/dependency_links.txt
+writing top-level names to dingo_pybullet.egg-info/top_level.txt
+reading manifest file 'dingo_pybullet.egg-info/SOURCES.txt'
+writing manifest file 'dingo_pybullet.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_dingo_pybullet_egg
+-- Install configuration: ""
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_pybullet/lib/dingo_pybullet/launch_robot.py
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_pybullet/lib/dingo_pybullet/pybullet_simulation.py
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_pybullet/share/dingo_pybullet/launch
+-- Installing: /home/ehoaglin/ros2_ws/install/dingo_pybullet/share/dingo_pybullet/launch/launch_simulation.py
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_pybullet/share/dingo_pybullet/launch/simulation.launch.py
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_pybullet/share/dingo_pybullet/environment/pythonpath.sh
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_pybullet/share/dingo_pybullet/environment/pythonpath.dsv
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_pybullet/lib/python3.12/site-packages/dingo_pybullet-1.0.0-py3.12.egg-info
+-- Installing: /home/ehoaglin/ros2_ws/install/dingo_pybullet/lib/python3.12/site-packages/dingo_pybullet-1.0.0-py3.12.egg-info/top_level.txt
+-- Installing: /home/ehoaglin/ros2_ws/install/dingo_pybullet/lib/python3.12/site-packages/dingo_pybullet-1.0.0-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/ehoaglin/ros2_ws/install/dingo_pybullet/lib/python3.12/site-packages/dingo_pybullet-1.0.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/ehoaglin/ros2_ws/install/dingo_pybullet/lib/python3.12/site-packages/dingo_pybullet-1.0.0-py3.12.egg-info/PKG-INFO
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_pybullet/lib/python3.12/site-packages/dingo_pybullet
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_pybullet/lib/python3.12/site-packages/dingo_pybullet/__init__.py
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_pybullet/lib/python3.12/site-packages/dingo_pybullet/scripts
+Listing '/home/ehoaglin/ros2_ws/install/dingo_pybullet/lib/python3.12/site-packages/dingo_pybullet'...
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_pybullet/share/ament_index/resource_index/package_run_dependencies/dingo_pybullet
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_pybullet/share/ament_index/resource_index/parent_prefix_path/dingo_pybullet
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_pybullet/share/dingo_pybullet/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_pybullet/share/dingo_pybullet/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_pybullet/share/dingo_pybullet/environment/path.sh
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_pybullet/share/dingo_pybullet/environment/path.dsv
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_pybullet/share/dingo_pybullet/local_setup.bash
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_pybullet/share/dingo_pybullet/local_setup.sh
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_pybullet/share/dingo_pybullet/local_setup.zsh
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_pybullet/share/dingo_pybullet/local_setup.dsv
+-- Installing: /home/ehoaglin/ros2_ws/install/dingo_pybullet/share/dingo_pybullet/package.dsv
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_pybullet/share/ament_index/resource_index/packages/dingo_pybullet
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_pybullet/share/dingo_pybullet/cmake/dingo_pybulletConfig.cmake
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_pybullet/share/dingo_pybullet/cmake/dingo_pybulletConfig-version.cmake
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_pybullet/share/dingo_pybullet/package.xml
