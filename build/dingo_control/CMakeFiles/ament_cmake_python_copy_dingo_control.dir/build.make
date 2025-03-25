@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_copy_dingo_control.dir/compiler_depend.mak
 include CMakeFiles/ament_cmake_python_copy_dingo_control.dir/progress.make
 
 CMakeFiles/ament_cmake_python_copy_dingo_control:
-	/usr/bin/cmake -E copy_directory /home/ehoaglin/ros2_ws/build/dingo_control/rosidl_generator_py/dingo_control /home/ehoaglin/ros2_ws/build/dingo_control/ament_cmake_python/dingo_control/dingo_control
+	/usr/bin/cmake -E copy_directory /home/ehoaglin/ros2_ws/src/dingo_control/dingo_control /home/ehoaglin/ros2_ws/build/dingo_control/ament_cmake_python/dingo_control/dingo_control
 
 ament_cmake_python_copy_dingo_control: CMakeFiles/ament_cmake_python_copy_dingo_control
 ament_cmake_python_copy_dingo_control: CMakeFiles/ament_cmake_python_copy_dingo_control.dir/build.make

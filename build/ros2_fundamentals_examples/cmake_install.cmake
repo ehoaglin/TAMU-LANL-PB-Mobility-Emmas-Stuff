@@ -69,7 +69,7 @@ endif()
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   execute_process(
         COMMAND
-        "/home/ehoaglin/myenv/bin/python3" "-m" "compileall"
+        "/usr/bin/python3" "-m" "compileall"
         "/home/ehoaglin/ros2_ws/install/ros2_fundamentals_examples/lib/python3.12/site-packages/ros2_fundamentals_examples"
       )
 endif()

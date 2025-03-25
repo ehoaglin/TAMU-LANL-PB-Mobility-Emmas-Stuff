@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "dingo_control__py",
+		"source" : "/home/ehoaglin/ros2_ws/src/build/dingo_control/dingo_control__py"
+	}
+}

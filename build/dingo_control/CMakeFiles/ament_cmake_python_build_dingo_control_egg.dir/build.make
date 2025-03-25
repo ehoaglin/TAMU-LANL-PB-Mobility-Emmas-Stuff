@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_dingo_control_egg.dir/compiler_depen
 include CMakeFiles/ament_cmake_python_build_dingo_control_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_dingo_control_egg:
-	cd /home/ehoaglin/ros2_ws/build/dingo_control/ament_cmake_python/dingo_control && /home/ehoaglin/myenv/bin/python3 setup.py egg_info
+	cd /home/ehoaglin/ros2_ws/build/dingo_control/ament_cmake_python/dingo_control && /usr/bin/python3 setup.py egg_info
 
 ament_cmake_python_build_dingo_control_egg: CMakeFiles/ament_cmake_python_build_dingo_control_egg
 ament_cmake_python_build_dingo_control_egg: CMakeFiles/ament_cmake_python_build_dingo_control_egg.dir/build.make

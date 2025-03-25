@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_dingo_peripheral_interfacing_egg.dir
 include CMakeFiles/ament_cmake_python_build_dingo_peripheral_interfacing_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_dingo_peripheral_interfacing_egg:
-	cd /home/ehoaglin/ros2_ws/build/dingo_peripheral_interfacing/ament_cmake_python/dingo_peripheral_interfacing && /home/ehoaglin/myenv/bin/python3 setup.py egg_info
+	cd /home/ehoaglin/ros2_ws/build/dingo_peripheral_interfacing/ament_cmake_python/dingo_peripheral_interfacing && /usr/bin/python3 setup.py egg_info
 
 ament_cmake_python_build_dingo_peripheral_interfacing_egg: CMakeFiles/ament_cmake_python_build_dingo_peripheral_interfacing_egg
 ament_cmake_python_build_dingo_peripheral_interfacing_egg: CMakeFiles/ament_cmake_python_build_dingo_peripheral_interfacing_egg.dir/build.make

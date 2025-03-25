@@ -1,0 +1,8 @@
+setup.py
+dingo_peripheral_interfacing_msg/__init__.py
+dingo_peripheral_interfacing_msg.egg-info/PKG-INFO
+dingo_peripheral_interfacing_msg.egg-info/SOURCES.txt
+dingo_peripheral_interfacing_msg.egg-info/dependency_links.txt
+dingo_peripheral_interfacing_msg.egg-info/top_level.txt
+dingo_peripheral_interfacing_msg/msg/__init__.py
+dingo_peripheral_interfacing_msg/msg/_electrical_measurements.py

@@ -1,0 +1,10 @@
+setup.py
+dingo_control_msg/__init__.py
+dingo_control_msg.egg-info/PKG-INFO
+dingo_control_msg.egg-info/SOURCES.txt
+dingo_control_msg.egg-info/dependency_links.txt
+dingo_control_msg.egg-info/top_level.txt
+dingo_control_msg/msg/__init__.py
+dingo_control_msg/msg/_angle.py
+dingo_control_msg/msg/_joint_space.py
+dingo_control_msg/msg/_task_space.py

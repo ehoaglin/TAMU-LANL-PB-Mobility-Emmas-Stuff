@@ -1,0 +1,6 @@
+{
+  "package_name": "dingo_peripheral_interfacing_msg",
+  "non_idl_tuples": [
+    "/home/ehoaglin/ros2_ws/src/dingo_hardware_interfacing/dingo_peripheral_interfacing_msg:msg/ElectricalMeasurements.msg"
+  ]
+}

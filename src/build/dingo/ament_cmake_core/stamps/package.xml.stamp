@@ -12,10 +12,11 @@
 
   <depend>rclpy</depend>
   <depend>std_msgs</depend>
-  <depend>dingo_peripheral_interfacing</depend>
+  <!-- <depend>dingo_hardware_interfacing</depend> -->
   <depend>dingo_control</depend>
   <depend>dingo_input_interfacing</depend>
   <depend>dingo_servo_interfacing</depend>
+  <depend>dingo_peripheral_interfacing</depend>
   <depend>geometry_msgs</depend>
   <depend>rosidl_default_generators</depend>
 
@@ -28,5 +29,6 @@
 
   <export>
     <build_type>ament_cmake</build_type>
+    <member_of_group>rosidl_interface_packages</member_of_group>
   </export>
 </package>

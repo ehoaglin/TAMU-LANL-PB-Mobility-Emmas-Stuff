@@ -17,6 +17,8 @@ find_package(dingo_control REQUIRED)
 find_package(dingo_input_interfacing REQUIRED)
 find_package(dingo_servo_interfacing REQUIRED)
 find_package(dingo_peripheral_interfacing REQUIRED)
+find_package(dingo_peripheral_interfacing_msg REQUIRED)
+find_package(dingo_control_msg REQUIRED)
 
 # Install Python modules
 ament_python_install_package(${PROJECT_NAME})

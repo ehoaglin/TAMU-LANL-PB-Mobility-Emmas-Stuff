@@ -1,0 +1,11 @@
+source;share/dingo_peripheral_interfacing/hook/cmake_prefix_path.ps1
+source;share/dingo_peripheral_interfacing/hook/cmake_prefix_path.dsv
+source;share/dingo_peripheral_interfacing/hook/cmake_prefix_path.sh
+source;share/dingo_peripheral_interfacing/hook/pythonpath.ps1
+source;share/dingo_peripheral_interfacing/hook/pythonpath.dsv
+source;share/dingo_peripheral_interfacing/hook/pythonpath.sh
+source;share/dingo_peripheral_interfacing/local_setup.bash
+source;share/dingo_peripheral_interfacing/local_setup.dsv
+source;share/dingo_peripheral_interfacing/local_setup.ps1
+source;share/dingo_peripheral_interfacing/local_setup.sh
+source;share/dingo_peripheral_interfacing/local_setup.zsh

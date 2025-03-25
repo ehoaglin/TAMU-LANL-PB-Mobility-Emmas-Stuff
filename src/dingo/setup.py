@@ -30,7 +30,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'dingo_driver = dingo.dingo_driver:main',
+            'dingo_driver = scripts.dingo_driver:main',
         ],
     },
 )

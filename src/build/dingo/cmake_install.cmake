@@ -67,6 +67,17 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/dingo" TYPE PROGRAM FILES
+    "/home/ehoaglin/ros2_ws/src/dingo/scripts/dingo_driver.py"
+    "/home/ehoaglin/ros2_ws/src/dingo/scripts/run_robot.py"
+    )
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dingo/launch" TYPE DIRECTORY FILES "/home/ehoaglin/ros2_ws/src/dingo/launch/")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/ehoaglin/ros2_ws/src/build/dingo/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/dingo")
 endif()
 
@@ -123,10 +134,6 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dingo" TYPE FILE FILES "/home/ehoaglin/ros2_ws/src/dingo/package.xml")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/dingo" TYPE PROGRAM FILES "/home/ehoaglin/ros2_ws/src/dingo/scripts/dingo_driver.py")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

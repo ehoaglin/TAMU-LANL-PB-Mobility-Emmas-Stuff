@@ -14,9 +14,12 @@
   <depend>geometry_msgs</depend>
   <depend>std_msgs</depend>
   <depend>rclpy</depend>
-  <buildtool_depend>rosidl_default_generators</buildtool_depend>
-  <exec_depend>rosidl_default_runtime</exec_depend>
-  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <exec_depend>dingo_servo_interfacing</exec_depend>
+  <exec_depend>dingo_peripheral_interfacing_msg</exec_depend>
+  <exec_depend>dingo_peripheral_interfacing</exec_depend>
+  <exec_depend>dingo_hardware_config</exec_depend>
+  <exec_depend>dingo_control_msg</exec_depend>
   
   <export>
     <build_type>ament_cmake</build_type>

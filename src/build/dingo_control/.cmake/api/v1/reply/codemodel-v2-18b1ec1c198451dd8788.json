@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-8156f0522dc23ada136d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "dingo_control__py",
+					"jsonFile" : "directory-dingo_control__py-1f704d7549b70501bf1c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/ehoaglin/ros2_ws/src/build/dingo_control/dingo_control__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "dingo_control",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_dingo_control_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_dingo_control_egg-74c70baa646c7ac516d6.json",
+					"name" : "ament_cmake_python_build_dingo_control_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_dingo_control::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_dingo_control-3b0ad6aee64de6c387d8.json",
+					"name" : "ament_cmake_python_copy_dingo_control",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_control::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_control-c744b807e8e981cc6a3d.json",
+					"name" : "dingo_control",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_control__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_control__cpp-df09f420ef4d3d5410d7.json",
+					"name" : "dingo_control__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "dingo_control__py::@761926456198b7b323db",
+					"jsonFile" : "target-dingo_control__py-4b3598dcbbd3bd287dad.json",
+					"name" : "dingo_control__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_control__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_control__rosidl_generator_c-b0b34de03a51575206c8.json",
+					"name" : "dingo_control__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_control__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_control__rosidl_generator_py-a020cc8900d073d3c508.json",
+					"name" : "dingo_control__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_control__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_control__rosidl_generator_type_description-01280309ac20591714c8.json",
+					"name" : "dingo_control__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_control__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_control__rosidl_typesupport_c-bfda9242127ab01f4655.json",
+					"name" : "dingo_control__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_control__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_control__rosidl_typesupport_cpp-a71cab27cc67bda2f110.json",
+					"name" : "dingo_control__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_control__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_control__rosidl_typesupport_fastrtps_c-d52897d78a44460085b9.json",
+					"name" : "dingo_control__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_control__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_control__rosidl_typesupport_fastrtps_cpp-92378d1234129d837d0f.json",
+					"name" : "dingo_control__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_control__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_control__rosidl_typesupport_introspection_c-1b32678335f47ee22e9a.json",
+					"name" : "dingo_control__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_control__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_control__rosidl_typesupport_introspection_cpp-0a4a8b6c6b2dac8f455b.json",
+					"name" : "dingo_control__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_control_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_control_s__rosidl_typesupport_c-05b76ac10217cb2c2ec1.json",
+					"name" : "dingo_control_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_control_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_control_s__rosidl_typesupport_fastrtps_c-6fc92c0e5fb72f739354.json",
+					"name" : "dingo_control_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_control_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_control_s__rosidl_typesupport_introspection_c-c31b094c73739c4a1b99.json",
+					"name" : "dingo_control_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_control_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_control_uninstall-7d3e9fd14b52d297fdb7.json",
+					"name" : "dingo_control_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-0ff36ce3114e598c8479.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ehoaglin/ros2_ws/src/build/dingo_control",
+		"source" : "/home/ehoaglin/ros2_ws/src/dingo_control"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

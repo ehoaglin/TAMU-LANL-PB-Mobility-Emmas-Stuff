@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from dingo_peripheral_interfacing_msg/msg/ElectricalMeasurements.msg
+// generated code does not contain a copyright notice
+
+
+module dingo_peripheral_interfacing_msg {
+  module msg {
+    struct ElectricalMeasurements {
+      float battery_voltage_level;
+
+      float servo_buck_voltage_level;
+    };
+  };
+};

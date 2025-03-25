@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from dingo_control_msg/msg/TaskSpace.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module dingo_control_msg {
+  module msg {
+    typedef double double__3[3];
+    struct TaskSpace {
+      std_msgs::msg::Header header;
+
+      double__3 fl_foot;
+
+      double__3 fr_foot;
+
+      double__3 rl_foot;
+
+      double__3 rr_foot;
+    };
+  };
+};

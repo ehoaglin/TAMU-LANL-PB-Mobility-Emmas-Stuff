@@ -1,12 +1,13 @@
 import numpy as np
 import time
-import rclpy#rospy
+import rclpy #rospy
 import sys
 from std_msgs.msg import Float64
 import signal
 import socket
 import platform
-from dingo_peripheral_interfacing.msg import ElectricalMeasurements
+
+#from dingo_peripheral_interfacing.msg import ElectricalMeasurements
 
 
 #Fetching is_sim and is_physical from arguments
@@ -27,18 +28,18 @@ else:
     is_physical = int(args[2])
     use_imu = int(args[3])
 
-from dingo_control.Controller import Controller
+from dingo_control.src.dingo_control.Controller import Controller
 from dingo_input_interfacing.InputInterface import InputInterface
-from dingo_control.State import State, BehaviorState
-from dingo_control.Kinematics import four_legs_inverse_kinematics
-from dingo_control.Config import Configuration
+from dingo_control.src.dingo_control.State import State, BehaviorState
+from dingo_control.src.dingo_control.Kinematics import four_legs_inverse_kinematics
+from dingo_control.src.dingo_control.Config import Configuration
 from dingo_control.msg import TaskSpace, JointSpace, Angle
 from std_msgs.msg import Bool
 
 if is_physical:
-    from dingo_servo_interfacing.HardwareInterface import HardwareInterface
-    from dingo_peripheral_interfacing.IMU import IMU
-    from dingo_control.Config import Leg_linkage
+    from dingo_hardware_interfacing.dingo_servo_interfacing.src.dingo_servo_interfacing.HardwareInterface import HardwareInterface
+    from dingo_hardware_interfacing.dingo_peripheral_interfacing.src.dingo_peripheral_interfacing.IMU import IMU
+    from dingo_control.src.dingo_control.Config import Leg_linkage
 
 class DingoDriver:
     def __init__(self,is_sim, is_physical, use_imu):

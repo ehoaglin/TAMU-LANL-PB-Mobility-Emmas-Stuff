@@ -43,6 +43,30 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dingo_servo_interfacing/environment" TYPE FILE FILES "/home/ehoaglin/ros2_ws/build/dingo_servo_interfacing/ament_cmake_environment_hooks/pythonpath.sh")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dingo_servo_interfacing/environment" TYPE FILE FILES "/home/ehoaglin/ros2_ws/build/dingo_servo_interfacing/ament_cmake_environment_hooks/pythonpath.dsv")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/dingo_servo_interfacing-0.0.0-py3.12.egg-info" TYPE DIRECTORY FILES "/home/ehoaglin/ros2_ws/build/dingo_servo_interfacing/ament_cmake_python/dingo_servo_interfacing/dingo_servo_interfacing.egg-info/")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/dingo_servo_interfacing" TYPE DIRECTORY FILES "/home/ehoaglin/ros2_ws/src/dingo_hardware_interfacing/dingo_servo_interfacing/dingo_servo_interfacing/" REGEX "/[^/]*\\.pyc$" EXCLUDE REGEX "/\\_\\_pycache\\_\\_$" EXCLUDE)
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  execute_process(
+        COMMAND
+        "/usr/bin/python3" "-m" "compileall"
+        "/home/ehoaglin/ros2_ws/install/dingo_servo_interfacing/lib/python3.12/site-packages/dingo_servo_interfacing"
+      )
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/ehoaglin/ros2_ws/build/dingo_servo_interfacing/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/dingo_servo_interfacing")
 endif()
 

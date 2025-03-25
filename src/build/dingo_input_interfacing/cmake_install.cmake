@@ -43,30 +43,6 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dingo_input_interfacing/environment" TYPE FILE FILES "/home/ehoaglin/ros2_ws/src/build/dingo_input_interfacing/ament_cmake_environment_hooks/pythonpath.sh")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dingo_input_interfacing/environment" TYPE FILE FILES "/home/ehoaglin/ros2_ws/src/build/dingo_input_interfacing/ament_cmake_environment_hooks/pythonpath.dsv")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/dingo_input_interfacing-0.0.0-py3.12.egg-info" TYPE DIRECTORY FILES "/home/ehoaglin/ros2_ws/src/build/dingo_input_interfacing/ament_cmake_python/dingo_input_interfacing/dingo_input_interfacing.egg-info/")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/dingo_input_interfacing" TYPE DIRECTORY FILES "/home/ehoaglin/ros2_ws/src/dingo_hardware_interfacing/dingo_input_interfacing/dingo_input_interfacing/" REGEX "/[^/]*\\.pyc$" EXCLUDE REGEX "/\\_\\_pycache\\_\\_$" EXCLUDE)
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(
-        COMMAND
-        "/usr/bin/python3" "-m" "compileall"
-        "/home/ehoaglin/ros2_ws/src/install/dingo_input_interfacing/lib/python3.12/site-packages/dingo_input_interfacing"
-      )
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/ehoaglin/ros2_ws/src/build/dingo_input_interfacing/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/dingo_input_interfacing")
 endif()
 

@@ -1,32 +1,3 @@
-# cmake_minimum_required(VERSION 3.5)
-# project(dingo_control)
-
-# find_package(ament_cmake REQUIRED)
-# find_package(ament_cmake_python REQUIRED)
-# find_package(rclpy REQUIRED)
-# find_package(std_msgs REQUIRED)
-# find_package(geometry_msgs REQUIRED)
-# find_package(rosidl_default_generators REQUIRED)
-
-
-
-# rosidl_generate_interfaces(${PROJECT_NAME}
-#   "msg/TaskSpace.msg"
-#   "msg/JointSpace.msg"
-#   "msg/Angle.msg"
-#   DEPENDENCIES std_msgs geometry_msgs
-# )
-
-# # Install Python modules
-# ament_python_install_package(${PROJECT_NAME} PACKAGE_DIR src)
-
-# # Specify additional locations of header files
-# #include_directories(${ament_INCLUDE_DIRS})
-# #ament_export_dependencies(rosidl_default_runtime)
-
-# # Install the package
-# ament_package()
-
 cmake_minimum_required(VERSION 3.8)
 project(dingo_control)
 
@@ -55,13 +26,14 @@ endif()
 find_package(rclpy REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
-find_package(rosidl_default_generators REQUIRED)
+find_package(dingo_control_msg REQUIRED)
 
-rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/Angle.msg"
-  "msg/JointSpace.msg"
-  "msg/TaskSpace.msg"
-  DEPENDENCIES geometry_msgs std_msgs # Add packages that above messages depend on, in this case geometry_msgs for Sphere.msg
-)
+find_package(dingo_servo_interfacing REQUIRED)
+find_package(dingo_peripheral_interfacing REQUIRED)
+find_package(dingo_peripheral_interfacing_msg REQUIRED)
+find_package(dingo_hardware_config REQUIRED)
+
 #ament_python_install_package(${PROJECT_NAME} src PACKAGE_DIR)
+ament_python_install_package(${PROJECT_NAME})
+
 ament_package()

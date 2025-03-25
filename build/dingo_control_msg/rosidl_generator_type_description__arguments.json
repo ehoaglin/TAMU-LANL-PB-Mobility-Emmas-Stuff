@@ -1,0 +1,14 @@
+{
+  "package_name": "dingo_control_msg",
+  "output_dir": "/home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_generator_type_description/dingo_control_msg",
+  "idl_tuples": [
+    "/home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_adapter/dingo_control_msg:msg/Angle.idl",
+    "/home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_adapter/dingo_control_msg:msg/JointSpace.idl",
+    "/home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_adapter/dingo_control_msg:msg/TaskSpace.idl"
+  ],
+  "include_paths": [
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

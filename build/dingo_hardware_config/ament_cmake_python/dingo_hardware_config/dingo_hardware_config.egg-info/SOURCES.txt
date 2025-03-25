@@ -1,0 +1,7 @@
+setup.py
+dingo_hardware_config/HardwareConfig.py
+dingo_hardware_config/__init__.py
+dingo_hardware_config.egg-info/PKG-INFO
+dingo_hardware_config.egg-info/SOURCES.txt
+dingo_hardware_config.egg-info/dependency_links.txt
+dingo_hardware_config.egg-info/top_level.txt

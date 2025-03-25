@@ -1,7 +1,5 @@
 /home/ehoaglin/ros2_ws/src/build/dingo_input_interfacing/CMakeFiles/uninstall.dir
 /home/ehoaglin/ros2_ws/src/build/dingo_input_interfacing/CMakeFiles/dingo_input_interfacing_uninstall.dir
-/home/ehoaglin/ros2_ws/src/build/dingo_input_interfacing/CMakeFiles/ament_cmake_python_copy_dingo_input_interfacing.dir
-/home/ehoaglin/ros2_ws/src/build/dingo_input_interfacing/CMakeFiles/ament_cmake_python_build_dingo_input_interfacing_egg.dir
 /home/ehoaglin/ros2_ws/src/build/dingo_input_interfacing/CMakeFiles/test.dir
 /home/ehoaglin/ros2_ws/src/build/dingo_input_interfacing/CMakeFiles/edit_cache.dir
 /home/ehoaglin/ros2_ws/src/build/dingo_input_interfacing/CMakeFiles/rebuild_cache.dir

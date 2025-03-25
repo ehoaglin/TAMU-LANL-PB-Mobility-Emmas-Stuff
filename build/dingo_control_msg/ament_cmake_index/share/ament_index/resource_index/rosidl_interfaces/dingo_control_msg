@@ -1,0 +1,6 @@
+msg/Angle.idl
+msg/Angle.msg
+msg/JointSpace.idl
+msg/JointSpace.msg
+msg/TaskSpace.idl
+msg/TaskSpace.msg

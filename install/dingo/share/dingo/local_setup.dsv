@@ -1,0 +1,3 @@
+source;share/dingo/environment/ament_prefix_path.sh
+source;share/dingo/environment/path.sh
+source;share/dingo/environment/pythonpath.sh

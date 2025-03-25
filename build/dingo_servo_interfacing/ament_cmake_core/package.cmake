@@ -1,7 +1,7 @@
 set(_AMENT_PACKAGE_NAME "dingo_servo_interfacing")
 set(dingo_servo_interfacing_VERSION "0.0.0")
 set(dingo_servo_interfacing_MAINTAINER "alex <alex@todo.todo>")
-set(dingo_servo_interfacing_BUILD_DEPENDS "rclpy" "std_msgs" "geometry_msgs" "rosidl_default_generators" "regex" "numpy" "enum" "pigpio")
+set(dingo_servo_interfacing_BUILD_DEPENDS "rclpy" "std_msgs" "geometry_msgs" "regex" "numpy" "enum" "pigpio")
 set(dingo_servo_interfacing_BUILDTOOL_DEPENDS "ament_cmake" "ament_cmake_python")
 set(dingo_servo_interfacing_BUILD_EXPORT_DEPENDS "regex" "numpy" "enum" "pigpio")
 set(dingo_servo_interfacing_BUILDTOOL_EXPORT_DEPENDS )

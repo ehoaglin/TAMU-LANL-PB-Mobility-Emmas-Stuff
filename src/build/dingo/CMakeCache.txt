@@ -245,7 +245,7 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 SITE:STRING=DESKTOP-8VUFJD9
 
 //Path to a library.
-_lib:FILEPATH=/opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
+_lib:FILEPATH=/home/ehoaglin/ros2_ws/src/install/dingo_peripheral_interfacing/lib/libdingo_peripheral_interfacing__rosidl_typesupport_fastrtps_cpp.so
 
 //The directory containing a CMake configuration file for ament_cmake.
 ament_cmake_DIR:PATH=/opt/ros/jazzy/share/ament_cmake/cmake
@@ -327,6 +327,9 @@ fastcdr_DIR:PATH=/opt/ros/jazzy/lib/cmake/fastcdr
 
 //The directory containing a CMake configuration file for fastrtps_cmake_module.
 fastrtps_cmake_module_DIR:PATH=/opt/ros/jazzy/share/fastrtps_cmake_module/cmake
+
+//The directory containing a CMake configuration file for geometry_msgs.
+geometry_msgs_DIR:PATH=/opt/ros/jazzy/share/geometry_msgs/cmake
 
 //The directory containing a CMake configuration file for rclpy.
 rclpy_DIR:PATH=/opt/ros/jazzy/share/rclpy/cmake

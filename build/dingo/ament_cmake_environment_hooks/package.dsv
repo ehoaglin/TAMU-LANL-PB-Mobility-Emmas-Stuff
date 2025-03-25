@@ -1,0 +1,4 @@
+source;share/dingo/local_setup.bash
+source;share/dingo/local_setup.dsv
+source;share/dingo/local_setup.sh
+source;share/dingo/local_setup.zsh

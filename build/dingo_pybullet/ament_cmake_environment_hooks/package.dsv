@@ -1,0 +1,4 @@
+source;share/dingo_pybullet/local_setup.bash
+source;share/dingo_pybullet/local_setup.dsv
+source;share/dingo_pybullet/local_setup.sh
+source;share/dingo_pybullet/local_setup.zsh

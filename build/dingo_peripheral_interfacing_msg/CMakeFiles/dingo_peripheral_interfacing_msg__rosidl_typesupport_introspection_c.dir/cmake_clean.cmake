@@ -1,0 +1,13 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/dingo_peripheral_interfacing_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dingo_peripheral_interfacing_msg/msg/detail/electrical_measurements__type_support.c.o"
+  "CMakeFiles/dingo_peripheral_interfacing_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dingo_peripheral_interfacing_msg/msg/detail/electrical_measurements__type_support.c.o.d"
+  "libdingo_peripheral_interfacing_msg__rosidl_typesupport_introspection_c.pdb"
+  "libdingo_peripheral_interfacing_msg__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/dingo_peripheral_interfacing_msg/msg/detail/electrical_measurements__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/dingo_peripheral_interfacing_msg/msg/detail/electrical_measurements__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/dingo_peripheral_interfacing_msg__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

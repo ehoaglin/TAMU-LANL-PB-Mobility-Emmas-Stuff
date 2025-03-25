@@ -5,8 +5,7 @@ package_name = 'dingo_control'
 setup(
     name=package_name,
     version='0.0.0',
-    packages=find_packages(where='src'),
-    package_dir={'': 'src'},
+    packages=[package_name],
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='alex',

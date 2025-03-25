@@ -1,0 +1,8 @@
+setup.py
+dingo_input_interfacing/HardwareConfig.py
+dingo_input_interfacing/InputInterface.py
+dingo_input_interfacing/__init__.py
+dingo_input_interfacing.egg-info/PKG-INFO
+dingo_input_interfacing.egg-info/SOURCES.txt
+dingo_input_interfacing.egg-info/dependency_links.txt
+dingo_input_interfacing.egg-info/top_level.txt

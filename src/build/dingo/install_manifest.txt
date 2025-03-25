@@ -6,6 +6,12 @@
 /home/ehoaglin/ros2_ws/src/install/dingo/lib/python3.12/site-packages/dingo-0.0.0-py3.12.egg-info/PKG-INFO
 /home/ehoaglin/ros2_ws/src/install/dingo/lib/python3.12/site-packages/dingo/__init__.py
 /home/ehoaglin/ros2_ws/src/install/dingo/lib/python3.12/site-packages/dingo/status_publisher.py
+/home/ehoaglin/ros2_ws/src/install/dingo/lib/dingo/dingo_driver.py
+/home/ehoaglin/ros2_ws/src/install/dingo/lib/dingo/run_robot.py
+/home/ehoaglin/ros2_ws/src/install/dingo/share/dingo/launch/dingo_simulator.launch
+/home/ehoaglin/ros2_ws/src/install/dingo/share/dingo/launch/dingo.launch
+/home/ehoaglin/ros2_ws/src/install/dingo/share/dingo/launch/dingo_simulator.launch.py
+/home/ehoaglin/ros2_ws/src/install/dingo/share/dingo/launch/dingo.launch.py
 /home/ehoaglin/ros2_ws/src/install/dingo/share/ament_index/resource_index/package_run_dependencies/dingo
 /home/ehoaglin/ros2_ws/src/install/dingo/share/ament_index/resource_index/parent_prefix_path/dingo
 /home/ehoaglin/ros2_ws/src/install/dingo/share/dingo/environment/ament_prefix_path.sh
@@ -21,4 +27,3 @@
 /home/ehoaglin/ros2_ws/src/install/dingo/share/dingo/cmake/dingoConfig.cmake
 /home/ehoaglin/ros2_ws/src/install/dingo/share/dingo/cmake/dingoConfig-version.cmake
 /home/ehoaglin/ros2_ws/src/install/dingo/share/dingo/package.xml
-/home/ehoaglin/ros2_ws/src/install/dingo/lib/dingo/dingo_driver.py

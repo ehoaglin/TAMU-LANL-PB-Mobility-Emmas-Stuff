@@ -1,0 +1,43 @@
+Built target ament_cmake_python_copy_dingo
+running egg_info
+writing dingo.egg-info/PKG-INFO
+writing dependency_links to dingo.egg-info/dependency_links.txt
+writing top-level names to dingo.egg-info/top_level.txt
+reading manifest file 'dingo.egg-info/SOURCES.txt'
+writing manifest file 'dingo.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_dingo_egg
+-- Install configuration: ""
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo/share/dingo/environment/pythonpath.sh
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo/share/dingo/environment/pythonpath.dsv
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo/lib/python3.12/site-packages/dingo-0.0.0-py3.12.egg-info
+-- Installing: /home/ehoaglin/ros2_ws/install/dingo/lib/python3.12/site-packages/dingo-0.0.0-py3.12.egg-info/top_level.txt
+-- Installing: /home/ehoaglin/ros2_ws/install/dingo/lib/python3.12/site-packages/dingo-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/ehoaglin/ros2_ws/install/dingo/lib/python3.12/site-packages/dingo-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/ehoaglin/ros2_ws/install/dingo/lib/python3.12/site-packages/dingo-0.0.0-py3.12.egg-info/PKG-INFO
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo/lib/python3.12/site-packages/dingo
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo/lib/python3.12/site-packages/dingo/__init__.py
+-- Installing: /home/ehoaglin/ros2_ws/install/dingo/lib/python3.12/site-packages/dingo/status_publisher.py
+Listing '/home/ehoaglin/ros2_ws/install/dingo/lib/python3.12/site-packages/dingo'...
+Compiling '/home/ehoaglin/ros2_ws/install/dingo/lib/python3.12/site-packages/dingo/status_publisher.py'...
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo/lib/dingo/dingo_driver.py
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo/lib/dingo/run_robot.py
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo/share/dingo/launch
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo/share/dingo/launch/dingo_simulator.launch
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo/share/dingo/launch/dingo.launch
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo/share/dingo/launch/dingo_simulator.launch.py
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo/share/dingo/launch/dingo.launch.py
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo/share/ament_index/resource_index/package_run_dependencies/dingo
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo/share/ament_index/resource_index/parent_prefix_path/dingo
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo/share/dingo/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo/share/dingo/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo/share/dingo/environment/path.sh
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo/share/dingo/environment/path.dsv
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo/share/dingo/local_setup.bash
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo/share/dingo/local_setup.sh
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo/share/dingo/local_setup.zsh
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo/share/dingo/local_setup.dsv
+-- Installing: /home/ehoaglin/ros2_ws/install/dingo/share/dingo/package.dsv
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo/share/ament_index/resource_index/packages/dingo
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo/share/dingo/cmake/dingoConfig.cmake
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo/share/dingo/cmake/dingoConfig-version.cmake
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo/share/dingo/package.xml
