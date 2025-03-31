@@ -5,9 +5,9 @@
 #include <string.h>
 
 #include "dingo_peripheral_interfacing_msg/msg/detail/electrical_measurements__type_support.h"
-#include "dingo_peripheral_interfacing_msg/msg/detail/electrical_measurements__struct.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "dingo_peripheral_interfacing_msg/msg/detail/electrical_measurements__functions.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "dingo_peripheral_interfacing_msg/msg/detail/electrical_measurements__struct.h"
 
 #ifdef __cplusplus
 extern "C"

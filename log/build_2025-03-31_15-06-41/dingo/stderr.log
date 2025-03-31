@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:17 (find_package):
+  By not providing "Finddingo_input_interfacing.cmake" in CMAKE_MODULE_PATH
+  this project has asked CMake to find a package configuration file provided
+  by "dingo_input_interfacing", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "dingo_input_interfacing" with any of the following names:
+
+    dingo_input_interfacingConfig.cmake
+    dingo_input_interfacing-config.cmake
+
+  Add the installation prefix of "dingo_input_interfacing" to
+  CMAKE_PREFIX_PATH or set "dingo_input_interfacing_DIR" to a directory
+  containing one of the above files.  If "dingo_input_interfacing" provides a
+  separate development package or SDK, be sure it has been installed.
+
+[0m

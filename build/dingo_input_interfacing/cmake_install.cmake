@@ -67,10 +67,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/dingo_input_interfacing" TYPE PROGRAM FILES "/home/ehoaglin/ros2_ws/src/dingo_hardware_interfacing/dingo_input_interfacing/dingo_input_interfacing/InputInterface.py")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/ehoaglin/ros2_ws/build/dingo_input_interfacing/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/dingo_input_interfacing")
 endif()
 

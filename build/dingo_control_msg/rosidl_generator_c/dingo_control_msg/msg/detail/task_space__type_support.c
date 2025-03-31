@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "dingo_control_msg/msg/detail/task_space__struct.h"
-#include "rosidl_typesupport_interface/macros.h"
-#include "dingo_control_msg/msg/detail/task_space__functions.h"
 #include "dingo_control_msg/msg/detail/task_space__type_support.h"
+#include "dingo_control_msg/msg/detail/task_space__struct.h"
+#include "dingo_control_msg/msg/detail/task_space__functions.h"
+#include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus
 extern "C"

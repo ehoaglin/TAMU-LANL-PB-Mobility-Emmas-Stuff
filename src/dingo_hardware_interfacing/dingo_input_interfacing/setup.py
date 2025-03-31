@@ -28,9 +28,5 @@ setup(
     description='A short description of your package',
     license='License of your choice',
     tests_require=['pytest'],
-    entry_points={
-        'console_scripts': [
-            'InputInterface = dingo_input_interfacing.InputInterface:main_function',
-        ],
-    },
+    
 )

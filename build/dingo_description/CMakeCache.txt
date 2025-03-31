@@ -37,9 +37,6 @@ AMENT_TEST_RESULTS_DIR:PATH=/home/ehoaglin/ros2_ws/build/dingo_description/test_
 //Build the testing tree.
 BUILD_TESTING:BOOL=ON
 
-//No help, variable specified on the command line.
-CATKIN_INSTALL_INTO_PREFIX_ROOT:UNINITIALIZED=0
-
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
 
