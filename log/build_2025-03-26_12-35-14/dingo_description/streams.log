@@ -1,0 +1,87 @@
+[0.088s] Invoking command in '/home/ehoaglin/ros2_ws/build/dingo_description': CMAKE_PREFIX_PATH=/home/ehoaglin/ros2_ws/install/ros2_fundamentals_examples:/home/ehoaglin/ros2_ws/install/dingo:/home/ehoaglin/ros2_ws/install/dingo_control:/home/ehoaglin/ros2_ws/install/dingo_servo_interfacing:/home/ehoaglin/ros2_ws/install/dingo_pybullet:/home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg:/home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing:/home/ehoaglin/ros2_ws/install/dingo_input_interfacing:/home/ehoaglin/ros2_ws/install/dingo_hardware_config:/home/ehoaglin/ros2_ws/install/dualsense_interface:/opt/ros/jazzy:/home/ehoaglin/ros2_ws/install/dingo_description:/home/ehoaglin/ros2_ws/install/dingo_control_msg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake --build /home/ehoaglin/ros2_ws/build/dingo_description -- -j12 -l12
+[1.303s] Invoked command in '/home/ehoaglin/ros2_ws/build/dingo_description' returned '0': CMAKE_PREFIX_PATH=/home/ehoaglin/ros2_ws/install/ros2_fundamentals_examples:/home/ehoaglin/ros2_ws/install/dingo:/home/ehoaglin/ros2_ws/install/dingo_control:/home/ehoaglin/ros2_ws/install/dingo_servo_interfacing:/home/ehoaglin/ros2_ws/install/dingo_pybullet:/home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg:/home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing:/home/ehoaglin/ros2_ws/install/dingo_input_interfacing:/home/ehoaglin/ros2_ws/install/dingo_hardware_config:/home/ehoaglin/ros2_ws/install/dualsense_interface:/opt/ros/jazzy:/home/ehoaglin/ros2_ws/install/dingo_description:/home/ehoaglin/ros2_ws/install/dingo_control_msg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake --build /home/ehoaglin/ros2_ws/build/dingo_description -- -j12 -l12
+[1.306s] Invoking command in '/home/ehoaglin/ros2_ws/build/dingo_description': CMAKE_PREFIX_PATH=/home/ehoaglin/ros2_ws/install/ros2_fundamentals_examples:/home/ehoaglin/ros2_ws/install/dingo:/home/ehoaglin/ros2_ws/install/dingo_control:/home/ehoaglin/ros2_ws/install/dingo_servo_interfacing:/home/ehoaglin/ros2_ws/install/dingo_pybullet:/home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg:/home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing:/home/ehoaglin/ros2_ws/install/dingo_input_interfacing:/home/ehoaglin/ros2_ws/install/dingo_hardware_config:/home/ehoaglin/ros2_ws/install/dualsense_interface:/opt/ros/jazzy:/home/ehoaglin/ros2_ws/install/dingo_description:/home/ehoaglin/ros2_ws/install/dingo_control_msg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake --install /home/ehoaglin/ros2_ws/build/dingo_description
+[1.517s] -- Install configuration: ""
+[1.517s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/urdf
+[1.518s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/urdf/dingo copy.urdf
+[1.518s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/urdf/dingo.urdf
+[1.519s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/urdf/Open Notebook.onetoc2
+[1.519s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/urdf/dingo_description.csv
+[1.519s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes
+[1.520s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/body_obj.obj
+[1.520s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/L3_obj.obj
+[1.521s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/FL_link3.STL
+[1.521s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/R_link1_collision.STL
+[1.521s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/RL_link3.STL
+[1.522s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/base_link.STL
+[1.523s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/FR_link1.dae
+[1.523s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/FL_link1.dae
+[1.523s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/R_link3.dae
+[1.524s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/RR_link1.STL
+[1.524s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/R2_obj.mtl
+[1.525s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/link4_collision.STL
+[1.525s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/L_link3_collision.STL
+[1.526s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/RR1_obj.obj
+[1.526s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/main.py
+[1.526s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/R3_obj.obj
+[1.527s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/base_link.dae
+[1.527s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/RL1_obj.obj
+[1.528s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/FR1_obj.mtl
+[1.528s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/L_link1_collision.STL
+[1.528s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/R2_obj.obj
+[1.529s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/R_link3_collision.STL
+[1.529s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/L2_obj.mtl
+[1.530s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/thread.jpg
+[1.530s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/RR_link1.dae
+[1.530s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/RR1_obj.mtl
+[1.531s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/FL1_obj.mtl
+[1.531s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/FR_link1.STL
+[1.531s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/L2_obj.obj
+[1.532s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/FR_link2.STL
+[1.532s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/R3_obj.mtl
+[1.533s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/link4.dae
+[1.534s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/FR1_obj.obj
+[1.534s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/L3_obj.mtl
+[1.534s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/RL_link1.STL
+[1.535s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/R_link2_collision.STL
+[1.535s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/body_obj.mtl
+[1.536s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/Open Notebook.onetoc2
+[1.536s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/RL1_obj.mtl
+[1.536s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/L_link2.dae
+[1.537s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/FL_link4.STL
+[1.537s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/L_link2_collision.STL
+[1.538s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/RL_link1.dae
+[1.538s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/RL_link2.STL
+[1.539s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/FL_link1.STL
+[1.539s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/FR_link4.STL
+[1.540s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/base_collision.STL
+[1.540s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/FR_link3.STL
+[1.540s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/RR_link2.STL
+[1.541s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/RR_link3.STL
+[1.541s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/RL_link4.STL
+[1.542s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/FL_link2.STL
+[1.542s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/FL1_obj.obj
+[1.542s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/RR_link4.STL
+[1.543s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/L_link3.dae
+[1.543s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/R_link2.dae
+[1.544s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/launch
+[1.544s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/launch/dingo_rviz.launch
+[1.545s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/launch/dingo_state_publisher.launch
+[1.545s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/launch/dingo_rviz.rviz
+[1.546s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/launch/Open Notebook.onetoc2
+[1.546s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/ament_index/resource_index/package_run_dependencies/dingo_description
+[1.546s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/ament_index/resource_index/parent_prefix_path/dingo_description
+[1.547s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/environment/ament_prefix_path.sh
+[1.547s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/environment/ament_prefix_path.dsv
+[1.548s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/environment/path.sh
+[1.548s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/environment/path.dsv
+[1.548s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/local_setup.bash
+[1.549s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/local_setup.sh
+[1.549s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/local_setup.zsh
+[1.550s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/local_setup.dsv
+[1.550s] -- Installing: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/package.dsv
+[1.550s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/ament_index/resource_index/packages/dingo_description
+[1.551s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/cmake/dingo_descriptionConfig.cmake
+[1.551s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/cmake/dingo_descriptionConfig-version.cmake
+[1.552s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/package.xml
+[1.552s] Invoked command in '/home/ehoaglin/ros2_ws/build/dingo_description' returned '0': CMAKE_PREFIX_PATH=/home/ehoaglin/ros2_ws/install/ros2_fundamentals_examples:/home/ehoaglin/ros2_ws/install/dingo:/home/ehoaglin/ros2_ws/install/dingo_control:/home/ehoaglin/ros2_ws/install/dingo_servo_interfacing:/home/ehoaglin/ros2_ws/install/dingo_pybullet:/home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg:/home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing:/home/ehoaglin/ros2_ws/install/dingo_input_interfacing:/home/ehoaglin/ros2_ws/install/dingo_hardware_config:/home/ehoaglin/ros2_ws/install/dualsense_interface:/opt/ros/jazzy:/home/ehoaglin/ros2_ws/install/dingo_description:/home/ehoaglin/ros2_ws/install/dingo_control_msg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake --install /home/ehoaglin/ros2_ws/build/dingo_description

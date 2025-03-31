@@ -52,7 +52,7 @@ class Controller:
 
         self.hop_transition_mapping = {BehaviorState.REST: BehaviorState.HOP, BehaviorState.HOP: BehaviorState.FINISHHOP, BehaviorState.FINISHHOP: BehaviorState.REST, BehaviorState.TROT: BehaviorState.HOP}
         self.trot_transition_mapping = {BehaviorState.REST: BehaviorState.TROT, BehaviorState.TROT: BehaviorState.REST, BehaviorState.HOP: BehaviorState.TROT, BehaviorState.FINISHHOP: BehaviorState.TROT}
-        self.activate_transition_mapping = {BehaviorState.DEACTIVATED: BehaviorState.REST, BehaviorState.REST: BehaviorState.DEACTIVATED}
+        self.activate_transition_mapping = {BehaviorState.DEACTIVATED: BehaviorState.REST, BehaviorState.REST: BehaviorState.TROT}
 
 
     def step_gait(self, state, command):
@@ -95,6 +95,7 @@ class Controller:
         task_space_message.header.stamp = self.clock.now().to_msg()
         #task_space_message.header = Header(stamp=self.clock.now()) #replacing rospy.Time.now() with self.clock.now()
         self.task_space_pub.publish(task_space_message)
+        #self.node.get_logger().info(f"Task space message: {task_space_message}")
 
     def publish_joint_space_command(self, angle_matrix):
 
@@ -121,6 +122,7 @@ class Controller:
         # joint_space_message.header = Header(stamp = self.clock.now()) #replacing rospy.Time.now() with self.clock.now()
         
         self.joint_space_pub.publish(joint_space_message)
+        #self.node.get_logger().info(f"Joint space message: {joint_space_message}")
     
 
     def run(self, state, command):
@@ -143,7 +145,7 @@ class Controller:
             state.behavior_state = self.hop_transition_mapping[state.behavior_state]
 
         if previous_state != state.behavior_state:
-            self.node.get_logger().info("State changed from %s to %s", str(previous_state), str(state.behavior_state)) #changing from rospy.loginfo() to logger.info()
+            self.node.get_logger().info(f"State changed from {previous_state} to {state.behavior_state}") #changing from rospy.loginfo() to logger.info()
 
         if state.behavior_state == BehaviorState.TROT:
             state.foot_locations, contact_modes = self.step_gait(

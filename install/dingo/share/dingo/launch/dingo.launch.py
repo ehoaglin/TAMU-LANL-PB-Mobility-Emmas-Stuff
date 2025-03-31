@@ -32,7 +32,7 @@ def generate_launch_description():
         GroupAction([
             Node(
                 package='dualsense_interface',
-                executable='hidraw_to_joy.py',
+                executable='hidraw_to_joy',
                 name='hidraw_joy_node',
                 output='screen',
                 parameters=[{'device': '/dev/hidraw0'}]  # Update the device path if necessary

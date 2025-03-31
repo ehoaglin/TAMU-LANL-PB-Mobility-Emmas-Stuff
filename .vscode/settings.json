@@ -6,5 +6,5 @@
         "/opt/ros/jazzy/lib/python3.12/site-packages",
         "./src/dingo_control"
     ],
-    "cmake.sourceDirectory": "/home/ehoaglin/ros2_ws/src"
+    "cmake.sourceDirectory": "/home/ehoaglin/ros2_ws/src/dingo_control_msg"
 }

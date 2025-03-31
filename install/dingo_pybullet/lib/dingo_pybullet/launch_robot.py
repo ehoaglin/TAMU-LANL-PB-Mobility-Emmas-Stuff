@@ -5,7 +5,7 @@ from rclpy.node import Node
 import pybullet as p
 import pybullet_data
 import time
-from sensor_msgs.msg import JointState
+from dingo_control_msg.msg import JointSpace
 import random
 import os
 import math
@@ -16,14 +16,93 @@ class PyBulletSimNode(Node):
     def __init__(self):
         super().__init__('pybullet_sim_node')
         self.joint_positions = {}
+        self.body_id = None
+        self.joint_ids = None
         self.get_logger().info('Starting PyBullet simulation...')
-        self.subscription = self.create_subscription(JointState, '/joint_states', self.joint_states_callback, 10)
-        self.run_simulation()
+        self.subscription = self.create_subscription(JointSpace, '/joint_space_goals', self.joint_states_callback, 10)
+        self.get_logger().info('Subscription to /joint_space_goals topic created.')
+        # Initialize the robot in PyBullet
+        self.robot_init(dt=0.005, body_pos=[0, 0, 0.18], fixed=False)
+
+        # Create a timer to step the simulation
+        #self.timer = self.create_timer(1.0 / 240.0, self.step_simulation)  # 240 Hz
+
+    # def joint_states_callback(self, msg):
+    #     self.get_logger().info('Received JointSpace message')
+    #     self.joint_positions['fl_foot'] = [msg.fl_foot.theta1, msg.fl_foot.theta2, msg.fl_foot.theta3]
+    #     self.joint_positions['fr_foot'] = [msg.fr_foot.theta1, msg.fr_foot.theta2, msg.fr_foot.theta3]
+    #     self.joint_positions['rl_foot'] = [msg.rl_foot.theta1, msg.rl_foot.theta2, msg.rl_foot.theta3]
+    #     self.joint_positions['rr_foot'] = [msg.rr_foot.theta1, msg.rr_foot.theta2, msg.rr_foot.theta3]
+
+    #     # Apply the updated joint positions to the PyBullet simulation
+    #     for joint_name, positions in self.joint_positions.items():
+    #         joint_index = [joint[0] for joint in self.joint_ids if joint[1] == joint_name]
+    #         if joint_index:
+    #             for i, position in enumerate(positions):
+    #                 p.setJointMotorControl2(
+    #                     self.body_id, joint_index[i], p.POSITION_CONTROL, targetPosition=position
+    #                 )
+    #                 self.get_logger().info(f'Setting joint position for joint {joint_name} to {position}')
 
     def joint_states_callback(self, msg):
-        self.get_logger().info('joint_states_callback')
-        for joint_name, position in zip(msg.name, msg.position):
-            self.joint_positions[joint_name] = position
+        """Callback to update joint positions from JointSpace messages."""
+        self.get_logger().info('Received JointSpace message')
+        self.joint_positions['fl_foot'] = [msg.fl_foot.theta1, msg.fl_foot.theta2, msg.fl_foot.theta3]
+        self.joint_positions['fr_foot'] = [msg.fr_foot.theta1, msg.fr_foot.theta2, msg.fr_foot.theta3]
+        self.joint_positions['rl_foot'] = [msg.rl_foot.theta1, msg.rl_foot.theta2, msg.rl_foot.theta3]
+        self.joint_positions['rr_foot'] = [msg.rr_foot.theta1, msg.rr_foot.theta2, msg.rr_foot.theta3]
+        # print(self.joint_ids)
+        # for joint_name, positions in self.joint_positions.items():
+        #     joint_index = [joint[0] for joint in self.joint_ids if joint[1] == joint_name]
+        #     if joint_index:
+        #         for i, position in enumerate(positions):
+        #             p.setJointMotorControl2(
+        #                 self.body_id, joint_index[i], p.POSITION_CONTROL, targetPosition=position
+        #             )
+         # Apply the updated joint positions to the PyBullet simulation
+        for joint_name, positions in self.joint_positions.items():
+            # Map joint names to their corresponding indices in PyBullet
+            if joint_name == 'fl_foot':
+                base_index = 0
+            elif joint_name == 'fr_foot':
+                base_index = 4
+            elif joint_name == 'rl_foot':
+                base_index = 8
+            elif joint_name == 'rr_foot':
+                base_index = 12
+            else:
+                continue  # Skip unknown joint names
+
+            # Set joint positions for the corresponding indices
+            for i, position in enumerate(positions):
+                joint_index = base_index + i
+                p.setJointMotorControl2(
+                    self.body_id, joint_index, p.POSITION_CONTROL, targetPosition=position
+                )
+                self.get_logger().info(f'Set joint {joint_name} index {joint_index} to position {position}')            
+        # for i in range(3):
+        #     p.setJointMotorControl2(self.body_id, i, p.POSITION_CONTROL, targetPosition = self.joint_positions[0,i] )
+        #     p.setJointMotorControl2(self.body_id, 4 + i, p.POSITION_CONTROL, targetPosition = self.joint_positions[1,i] )
+        #     p.setJointMotorControl2(self.body_id, 8 + i, p.POSITION_CONTROL, targetPosition = self.joint_positions[2,i] ) 
+        #     p.setJointMotorControl2(self.body_id, 12 + i, p.POSITION_CONTROL, targetPosition = self.joint_positions[3,i])
+        # self.get_logger().info(f'Set joint position')
+        # Step the simulation
+        p.stepSimulation()
+
+    # def step_simulation(self):
+    #     """Step the PyBullet simulation and apply joint positions."""
+    #     # Apply the updated joint positions to the PyBullet simulation
+    #     for joint_name, positions in self.joint_positions.items():
+    #         joint_index = [joint[0] for joint in self.joint_ids if joint[1] == joint_name]
+    #         if joint_index:
+    #             for i, position in enumerate(positions):
+    #                 p.setJointMotorControl2(
+    #                     self.body_id, joint_index[i], p.POSITION_CONTROL, targetPosition=position
+    #                 )
+    #                 self.get_logger().info(f'Setting joint position for joint {joint_name} to {position}')
+
+    #     # Step the simulation
+    #     p.stepSimulation()
 
     def robot_init(self, dt, body_pos, fixed=False):
         self.get_logger().info('Connecting to PyBullet...')
@@ -104,36 +183,47 @@ class PyBulletSimNode(Node):
             p.changeDynamics(body_id, j, lateralFriction=1e-5, linearDamping=0, angularDamping=0)
             p.changeDynamics(body_id, j, maxJointVelocity=maxVel)
             joint_ids.append(p.getJointInfo(body_id, j))
+
+        self.body_id = body_id  # Store body_id as a class attribute
+        self.joint_ids = joint_ids  # Store joint_ids as a class attribute
+        print(self.joint_ids)
         return body_id, joint_ids
 
-    def run_simulation(self):
-        dT = 0.005
-        bodyId, jointIds = self.robot_init(dt=dT, body_pos=[0, 0, 0.18], fixed=False)
+    # def run_simulation(self):
+    #     dT = 0.005
+    #     bodyId, jointIds = self.robot_init(dt=dT, body_pos=[0, 0, 0.18], fixed=False)
 
-        p.setGravity(0, 0, -9.81)
+    #     p.setGravity(0, 0, -9.81)
 
-        self.get_logger().info('Loading plane URDF...')
-        plane_id = p.loadURDF("plane.urdf")
-        self.get_logger().info('Plane URDF loaded.')
-        self.get_logger().info('Starting simulation steps...')
+    #     self.get_logger().info('Loading plane URDF...')
+    #     plane_id = p.loadURDF("plane.urdf")
+    #     self.get_logger().info('Plane URDF loaded.')
+    #     self.get_logger().info('Starting simulation steps...')
 
-        while rclpy.ok():  # Run the simulation loop until ROS is shut down
-            # Update joint positions
-            for joint_name, position in self.joint_positions.items():
-                joint_index = [joint[1] for joint in jointIds if joint[1] == joint_name]
-                if joint_index:
-                    p.setJointMotorControl2(bodyId, joint_index[0], p.POSITION_CONTROL, targetPosition=position)
-                    self.get_logger().info('Setting joint position for joint {} to {}'.format(joint_name, position))
-            p.stepSimulation()
-            time.sleep(1. / 240.)  # Fixed time step (240 Hz)
+    #     while rclpy.ok():  # Run the simulation loop until ROS is shut down
+    #         # Update joint positions
+    #         # for joint_name, position in self.joint_positions.items():
+    #         #     joint_index = [joint[1] for joint in jointIds if joint[1] == joint_name]
+    #         #     if joint_index:
+    #         #         p.setJointMotorControl2(bodyId, joint_index[0], p.POSITION_CONTROL, targetPosition=position)
+    #         #         self.get_logger().info('Setting joint position for joint {} to {}'.format(joint_name, position))
+    #         p.stepSimulation()
+    #         time.sleep(1. / 240.)  # Fixed time step (240 Hz)
 
-        self.get_logger().info('Simulation steps completed.')
+    #     self.get_logger().info('Simulation steps completed.')
 
-        self.get_logger().info('Disconnecting from PyBullet...')
-        p.disconnect()
+    #     self.get_logger().info('Disconnecting from PyBullet...')
+    #     p.disconnect()
+    #     self.get_logger().info('Disconnected from PyBullet.')
+
+    #     rclpy.shutdown()
+
+    def destroy_node(self):
+        """Clean up resources when the node is destroyed."""
+        self.get_logger().info('Shutting down PyBullet simulation...')
+        p.disconnect()  # Disconnect from PyBullet
         self.get_logger().info('Disconnected from PyBullet.')
-
-        rclpy.shutdown()
+        super().destroy_node()  # Call the parent class's destroy_node method
 
 def main(args=None):
     rclpy.init(args=args)

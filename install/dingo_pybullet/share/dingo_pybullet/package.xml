@@ -12,8 +12,10 @@
   <build_depend>ament_cmake_python</build_depend>
   <build_depend>rclpy</build_depend>
   <build_depend>std_msgs</build_depend>
+  <build_depend>dingo_control_msgs</build_depend>
   <exec_depend>rclpy</exec_depend>
   <exec_depend>std_msgs</exec_depend>
+  <exec_depend>dingo_control_msgs</exec_depend>
   <build_depend>dingo_description</build_depend>
   <test_depend>pytest</test_depend>
   

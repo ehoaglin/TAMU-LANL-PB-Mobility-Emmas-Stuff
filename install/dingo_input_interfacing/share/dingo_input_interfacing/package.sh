@@ -79,8 +79,10 @@ _colcon_package_sh_source_script() {
 
 # source sh hooks
 _colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/dingo_input_interfacing/hook/cmake_prefix_path.sh"
+_colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/dingo_input_interfacing/hook/path.sh"
 _colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/dingo_input_interfacing/hook/pythonpath.sh"
-_colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/dingo_input_interfacing/local_setup.sh"
+_colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/dingo_input_interfacing/hook/pythonscriptspath.sh"
+_colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/dingo_input_interfacing/hook/ament_prefix_path.sh"
 
 unset _colcon_package_sh_source_script
 unset COLCON_CURRENT_PREFIX

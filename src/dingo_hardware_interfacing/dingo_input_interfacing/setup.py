@@ -30,7 +30,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'your_executable = your_package_name.your_module:main_function',
+            'InputInterface = dingo_input_interfacing.InputInterface:main_function',
         ],
     },
 )

@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-d9d1dca6c5fc7b7d3c05.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "dingo_pybullet",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_dingo_pybullet_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_dingo_pybullet_egg-867442389e32a3c5a4fa.json",
+					"name" : "ament_cmake_python_build_dingo_pybullet_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_dingo_pybullet::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_dingo_pybullet-07116a724adecfbc1cea.json",
+					"name" : "ament_cmake_python_copy_dingo_pybullet",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_pybullet_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_pybullet_uninstall-9d011c873f09cd0682a1.json",
+					"name" : "dingo_pybullet_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-d19712a784733f523539.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ehoaglin/ros2_ws/build/dingo_pybullet",
+		"source" : "/home/ehoaglin/ros2_ws/src/dingo_pybullet"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

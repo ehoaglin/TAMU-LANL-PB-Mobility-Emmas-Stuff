@@ -255,26 +255,26 @@ def impose_physical_limits(desired_joint_angles):
     angles for the legs in the joint space. Uncomment and then run using the command: 
                         ros2 run dingo_servo_interfacing HardwareInterface.py  
 """
-# from dingo_control.Config import Configuration, Leg_linkage
+from dingo_control.Config import Configuration, Leg_linkage
 
-# configuration = Configuration()
-# linkage = Leg_linkage(configuration)
-# hardware_interface = HardwareInterface(linkage)
+configuration = Configuration()
+linkage = Leg_linkage(configuration)
+hardware_interface = HardwareInterface(linkage)
 
-# ## Define a position for all legs in the joint space
-# low = [0,30,20]
-# mid = [0,50,-10]
-# high = [0,60,-40]
-# pos = mid #[0,50,0] [low 30,20]
+## Define a position for all legs in the joint space
+low = [0,30,20]
+mid = [0,50,-10]
+high = [0,60,-40]
+pos = mid #[0,50,0] [low 30,20]
 
-# hip_angle = m.radians(pos[0])
-# upper_leg_angle = m.radians(pos[1]) # defined according to IK
-# lower_leg_angle = m.radians(pos[2]) # defined according to IK
+hip_angle = m.radians(pos[0])
+upper_leg_angle = m.radians(pos[1]) # defined according to IK
+lower_leg_angle = m.radians(pos[2]) # defined according to IK
 
-# joint_angles = np.array([[hip_angle, hip_angle, hip_angle, hip_angle], 
-#                         [upper_leg_angle, upper_leg_angle, upper_leg_angle, upper_leg_angle], 
-#                         [lower_leg_angle, lower_leg_angle, lower_leg_angle, lower_leg_angle]])
+joint_angles = np.array([[hip_angle, hip_angle, hip_angle, hip_angle], 
+                        [upper_leg_angle, upper_leg_angle, upper_leg_angle, upper_leg_angle], 
+                        [lower_leg_angle, lower_leg_angle, lower_leg_angle, lower_leg_angle]])
 
-# hardware_interface.set_actuator_positions(joint_angles)
+hardware_interface.set_actuator_positions(joint_angles)
 
 ##########################################################################################

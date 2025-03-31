@@ -60,7 +60,7 @@ class DingoDriver(Node):
     def __init__(self, is_sim: bool, is_physical: bool, use_imu: bool):
          # Initialize the parent Node class with a unique name
         super().__init__("dingo_driver_node")  # Initialize the ROS2 node
-        self.message_rate = 50
+        self.message_rate = 40
         #self.rate = rospy.Rate(self.message_rate)
         self.rate = self.create_rate(self.message_rate) # Use Duration for rate
 
@@ -74,12 +74,14 @@ class DingoDriver(Node):
         self.declare_parameter('is_physical', self.is_physical)
         self.declare_parameter('use_imu', self.use_imu)
 
+        # subscriptions
         self.joint_command_sub = self.create_subscription(JointSpace, "/joint_space_cmd", self.run_joint_space_command, 10) 
         self.task_command_sub = self.create_subscription(TaskSpace, "/task_space_cmd", self.run_task_space_command, 10) 
         self.estop_status_sub = self.create_subscription(Bool, "/emergency_stop_status", self.update_emergency_stop_status, 100)
         # rospy.Subscriber("/joint_space_cmd", JointSpace, self.run_joint_space_command) 
         # rospy.Subscriber("/task_space_cmd", TaskSpace, self.run_task_space_command) 
         # rospy.Subscriber("/emergency_stop_status", Bool, self.update_emergency_stop_status) 
+
 
         self.external_commands_enabled = 0
         self.get_logger().info('DingoDriver Node initialized and subscriptions created.')
@@ -141,84 +143,65 @@ class DingoDriver(Node):
         # rospy.loginfo 
         # rospy.loginfo 
 
-        
+
+        # Create a timer to periodically call the run() method
+        self.timer = self.create_timer(1.0 / self.message_rate, self.run)
     
+    def initialize_robot(self):
+        """One-time initialization logic for the robot."""
+        self.get_logger().info("Initializing robot to default state...")
+        if self.state.currently_estopped == 1:
+            self.get_logger().warn("E-stop is pressed. Initialization paused until E-stop is released.")
+            while self.state.currently_estopped == 1:
+                self.rate.sleep()
+            self.get_logger().info("E-stop released. Continuing initialization.")
+
+         # Set the robot to a default state
+        self.state.behavior_state = BehaviorState.REST
+        command = self.input_interface.get_command(self.state, self.message_rate)
+        self.controller.run(self.state, command)
+        self.controller.publish_joint_space_command(self.state.joint_angles)
+        self.controller.publish_task_space_command(self.state.rotated_foot_locations)
+
+        if self.is_sim:
+            self.publish_joints_to_sim(self.state.joint_angles)
+            self.get_logger().info("Simulation mode: Default joint angles published.")
+        if self.is_physical:
+            self.hardware_interface.set_actuator_postions(self.state.joint_angles)
+            self.get_logger().info("Physical mode: Default joint angles sent to hardware.")
+
     def run(self):
-        clock = self.get_clock()
-        # Wait until the activate button has been pressed
-        while rclpy.ok():# changed not rospy.is_shutdown(): to rclpy.ok():
-            if self.state.currently_estopped == 1:
-                self.get_logger().warn("E-stop pressed. Controlling code now disabled until E-stop is released") #changed rospy.logwarn to self.node.get_logger().warn
-                self.state.trotting_active = 0
-                while self.state.currently_estopped == 1:
-                    self.rate.sleep()
-                self.get_logger().info("E-stop released") #changed rospy.loginfo to self.node.get_logger().info
-            
-            self.get_logger().info("Manual robot control active. Currently not accepting external commands") #changed rospy.loginfo to self.node.get_logger().info
-            #Always start Manual control with the robot standing still. Send default positions once
-            self.command = self.input_interface.get_command(self.state,self.message_rate)
-            self.state.behavior_state = BehaviorState.REST
-            self.controller.run(self.state, self.command)
+        """Periodic control logic executed by the timer."""
+        if self.state.currently_estopped == 1:
+            self.get_logger().warn("E-stop pressed. Control loop paused until E-stop is released.")
+            self.state.trotting_active = 0
+            return
+
+        # Fetch the latest command
+        command = self.input_interface.get_command(self.state, self.message_rate)
+
+        # Read IMU data if enabled
+        self.state.euler_orientation = (
+            self.imu.read_orientation() if self.use_imu else np.array([0, 0, 0])
+        )
+
+        # Step the controller forward
+        self.controller.run(self.state, command)
+
+        # Publish commands
+        if self.state.behavior_state in [BehaviorState.TROT, BehaviorState.REST]:
             self.controller.publish_joint_space_command(self.state.joint_angles)
             self.controller.publish_task_space_command(self.state.rotated_foot_locations)
+
             if self.is_sim:
-                    self.publish_joints_to_sim(self.state.joint_angles)
-                    self.get_logger().info("is_sim")
+                self.publish_joints_to_sim(self.state.joint_angles)
             if self.is_physical:
-                # Update the pwm widths going to the servos
                 self.hardware_interface.set_actuator_postions(self.state.joint_angles)
-                self.get_logger().info("is_not_sim")
-            while self.state.currently_estopped == 0:
-                #time.start = rospy.Time.now()
-                time.start = self.get_clock().now()
-
-                #Update the robot controller's parameters
-                command = self.input_interface.get_command(self.state,self.message_rate)
-                if command.joystick_control_event == 1:
-                    if self.state.currently_estopped == 0:
-                        self.external_commands_enabled = 1
-                        break
-                    else:
-                        self.get_logger().error("Received Request to enable external control, but e-stop is pressed so the request has been ignored. Please release e-stop and try again") # changed rospy.logerr to self.node.get_logger().error
-                
-                # Read imu data. Orientation will be None if no data was available
-                #self.get_logger().info(self.imu.read_orientation())
-                self.state.euler_orientation = (
-                    self.imu.read_orientation() if self.use_imu else np.array([0, 0, 0])
-                )
-                [yaw,pitch,roll] = self.state.euler_orientation
-#                print('Yaw: ',np.round(yaw,2),'Pitch: ',np.round(pitch,2),'Roll: ',np.round(roll,2))
-                # Step the controller forward by dt
-                self.controller.run(self.state, command)
-
-                # if self.state.behavior_state == BehaviorState.TROT or self.state.behavior_state == BehaviorState.REST:
-                if self.state.behavior_state == BehaviorState.TROT or self.state.behavior_state == BehaviorState.REST:
-                    self.controller.publish_joint_space_command(self.state.joint_angles)
-                    self.controller.publish_task_space_command(self.state.rotated_foot_locations)
-#                    self.get_logger().info(str(self.state.joint_angles))
-#                    self.get_logger().info(f'State.height: {self.state.height}')
-
-                    #If running simulator, publish joint angles to gazebo controller:
-                    if self.is_sim:
-                        self.publish_joints_to_sim(self.state.joint_angles)
-                    if self.is_physical:
-                        # Update the pwm widths going to the servos
-                        self.hardware_interface.set_actuator_postions(self.state.joint_angles)
-                    
-#                    self.get_logger().info(f'All angles: \n {np.round(np.degrees(self.state.joint_angles),2)}')
-                    time.end = self.get_clock().now()
-                    #Uncomment following line if want to see how long it takes to execute a control iteration
-                    #self.get_logger().info(str(time.start-time.end))
-
-#                    self.get_logger().info(f'State: \n {self.state}')
-                else:
-                    if self.is_sim:
-                        self.publish_joints_to_sim(self.state.joint_angles)
-                #self.rate.sleep()
 
             if self.state.currently_estopped == 0:
-                self.get_logger().info("Manual Control deactivated. Now accepting external commands")
+                #self.get_logger().info("Manual Control deactivated. Now accepting external commands")
                 command = self.input_interface.get_command(self.state,self.message_rate)
+                #print(command)
                 self.state.behavior_state = BehaviorState.REST
                 self.controller.run(self.state, command)
                 self.controller.publish_joint_space_command(self.state.joint_angles)
@@ -228,11 +211,11 @@ class DingoDriver(Node):
                 if self.is_physical:
                     # Update the pwm widths going to the servos
                     self.hardware_interface.set_actuator_postions(self.state.joint_angles)
-                while self.state.currently_estopped == 0:
+                if self.state.currently_estopped == 0:
                     command = self.input_interface.get_command(self.state,self.message_rate)
                     if command.joystick_control_event == 1:
                         self.external_commands_enabled = 0
-                        break
+                        
                     self.rate.sleep()
     
     def update_emergency_stop_status(self, msg):
@@ -249,7 +232,7 @@ class DingoDriver(Node):
             for i in range(3):
                 foot_locations[i] = [msg.fr_foot[j], msg.fl_foot[j], msg.rr_foot[j], msg.rl_foot[j]]
                 j = j+1
-            print('hello', foot_locations)
+            #print('hello', foot_locations)
             joint_angles = self.controller.inverse_kinematics(foot_locations, self.config)
             if self.is_sim:
                 self.publish_joints_to_sim(self, joint_angles)
@@ -269,7 +252,7 @@ class DingoDriver(Node):
             for i in range(3):
                 joint_angles[i] = [msg.fr_foot[j], msg.fl_foot[j], msg.rr_foot[j], msg.rl_foot[j]]
                 j = j+1
-#            print(joint_angles)
+            print(joint_angles)
 
             if self.is_sim:
                 self.publish_joints_to_sim(self, joint_angles)
@@ -306,8 +289,103 @@ def main():
     #rospy.init_node("dingo_driver") 
     #node = Node('dingo_driver')
     dingo = DingoDriver(is_sim, is_physical, use_imu)
-    dingo.run()
+    dingo.initialize_robot()
     rclpy.spin(dingo)
     rclpy.shutdown()
     
 main()
+
+
+
+
+# clock = self.get_clock()
+#         # Wait until the activate button has been pressed
+#         # while rclpy.ok():# changed not rospy.is_shutdown(): to rclpy.ok():
+#         if self.state.currently_estopped == 1:
+#             self.get_logger().warn("E-stop pressed. Controlling code now disabled until E-stop is released") #changed rospy.logwarn to self.node.get_logger().warn
+#             self.state.trotting_active = 0
+#             while self.state.currently_estopped == 1:
+#                 self.rate.sleep()
+#             self.get_logger().info("E-stop released") #changed rospy.loginfo to self.node.get_logger().info
+        
+#         self.get_logger().info("Manual robot control active. Currently not accepting external commands") #changed rospy.loginfo to self.node.get_logger().info
+#         #Always start Manual control with the robot standing still. Send default positions once
+#         command = self.input_interface.get_command(self.state,self.message_rate)
+#         self.state.behavior_state = BehaviorState.REST
+#         self.controller.run(self.state, command)
+#         self.controller.publish_joint_space_command(self.state.joint_angles)
+#         self.controller.publish_task_space_command(self.state.rotated_foot_locations)
+#         if self.is_sim:
+#                 self.publish_joints_to_sim(self.state.joint_angles)
+#                 self.get_logger().info("is_sim")
+#         if self.is_physical:
+#             # Update the pwm widths going to the servos
+#             self.hardware_interface.set_actuator_postions(self.state.joint_angles)
+#             self.get_logger().info("is_not_sim")
+#         if self.state.currently_estopped == 0:
+#             #time.start = rospy.Time.now()
+#             time.start = self.get_clock().now()
+
+#             #Update the robot controller's parameters
+#             command = self.input_interface.get_command(self.state,self.message_rate)
+#             if command.joystick_control_event == 1:
+#                 if self.state.currently_estopped == 0:
+#                     self.external_commands_enabled = 1
+                    
+#                 else:
+#                     self.get_logger().error("Received Request to enable external control, but e-stop is pressed so the request has been ignored. Please release e-stop and try again") # changed rospy.logerr to self.node.get_logger().error
+            
+#             # Read imu data. Orientation will be None if no data was available
+#             #self.get_logger().info(self.imu.read_orientation())
+#             self.state.euler_orientation = (
+#                 self.imu.read_orientation() if self.use_imu else np.array([0, 0, 0])
+#             )
+#             [yaw,pitch,roll] = self.state.euler_orientation
+# #                print('Yaw: ',np.round(yaw,2),'Pitch: ',np.round(pitch,2),'Roll: ',np.round(roll,2))
+#             # Step the controller forward by dt
+#             self.controller.run(self.state, command)
+
+#             # if self.state.behavior_state == BehaviorState.TROT or self.state.behavior_state == BehaviorState.REST:
+#             if self.state.behavior_state == BehaviorState.TROT or self.state.behavior_state == BehaviorState.REST:
+#                 self.controller.publish_joint_space_command(self.state.joint_angles)
+#                 self.controller.publish_task_space_command(self.state.rotated_foot_locations)
+# #                    self.get_logger().info(str(self.state.joint_angles))
+# #                    self.get_logger().info(f'State.height: {self.state.height}')
+
+#                 #If running simulator, publish joint angles to gazebo controller:
+#                 if self.is_sim:
+#                     self.publish_joints_to_sim(self.state.joint_angles)
+#                 if self.is_physical:
+#                     # Update the pwm widths going to the servos
+#                     self.hardware_interface.set_actuator_postions(self.state.joint_angles)
+                
+# #                    self.get_logger().info(f'All angles: \n {np.round(np.degrees(self.state.joint_angles),2)}')
+#                 time.end = self.get_clock().now()
+#                 #Uncomment following line if want to see how long it takes to execute a control iteration
+#                 #self.get_logger().info(str(time.start-time.end))
+
+# #                    self.get_logger().info(f'State: \n {self.state}')
+#                 #else:
+#                 if self.is_sim:
+#                     self.publish_joints_to_sim(self.state.joint_angles)
+#                 #self.rate.sleep()
+
+#             if self.state.currently_estopped == 0:
+#                 self.get_logger().info("Manual Control deactivated. Now accepting external commands")
+#                 command = self.input_interface.get_command(self.state,self.message_rate)
+#                 print(command)
+#                 self.state.behavior_state = BehaviorState.REST
+#                 self.controller.run(self.state, command)
+#                 self.controller.publish_joint_space_command(self.state.joint_angles)
+#                 self.controller.publish_task_space_command(self.state.rotated_foot_locations)
+#                 if self.is_sim:
+#                         self.publish_joints_to_sim(self.state.joint_angles)
+#                 if self.is_physical:
+#                     # Update the pwm widths going to the servos
+#                     self.hardware_interface.set_actuator_postions(self.state.joint_angles)
+#                 if self.state.currently_estopped == 0:
+#                     command = self.input_interface.get_command(self.state,self.message_rate)
+#                     if command.joystick_control_event == 1:
+#                         self.external_commands_enabled = 0
+                        
+#                     self.rate.sleep()

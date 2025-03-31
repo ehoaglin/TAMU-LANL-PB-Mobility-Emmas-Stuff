@@ -1,0 +1,20 @@
+[2.544s] Invoking command in '/home/ehoaglin/ros2_ws/src/dingo_hardware_interfacing/dingo_input_interfacing': PYTHONPATH=/home/ehoaglin/ros2_ws/build/dingo_input_interfacing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ehoaglin/ros2_ws/install/dingo_input_interfacing/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dingo_input_interfacing build --build-base /home/ehoaglin/ros2_ws/build/dingo_input_interfacing/build install --record /home/ehoaglin/ros2_ws/build/dingo_input_interfacing/install.log --single-version-externally-managed
+[3.037s] running egg_info
+[3.074s] writing ../../../build/dingo_input_interfacing/dingo_input_interfacing.egg-info/PKG-INFO
+[3.075s] writing dependency_links to ../../../build/dingo_input_interfacing/dingo_input_interfacing.egg-info/dependency_links.txt
+[3.078s] writing entry points to ../../../build/dingo_input_interfacing/dingo_input_interfacing.egg-info/entry_points.txt
+[3.078s] writing requirements to ../../../build/dingo_input_interfacing/dingo_input_interfacing.egg-info/requires.txt
+[3.078s] writing top-level names to ../../../build/dingo_input_interfacing/dingo_input_interfacing.egg-info/top_level.txt
+[3.151s] reading manifest file '../../../build/dingo_input_interfacing/dingo_input_interfacing.egg-info/SOURCES.txt'
+[3.154s] writing manifest file '../../../build/dingo_input_interfacing/dingo_input_interfacing.egg-info/SOURCES.txt'
+[3.154s] running build
+[3.154s] running build_py
+[3.155s] running install
+[3.167s] running install_lib
+[3.221s] running install_egg_info
+[3.260s] removing '/home/ehoaglin/ros2_ws/install/dingo_input_interfacing/lib/python3.12/site-packages/dingo_input_interfacing-0.0.0-py3.12.egg-info' (and everything under it)
+[3.261s] Copying ../../../build/dingo_input_interfacing/dingo_input_interfacing.egg-info to /home/ehoaglin/ros2_ws/install/dingo_input_interfacing/lib/python3.12/site-packages/dingo_input_interfacing-0.0.0-py3.12.egg-info
+[3.262s] running install_scripts
+[3.483s] Installing InputInterface script to /home/ehoaglin/ros2_ws/install/dingo_input_interfacing/bin
+[3.483s] writing list of installed files to '/home/ehoaglin/ros2_ws/build/dingo_input_interfacing/install.log'
+[3.561s] Invoked command in '/home/ehoaglin/ros2_ws/src/dingo_hardware_interfacing/dingo_input_interfacing' returned '0': PYTHONPATH=/home/ehoaglin/ros2_ws/build/dingo_input_interfacing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ehoaglin/ros2_ws/install/dingo_input_interfacing/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dingo_input_interfacing build --build-base /home/ehoaglin/ros2_ws/build/dingo_input_interfacing/build install --record /home/ehoaglin/ros2_ws/build/dingo_input_interfacing/install.log --single-version-externally-managed

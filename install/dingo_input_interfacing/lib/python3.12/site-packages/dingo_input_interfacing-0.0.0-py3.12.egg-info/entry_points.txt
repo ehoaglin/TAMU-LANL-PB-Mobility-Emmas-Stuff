@@ -1,0 +1,2 @@
+[console_scripts]
+InputInterface = dingo_input_interfacing.InputInterface:main_function
