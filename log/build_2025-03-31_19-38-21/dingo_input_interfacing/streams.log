@@ -1,0 +1,42 @@
+[0.083s] Invoking command in '/home/ehoaglin/ros2_ws/build/dingo_input_interfacing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ehoaglin/ros2_ws/install/dualsense_interface:/opt/ros/jazzy /usr/bin/cmake --build /home/ehoaglin/ros2_ws/build/dingo_input_interfacing -- -j12 -l12
+[0.537s] Built target ament_cmake_python_copy_dingo_input_interfacing
+[0.588s] running egg_info
+[0.624s] writing dingo_input_interfacing.egg-info/PKG-INFO
+[0.624s] writing dependency_links to dingo_input_interfacing.egg-info/dependency_links.txt
+[0.624s] writing top-level names to dingo_input_interfacing.egg-info/top_level.txt
+[0.759s] reading manifest file 'dingo_input_interfacing.egg-info/SOURCES.txt'
+[0.761s] writing manifest file 'dingo_input_interfacing.egg-info/SOURCES.txt'
+[0.835s] Built target ament_cmake_python_build_dingo_input_interfacing_egg
+[0.850s] Invoked command in '/home/ehoaglin/ros2_ws/build/dingo_input_interfacing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ehoaglin/ros2_ws/install/dualsense_interface:/opt/ros/jazzy /usr/bin/cmake --build /home/ehoaglin/ros2_ws/build/dingo_input_interfacing -- -j12 -l12
+[0.851s] Invoking command in '/home/ehoaglin/ros2_ws/build/dingo_input_interfacing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ehoaglin/ros2_ws/install/dualsense_interface:/opt/ros/jazzy /usr/bin/cmake --install /home/ehoaglin/ros2_ws/build/dingo_input_interfacing
+[0.863s] -- Install configuration: ""
+[0.864s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_input_interfacing/share/dingo_input_interfacing/environment/pythonpath.sh
+[0.864s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_input_interfacing/share/dingo_input_interfacing/environment/pythonpath.dsv
+[0.864s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_input_interfacing/lib/python3.12/site-packages/dingo_input_interfacing-0.0.0-py3.12.egg-info
+[0.864s] -- Installing: /home/ehoaglin/ros2_ws/install/dingo_input_interfacing/lib/python3.12/site-packages/dingo_input_interfacing-0.0.0-py3.12.egg-info/top_level.txt
+[0.865s] -- Installing: /home/ehoaglin/ros2_ws/install/dingo_input_interfacing/lib/python3.12/site-packages/dingo_input_interfacing-0.0.0-py3.12.egg-info/dependency_links.txt
+[0.865s] -- Installing: /home/ehoaglin/ros2_ws/install/dingo_input_interfacing/lib/python3.12/site-packages/dingo_input_interfacing-0.0.0-py3.12.egg-info/SOURCES.txt
+[0.865s] -- Installing: /home/ehoaglin/ros2_ws/install/dingo_input_interfacing/lib/python3.12/site-packages/dingo_input_interfacing-0.0.0-py3.12.egg-info/PKG-INFO
+[0.865s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_input_interfacing/lib/python3.12/site-packages/dingo_input_interfacing
+[0.865s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_input_interfacing/lib/python3.12/site-packages/dingo_input_interfacing/__init__.py
+[0.865s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_input_interfacing/lib/python3.12/site-packages/dingo_input_interfacing/HardwareConfig.py
+[0.866s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_input_interfacing/lib/python3.12/site-packages/dingo_input_interfacing/Open Notebook.onetoc2
+[0.866s] -- Installing: /home/ehoaglin/ros2_ws/install/dingo_input_interfacing/lib/python3.12/site-packages/dingo_input_interfacing/InputInterface.py
+[0.948s] Listing '/home/ehoaglin/ros2_ws/install/dingo_input_interfacing/lib/python3.12/site-packages/dingo_input_interfacing'...
+[0.948s] Compiling '/home/ehoaglin/ros2_ws/install/dingo_input_interfacing/lib/python3.12/site-packages/dingo_input_interfacing/InputInterface.py'...
+[0.956s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_input_interfacing/share/ament_index/resource_index/package_run_dependencies/dingo_input_interfacing
+[0.957s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_input_interfacing/share/ament_index/resource_index/parent_prefix_path/dingo_input_interfacing
+[0.957s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_input_interfacing/share/dingo_input_interfacing/environment/ament_prefix_path.sh
+[0.958s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_input_interfacing/share/dingo_input_interfacing/environment/ament_prefix_path.dsv
+[0.958s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_input_interfacing/share/dingo_input_interfacing/environment/path.sh
+[0.958s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_input_interfacing/share/dingo_input_interfacing/environment/path.dsv
+[0.959s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_input_interfacing/share/dingo_input_interfacing/local_setup.bash
+[0.959s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_input_interfacing/share/dingo_input_interfacing/local_setup.sh
+[0.959s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_input_interfacing/share/dingo_input_interfacing/local_setup.zsh
+[0.959s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_input_interfacing/share/dingo_input_interfacing/local_setup.dsv
+[0.960s] -- Installing: /home/ehoaglin/ros2_ws/install/dingo_input_interfacing/share/dingo_input_interfacing/package.dsv
+[0.960s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_input_interfacing/share/ament_index/resource_index/packages/dingo_input_interfacing
+[0.962s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_input_interfacing/share/dingo_input_interfacing/cmake/dingo_input_interfacingConfig.cmake
+[0.964s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_input_interfacing/share/dingo_input_interfacing/cmake/dingo_input_interfacingConfig-version.cmake
+[0.964s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_input_interfacing/share/dingo_input_interfacing/package.xml
+[1.020s] Invoked command in '/home/ehoaglin/ros2_ws/build/dingo_input_interfacing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ehoaglin/ros2_ws/install/dualsense_interface:/opt/ros/jazzy /usr/bin/cmake --install /home/ehoaglin/ros2_ws/build/dingo_input_interfacing

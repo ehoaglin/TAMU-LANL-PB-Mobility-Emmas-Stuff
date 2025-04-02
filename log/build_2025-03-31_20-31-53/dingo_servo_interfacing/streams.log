@@ -1,0 +1,41 @@
+[0.062s] Invoking command in '/home/ehoaglin/ros2_ws/build/dingo_servo_interfacing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ehoaglin/ros2_ws/install/dualsense_interface:/opt/ros/jazzy /usr/bin/cmake --build /home/ehoaglin/ros2_ws/build/dingo_servo_interfacing -- -j12 -l12
+[0.874s] Built target ament_cmake_python_copy_dingo_servo_interfacing
+[0.971s] running egg_info
+[1.066s] writing dingo_servo_interfacing.egg-info/PKG-INFO
+[1.067s] writing dependency_links to dingo_servo_interfacing.egg-info/dependency_links.txt
+[1.068s] writing top-level names to dingo_servo_interfacing.egg-info/top_level.txt
+[1.307s] reading manifest file 'dingo_servo_interfacing.egg-info/SOURCES.txt'
+[1.308s] writing manifest file 'dingo_servo_interfacing.egg-info/SOURCES.txt'
+[1.393s] Built target ament_cmake_python_build_dingo_servo_interfacing_egg
+[1.430s] Invoked command in '/home/ehoaglin/ros2_ws/build/dingo_servo_interfacing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ehoaglin/ros2_ws/install/dualsense_interface:/opt/ros/jazzy /usr/bin/cmake --build /home/ehoaglin/ros2_ws/build/dingo_servo_interfacing -- -j12 -l12
+[1.431s] Invoking command in '/home/ehoaglin/ros2_ws/build/dingo_servo_interfacing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ehoaglin/ros2_ws/install/dualsense_interface:/opt/ros/jazzy /usr/bin/cmake --install /home/ehoaglin/ros2_ws/build/dingo_servo_interfacing
+[1.471s] -- Install configuration: ""
+[1.475s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_servo_interfacing/share/dingo_servo_interfacing/environment/pythonpath.sh
+[1.476s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_servo_interfacing/share/dingo_servo_interfacing/environment/pythonpath.dsv
+[1.482s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_servo_interfacing/lib/python3.12/site-packages/dingo_servo_interfacing-0.0.0-py3.12.egg-info
+[1.483s] -- Installing: /home/ehoaglin/ros2_ws/install/dingo_servo_interfacing/lib/python3.12/site-packages/dingo_servo_interfacing-0.0.0-py3.12.egg-info/top_level.txt
+[1.483s] -- Installing: /home/ehoaglin/ros2_ws/install/dingo_servo_interfacing/lib/python3.12/site-packages/dingo_servo_interfacing-0.0.0-py3.12.egg-info/dependency_links.txt
+[1.484s] -- Installing: /home/ehoaglin/ros2_ws/install/dingo_servo_interfacing/lib/python3.12/site-packages/dingo_servo_interfacing-0.0.0-py3.12.egg-info/SOURCES.txt
+[1.485s] -- Installing: /home/ehoaglin/ros2_ws/install/dingo_servo_interfacing/lib/python3.12/site-packages/dingo_servo_interfacing-0.0.0-py3.12.egg-info/PKG-INFO
+[1.488s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_servo_interfacing/lib/python3.12/site-packages/dingo_servo_interfacing
+[1.489s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_servo_interfacing/lib/python3.12/site-packages/dingo_servo_interfacing/CalibrateServos.py
+[1.489s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_servo_interfacing/lib/python3.12/site-packages/dingo_servo_interfacing/__init__.py
+[1.489s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_servo_interfacing/lib/python3.12/site-packages/dingo_servo_interfacing/ServoCalibrationDefinition.py
+[1.489s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_servo_interfacing/lib/python3.12/site-packages/dingo_servo_interfacing/HardwareInterface.py
+[1.584s] Listing '/home/ehoaglin/ros2_ws/install/dingo_servo_interfacing/lib/python3.12/site-packages/dingo_servo_interfacing'...
+[1.618s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_servo_interfacing/share/ament_index/resource_index/package_run_dependencies/dingo_servo_interfacing
+[1.626s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_servo_interfacing/share/ament_index/resource_index/parent_prefix_path/dingo_servo_interfacing
+[1.627s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_servo_interfacing/share/dingo_servo_interfacing/environment/ament_prefix_path.sh
+[1.627s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_servo_interfacing/share/dingo_servo_interfacing/environment/ament_prefix_path.dsv
+[1.628s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_servo_interfacing/share/dingo_servo_interfacing/environment/path.sh
+[1.629s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_servo_interfacing/share/dingo_servo_interfacing/environment/path.dsv
+[1.630s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_servo_interfacing/share/dingo_servo_interfacing/local_setup.bash
+[1.630s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_servo_interfacing/share/dingo_servo_interfacing/local_setup.sh
+[1.630s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_servo_interfacing/share/dingo_servo_interfacing/local_setup.zsh
+[1.631s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_servo_interfacing/share/dingo_servo_interfacing/local_setup.dsv
+[1.631s] -- Installing: /home/ehoaglin/ros2_ws/install/dingo_servo_interfacing/share/dingo_servo_interfacing/package.dsv
+[1.632s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_servo_interfacing/share/ament_index/resource_index/packages/dingo_servo_interfacing
+[1.632s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_servo_interfacing/share/dingo_servo_interfacing/cmake/dingo_servo_interfacingConfig.cmake
+[1.633s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_servo_interfacing/share/dingo_servo_interfacing/cmake/dingo_servo_interfacingConfig-version.cmake
+[1.633s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_servo_interfacing/share/dingo_servo_interfacing/package.xml
+[1.741s] Invoked command in '/home/ehoaglin/ros2_ws/build/dingo_servo_interfacing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ehoaglin/ros2_ws/install/dualsense_interface:/opt/ros/jazzy /usr/bin/cmake --install /home/ehoaglin/ros2_ws/build/dingo_servo_interfacing

@@ -1,0 +1,9 @@
+[0.075s] Invoking command in '/home/ehoaglin/ros2_ws/build/dingo_input_interfacing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ehoaglin/ros2_ws/install/dualsense_interface:/opt/ros/jazzy /usr/bin/cmake --build /home/ehoaglin/ros2_ws/build/dingo_input_interfacing -- -j12 -l12
+[0.825s] Built target ament_cmake_python_copy_dingo_input_interfacing
+[0.848s] running egg_info
+[0.912s] writing dingo_input_interfacing.egg-info/PKG-INFO
+[0.914s] writing dependency_links to dingo_input_interfacing.egg-info/dependency_links.txt
+[0.914s] writing top-level names to dingo_input_interfacing.egg-info/top_level.txt
+[1.050s] reading manifest file 'dingo_input_interfacing.egg-info/SOURCES.txt'
+[1.051s] writing manifest file 'dingo_input_interfacing.egg-info/SOURCES.txt'
+[1.131s] Built target ament_cmake_python_build_dingo_input_interfacing_egg

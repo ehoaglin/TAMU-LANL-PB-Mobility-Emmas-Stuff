@@ -111,7 +111,7 @@ class DingoDriver(Node):
         kinematics = Kinematics(self, self.config)
         if is_physical:
             self.linkage = Leg_linkage(self.config)
-            self.hardware_interface = HardwareInterface(self.linkage)
+            self.hardware_interface = HardwareInterface(self, self.linkage)
             # Create imu handle
         if self.use_imu:
             self.imu = IMU()
@@ -167,7 +167,7 @@ class DingoDriver(Node):
             self.publish_joints_to_sim(self.state.joint_angles)
             self.get_logger().info("Simulation mode: Default joint angles published.")
         if self.is_physical:
-            self.hardware_interface.set_actuator_postions(self.state.joint_angles)
+            self.hardware_interface.set_actuator_positions(self.state.joint_angles)
             self.get_logger().info("Physical mode: Default joint angles sent to hardware.")
 
     def run(self):
@@ -196,13 +196,14 @@ class DingoDriver(Node):
             if self.is_sim:
                 self.publish_joints_to_sim(self.state.joint_angles)
             if self.is_physical:
-                self.hardware_interface.set_actuator_postions(self.state.joint_angles)
+                self.hardware_interface.set_actuator_positions(self.state.joint_angles)
 
             if self.state.currently_estopped == 0:
                 #self.get_logger().info("Manual Control deactivated. Now accepting external commands")
                 command = self.input_interface.get_command(self.state,self.message_rate)
                 #print(command)
-                self.state.behavior_state = BehaviorState.REST
+                #self.state.behavior_state = BehaviorState.REST
+                
                 self.controller.run(self.state, command)
                 self.controller.publish_joint_space_command(self.state.joint_angles)
                 self.controller.publish_task_space_command(self.state.rotated_foot_locations)
@@ -210,7 +211,7 @@ class DingoDriver(Node):
                         self.publish_joints_to_sim(self.state.joint_angles)
                 if self.is_physical:
                     # Update the pwm widths going to the servos
-                    self.hardware_interface.set_actuator_postions(self.state.joint_angles)
+                    self.hardware_interface.set_actuator_positions(self.state.joint_angles)
                 if self.state.currently_estopped == 0:
                     command = self.input_interface.get_command(self.state,self.message_rate)
                     if command.joystick_control_event == 1:

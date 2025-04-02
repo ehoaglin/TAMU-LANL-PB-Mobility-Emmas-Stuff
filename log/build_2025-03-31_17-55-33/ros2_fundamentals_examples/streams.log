@@ -1,0 +1,46 @@
+[0.546s] Invoking command in '/home/ehoaglin/ros2_ws/build/ros2_fundamentals_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ehoaglin/ros2_ws/install/dualsense_interface:/opt/ros/jazzy /usr/bin/cmake --build /home/ehoaglin/ros2_ws/build/ros2_fundamentals_examples -- -j12 -l12
+[0.641s] Built target ament_cmake_python_copy_ros2_fundamentals_examples
+[1.035s] running egg_info
+[1.065s] writing ros2_fundamentals_examples.egg-info/PKG-INFO
+[1.065s] writing dependency_links to ros2_fundamentals_examples.egg-info/dependency_links.txt
+[1.065s] writing top-level names to ros2_fundamentals_examples.egg-info/top_level.txt
+[1.163s] reading manifest file 'ros2_fundamentals_examples.egg-info/SOURCES.txt'
+[1.164s] writing manifest file 'ros2_fundamentals_examples.egg-info/SOURCES.txt'
+[1.198s] Built target ament_cmake_python_build_ros2_fundamentals_examples_egg
+[1.207s] Invoked command in '/home/ehoaglin/ros2_ws/build/ros2_fundamentals_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ehoaglin/ros2_ws/install/dualsense_interface:/opt/ros/jazzy /usr/bin/cmake --build /home/ehoaglin/ros2_ws/build/ros2_fundamentals_examples -- -j12 -l12
+[1.208s] Invoking command in '/home/ehoaglin/ros2_ws/build/ros2_fundamentals_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ehoaglin/ros2_ws/install/dualsense_interface:/opt/ros/jazzy /usr/bin/cmake --install /home/ehoaglin/ros2_ws/build/ros2_fundamentals_examples
+[1.217s] -- Install configuration: ""
+[1.217s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/ros2_fundamentals_examples
+[1.218s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/ros2_fundamentals_examples/__init__.py
+[1.218s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/ros2_fundamentals_examples/py_minimal_publisher.py
+[1.218s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/ros2_fundamentals_examples/include
+[1.219s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/ros2_fundamentals_examples/include/ros2_fundamentals_examples
+[1.219s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/environment/pythonpath.sh
+[1.219s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/environment/pythonpath.dsv
+[1.219s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/ros2_fundamentals_examples/lib/python3.12/site-packages/ros2_fundamentals_examples-0.0.0-py3.12.egg-info
+[1.219s] -- Installing: /home/ehoaglin/ros2_ws/install/ros2_fundamentals_examples/lib/python3.12/site-packages/ros2_fundamentals_examples-0.0.0-py3.12.egg-info/top_level.txt
+[1.219s] -- Installing: /home/ehoaglin/ros2_ws/install/ros2_fundamentals_examples/lib/python3.12/site-packages/ros2_fundamentals_examples-0.0.0-py3.12.egg-info/dependency_links.txt
+[1.220s] -- Installing: /home/ehoaglin/ros2_ws/install/ros2_fundamentals_examples/lib/python3.12/site-packages/ros2_fundamentals_examples-0.0.0-py3.12.egg-info/SOURCES.txt
+[1.220s] -- Installing: /home/ehoaglin/ros2_ws/install/ros2_fundamentals_examples/lib/python3.12/site-packages/ros2_fundamentals_examples-0.0.0-py3.12.egg-info/PKG-INFO
+[1.220s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/ros2_fundamentals_examples/lib/python3.12/site-packages/ros2_fundamentals_examples
+[1.220s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/ros2_fundamentals_examples/lib/python3.12/site-packages/ros2_fundamentals_examples/__init__.py
+[1.220s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/ros2_fundamentals_examples/lib/python3.12/site-packages/ros2_fundamentals_examples/py_minimal_publisher.py
+[1.253s] Listing '/home/ehoaglin/ros2_ws/install/ros2_fundamentals_examples/lib/python3.12/site-packages/ros2_fundamentals_examples'...
+[1.258s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/ros2_fundamentals_examples/lib/ros2_fundamentals_examples/py_minimal_publisher.py
+[1.258s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/ros2_fundamentals_examples/share/ament_index/resource_index/package_run_dependencies/ros2_fundamentals_examples
+[1.259s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/ros2_fundamentals_examples/share/ament_index/resource_index/parent_prefix_path/ros2_fundamentals_examples
+[1.259s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/environment/ament_prefix_path.sh
+[1.259s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/environment/ament_prefix_path.dsv
+[1.260s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/environment/path.sh
+[1.260s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/environment/path.dsv
+[1.260s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/local_setup.bash
+[1.260s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/local_setup.sh
+[1.260s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/local_setup.zsh
+[1.260s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/local_setup.dsv
+[1.260s] -- Installing: /home/ehoaglin/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/package.dsv
+[1.260s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/ros2_fundamentals_examples/share/ament_index/resource_index/packages/ros2_fundamentals_examples
+[1.260s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.260s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/cmake/ros2_fundamentals_examplesConfig.cmake
+[1.261s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/cmake/ros2_fundamentals_examplesConfig-version.cmake
+[1.261s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/package.xml
+[1.262s] Invoked command in '/home/ehoaglin/ros2_ws/build/ros2_fundamentals_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ehoaglin/ros2_ws/install/dualsense_interface:/opt/ros/jazzy /usr/bin/cmake --install /home/ehoaglin/ros2_ws/build/ros2_fundamentals_examples

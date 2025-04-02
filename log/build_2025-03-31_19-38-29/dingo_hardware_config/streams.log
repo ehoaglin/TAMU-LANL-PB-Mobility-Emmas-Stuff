@@ -1,0 +1,66 @@
+[0.115s] Invoking command in '/home/ehoaglin/ros2_ws/build/dingo_hardware_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ehoaglin/ros2_ws/install/dualsense_interface:/opt/ros/jazzy /usr/bin/cmake --build /home/ehoaglin/ros2_ws/build/dingo_hardware_config -- -j12 -l12
+[1.174s] Built target ament_cmake_python_copy_dingo_hardware_config
+[1.407s] running egg_info
+[1.560s] writing dingo_hardware_config.egg-info/PKG-INFO
+[1.561s] writing dependency_links to dingo_hardware_config.egg-info/dependency_links.txt
+[1.563s] writing top-level names to dingo_hardware_config.egg-info/top_level.txt
+[2.000s] reading manifest file 'dingo_hardware_config.egg-info/SOURCES.txt'
+[2.003s] writing manifest file 'dingo_hardware_config.egg-info/SOURCES.txt'
+[2.124s] Built target ament_cmake_python_build_dingo_hardware_config_egg
+[2.485s] Invoked command in '/home/ehoaglin/ros2_ws/build/dingo_hardware_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ehoaglin/ros2_ws/install/dualsense_interface:/opt/ros/jazzy /usr/bin/cmake --build /home/ehoaglin/ros2_ws/build/dingo_hardware_config -- -j12 -l12
+[2.486s] Invoking command in '/home/ehoaglin/ros2_ws/build/dingo_hardware_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ehoaglin/ros2_ws/install/dualsense_interface:/opt/ros/jazzy /usr/bin/cmake --install /home/ehoaglin/ros2_ws/build/dingo_hardware_config
+[2.523s] -- Install configuration: ""
+[2.523s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_hardware_config/share/dingo_hardware_config/environment/pythonpath.sh
+[2.524s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_hardware_config/share/dingo_hardware_config/environment/pythonpath.dsv
+[2.525s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_hardware_config/lib/python3.12/site-packages/dingo_hardware_config-0.0.0-py3.12.egg-info
+[2.526s] -- Installing: /home/ehoaglin/ros2_ws/install/dingo_hardware_config/lib/python3.12/site-packages/dingo_hardware_config-0.0.0-py3.12.egg-info/top_level.txt
+[2.527s] -- Installing: /home/ehoaglin/ros2_ws/install/dingo_hardware_config/lib/python3.12/site-packages/dingo_hardware_config-0.0.0-py3.12.egg-info/dependency_links.txt
+[2.528s] -- Installing: /home/ehoaglin/ros2_ws/install/dingo_hardware_config/lib/python3.12/site-packages/dingo_hardware_config-0.0.0-py3.12.egg-info/SOURCES.txt
+[2.531s] -- Installing: /home/ehoaglin/ros2_ws/install/dingo_hardware_config/lib/python3.12/site-packages/dingo_hardware_config-0.0.0-py3.12.egg-info/PKG-INFO
+[2.532s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_hardware_config/lib/python3.12/site-packages/dingo_hardware_config
+[2.535s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_hardware_config/lib/python3.12/site-packages/dingo_hardware_config/__init__.py
+[2.536s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_hardware_config/lib/python3.12/site-packages/dingo_hardware_config/build
+[2.537s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_hardware_config/lib/python3.12/site-packages/dingo_hardware_config/build/COLCON_IGNORE
+[2.537s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_hardware_config/lib/python3.12/site-packages/dingo_hardware_config/build/.built_by
+[2.538s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_hardware_config/lib/python3.12/site-packages/dingo_hardware_config/log
+[2.543s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_hardware_config/lib/python3.12/site-packages/dingo_hardware_config/log/latest_build
+[2.545s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_hardware_config/lib/python3.12/site-packages/dingo_hardware_config/log/latest
+[2.546s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_hardware_config/lib/python3.12/site-packages/dingo_hardware_config/log/COLCON_IGNORE
+[2.546s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_hardware_config/lib/python3.12/site-packages/dingo_hardware_config/log/build_2025-02-19_13-10-06
+[2.547s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_hardware_config/lib/python3.12/site-packages/dingo_hardware_config/log/build_2025-02-19_13-10-06/logger_all.log
+[2.548s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_hardware_config/lib/python3.12/site-packages/dingo_hardware_config/log/build_2025-02-19_13-10-06/events.log
+[2.548s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_hardware_config/lib/python3.12/site-packages/dingo_hardware_config/HardwareConfig.py
+[2.549s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_hardware_config/lib/python3.12/site-packages/dingo_hardware_config/install
+[2.550s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_hardware_config/lib/python3.12/site-packages/dingo_hardware_config/install/_local_setup_util_sh.py
+[2.552s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_hardware_config/lib/python3.12/site-packages/dingo_hardware_config/install/local_setup.ps1
+[2.554s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_hardware_config/lib/python3.12/site-packages/dingo_hardware_config/install/setup.bash
+[2.555s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_hardware_config/lib/python3.12/site-packages/dingo_hardware_config/install/_local_setup_util_ps1.py
+[2.556s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_hardware_config/lib/python3.12/site-packages/dingo_hardware_config/install/setup.sh
+[2.556s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_hardware_config/lib/python3.12/site-packages/dingo_hardware_config/install/.colcon_install_layout
+[2.557s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_hardware_config/lib/python3.12/site-packages/dingo_hardware_config/install/local_setup.zsh
+[2.560s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_hardware_config/lib/python3.12/site-packages/dingo_hardware_config/install/COLCON_IGNORE
+[2.563s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_hardware_config/lib/python3.12/site-packages/dingo_hardware_config/install/local_setup.sh
+[2.563s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_hardware_config/lib/python3.12/site-packages/dingo_hardware_config/install/local_setup.bash
+[2.565s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_hardware_config/lib/python3.12/site-packages/dingo_hardware_config/install/setup.ps1
+[2.566s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_hardware_config/lib/python3.12/site-packages/dingo_hardware_config/install/setup.zsh
+[2.651s] Listing '/home/ehoaglin/ros2_ws/install/dingo_hardware_config/lib/python3.12/site-packages/dingo_hardware_config'...
+[2.651s] Listing '/home/ehoaglin/ros2_ws/install/dingo_hardware_config/lib/python3.12/site-packages/dingo_hardware_config/build'...
+[2.652s] Listing '/home/ehoaglin/ros2_ws/install/dingo_hardware_config/lib/python3.12/site-packages/dingo_hardware_config/install'...
+[2.653s] Listing '/home/ehoaglin/ros2_ws/install/dingo_hardware_config/lib/python3.12/site-packages/dingo_hardware_config/log'...
+[2.655s] Listing '/home/ehoaglin/ros2_ws/install/dingo_hardware_config/lib/python3.12/site-packages/dingo_hardware_config/log/build_2025-02-19_13-10-06'...
+[2.665s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_hardware_config/share/ament_index/resource_index/package_run_dependencies/dingo_hardware_config
+[2.671s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_hardware_config/share/ament_index/resource_index/parent_prefix_path/dingo_hardware_config
+[2.672s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_hardware_config/share/dingo_hardware_config/environment/ament_prefix_path.sh
+[2.673s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_hardware_config/share/dingo_hardware_config/environment/ament_prefix_path.dsv
+[2.674s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_hardware_config/share/dingo_hardware_config/environment/path.sh
+[2.676s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_hardware_config/share/dingo_hardware_config/environment/path.dsv
+[2.676s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_hardware_config/share/dingo_hardware_config/local_setup.bash
+[2.677s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_hardware_config/share/dingo_hardware_config/local_setup.sh
+[2.677s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_hardware_config/share/dingo_hardware_config/local_setup.zsh
+[2.679s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_hardware_config/share/dingo_hardware_config/local_setup.dsv
+[2.680s] -- Installing: /home/ehoaglin/ros2_ws/install/dingo_hardware_config/share/dingo_hardware_config/package.dsv
+[2.680s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_hardware_config/share/ament_index/resource_index/packages/dingo_hardware_config
+[2.681s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_hardware_config/share/dingo_hardware_config/cmake/dingo_hardware_configConfig.cmake
+[2.685s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_hardware_config/share/dingo_hardware_config/cmake/dingo_hardware_configConfig-version.cmake
+[2.687s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_hardware_config/share/dingo_hardware_config/package.xml
+[2.710s] Invoked command in '/home/ehoaglin/ros2_ws/build/dingo_hardware_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ehoaglin/ros2_ws/install/dualsense_interface:/opt/ros/jazzy /usr/bin/cmake --install /home/ehoaglin/ros2_ws/build/dingo_hardware_config

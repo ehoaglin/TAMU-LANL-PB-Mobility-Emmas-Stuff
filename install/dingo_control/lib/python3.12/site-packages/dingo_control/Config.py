@@ -42,7 +42,7 @@ class Configuration:
 
         #################### SWING ######################
         self.z_coeffs = None
-        self.z_clearance = 0.07
+        self.z_clearance = 0.08#0.07
         self.alpha = (
             0.5  # Ratio between touchdown distance and total horizontal stance movement
         )

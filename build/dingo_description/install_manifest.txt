@@ -1,4 +1,5 @@
-/home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/urdf/dingo copy.urdf
+/home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/urdf/dingo_copy.urdf
+/home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/urdf/urdf of dingo + arm not connected.urdf
 /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/urdf/dingo.urdf
 /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/urdf/Open Notebook.onetoc2
 /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/urdf/dingo_description.csv
@@ -15,17 +16,20 @@
 /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/R2_obj.mtl
 /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/link4_collision.STL
 /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/L_link3_collision.STL
+/home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/arm_base_link.STL
 /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/RR1_obj.obj
 /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/main.py
 /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/R3_obj.obj
 /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/base_link.dae
 /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/RL1_obj.obj
 /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/FR1_obj.mtl
+/home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/arm_link1.STL
 /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/L_link1_collision.STL
 /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/R2_obj.obj
 /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/R_link3_collision.STL
 /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/L2_obj.mtl
 /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/thread.jpg
+/home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/arm_link2.STL
 /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/RR_link1.dae
 /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/RR1_obj.mtl
 /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/FL1_obj.mtl
@@ -46,6 +50,7 @@
 /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/L_link2_collision.STL
 /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/RL_link1.dae
 /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/RL_link2.STL
+/home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/arm_link3.STL
 /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/FL_link1.STL
 /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/FR_link4.STL
 /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/base_collision.STL
@@ -53,6 +58,7 @@
 /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/RR_link2.STL
 /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/RR_link3.STL
 /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/RL_link4.STL
+/home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/arm_link4.STL
 /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/FL_link2.STL
 /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/FL1_obj.obj
 /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/RR_link4.STL

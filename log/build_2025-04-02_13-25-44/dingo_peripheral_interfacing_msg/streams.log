@@ -1,0 +1,147 @@
+[0.083s] Invoking command in '/home/ehoaglin/ros2_ws/build/dingo_peripheral_interfacing_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ehoaglin/ros2_ws/install/dualsense_interface:/opt/ros/jazzy /usr/bin/cmake --build /home/ehoaglin/ros2_ws/build/dingo_peripheral_interfacing_msg -- -j12 -l12
+[0.895s] [  0%] Built target ament_cmake_python_copy_dingo_peripheral_interfacing_msg
+[0.897s] [  2%] Built target dingo_peripheral_interfacing_msg__rosidl_generator_type_description
+[0.899s] [  5%] Built target dingo_peripheral_interfacing_msg__cpp
+[0.900s] [ 20%] Built target dingo_peripheral_interfacing_msg__rosidl_generator_c
+[0.901s] [ 29%] Built target dingo_peripheral_interfacing_msg__rosidl_typesupport_fastrtps_c
+[0.901s] [ 38%] Built target dingo_peripheral_interfacing_msg__rosidl_typesupport_cpp
+[0.902s] [ 47%] Built target dingo_peripheral_interfacing_msg__rosidl_typesupport_fastrtps_cpp
+[0.902s] [ 55%] Built target dingo_peripheral_interfacing_msg__rosidl_typesupport_introspection_c
+[0.902s] [ 64%] Built target dingo_peripheral_interfacing_msg__rosidl_typesupport_introspection_cpp
+[0.902s] [ 73%] Built target dingo_peripheral_interfacing_msg__rosidl_typesupport_c
+[0.902s] [ 73%] Built target dingo_peripheral_interfacing_msg
+[0.902s] [ 76%] Built target dingo_peripheral_interfacing_msg__py
+[0.903s] [ 82%] Built target dingo_peripheral_interfacing_msg__rosidl_generator_py
+[0.903s] [ 88%] Built target dingo_peripheral_interfacing_msg_s__rosidl_typesupport_introspection_c
+[0.903s] [ 94%] Built target dingo_peripheral_interfacing_msg_s__rosidl_typesupport_fastrtps_c
+[0.903s] [100%] Built target dingo_peripheral_interfacing_msg_s__rosidl_typesupport_c
+[1.048s] running egg_info
+[1.107s] writing dingo_peripheral_interfacing_msg.egg-info/PKG-INFO
+[1.109s] writing dependency_links to dingo_peripheral_interfacing_msg.egg-info/dependency_links.txt
+[1.110s] writing top-level names to dingo_peripheral_interfacing_msg.egg-info/top_level.txt
+[1.385s] reading manifest file 'dingo_peripheral_interfacing_msg.egg-info/SOURCES.txt'
+[1.387s] writing manifest file 'dingo_peripheral_interfacing_msg.egg-info/SOURCES.txt'
+[1.507s] [100%] Built target ament_cmake_python_build_dingo_peripheral_interfacing_msg_egg
+[1.539s] Invoked command in '/home/ehoaglin/ros2_ws/build/dingo_peripheral_interfacing_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ehoaglin/ros2_ws/install/dualsense_interface:/opt/ros/jazzy /usr/bin/cmake --build /home/ehoaglin/ros2_ws/build/dingo_peripheral_interfacing_msg -- -j12 -l12
+[1.540s] Invoking command in '/home/ehoaglin/ros2_ws/build/dingo_peripheral_interfacing_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ehoaglin/ros2_ws/install/dualsense_interface:/opt/ros/jazzy /usr/bin/cmake --install /home/ehoaglin/ros2_ws/build/dingo_peripheral_interfacing_msg
+[1.574s] -- Install configuration: ""
+[1.575s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/share/ament_index/resource_index/rosidl_interfaces/dingo_peripheral_interfacing_msg
+[1.575s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/share/dingo_peripheral_interfacing_msg/msg/ElectricalMeasurements.json
+[1.576s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/include/dingo_peripheral_interfacing_msg/dingo_peripheral_interfacing_msg
+[1.579s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/include/dingo_peripheral_interfacing_msg/dingo_peripheral_interfacing_msg/msg
+[1.580s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/include/dingo_peripheral_interfacing_msg/dingo_peripheral_interfacing_msg/msg/detail
+[1.580s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/include/dingo_peripheral_interfacing_msg/dingo_peripheral_interfacing_msg/msg/detail/electrical_measurements__type_support.h
+[1.581s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/include/dingo_peripheral_interfacing_msg/dingo_peripheral_interfacing_msg/msg/detail/electrical_measurements__type_support.c
+[1.581s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/include/dingo_peripheral_interfacing_msg/dingo_peripheral_interfacing_msg/msg/detail/electrical_measurements__description.c
+[1.582s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/include/dingo_peripheral_interfacing_msg/dingo_peripheral_interfacing_msg/msg/detail/electrical_measurements__functions.c
+[1.585s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/include/dingo_peripheral_interfacing_msg/dingo_peripheral_interfacing_msg/msg/detail/electrical_measurements__struct.h
+[1.585s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/include/dingo_peripheral_interfacing_msg/dingo_peripheral_interfacing_msg/msg/detail/electrical_measurements__functions.h
+[1.587s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/include/dingo_peripheral_interfacing_msg/dingo_peripheral_interfacing_msg/msg/electrical_measurements.h
+[1.587s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/include/dingo_peripheral_interfacing_msg/dingo_peripheral_interfacing_msg/msg/rosidl_generator_c__visibility_control.h
+[1.591s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/share/dingo_peripheral_interfacing_msg/environment/library_path.sh
+[1.592s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/share/dingo_peripheral_interfacing_msg/environment/library_path.dsv
+[1.593s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/lib/libdingo_peripheral_interfacing_msg__rosidl_generator_c.so
+[1.593s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/include/dingo_peripheral_interfacing_msg/dingo_peripheral_interfacing_msg
+[1.593s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/include/dingo_peripheral_interfacing_msg/dingo_peripheral_interfacing_msg/msg
+[1.594s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/include/dingo_peripheral_interfacing_msg/dingo_peripheral_interfacing_msg/msg/detail
+[1.594s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/include/dingo_peripheral_interfacing_msg/dingo_peripheral_interfacing_msg/msg/detail/electrical_measurements__rosidl_typesupport_fastrtps_c.h
+[1.594s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/include/dingo_peripheral_interfacing_msg/dingo_peripheral_interfacing_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.597s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/lib/libdingo_peripheral_interfacing_msg__rosidl_typesupport_fastrtps_c.so
+[1.598s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/include/dingo_peripheral_interfacing_msg/dingo_peripheral_interfacing_msg
+[1.598s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/include/dingo_peripheral_interfacing_msg/dingo_peripheral_interfacing_msg/msg
+[1.598s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/include/dingo_peripheral_interfacing_msg/dingo_peripheral_interfacing_msg/msg/detail
+[1.599s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/include/dingo_peripheral_interfacing_msg/dingo_peripheral_interfacing_msg/msg/detail/electrical_measurements__struct.hpp
+[1.600s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/include/dingo_peripheral_interfacing_msg/dingo_peripheral_interfacing_msg/msg/detail/electrical_measurements__builder.hpp
+[1.616s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/include/dingo_peripheral_interfacing_msg/dingo_peripheral_interfacing_msg/msg/detail/electrical_measurements__type_support.hpp
+[1.618s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/include/dingo_peripheral_interfacing_msg/dingo_peripheral_interfacing_msg/msg/detail/electrical_measurements__traits.hpp
+[1.619s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/include/dingo_peripheral_interfacing_msg/dingo_peripheral_interfacing_msg/msg/electrical_measurements.hpp
+[1.619s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/include/dingo_peripheral_interfacing_msg/dingo_peripheral_interfacing_msg/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.620s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/include/dingo_peripheral_interfacing_msg/dingo_peripheral_interfacing_msg
+[1.620s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/include/dingo_peripheral_interfacing_msg/dingo_peripheral_interfacing_msg/msg
+[1.622s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/include/dingo_peripheral_interfacing_msg/dingo_peripheral_interfacing_msg/msg/detail
+[1.623s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/include/dingo_peripheral_interfacing_msg/dingo_peripheral_interfacing_msg/msg/detail/dds_fastrtps
+[1.623s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/include/dingo_peripheral_interfacing_msg/dingo_peripheral_interfacing_msg/msg/detail/electrical_measurements__rosidl_typesupport_fastrtps_cpp.hpp
+[1.623s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/include/dingo_peripheral_interfacing_msg/dingo_peripheral_interfacing_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.623s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/lib/libdingo_peripheral_interfacing_msg__rosidl_typesupport_fastrtps_cpp.so
+[1.624s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/include/dingo_peripheral_interfacing_msg/dingo_peripheral_interfacing_msg
+[1.624s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/include/dingo_peripheral_interfacing_msg/dingo_peripheral_interfacing_msg/msg
+[1.624s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/include/dingo_peripheral_interfacing_msg/dingo_peripheral_interfacing_msg/msg/detail
+[1.625s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/include/dingo_peripheral_interfacing_msg/dingo_peripheral_interfacing_msg/msg/detail/electrical_measurements__type_support.c
+[1.625s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/include/dingo_peripheral_interfacing_msg/dingo_peripheral_interfacing_msg/msg/detail/electrical_measurements__rosidl_typesupport_introspection_c.h
+[1.625s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/include/dingo_peripheral_interfacing_msg/dingo_peripheral_interfacing_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.626s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/lib/libdingo_peripheral_interfacing_msg__rosidl_typesupport_introspection_c.so
+[1.626s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/lib/libdingo_peripheral_interfacing_msg__rosidl_typesupport_c.so
+[1.626s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/include/dingo_peripheral_interfacing_msg/dingo_peripheral_interfacing_msg
+[1.627s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/include/dingo_peripheral_interfacing_msg/dingo_peripheral_interfacing_msg/msg
+[1.627s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/include/dingo_peripheral_interfacing_msg/dingo_peripheral_interfacing_msg/msg/detail
+[1.627s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/include/dingo_peripheral_interfacing_msg/dingo_peripheral_interfacing_msg/msg/detail/electrical_measurements__type_support.cpp
+[1.628s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/include/dingo_peripheral_interfacing_msg/dingo_peripheral_interfacing_msg/msg/detail/electrical_measurements__rosidl_typesupport_introspection_cpp.hpp
+[1.628s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/lib/libdingo_peripheral_interfacing_msg__rosidl_typesupport_introspection_cpp.so
+[1.628s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/lib/libdingo_peripheral_interfacing_msg__rosidl_typesupport_cpp.so
+[1.629s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/share/dingo_peripheral_interfacing_msg/environment/pythonpath.sh
+[1.629s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/share/dingo_peripheral_interfacing_msg/environment/pythonpath.dsv
+[1.629s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/lib/python3.12/site-packages/dingo_peripheral_interfacing_msg-0.0.0-py3.12.egg-info
+[1.630s] -- Installing: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/lib/python3.12/site-packages/dingo_peripheral_interfacing_msg-0.0.0-py3.12.egg-info/top_level.txt
+[1.630s] -- Installing: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/lib/python3.12/site-packages/dingo_peripheral_interfacing_msg-0.0.0-py3.12.egg-info/dependency_links.txt
+[1.630s] -- Installing: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/lib/python3.12/site-packages/dingo_peripheral_interfacing_msg-0.0.0-py3.12.egg-info/SOURCES.txt
+[1.630s] -- Installing: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/lib/python3.12/site-packages/dingo_peripheral_interfacing_msg-0.0.0-py3.12.egg-info/PKG-INFO
+[1.631s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/lib/python3.12/site-packages/dingo_peripheral_interfacing_msg
+[1.631s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/lib/python3.12/site-packages/dingo_peripheral_interfacing_msg/__init__.py
+[1.631s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/lib/python3.12/site-packages/dingo_peripheral_interfacing_msg/_dingo_peripheral_interfacing_msg_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.632s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/lib/python3.12/site-packages/dingo_peripheral_interfacing_msg/_dingo_peripheral_interfacing_msg_s.ep.rosidl_typesupport_c.c
+[1.632s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/lib/python3.12/site-packages/dingo_peripheral_interfacing_msg/dingo_peripheral_interfacing_msg_s__rosidl_typesupport_c.so
+[1.632s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/lib/python3.12/site-packages/dingo_peripheral_interfacing_msg/dingo_peripheral_interfacing_msg_s__rosidl_typesupport_introspection_c.so
+[1.633s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/lib/python3.12/site-packages/dingo_peripheral_interfacing_msg/_dingo_peripheral_interfacing_msg_s.ep.rosidl_typesupport_introspection_c.c
+[1.633s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/lib/python3.12/site-packages/dingo_peripheral_interfacing_msg/msg
+[1.633s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/lib/python3.12/site-packages/dingo_peripheral_interfacing_msg/msg/__init__.py
+[1.634s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/lib/python3.12/site-packages/dingo_peripheral_interfacing_msg/msg/_electrical_measurements_s.c
+[1.635s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/lib/python3.12/site-packages/dingo_peripheral_interfacing_msg/msg/_electrical_measurements.py
+[1.635s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/lib/python3.12/site-packages/dingo_peripheral_interfacing_msg/dingo_peripheral_interfacing_msg_s__rosidl_typesupport_fastrtps_c.so
+[1.749s] Listing '/home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/lib/python3.12/site-packages/dingo_peripheral_interfacing_msg'...
+[1.749s] Listing '/home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/lib/python3.12/site-packages/dingo_peripheral_interfacing_msg/msg'...
+[1.768s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/lib/python3.12/site-packages/dingo_peripheral_interfacing_msg/dingo_peripheral_interfacing_msg_s__rosidl_typesupport_fastrtps_c.so
+[1.769s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/lib/python3.12/site-packages/dingo_peripheral_interfacing_msg/dingo_peripheral_interfacing_msg_s__rosidl_typesupport_introspection_c.so
+[1.771s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/lib/python3.12/site-packages/dingo_peripheral_interfacing_msg/dingo_peripheral_interfacing_msg_s__rosidl_typesupport_c.so
+[1.772s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/lib/libdingo_peripheral_interfacing_msg__rosidl_generator_py.so
+[1.772s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/share/dingo_peripheral_interfacing_msg/msg/ElectricalMeasurements.idl
+[1.773s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/share/dingo_peripheral_interfacing_msg/msg/ElectricalMeasurements.msg
+[1.774s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/share/ament_index/resource_index/package_run_dependencies/dingo_peripheral_interfacing_msg
+[1.774s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/share/ament_index/resource_index/parent_prefix_path/dingo_peripheral_interfacing_msg
+[1.775s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/share/dingo_peripheral_interfacing_msg/environment/ament_prefix_path.sh
+[1.775s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/share/dingo_peripheral_interfacing_msg/environment/ament_prefix_path.dsv
+[1.778s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/share/dingo_peripheral_interfacing_msg/environment/path.sh
+[1.784s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/share/dingo_peripheral_interfacing_msg/environment/path.dsv
+[1.785s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/share/dingo_peripheral_interfacing_msg/local_setup.bash
+[1.786s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/share/dingo_peripheral_interfacing_msg/local_setup.sh
+[1.786s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/share/dingo_peripheral_interfacing_msg/local_setup.zsh
+[1.786s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/share/dingo_peripheral_interfacing_msg/local_setup.dsv
+[1.787s] -- Installing: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/share/dingo_peripheral_interfacing_msg/package.dsv
+[1.788s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/share/ament_index/resource_index/packages/dingo_peripheral_interfacing_msg
+[1.789s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/share/dingo_peripheral_interfacing_msg/cmake/export_dingo_peripheral_interfacing_msg__rosidl_generator_cExport.cmake
+[1.789s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/share/dingo_peripheral_interfacing_msg/cmake/export_dingo_peripheral_interfacing_msg__rosidl_generator_cExport-noconfig.cmake
+[1.790s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/share/dingo_peripheral_interfacing_msg/cmake/export_dingo_peripheral_interfacing_msg__rosidl_typesupport_fastrtps_cExport.cmake
+[1.791s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/share/dingo_peripheral_interfacing_msg/cmake/export_dingo_peripheral_interfacing_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.791s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/share/dingo_peripheral_interfacing_msg/cmake/export_dingo_peripheral_interfacing_msg__rosidl_generator_cppExport.cmake
+[1.794s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/share/dingo_peripheral_interfacing_msg/cmake/export_dingo_peripheral_interfacing_msg__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.795s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/share/dingo_peripheral_interfacing_msg/cmake/export_dingo_peripheral_interfacing_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.796s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/share/dingo_peripheral_interfacing_msg/cmake/dingo_peripheral_interfacing_msg__rosidl_typesupport_introspection_cExport.cmake
+[1.797s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/share/dingo_peripheral_interfacing_msg/cmake/dingo_peripheral_interfacing_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.798s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/share/dingo_peripheral_interfacing_msg/cmake/dingo_peripheral_interfacing_msg__rosidl_typesupport_cExport.cmake
+[1.801s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/share/dingo_peripheral_interfacing_msg/cmake/dingo_peripheral_interfacing_msg__rosidl_typesupport_cExport-noconfig.cmake
+[1.801s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/share/dingo_peripheral_interfacing_msg/cmake/dingo_peripheral_interfacing_msg__rosidl_typesupport_introspection_cppExport.cmake
+[1.804s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/share/dingo_peripheral_interfacing_msg/cmake/dingo_peripheral_interfacing_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.805s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/share/dingo_peripheral_interfacing_msg/cmake/dingo_peripheral_interfacing_msg__rosidl_typesupport_cppExport.cmake
+[1.806s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/share/dingo_peripheral_interfacing_msg/cmake/dingo_peripheral_interfacing_msg__rosidl_typesupport_cppExport-noconfig.cmake
+[1.807s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/share/dingo_peripheral_interfacing_msg/cmake/export_dingo_peripheral_interfacing_msg__rosidl_generator_pyExport.cmake
+[1.808s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/share/dingo_peripheral_interfacing_msg/cmake/export_dingo_peripheral_interfacing_msg__rosidl_generator_pyExport-noconfig.cmake
+[1.809s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/share/dingo_peripheral_interfacing_msg/cmake/rosidl_cmake-extras.cmake
+[1.810s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/share/dingo_peripheral_interfacing_msg/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.810s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/share/dingo_peripheral_interfacing_msg/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.811s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/share/dingo_peripheral_interfacing_msg/cmake/ament_cmake_export_libraries-extras.cmake
+[1.811s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/share/dingo_peripheral_interfacing_msg/cmake/ament_cmake_export_targets-extras.cmake
+[1.812s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/share/dingo_peripheral_interfacing_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.812s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/share/dingo_peripheral_interfacing_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.815s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/share/dingo_peripheral_interfacing_msg/cmake/dingo_peripheral_interfacing_msgConfig.cmake
+[1.816s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/share/dingo_peripheral_interfacing_msg/cmake/dingo_peripheral_interfacing_msgConfig-version.cmake
+[1.817s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing_msg/share/dingo_peripheral_interfacing_msg/package.xml
+[1.856s] Invoked command in '/home/ehoaglin/ros2_ws/build/dingo_peripheral_interfacing_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ehoaglin/ros2_ws/install/dualsense_interface:/opt/ros/jazzy /usr/bin/cmake --install /home/ehoaglin/ros2_ws/build/dingo_peripheral_interfacing_msg

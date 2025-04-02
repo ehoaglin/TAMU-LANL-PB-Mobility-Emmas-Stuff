@@ -1,0 +1,8 @@
+Built target ament_cmake_python_copy_dingo_input_interfacing
+running egg_info
+writing dingo_input_interfacing.egg-info/PKG-INFO
+writing dependency_links to dingo_input_interfacing.egg-info/dependency_links.txt
+writing top-level names to dingo_input_interfacing.egg-info/top_level.txt
+reading manifest file 'dingo_input_interfacing.egg-info/SOURCES.txt'
+writing manifest file 'dingo_input_interfacing.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_dingo_input_interfacing_egg

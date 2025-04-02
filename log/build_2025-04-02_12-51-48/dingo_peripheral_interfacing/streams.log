@@ -1,0 +1,41 @@
+[0.060s] Invoking command in '/home/ehoaglin/ros2_ws/build/dingo_peripheral_interfacing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ehoaglin/ros2_ws/install/dualsense_interface:/opt/ros/jazzy /usr/bin/cmake --build /home/ehoaglin/ros2_ws/build/dingo_peripheral_interfacing -- -j12 -l12
+[0.937s] Built target ament_cmake_python_copy_dingo_peripheral_interfacing
+[1.249s] running egg_info
+[1.419s] writing dingo_peripheral_interfacing.egg-info/PKG-INFO
+[1.431s] writing dependency_links to dingo_peripheral_interfacing.egg-info/dependency_links.txt
+[1.435s] writing top-level names to dingo_peripheral_interfacing.egg-info/top_level.txt
+[1.831s] reading manifest file 'dingo_peripheral_interfacing.egg-info/SOURCES.txt'
+[1.833s] writing manifest file 'dingo_peripheral_interfacing.egg-info/SOURCES.txt'
+[1.965s] Built target ament_cmake_python_build_dingo_peripheral_interfacing_egg
+[2.096s] Invoked command in '/home/ehoaglin/ros2_ws/build/dingo_peripheral_interfacing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ehoaglin/ros2_ws/install/dualsense_interface:/opt/ros/jazzy /usr/bin/cmake --build /home/ehoaglin/ros2_ws/build/dingo_peripheral_interfacing -- -j12 -l12
+[2.099s] Invoking command in '/home/ehoaglin/ros2_ws/build/dingo_peripheral_interfacing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ehoaglin/ros2_ws/install/dualsense_interface:/opt/ros/jazzy /usr/bin/cmake --install /home/ehoaglin/ros2_ws/build/dingo_peripheral_interfacing
+[2.213s] -- Install configuration: ""
+[2.213s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing/share/dingo_peripheral_interfacing/environment/pythonpath.sh
+[2.214s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing/share/dingo_peripheral_interfacing/environment/pythonpath.dsv
+[2.215s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing/lib/python3.12/site-packages/dingo_peripheral_interfacing-0.0.0-py3.12.egg-info
+[2.215s] -- Installing: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing/lib/python3.12/site-packages/dingo_peripheral_interfacing-0.0.0-py3.12.egg-info/top_level.txt
+[2.216s] -- Installing: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing/lib/python3.12/site-packages/dingo_peripheral_interfacing-0.0.0-py3.12.egg-info/dependency_links.txt
+[2.219s] -- Installing: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing/lib/python3.12/site-packages/dingo_peripheral_interfacing-0.0.0-py3.12.egg-info/SOURCES.txt
+[2.219s] -- Installing: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing/lib/python3.12/site-packages/dingo_peripheral_interfacing-0.0.0-py3.12.egg-info/PKG-INFO
+[2.220s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing/lib/python3.12/site-packages/dingo_peripheral_interfacing
+[2.220s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing/lib/python3.12/site-packages/dingo_peripheral_interfacing/__init__.py
+[2.221s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing/lib/python3.12/site-packages/dingo_peripheral_interfacing/imu_test.py
+[2.222s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing/lib/python3.12/site-packages/dingo_peripheral_interfacing/IMU.py
+[2.224s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing/lib/python3.12/site-packages/dingo_peripheral_interfacing/Open Notebook.onetoc2
+[2.307s] Listing '/home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing/lib/python3.12/site-packages/dingo_peripheral_interfacing'...
+[2.333s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing/share/ament_index/resource_index/package_run_dependencies/dingo_peripheral_interfacing
+[2.334s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing/share/ament_index/resource_index/parent_prefix_path/dingo_peripheral_interfacing
+[2.334s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing/share/dingo_peripheral_interfacing/environment/ament_prefix_path.sh
+[2.335s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing/share/dingo_peripheral_interfacing/environment/ament_prefix_path.dsv
+[2.336s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing/share/dingo_peripheral_interfacing/environment/path.sh
+[2.336s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing/share/dingo_peripheral_interfacing/environment/path.dsv
+[2.337s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing/share/dingo_peripheral_interfacing/local_setup.bash
+[2.337s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing/share/dingo_peripheral_interfacing/local_setup.sh
+[2.339s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing/share/dingo_peripheral_interfacing/local_setup.zsh
+[2.340s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing/share/dingo_peripheral_interfacing/local_setup.dsv
+[2.341s] -- Installing: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing/share/dingo_peripheral_interfacing/package.dsv
+[2.342s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing/share/ament_index/resource_index/packages/dingo_peripheral_interfacing
+[2.342s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing/share/dingo_peripheral_interfacing/cmake/dingo_peripheral_interfacingConfig.cmake
+[2.343s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing/share/dingo_peripheral_interfacing/cmake/dingo_peripheral_interfacingConfig-version.cmake
+[2.344s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_peripheral_interfacing/share/dingo_peripheral_interfacing/package.xml
+[2.511s] Invoked command in '/home/ehoaglin/ros2_ws/build/dingo_peripheral_interfacing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ehoaglin/ros2_ws/install/dualsense_interface:/opt/ros/jazzy /usr/bin/cmake --install /home/ehoaglin/ros2_ws/build/dingo_peripheral_interfacing

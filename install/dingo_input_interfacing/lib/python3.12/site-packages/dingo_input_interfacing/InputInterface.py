@@ -72,16 +72,16 @@ class InputInterface:
         self.previous_joystick_toggle = joystick_toggle
 
         ####### Handle continuous commands ########
-        if self.joystick_control_event:
-            x_vel = (msg.axes[1]) * self.config.max_x_velocity  # ly
-            y_vel = msg.axes[0] * self.config.max_y_velocity  # lx
-            self.developing_command.horizontal_velocity = np.round(np.array([x_vel, y_vel]), self.rounding_dp)
+
+        x_vel = (msg.axes[1]) * self.config.max_x_velocity  # ly
+        y_vel = msg.axes[0] * self.config.max_y_velocity  # lx
+        self.developing_command.horizontal_velocity = np.round(np.array([x_vel, y_vel]), self.rounding_dp)
             #self.node.get_logger().info(f"Joystick Control Active: Horizontal Velocity: {self.developing_command.horizontal_velocity}")
             #self.node.get_logger().info("Joystick Control Inactive")
         # x_vel = (msg.axes[1] ) * self.config.max_x_velocity #ly
         # y_vel = msg.axes[0] * self.config.max_y_velocity #lx
         # self.developing_command.horizontal_velocity =  np.round(np.array([x_vel, y_vel]),self.rounding_dp)
-        # self.developing_command.yaw_rate = np.round(msg.axes[2],self.rounding_dp) * self.config.max_yaw_rate #rx
+        self.developing_command.yaw_rate = np.round(msg.axes[2],self.rounding_dp) * self.config.max_yaw_rate #rx
 
         self.developing_command.pitch = np.round(msg.axes[3],self.rounding_dp) * self.config.max_pitch #ry
         self.developing_command.height_movement = np.round(msg.axes[6],self.rounding_dp) #dpady

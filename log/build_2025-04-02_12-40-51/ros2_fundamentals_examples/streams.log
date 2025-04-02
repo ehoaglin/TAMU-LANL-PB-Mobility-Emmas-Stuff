@@ -1,0 +1,9 @@
+[0.772s] Invoking command in '/home/ehoaglin/ros2_ws/build/ros2_fundamentals_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ehoaglin/ros2_ws/install/dualsense_interface:/opt/ros/jazzy /usr/bin/cmake --build /home/ehoaglin/ros2_ws/build/ros2_fundamentals_examples -- -j12 -l12
+[0.985s] Built target ament_cmake_python_copy_ros2_fundamentals_examples
+[1.400s] running egg_info
+[1.421s] writing ros2_fundamentals_examples.egg-info/PKG-INFO
+[1.421s] writing dependency_links to ros2_fundamentals_examples.egg-info/dependency_links.txt
+[1.421s] writing top-level names to ros2_fundamentals_examples.egg-info/top_level.txt
+[1.483s] reading manifest file 'ros2_fundamentals_examples.egg-info/SOURCES.txt'
+[1.483s] writing manifest file 'ros2_fundamentals_examples.egg-info/SOURCES.txt'
+[1.509s] Built target ament_cmake_python_build_ros2_fundamentals_examples_egg
