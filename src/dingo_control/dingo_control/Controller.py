@@ -53,6 +53,7 @@ class Controller:
         self.hop_transition_mapping = {BehaviorState.REST: BehaviorState.HOP, BehaviorState.HOP: BehaviorState.FINISHHOP, BehaviorState.FINISHHOP: BehaviorState.REST, BehaviorState.TROT: BehaviorState.HOP}
         self.trot_transition_mapping = {BehaviorState.REST: BehaviorState.TROT, BehaviorState.TROT: BehaviorState.REST, BehaviorState.HOP: BehaviorState.TROT, BehaviorState.FINISHHOP: BehaviorState.TROT}
         self.activate_transition_mapping = {BehaviorState.DEACTIVATED: BehaviorState.REST, BehaviorState.REST: BehaviorState.DEACTIVATED}
+        #self.arm_transition_mapping = {BehaviorState.REST: BehaviorState.ARM, BehaviorState.ARM: BehaviorState.REST}
 
 
     def step_gait(self, state, command):
@@ -84,7 +85,7 @@ class Controller:
         return new_foot_locations, contact_modes
 
 
-    def publish_task_space_command(self, rotated_foot_locations):
+    def publish_task_space_command(self, rotated_foot_locations): #arm_angles
 
         task_space_message = TaskSpace()
         #task_space_message.fr_foot.theta1 = rotated_foot_locations[0, 0] - self.config.LEG_ORIGINS[0, 0]
@@ -92,6 +93,7 @@ class Controller:
         task_space_message.fl_foot = [rotated_foot_locations[0, 1] - self.config.LEG_ORIGINS[0, 1], rotated_foot_locations[1, 1] - self.config.LEG_ORIGINS[1, 1], rotated_foot_locations[2, 1] - self.config.LEG_ORIGINS[2, 1]]
         task_space_message.rr_foot = [rotated_foot_locations[0, 2] - self.config.LEG_ORIGINS[0, 2], rotated_foot_locations[1, 2] - self.config.LEG_ORIGINS[1, 2], rotated_foot_locations[2, 2] - self.config.LEG_ORIGINS[2, 2]]
         task_space_message.rl_foot = [rotated_foot_locations[0, 3] - self.config.LEG_ORIGINS[0, 3], rotated_foot_locations[1, 3] - self.config.LEG_ORIGINS[1, 3], rotated_foot_locations[2, 3] - self.config.LEG_ORIGINS[2, 3]]
+        # task_space_message.arm_angles = [arm_angles[0, 0], arm_angles[1, 0], arm_angles[2, 0], arm_angles[3, 0]]
         task_space_message.header.stamp = self.clock.now().to_msg()
         #task_space_message.header = Header(stamp=self.clock.now()) #replacing rospy.Time.now() with self.clock.now()
         self.task_space_pub.publish(task_space_message)
@@ -143,7 +145,9 @@ class Controller:
             state.behavior_state = self.trot_transition_mapping[state.behavior_state]
         elif command.hop_event:
             state.behavior_state = self.hop_transition_mapping[state.behavior_state]
-
+        #elif command.arm_event:
+        #    state.behavior_state = self.arm_transition_mapping[state.behavior_state]
+        
         if previous_state != state.behavior_state:
             self.node.get_logger().info(f"State changed from {previous_state} to {state.behavior_state}") #changing from rospy.loginfo() to logger.info()
 
@@ -210,6 +214,40 @@ class Controller:
                 rotated_foot_locations
             )
             state.rotated_foot_locations = rotated_foot_locations
+        
+        #elif state.behavior_state == BehaviorState.ARM:
+            # yaw_proportion = command.yaw_rate / self.config.max_yaw_rate
+            # self.smoothed_yaw += (
+            #     self.config.dt
+            #     * clipped_first_order_filter(
+            #         self.smoothed_yaw,
+            #         yaw_proportion * -self.config.max_stance_yaw,
+            #         self.config.max_stance_yaw_rate,
+            #         self.config.yaw_time_constant,
+            #     )
+            # )
+            # # Set the foot locations to the default stance plus the standard height
+            # state.foot_locations = (
+            #     self.config.default_stance
+            #     + np.array([0, 0, command.height])[:, np.newaxis]
+            # )
+            # # Apply the desired body rotation
+            # rotated_foot_locations = (
+            #     euler2mat(
+            #         command.roll,
+            #         command.pitch,
+            #         self.smoothed_yaw,
+            #     )
+            #     @ state.foot_locations
+            # )
+
+            # # Construct foot rotation matrix to compensate for body tilt
+            # rotated_foot_locations = self.stabilise_with_IMU(rotated_foot_locations,state.euler_orientation)
+
+            # state.joint_angles = self.inverse_kinematics(
+            #     rotated_foot_locations
+            # )
+            # state.rotated_foot_locations = rotated_foot_locations
 
         state.ticks += 1
         state.pitch = command.pitch

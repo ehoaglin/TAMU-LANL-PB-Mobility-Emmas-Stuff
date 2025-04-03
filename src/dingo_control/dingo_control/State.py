@@ -16,6 +16,7 @@ class State:
         self.foot_locations = np.zeros((3, 4))
         self.rotated_foot_locations = np.zeros((3, 4))
         self.joint_angles = np.zeros((3, 4))
+        # self.arm_joint_angles = np.zeros((1,4))
         self.speed_factor = 1
 
         self.currently_estopped = 0
@@ -28,3 +29,4 @@ class BehaviorState(Enum):
     TROT = 1
     HOP = 2
     FINISHHOP = 3
+    #ARM = 4

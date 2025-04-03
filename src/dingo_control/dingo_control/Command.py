@@ -19,6 +19,7 @@ class Command:
         
         self.hop_event = False
         self.trot_event = False
+        #self.arm_event = False
         self.joystick_control_event = False
     
     def __repr__(self):
