@@ -27,6 +27,8 @@ extern "C"
 // Member 'rl_foot'
 // Member 'rr_foot'
 #include "dingo_control_msg/msg/detail/angle__struct.h"
+// Member 'exc_arm'
+#include "dingo_control_msg/msg/detail/arm_angle__struct.h"
 
 /// Struct defined in msg/JointSpace in the package dingo_control_msg.
 typedef struct dingo_control_msg__msg__JointSpace
@@ -36,6 +38,7 @@ typedef struct dingo_control_msg__msg__JointSpace
   dingo_control_msg__msg__Angle fr_foot;
   dingo_control_msg__msg__Angle rl_foot;
   dingo_control_msg__msg__Angle rr_foot;
+  dingo_control_msg__msg__ArmAngle exc_arm;
 } dingo_control_msg__msg__JointSpace;
 
 // Struct for a sequence of dingo_control_msg__msg__JointSpace.

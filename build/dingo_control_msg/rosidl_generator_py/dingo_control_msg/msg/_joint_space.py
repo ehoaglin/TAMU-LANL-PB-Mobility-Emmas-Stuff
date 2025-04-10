@@ -53,6 +53,10 @@ class Metaclass_JointSpace(type):
             if Angle.__class__._TYPE_SUPPORT is None:
                 Angle.__class__.__import_type_support__()
 
+            from dingo_control_msg.msg import ArmAngle
+            if ArmAngle.__class__._TYPE_SUPPORT is None:
+                ArmAngle.__class__.__import_type_support__()
+
             from std_msgs.msg import Header
             if Header.__class__._TYPE_SUPPORT is None:
                 Header.__class__.__import_type_support__()
@@ -75,6 +79,7 @@ class JointSpace(metaclass=Metaclass_JointSpace):
         '_fr_foot',
         '_rl_foot',
         '_rr_foot',
+        '_exc_arm',
         '_check_fields',
     ]
 
@@ -84,6 +89,7 @@ class JointSpace(metaclass=Metaclass_JointSpace):
         'fr_foot': 'dingo_control_msg/Angle',
         'rl_foot': 'dingo_control_msg/Angle',
         'rr_foot': 'dingo_control_msg/Angle',
+        'exc_arm': 'dingo_control_msg/ArmAngle',
     }
 
     # This attribute is used to store an rosidl_parser.definition variable
@@ -94,6 +100,7 @@ class JointSpace(metaclass=Metaclass_JointSpace):
         rosidl_parser.definition.NamespacedType(['dingo_control_msg', 'msg'], 'Angle'),  # noqa: E501
         rosidl_parser.definition.NamespacedType(['dingo_control_msg', 'msg'], 'Angle'),  # noqa: E501
         rosidl_parser.definition.NamespacedType(['dingo_control_msg', 'msg'], 'Angle'),  # noqa: E501
+        rosidl_parser.definition.NamespacedType(['dingo_control_msg', 'msg'], 'ArmAngle'),  # noqa: E501
     )
 
     def __init__(self, **kwargs):
@@ -115,6 +122,8 @@ class JointSpace(metaclass=Metaclass_JointSpace):
         self.rl_foot = kwargs.get('rl_foot', Angle())
         from dingo_control_msg.msg import Angle
         self.rr_foot = kwargs.get('rr_foot', Angle())
+        from dingo_control_msg.msg import ArmAngle
+        self.exc_arm = kwargs.get('exc_arm', ArmAngle())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -155,6 +164,8 @@ class JointSpace(metaclass=Metaclass_JointSpace):
         if self.rl_foot != other.rl_foot:
             return False
         if self.rr_foot != other.rr_foot:
+            return False
+        if self.exc_arm != other.exc_arm:
             return False
         return True
 
@@ -232,3 +243,17 @@ class JointSpace(metaclass=Metaclass_JointSpace):
                 isinstance(value, Angle), \
                 "The 'rr_foot' field must be a sub message of type 'Angle'"
         self._rr_foot = value
+
+    @builtins.property
+    def exc_arm(self):
+        """Message field 'exc_arm'."""
+        return self._exc_arm
+
+    @exc_arm.setter
+    def exc_arm(self, value):
+        if self._check_fields:
+            from dingo_control_msg.msg import ArmAngle
+            assert \
+                isinstance(value, ArmAngle), \
+                "The 'exc_arm' field must be a sub message of type 'ArmAngle'"
+        self._exc_arm = value

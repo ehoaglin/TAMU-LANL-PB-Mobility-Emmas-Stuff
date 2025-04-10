@@ -70,10 +70,12 @@ include /home/ehoaglin/ros2_ws/build/dingo_control_msg/dingo_control_msg__py/CMa
 /home/ehoaglin/ros2_ws/build/dingo_control_msg/dingo_control_msg__py/CMakeFiles/dingo_control_msg__py: rosidl_generator_py/dingo_control_msg/_dingo_control_msg_s.ep.rosidl_typesupport_introspection_c.c
 /home/ehoaglin/ros2_ws/build/dingo_control_msg/dingo_control_msg__py/CMakeFiles/dingo_control_msg__py: rosidl_generator_py/dingo_control_msg/_dingo_control_msg_s.ep.rosidl_typesupport_c.c
 /home/ehoaglin/ros2_ws/build/dingo_control_msg/dingo_control_msg__py/CMakeFiles/dingo_control_msg__py: rosidl_generator_py/dingo_control_msg/msg/_angle.py
+/home/ehoaglin/ros2_ws/build/dingo_control_msg/dingo_control_msg__py/CMakeFiles/dingo_control_msg__py: rosidl_generator_py/dingo_control_msg/msg/_arm_angle.py
 /home/ehoaglin/ros2_ws/build/dingo_control_msg/dingo_control_msg__py/CMakeFiles/dingo_control_msg__py: rosidl_generator_py/dingo_control_msg/msg/_joint_space.py
 /home/ehoaglin/ros2_ws/build/dingo_control_msg/dingo_control_msg__py/CMakeFiles/dingo_control_msg__py: rosidl_generator_py/dingo_control_msg/msg/_task_space.py
 /home/ehoaglin/ros2_ws/build/dingo_control_msg/dingo_control_msg__py/CMakeFiles/dingo_control_msg__py: rosidl_generator_py/dingo_control_msg/msg/__init__.py
 /home/ehoaglin/ros2_ws/build/dingo_control_msg/dingo_control_msg__py/CMakeFiles/dingo_control_msg__py: rosidl_generator_py/dingo_control_msg/msg/_angle_s.c
+/home/ehoaglin/ros2_ws/build/dingo_control_msg/dingo_control_msg__py/CMakeFiles/dingo_control_msg__py: rosidl_generator_py/dingo_control_msg/msg/_arm_angle_s.c
 /home/ehoaglin/ros2_ws/build/dingo_control_msg/dingo_control_msg__py/CMakeFiles/dingo_control_msg__py: rosidl_generator_py/dingo_control_msg/msg/_joint_space_s.c
 /home/ehoaglin/ros2_ws/build/dingo_control_msg/dingo_control_msg__py/CMakeFiles/dingo_control_msg__py: rosidl_generator_py/dingo_control_msg/msg/_task_space_s.c
 
@@ -91,6 +93,7 @@ rosidl_generator_py/dingo_control_msg/_dingo_control_msg_s.ep.rosidl_typesupport
 rosidl_generator_py/dingo_control_msg/_dingo_control_msg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/dingo_control_msg/_dingo_control_msg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/dingo_control_msg/_dingo_control_msg_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/dingo_control_msg/msg/Angle.idl
+rosidl_generator_py/dingo_control_msg/_dingo_control_msg_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/dingo_control_msg/msg/ArmAngle.idl
 rosidl_generator_py/dingo_control_msg/_dingo_control_msg_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/dingo_control_msg/msg/JointSpace.idl
 rosidl_generator_py/dingo_control_msg/_dingo_control_msg_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/dingo_control_msg/msg/TaskSpace.idl
 rosidl_generator_py/dingo_control_msg/_dingo_control_msg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl
@@ -169,6 +172,9 @@ rosidl_generator_py/dingo_control_msg/_dingo_control_msg_s.ep.rosidl_typesupport
 rosidl_generator_py/dingo_control_msg/msg/_angle.py: rosidl_generator_py/dingo_control_msg/_dingo_control_msg_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/dingo_control_msg/msg/_angle.py
 
+rosidl_generator_py/dingo_control_msg/msg/_arm_angle.py: rosidl_generator_py/dingo_control_msg/_dingo_control_msg_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/dingo_control_msg/msg/_arm_angle.py
+
 rosidl_generator_py/dingo_control_msg/msg/_joint_space.py: rosidl_generator_py/dingo_control_msg/_dingo_control_msg_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/dingo_control_msg/msg/_joint_space.py
 
@@ -180,6 +186,9 @@ rosidl_generator_py/dingo_control_msg/msg/__init__.py: rosidl_generator_py/dingo
 
 rosidl_generator_py/dingo_control_msg/msg/_angle_s.c: rosidl_generator_py/dingo_control_msg/_dingo_control_msg_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/dingo_control_msg/msg/_angle_s.c
+
+rosidl_generator_py/dingo_control_msg/msg/_arm_angle_s.c: rosidl_generator_py/dingo_control_msg/_dingo_control_msg_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/dingo_control_msg/msg/_arm_angle_s.c
 
 rosidl_generator_py/dingo_control_msg/msg/_joint_space_s.c: rosidl_generator_py/dingo_control_msg/_dingo_control_msg_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/dingo_control_msg/msg/_joint_space_s.c
@@ -194,6 +203,8 @@ dingo_control_msg__py: rosidl_generator_py/dingo_control_msg/_dingo_control_msg_
 dingo_control_msg__py: rosidl_generator_py/dingo_control_msg/msg/__init__.py
 dingo_control_msg__py: rosidl_generator_py/dingo_control_msg/msg/_angle.py
 dingo_control_msg__py: rosidl_generator_py/dingo_control_msg/msg/_angle_s.c
+dingo_control_msg__py: rosidl_generator_py/dingo_control_msg/msg/_arm_angle.py
+dingo_control_msg__py: rosidl_generator_py/dingo_control_msg/msg/_arm_angle_s.c
 dingo_control_msg__py: rosidl_generator_py/dingo_control_msg/msg/_joint_space.py
 dingo_control_msg__py: rosidl_generator_py/dingo_control_msg/msg/_joint_space_s.c
 dingo_control_msg__py: rosidl_generator_py/dingo_control_msg/msg/_task_space.py

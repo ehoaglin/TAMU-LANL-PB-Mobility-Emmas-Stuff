@@ -24,16 +24,32 @@ namespace msg
 namespace builder
 {
 
+class Init_JointSpace_exc_arm
+{
+public:
+  explicit Init_JointSpace_exc_arm(::dingo_control_msg::msg::JointSpace & msg)
+  : msg_(msg)
+  {}
+  ::dingo_control_msg::msg::JointSpace exc_arm(::dingo_control_msg::msg::JointSpace::_exc_arm_type arg)
+  {
+    msg_.exc_arm = std::move(arg);
+    return std::move(msg_);
+  }
+
+private:
+  ::dingo_control_msg::msg::JointSpace msg_;
+};
+
 class Init_JointSpace_rr_foot
 {
 public:
   explicit Init_JointSpace_rr_foot(::dingo_control_msg::msg::JointSpace & msg)
   : msg_(msg)
   {}
-  ::dingo_control_msg::msg::JointSpace rr_foot(::dingo_control_msg::msg::JointSpace::_rr_foot_type arg)
+  Init_JointSpace_exc_arm rr_foot(::dingo_control_msg::msg::JointSpace::_rr_foot_type arg)
   {
     msg_.rr_foot = std::move(arg);
-    return std::move(msg_);
+    return Init_JointSpace_exc_arm(msg_);
   }
 
 private:

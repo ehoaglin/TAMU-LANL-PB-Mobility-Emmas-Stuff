@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/dingo_control_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dingo_control_msg/msg/detail/dds_fastrtps/angle__type_support.cpp.o"
   "CMakeFiles/dingo_control_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dingo_control_msg/msg/detail/dds_fastrtps/angle__type_support.cpp.o.d"
+  "CMakeFiles/dingo_control_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dingo_control_msg/msg/detail/dds_fastrtps/arm_angle__type_support.cpp.o"
+  "CMakeFiles/dingo_control_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dingo_control_msg/msg/detail/dds_fastrtps/arm_angle__type_support.cpp.o.d"
   "CMakeFiles/dingo_control_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dingo_control_msg/msg/detail/dds_fastrtps/joint_space__type_support.cpp.o"
   "CMakeFiles/dingo_control_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dingo_control_msg/msg/detail/dds_fastrtps/joint_space__type_support.cpp.o.d"
   "CMakeFiles/dingo_control_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dingo_control_msg/msg/detail/dds_fastrtps/task_space__type_support.cpp.o"
@@ -8,7 +10,9 @@ file(REMOVE_RECURSE
   "libdingo_control_msg__rosidl_typesupport_fastrtps_cpp.pdb"
   "libdingo_control_msg__rosidl_typesupport_fastrtps_cpp.so"
   "rosidl_typesupport_fastrtps_cpp/dingo_control_msg/msg/detail/angle__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/dingo_control_msg/msg/detail/arm_angle__rosidl_typesupport_fastrtps_cpp.hpp"
   "rosidl_typesupport_fastrtps_cpp/dingo_control_msg/msg/detail/dds_fastrtps/angle__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/dingo_control_msg/msg/detail/dds_fastrtps/arm_angle__type_support.cpp"
   "rosidl_typesupport_fastrtps_cpp/dingo_control_msg/msg/detail/dds_fastrtps/joint_space__type_support.cpp"
   "rosidl_typesupport_fastrtps_cpp/dingo_control_msg/msg/detail/dds_fastrtps/task_space__type_support.cpp"
   "rosidl_typesupport_fastrtps_cpp/dingo_control_msg/msg/detail/joint_space__rosidl_typesupport_fastrtps_cpp.hpp"

@@ -67,16 +67,21 @@ include CMakeFiles/dingo_control_msg__rosidl_generator_type_description.dir/comp
 include CMakeFiles/dingo_control_msg__rosidl_generator_type_description.dir/progress.make
 
 CMakeFiles/dingo_control_msg__rosidl_generator_type_description: rosidl_generator_type_description/dingo_control_msg/msg/Angle.json
+CMakeFiles/dingo_control_msg__rosidl_generator_type_description: rosidl_generator_type_description/dingo_control_msg/msg/ArmAngle.json
 CMakeFiles/dingo_control_msg__rosidl_generator_type_description: rosidl_generator_type_description/dingo_control_msg/msg/JointSpace.json
 CMakeFiles/dingo_control_msg__rosidl_generator_type_description: rosidl_generator_type_description/dingo_control_msg/msg/TaskSpace.json
 
 rosidl_generator_type_description/dingo_control_msg/msg/Angle.json: /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description
 rosidl_generator_type_description/dingo_control_msg/msg/Angle.json: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py
 rosidl_generator_type_description/dingo_control_msg/msg/Angle.json: rosidl_adapter/dingo_control_msg/msg/Angle.idl
+rosidl_generator_type_description/dingo_control_msg/msg/Angle.json: rosidl_adapter/dingo_control_msg/msg/ArmAngle.idl
 rosidl_generator_type_description/dingo_control_msg/msg/Angle.json: rosidl_adapter/dingo_control_msg/msg/JointSpace.idl
 rosidl_generator_type_description/dingo_control_msg/msg/Angle.json: rosidl_adapter/dingo_control_msg/msg/TaskSpace.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ehoaglin/ros2_ws/build/dingo_control_msg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating type hashes for ROS interfaces"
 	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_generator_type_description__arguments.json
+
+rosidl_generator_type_description/dingo_control_msg/msg/ArmAngle.json: rosidl_generator_type_description/dingo_control_msg/msg/Angle.json
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_type_description/dingo_control_msg/msg/ArmAngle.json
 
 rosidl_generator_type_description/dingo_control_msg/msg/JointSpace.json: rosidl_generator_type_description/dingo_control_msg/msg/Angle.json
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_type_description/dingo_control_msg/msg/JointSpace.json
@@ -86,6 +91,7 @@ rosidl_generator_type_description/dingo_control_msg/msg/TaskSpace.json: rosidl_g
 
 dingo_control_msg__rosidl_generator_type_description: CMakeFiles/dingo_control_msg__rosidl_generator_type_description
 dingo_control_msg__rosidl_generator_type_description: rosidl_generator_type_description/dingo_control_msg/msg/Angle.json
+dingo_control_msg__rosidl_generator_type_description: rosidl_generator_type_description/dingo_control_msg/msg/ArmAngle.json
 dingo_control_msg__rosidl_generator_type_description: rosidl_generator_type_description/dingo_control_msg/msg/JointSpace.json
 dingo_control_msg__rosidl_generator_type_description: rosidl_generator_type_description/dingo_control_msg/msg/TaskSpace.json
 dingo_control_msg__rosidl_generator_type_description: CMakeFiles/dingo_control_msg__rosidl_generator_type_description.dir/build.make

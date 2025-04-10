@@ -18,6 +18,13 @@ class Configuration:
         self.max_yaw_rate = 2.0
         self.max_pitch = 30.0 * np.pi / 180.0
         
+        #################### ARM ####################
+        
+        self.arm_joint1 = 0.0
+        self.arm_joint2 = -75
+        self.arm_joint3 = 160.0
+        self.arm_joint4 = 180.0
+
         #################### MOVEMENT PARAMS ####################
         self.z_time_constant = 0.02
         self.z_speed = 0.06  # maximum speed [m/s]
@@ -42,7 +49,7 @@ class Configuration:
 
         #################### SWING ######################
         self.z_coeffs = None
-        self.z_clearance = 0.08#0.07
+        self.z_clearance = 0.07
         self.alpha = (
             0.5  # Ratio between touchdown distance and total horizontal stance movement
         )
@@ -114,6 +121,10 @@ class Configuration:
                 [0, 0, 0, 0],
             ]
         )
+    
+    @property
+    def default_arm(self):
+        return np.array([0, 0, 0, 0])
 
     ################## SWING ###########################
     @property

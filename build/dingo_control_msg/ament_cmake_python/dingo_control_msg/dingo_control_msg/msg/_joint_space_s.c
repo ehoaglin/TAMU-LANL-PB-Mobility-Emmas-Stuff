@@ -28,6 +28,8 @@ bool dingo_control_msg__msg__angle__convert_from_py(PyObject * _pymsg, void * _r
 PyObject * dingo_control_msg__msg__angle__convert_to_py(void * raw_ros_message);
 bool dingo_control_msg__msg__angle__convert_from_py(PyObject * _pymsg, void * _ros_message);
 PyObject * dingo_control_msg__msg__angle__convert_to_py(void * raw_ros_message);
+bool dingo_control_msg__msg__arm_angle__convert_from_py(PyObject * _pymsg, void * _ros_message);
+PyObject * dingo_control_msg__msg__arm_angle__convert_to_py(void * raw_ros_message);
 
 ROSIDL_GENERATOR_C_EXPORT
 bool dingo_control_msg__msg__joint_space__convert_from_py(PyObject * _pymsg, void * _ros_message)
@@ -112,6 +114,17 @@ bool dingo_control_msg__msg__joint_space__convert_from_py(PyObject * _pymsg, voi
       return false;
     }
     if (!dingo_control_msg__msg__angle__convert_from_py(field, &ros_message->rr_foot)) {
+      Py_DECREF(field);
+      return false;
+    }
+    Py_DECREF(field);
+  }
+  {  // exc_arm
+    PyObject * field = PyObject_GetAttrString(_pymsg, "exc_arm");
+    if (!field) {
+      return false;
+    }
+    if (!dingo_control_msg__msg__arm_angle__convert_from_py(field, &ros_message->exc_arm)) {
       Py_DECREF(field);
       return false;
     }
@@ -203,6 +216,20 @@ PyObject * dingo_control_msg__msg__joint_space__convert_to_py(void * raw_ros_mes
     }
     {
       int rc = PyObject_SetAttrString(_pymessage, "rr_foot", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // exc_arm
+    PyObject * field = NULL;
+    field = dingo_control_msg__msg__arm_angle__convert_to_py(&ros_message->exc_arm);
+    if (!field) {
+      return NULL;
+    }
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "exc_arm", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

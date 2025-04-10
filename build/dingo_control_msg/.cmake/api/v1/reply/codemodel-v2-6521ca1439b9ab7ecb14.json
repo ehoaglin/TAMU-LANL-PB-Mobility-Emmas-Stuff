@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ad0ac539839a13f3b521.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "dingo_control_msg__py",
+					"jsonFile" : "directory-dingo_control_msg__py-1a6ab6d13fce84b164f4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/ehoaglin/ros2_ws/build/dingo_control_msg/dingo_control_msg__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "dingo_control_msg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_dingo_control_msg_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_dingo_control_msg_egg-69c56923f1d800658663.json",
+					"name" : "ament_cmake_python_build_dingo_control_msg_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_dingo_control_msg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_dingo_control_msg-bda72fd3edb1961a67b9.json",
+					"name" : "ament_cmake_python_copy_dingo_control_msg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_control_msg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_control_msg-19f1140bb107a1761970.json",
+					"name" : "dingo_control_msg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_control_msg__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_control_msg__cpp-064cda9cafd29889dd0b.json",
+					"name" : "dingo_control_msg__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "dingo_control_msg__py::@be2fa59547a1e453e8f6",
+					"jsonFile" : "target-dingo_control_msg__py-103e82fd196b12d88a2e.json",
+					"name" : "dingo_control_msg__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_control_msg__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_control_msg__rosidl_generator_c-4f17726be651edcf4fa7.json",
+					"name" : "dingo_control_msg__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_control_msg__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_control_msg__rosidl_generator_py-f91e5995da6b76bc86d8.json",
+					"name" : "dingo_control_msg__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_control_msg__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_control_msg__rosidl_generator_type_description-a244b3239943f2f76031.json",
+					"name" : "dingo_control_msg__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_control_msg__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_control_msg__rosidl_typesupport_c-a23858eb31de665f6272.json",
+					"name" : "dingo_control_msg__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_control_msg__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_control_msg__rosidl_typesupport_cpp-da0b34b7a3458fefe6c8.json",
+					"name" : "dingo_control_msg__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_control_msg__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_control_msg__rosidl_typesupport_fastrtps_c-4cbddbfe081afef913ff.json",
+					"name" : "dingo_control_msg__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_control_msg__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_control_msg__rosidl_typesupport_fastrtps_cpp-8859f0ad264fc305820d.json",
+					"name" : "dingo_control_msg__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_control_msg__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_control_msg__rosidl_typesupport_introspection_c-d983ae2dec47f0f9d011.json",
+					"name" : "dingo_control_msg__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_control_msg__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_control_msg__rosidl_typesupport_introspection_cpp-7dcfefb56d1e80b565fb.json",
+					"name" : "dingo_control_msg__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_control_msg_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_control_msg_s__rosidl_typesupport_c-77bf568386cee00d430c.json",
+					"name" : "dingo_control_msg_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_control_msg_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_control_msg_s__rosidl_typesupport_fastrtps_c-9e3e8ac803fb04938710.json",
+					"name" : "dingo_control_msg_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_control_msg_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_control_msg_s__rosidl_typesupport_introspection_c-f17903856c6c3936a9de.json",
+					"name" : "dingo_control_msg_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_control_msg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_control_msg_uninstall-6b641b95c288af34f890.json",
+					"name" : "dingo_control_msg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-4e3c47bf810e42be0420.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ehoaglin/ros2_ws/build/dingo_control_msg",
+		"source" : "/home/ehoaglin/ros2_ws/src/dingo_control_msg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

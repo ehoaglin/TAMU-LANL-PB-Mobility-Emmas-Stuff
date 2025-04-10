@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "/home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_generator_py/dingo_control_msg/msg/__init__.py"
   "/home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_generator_py/dingo_control_msg/msg/_angle.py"
   "/home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_generator_py/dingo_control_msg/msg/_angle_s.c"
+  "/home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_generator_py/dingo_control_msg/msg/_arm_angle.py"
+  "/home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_generator_py/dingo_control_msg/msg/_arm_angle_s.c"
   "/home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_generator_py/dingo_control_msg/msg/_joint_space.py"
   "/home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_generator_py/dingo_control_msg/msg/_joint_space_s.c"
   "/home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_generator_py/dingo_control_msg/msg/_task_space.py"

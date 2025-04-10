@@ -227,6 +227,7 @@ CMakeFiles/dingo_control_msg__rosidl_generator_py.dir/rosidl_generator_py/dingo_
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
  /home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_generator_c/dingo_control_msg/msg/detail/angle__struct.h \
+ /home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__struct.h \
  /home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__functions.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \

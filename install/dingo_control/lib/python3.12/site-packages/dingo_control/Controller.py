@@ -29,10 +29,9 @@ class Controller:
         config,
         inverse_kinematics,
     ):
-        self.node = node
+        self.node = node # This builds on the existing node which is required for ROS2 because we cannot have multiple nodes spinning with one launch
         self.config = config
 
-        #self.node = rclpy.create_node('controller_node') # adding this
 
                 ################# ROS PUBLISHER FOR TASK SPACE GOALS ##############
         self.task_space_pub = self.node.create_publisher(TaskSpace, 'task_space_goals', 10) # (2) changing to self.node = rclpy.node.create_publisher() (1)replacing rospy.Publisher with rclpy.create_publisher
@@ -53,6 +52,7 @@ class Controller:
         self.hop_transition_mapping = {BehaviorState.REST: BehaviorState.HOP, BehaviorState.HOP: BehaviorState.FINISHHOP, BehaviorState.FINISHHOP: BehaviorState.REST, BehaviorState.TROT: BehaviorState.HOP}
         self.trot_transition_mapping = {BehaviorState.REST: BehaviorState.TROT, BehaviorState.TROT: BehaviorState.REST, BehaviorState.HOP: BehaviorState.TROT, BehaviorState.FINISHHOP: BehaviorState.TROT}
         self.activate_transition_mapping = {BehaviorState.DEACTIVATED: BehaviorState.REST, BehaviorState.REST: BehaviorState.DEACTIVATED}
+        self.arm_transition_mapping = {BehaviorState.REST: BehaviorState.ARM, BehaviorState.ARM: BehaviorState.REST}
 
 
     def step_gait(self, state, command):
@@ -83,8 +83,7 @@ class Controller:
             new_foot_locations[:, leg_index] = new_location
         return new_foot_locations, contact_modes
 
-
-    def publish_task_space_command(self, rotated_foot_locations):
+    def publish_task_space_command(self, rotated_foot_locations): #arm_angles
 
         task_space_message = TaskSpace()
         #task_space_message.fr_foot.theta1 = rotated_foot_locations[0, 0] - self.config.LEG_ORIGINS[0, 0]
@@ -92,12 +91,13 @@ class Controller:
         task_space_message.fl_foot = [rotated_foot_locations[0, 1] - self.config.LEG_ORIGINS[0, 1], rotated_foot_locations[1, 1] - self.config.LEG_ORIGINS[1, 1], rotated_foot_locations[2, 1] - self.config.LEG_ORIGINS[2, 1]]
         task_space_message.rr_foot = [rotated_foot_locations[0, 2] - self.config.LEG_ORIGINS[0, 2], rotated_foot_locations[1, 2] - self.config.LEG_ORIGINS[1, 2], rotated_foot_locations[2, 2] - self.config.LEG_ORIGINS[2, 2]]
         task_space_message.rl_foot = [rotated_foot_locations[0, 3] - self.config.LEG_ORIGINS[0, 3], rotated_foot_locations[1, 3] - self.config.LEG_ORIGINS[1, 3], rotated_foot_locations[2, 3] - self.config.LEG_ORIGINS[2, 3]]
+        # task_space_message.arm_angles = [arm_angles[0, 0], arm_angles[1, 0], arm_angles[2, 0], arm_angles[3, 0]]
         task_space_message.header.stamp = self.clock.now().to_msg()
         #task_space_message.header = Header(stamp=self.clock.now()) #replacing rospy.Time.now() with self.clock.now()
         self.task_space_pub.publish(task_space_message)
         #self.node.get_logger().info(f"Task space message: {task_space_message}")
 
-    def publish_joint_space_command(self, angle_matrix):
+    def publish_joint_space_command(self, angle_matrix, arm_matrix): #arm_matrix
 
         joint_space_message = JointSpace()
         joint_space_message.fr_foot.theta1 = degrees(angle_matrix[0, 0])
@@ -112,7 +112,10 @@ class Controller:
         joint_space_message.rl_foot.theta1 = degrees(angle_matrix[0, 3])
         joint_space_message.rl_foot.theta2 = degrees(angle_matrix[1, 3])
         joint_space_message.rl_foot.theta3 = degrees(angle_matrix[2, 3])
-        
+        joint_space_message.exc_arm.theta1 = arm_matrix[0, 0]
+        joint_space_message.exc_arm.theta2 = arm_matrix[0, 1]
+        joint_space_message.exc_arm.theta3 = arm_matrix[0, 2]
+        joint_space_message.exc_arm.theta4 = arm_matrix[0, 3]
         joint_space_message.header.stamp = self.clock.now().to_msg()
         #joint_space_message.header = Header(stamp=self.clock.now().to_msg())  # replacing rospy.Time.now() with self.clock.now()
         # joint_space_message.FR_foot = Angle(degrees(angle_matrix[0, 0]), degrees(angle_matrix[1, 0]), degrees(angle_matrix[2, 0]))
@@ -143,7 +146,9 @@ class Controller:
             state.behavior_state = self.trot_transition_mapping[state.behavior_state]
         elif command.hop_event:
             state.behavior_state = self.hop_transition_mapping[state.behavior_state]
-
+        elif command.arm_event:
+           state.behavior_state = self.arm_transition_mapping[state.behavior_state]
+        
         if previous_state != state.behavior_state:
             self.node.get_logger().info(f"State changed from {previous_state} to {state.behavior_state}") #changing from rospy.loginfo() to logger.info()
 
@@ -163,7 +168,6 @@ class Controller:
 
             # Construct foot rotation matrix to compensate for body tilt
             yaw,pitch,roll = state.euler_orientation
-            #print('Yaw: ',np.round(yaw),'Pitch: ',np.round(pitch),'Roll: ',np.round(roll))
             correction_factor = 0.8
             max_tilt = 0.4
             roll_compensation = correction_factor * np.clip(roll, -max_tilt, max_tilt)
@@ -188,6 +192,33 @@ class Controller:
                     self.config.yaw_time_constant,
                 )
             )
+
+            # Set the foot locations to the default stance plus the standard height
+            state.foot_locations = (
+                self.config.default_stance
+                + np.array([0, 0, command.height])[:, np.newaxis]
+            )
+
+            # Apply the desired body rotation
+            rotated_foot_locations = (
+                euler2mat(
+                    command.roll,
+                    command.pitch,
+                    self.smoothed_yaw,
+                )
+                @ state.foot_locations
+            )
+            
+            # Construct foot rotation matrix to compensate for body tilt
+            rotated_foot_locations = self.stabilise_with_IMU(rotated_foot_locations,state.euler_orientation)
+
+            state.joint_angles = self.inverse_kinematics(
+                rotated_foot_locations
+            )
+
+            state.rotated_foot_locations = rotated_foot_locations
+        
+        elif state.behavior_state == BehaviorState.ARM:
             # Set the foot locations to the default stance plus the standard height
             state.foot_locations = (
                 self.config.default_stance
@@ -197,7 +228,7 @@ class Controller:
             rotated_foot_locations = (
                 euler2mat(
                     command.roll,
-                    command.pitch,
+                    0,
                     self.smoothed_yaw,
                 )
                 @ state.foot_locations
@@ -210,6 +241,13 @@ class Controller:
                 rotated_foot_locations
             )
             state.rotated_foot_locations = rotated_foot_locations
+            
+            # Set the arm angles to the default arm position plus the command
+            state.arm_joint_angles = (self.config.default_arm
+                                  + command.arm_movement)
+            
+            # Reshape the arm joint angles to match the expected input shape
+            state.arm_joint_angles = state.arm_joint_angles.reshape(1,4)
 
         state.ticks += 1
         state.pitch = command.pitch
@@ -226,10 +264,11 @@ class Controller:
             state.foot_locations, self.config
         )
         return state.joint_angles
+    
+
     def stabilise_with_IMU(self,foot_locations,orientation):
-        ''' Applies euler orientatin data of pitch roall and yaw to stabilise hte robt. Current only applying to pitch.'''
+        ''' Applies euler orientatin data of pitch roll and yaw to stabilise hte robt. Current only applying to pitch.'''
         yaw,pitch,roll = orientation
-        # print('Yaw: ',np.round(np.degrees(yaw)),'Pitch: ',np.round(np.degrees(pitch)),'Roll: ',np.round(np.degrees(roll)))
         correction_factor = 0.5
         max_tilt = 0.4 #radians
         roll_compensation = correction_factor * np.clip(-roll, -max_tilt, max_tilt)

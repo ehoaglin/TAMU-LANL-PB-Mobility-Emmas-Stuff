@@ -1,0 +1,216 @@
+[0.060s] Invoking command in '/home/ehoaglin/ros2_ws/build/dingo_control_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ehoaglin/ros2_ws/install/dualsense_interface:/opt/ros/jazzy /usr/bin/cmake --build /home/ehoaglin/ros2_ws/build/dingo_control_msg -- -j12 -l12
+[0.860s] [  1%] Built target dingo_control_msg__rosidl_generator_type_description
+[0.863s] [  1%] Built target ament_cmake_python_copy_dingo_control_msg
+[0.865s] [  3%] Built target dingo_control_msg__cpp
+[0.866s] [ 25%] Built target dingo_control_msg__rosidl_generator_c
+[0.867s] [ 34%] Built target dingo_control_msg__rosidl_typesupport_cpp
+[0.868s] [ 43%] Built target dingo_control_msg__rosidl_typesupport_introspection_cpp
+[0.869s] [ 53%] Built target dingo_control_msg__rosidl_typesupport_fastrtps_c
+[0.869s] [ 62%] Built target dingo_control_msg__rosidl_typesupport_c
+[0.870s] [ 71%] Built target dingo_control_msg__rosidl_typesupport_fastrtps_cpp
+[0.870s] [ 81%] Built target dingo_control_msg__rosidl_typesupport_introspection_c
+[0.874s] [ 81%] Built target dingo_control_msg
+[0.880s] [ 82%] Built target dingo_control_msg__py
+[0.883s] [ 90%] Built target dingo_control_msg__rosidl_generator_py
+[0.883s] [ 93%] Built target dingo_control_msg_s__rosidl_typesupport_c
+[0.884s] [ 96%] Built target dingo_control_msg_s__rosidl_typesupport_fastrtps_c
+[0.884s] [100%] Built target dingo_control_msg_s__rosidl_typesupport_introspection_c
+[0.954s] running egg_info
+[1.074s] writing dingo_control_msg.egg-info/PKG-INFO
+[1.075s] writing dependency_links to dingo_control_msg.egg-info/dependency_links.txt
+[1.081s] writing top-level names to dingo_control_msg.egg-info/top_level.txt
+[1.438s] reading manifest file 'dingo_control_msg.egg-info/SOURCES.txt'
+[1.441s] writing manifest file 'dingo_control_msg.egg-info/SOURCES.txt'
+[1.568s] [100%] Built target ament_cmake_python_build_dingo_control_msg_egg
+[1.602s] Invoked command in '/home/ehoaglin/ros2_ws/build/dingo_control_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ehoaglin/ros2_ws/install/dualsense_interface:/opt/ros/jazzy /usr/bin/cmake --build /home/ehoaglin/ros2_ws/build/dingo_control_msg -- -j12 -l12
+[1.603s] Invoking command in '/home/ehoaglin/ros2_ws/build/dingo_control_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ehoaglin/ros2_ws/install/dualsense_interface:/opt/ros/jazzy /usr/bin/cmake --install /home/ehoaglin/ros2_ws/build/dingo_control_msg
+[1.637s] -- Install configuration: ""
+[1.637s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/share/ament_index/resource_index/rosidl_interfaces/dingo_control_msg
+[1.637s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/share/dingo_control_msg/msg/Angle.json
+[1.638s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/share/dingo_control_msg/msg/ArmAngle.json
+[1.638s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/share/dingo_control_msg/msg/JointSpace.json
+[1.639s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/share/dingo_control_msg/msg/TaskSpace.json
+[1.639s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg
+[1.640s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg
+[1.641s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail
+[1.646s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/task_space__type_support.c
+[1.651s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/task_space__functions.h
+[1.651s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/joint_space__functions.h
+[1.651s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/arm_angle__type_support.h
+[1.652s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/joint_space__type_support.c
+[1.652s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/angle__functions.h
+[1.653s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/angle__type_support.h
+[1.653s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/angle__struct.h
+[1.653s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/joint_space__struct.h
+[1.654s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/arm_angle__type_support.c
+[1.654s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/angle__description.c
+[1.654s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/task_space__struct.h
+[1.655s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/task_space__type_support.h
+[1.655s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/task_space__functions.c
+[1.655s] -- Installing: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/angle__type_support.c
+[1.655s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/joint_space__type_support.h
+[1.656s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/arm_angle__functions.c
+[1.656s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/joint_space__functions.c
+[1.656s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/arm_angle__functions.h
+[1.657s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/arm_angle__description.c
+[1.657s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/task_space__description.c
+[1.658s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/angle__functions.c
+[1.658s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/arm_angle__struct.h
+[1.659s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/joint_space__description.c
+[1.659s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/task_space.h
+[1.659s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/joint_space.h
+[1.660s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/angle.h
+[1.660s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/arm_angle.h
+[1.660s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/rosidl_generator_c__visibility_control.h
+[1.661s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/share/dingo_control_msg/environment/library_path.sh
+[1.661s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/share/dingo_control_msg/environment/library_path.dsv
+[1.662s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/lib/libdingo_control_msg__rosidl_generator_c.so
+[1.663s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg
+[1.663s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg
+[1.665s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail
+[1.665s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/arm_angle__rosidl_typesupport_fastrtps_c.h
+[1.666s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/angle__rosidl_typesupport_fastrtps_c.h
+[1.667s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/joint_space__rosidl_typesupport_fastrtps_c.h
+[1.667s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/task_space__rosidl_typesupport_fastrtps_c.h
+[1.668s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.668s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/lib/libdingo_control_msg__rosidl_typesupport_fastrtps_c.so
+[1.670s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg
+[1.671s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg
+[1.671s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail
+[1.672s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/joint_space__struct.hpp
+[1.672s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/task_space__type_support.hpp
+[1.675s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/angle__type_support.hpp
+[1.677s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/arm_angle__traits.hpp
+[1.685s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/task_space__struct.hpp
+[1.686s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/task_space__traits.hpp
+[1.686s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/angle__traits.hpp
+[1.687s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/joint_space__builder.hpp
+[1.687s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/joint_space__type_support.hpp
+[1.688s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/task_space__builder.hpp
+[1.688s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/angle__struct.hpp
+[1.689s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/arm_angle__struct.hpp
+[1.690s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/arm_angle__type_support.hpp
+[1.690s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/joint_space__traits.hpp
+[1.690s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/arm_angle__builder.hpp
+[1.691s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/angle__builder.hpp
+[1.691s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/joint_space.hpp
+[1.691s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/angle.hpp
+[1.691s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.692s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/task_space.hpp
+[1.692s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/arm_angle.hpp
+[1.692s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg
+[1.693s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg
+[1.694s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail
+[1.695s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/arm_angle__rosidl_typesupport_fastrtps_cpp.hpp
+[1.695s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/dds_fastrtps
+[1.696s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/angle__rosidl_typesupport_fastrtps_cpp.hpp
+[1.696s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/task_space__rosidl_typesupport_fastrtps_cpp.hpp
+[1.696s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/joint_space__rosidl_typesupport_fastrtps_cpp.hpp
+[1.697s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.697s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/lib/libdingo_control_msg__rosidl_typesupport_fastrtps_cpp.so
+[1.698s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg
+[1.698s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg
+[1.699s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail
+[1.701s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/task_space__type_support.c
+[1.705s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/joint_space__type_support.c
+[1.706s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/angle__rosidl_typesupport_introspection_c.h
+[1.706s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/arm_angle__type_support.c
+[1.706s] -- Installing: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/angle__type_support.c
+[1.707s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/task_space__rosidl_typesupport_introspection_c.h
+[1.707s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/joint_space__rosidl_typesupport_introspection_c.h
+[1.708s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/arm_angle__rosidl_typesupport_introspection_c.h
+[1.711s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.712s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/lib/libdingo_control_msg__rosidl_typesupport_introspection_c.so
+[1.713s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/lib/libdingo_control_msg__rosidl_typesupport_c.so
+[1.713s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg
+[1.714s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg
+[1.715s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail
+[1.720s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/arm_angle__rosidl_typesupport_introspection_cpp.hpp
+[1.721s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/task_space__rosidl_typesupport_introspection_cpp.hpp
+[1.721s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/arm_angle__type_support.cpp
+[1.721s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/angle__rosidl_typesupport_introspection_cpp.hpp
+[1.722s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/angle__type_support.cpp
+[1.722s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/joint_space__type_support.cpp
+[1.722s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/task_space__type_support.cpp
+[1.723s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/include/dingo_control_msg/dingo_control_msg/msg/detail/joint_space__rosidl_typesupport_introspection_cpp.hpp
+[1.723s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/lib/libdingo_control_msg__rosidl_typesupport_introspection_cpp.so
+[1.771s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/lib/libdingo_control_msg__rosidl_typesupport_cpp.so
+[1.773s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/share/dingo_control_msg/environment/pythonpath.sh
+[1.774s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/share/dingo_control_msg/environment/pythonpath.dsv
+[1.776s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/lib/python3.12/site-packages/dingo_control_msg-0.0.0-py3.12.egg-info
+[1.778s] -- Installing: /home/ehoaglin/ros2_ws/install/dingo_control_msg/lib/python3.12/site-packages/dingo_control_msg-0.0.0-py3.12.egg-info/top_level.txt
+[1.783s] -- Installing: /home/ehoaglin/ros2_ws/install/dingo_control_msg/lib/python3.12/site-packages/dingo_control_msg-0.0.0-py3.12.egg-info/dependency_links.txt
+[1.783s] -- Installing: /home/ehoaglin/ros2_ws/install/dingo_control_msg/lib/python3.12/site-packages/dingo_control_msg-0.0.0-py3.12.egg-info/SOURCES.txt
+[1.786s] -- Installing: /home/ehoaglin/ros2_ws/install/dingo_control_msg/lib/python3.12/site-packages/dingo_control_msg-0.0.0-py3.12.egg-info/PKG-INFO
+[1.786s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/lib/python3.12/site-packages/dingo_control_msg
+[1.787s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/lib/python3.12/site-packages/dingo_control_msg/__init__.py
+[1.787s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/lib/python3.12/site-packages/dingo_control_msg/_dingo_control_msg_s.ep.rosidl_typesupport_introspection_c.c
+[1.787s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/lib/python3.12/site-packages/dingo_control_msg/dingo_control_msg_s__rosidl_typesupport_introspection_c.so
+[1.788s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/lib/python3.12/site-packages/dingo_control_msg/dingo_control_msg_s__rosidl_typesupport_c.so
+[1.788s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/lib/python3.12/site-packages/dingo_control_msg/_dingo_control_msg_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.788s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/lib/python3.12/site-packages/dingo_control_msg/dingo_control_msg_s__rosidl_typesupport_fastrtps_c.so
+[1.789s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/lib/python3.12/site-packages/dingo_control_msg/msg
+[1.789s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/lib/python3.12/site-packages/dingo_control_msg/msg/_joint_space.py
+[1.789s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/lib/python3.12/site-packages/dingo_control_msg/msg/__init__.py
+[1.790s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/lib/python3.12/site-packages/dingo_control_msg/msg/_task_space_s.c
+[1.790s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/lib/python3.12/site-packages/dingo_control_msg/msg/_arm_angle.py
+[1.790s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/lib/python3.12/site-packages/dingo_control_msg/msg/_angle.py
+[1.791s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/lib/python3.12/site-packages/dingo_control_msg/msg/_angle_s.c
+[1.791s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/lib/python3.12/site-packages/dingo_control_msg/msg/_joint_space_s.c
+[1.792s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/lib/python3.12/site-packages/dingo_control_msg/msg/_task_space.py
+[1.792s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/lib/python3.12/site-packages/dingo_control_msg/msg/_arm_angle_s.c
+[1.792s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/lib/python3.12/site-packages/dingo_control_msg/_dingo_control_msg_s.ep.rosidl_typesupport_c.c
+[1.930s] Listing '/home/ehoaglin/ros2_ws/install/dingo_control_msg/lib/python3.12/site-packages/dingo_control_msg'...
+[1.931s] Listing '/home/ehoaglin/ros2_ws/install/dingo_control_msg/lib/python3.12/site-packages/dingo_control_msg/msg'...
+[1.932s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/lib/python3.12/site-packages/dingo_control_msg/dingo_control_msg_s__rosidl_typesupport_fastrtps_c.so
+[1.932s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/lib/python3.12/site-packages/dingo_control_msg/dingo_control_msg_s__rosidl_typesupport_introspection_c.so
+[1.933s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/lib/python3.12/site-packages/dingo_control_msg/dingo_control_msg_s__rosidl_typesupport_c.so
+[1.934s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/lib/libdingo_control_msg__rosidl_generator_py.so
+[1.934s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/share/dingo_control_msg/msg/Angle.idl
+[1.936s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/share/dingo_control_msg/msg/ArmAngle.idl
+[1.938s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/share/dingo_control_msg/msg/JointSpace.idl
+[1.939s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/share/dingo_control_msg/msg/TaskSpace.idl
+[1.940s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/share/dingo_control_msg/msg/Angle.msg
+[1.941s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/share/dingo_control_msg/msg/ArmAngle.msg
+[1.942s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/share/dingo_control_msg/msg/JointSpace.msg
+[1.942s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/share/dingo_control_msg/msg/TaskSpace.msg
+[1.944s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/share/ament_index/resource_index/package_run_dependencies/dingo_control_msg
+[1.945s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/share/ament_index/resource_index/parent_prefix_path/dingo_control_msg
+[1.945s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/share/dingo_control_msg/environment/ament_prefix_path.sh
+[1.946s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/share/dingo_control_msg/environment/ament_prefix_path.dsv
+[1.947s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/share/dingo_control_msg/environment/path.sh
+[1.947s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/share/dingo_control_msg/environment/path.dsv
+[1.948s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/share/dingo_control_msg/local_setup.bash
+[1.949s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/share/dingo_control_msg/local_setup.sh
+[1.949s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/share/dingo_control_msg/local_setup.zsh
+[1.950s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/share/dingo_control_msg/local_setup.dsv
+[1.951s] -- Installing: /home/ehoaglin/ros2_ws/install/dingo_control_msg/share/dingo_control_msg/package.dsv
+[1.951s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/share/ament_index/resource_index/packages/dingo_control_msg
+[1.953s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/share/dingo_control_msg/cmake/export_dingo_control_msg__rosidl_generator_cExport.cmake
+[1.954s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/share/dingo_control_msg/cmake/export_dingo_control_msg__rosidl_generator_cExport-noconfig.cmake
+[1.954s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/share/dingo_control_msg/cmake/export_dingo_control_msg__rosidl_typesupport_fastrtps_cExport.cmake
+[1.955s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/share/dingo_control_msg/cmake/export_dingo_control_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.955s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/share/dingo_control_msg/cmake/export_dingo_control_msg__rosidl_generator_cppExport.cmake
+[1.956s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/share/dingo_control_msg/cmake/export_dingo_control_msg__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.956s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/share/dingo_control_msg/cmake/export_dingo_control_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.957s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/share/dingo_control_msg/cmake/dingo_control_msg__rosidl_typesupport_introspection_cExport.cmake
+[1.957s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/share/dingo_control_msg/cmake/dingo_control_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.962s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/share/dingo_control_msg/cmake/dingo_control_msg__rosidl_typesupport_cExport.cmake
+[1.966s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/share/dingo_control_msg/cmake/dingo_control_msg__rosidl_typesupport_cExport-noconfig.cmake
+[1.966s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/share/dingo_control_msg/cmake/dingo_control_msg__rosidl_typesupport_introspection_cppExport.cmake
+[1.968s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/share/dingo_control_msg/cmake/dingo_control_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.969s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/share/dingo_control_msg/cmake/dingo_control_msg__rosidl_typesupport_cppExport.cmake
+[1.970s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/share/dingo_control_msg/cmake/dingo_control_msg__rosidl_typesupport_cppExport-noconfig.cmake
+[1.970s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/share/dingo_control_msg/cmake/export_dingo_control_msg__rosidl_generator_pyExport.cmake
+[1.971s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/share/dingo_control_msg/cmake/export_dingo_control_msg__rosidl_generator_pyExport-noconfig.cmake
+[1.972s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/share/dingo_control_msg/cmake/rosidl_cmake-extras.cmake
+[1.972s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/share/dingo_control_msg/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.973s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/share/dingo_control_msg/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.974s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/share/dingo_control_msg/cmake/ament_cmake_export_libraries-extras.cmake
+[1.974s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/share/dingo_control_msg/cmake/ament_cmake_export_targets-extras.cmake
+[1.975s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/share/dingo_control_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.975s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/share/dingo_control_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.976s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/share/dingo_control_msg/cmake/dingo_control_msgConfig.cmake
+[1.976s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/share/dingo_control_msg/cmake/dingo_control_msgConfig-version.cmake
+[1.977s] -- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control_msg/share/dingo_control_msg/package.xml
+[2.088s] Invoked command in '/home/ehoaglin/ros2_ws/build/dingo_control_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ehoaglin/ros2_ws/install/dualsense_interface:/opt/ros/jazzy /usr/bin/cmake --install /home/ehoaglin/ros2_ws/build/dingo_control_msg

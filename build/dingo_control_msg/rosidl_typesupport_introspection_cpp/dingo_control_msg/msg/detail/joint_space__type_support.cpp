@@ -38,7 +38,7 @@ void JointSpace_fini_function(void * message_memory)
   typed_message->~JointSpace();
 }
 
-static const ::rosidl_typesupport_introspection_cpp::MessageMember JointSpace_message_member_array[5] = {
+static const ::rosidl_typesupport_introspection_cpp::MessageMember JointSpace_message_member_array[6] = {
   {
     "header",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_MESSAGE,  // type
@@ -128,13 +128,31 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember JointSpace_me
     nullptr,  // fetch(index, &value) function pointer
     nullptr,  // assign(index, value) function pointer
     nullptr  // resize(index) function pointer
+  },
+  {
+    "exc_arm",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_MESSAGE,  // type
+    0,  // upper bound of string
+    ::rosidl_typesupport_introspection_cpp::get_message_type_support_handle<dingo_control_msg::msg::ArmAngle>(),  // members of sub message
+    false,  // is key
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(dingo_control_msg::msg::JointSpace, exc_arm),  // bytes offset in struct
+    nullptr,  // default value
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
+    nullptr  // resize(index) function pointer
   }
 };
 
 static const ::rosidl_typesupport_introspection_cpp::MessageMembers JointSpace_message_members = {
   "dingo_control_msg::msg",  // message namespace
   "JointSpace",  // message name
-  5,  // number of fields
+  6,  // number of fields
   sizeof(dingo_control_msg::msg::JointSpace),
   false,  // has_any_key_member_
   JointSpace_message_member_array,  // message members

@@ -30,6 +30,7 @@ find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Angle.msg"
+  "msg/ArmAngle.msg"
   "msg/JointSpace.msg"
   "msg/TaskSpace.msg"
   DEPENDENCIES geometry_msgs std_msgs # Add packages that above messages depend on, in this case geometry_msgs for Sphere.msg

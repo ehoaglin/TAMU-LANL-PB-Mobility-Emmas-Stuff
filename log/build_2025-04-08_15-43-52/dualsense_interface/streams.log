@@ -1,0 +1,21 @@
+[2.176s] Invoking command in '/home/ehoaglin/ros2_ws/src/dualsense_interface': PYTHONPATH=/home/ehoaglin/ros2_ws/build/dualsense_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ehoaglin/ros2_ws/install/dualsense_interface/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dualsense_interface build --build-base /home/ehoaglin/ros2_ws/build/dualsense_interface/build install --record /home/ehoaglin/ros2_ws/build/dualsense_interface/install.log --single-version-externally-managed install_data
+[2.655s] running egg_info
+[2.700s] writing ../../build/dualsense_interface/dualsense_interface.egg-info/PKG-INFO
+[2.700s] writing dependency_links to ../../build/dualsense_interface/dualsense_interface.egg-info/dependency_links.txt
+[2.701s] writing entry points to ../../build/dualsense_interface/dualsense_interface.egg-info/entry_points.txt
+[2.701s] writing requirements to ../../build/dualsense_interface/dualsense_interface.egg-info/requires.txt
+[2.701s] writing top-level names to ../../build/dualsense_interface/dualsense_interface.egg-info/top_level.txt
+[2.788s] reading manifest file '../../build/dualsense_interface/dualsense_interface.egg-info/SOURCES.txt'
+[2.789s] writing manifest file '../../build/dualsense_interface/dualsense_interface.egg-info/SOURCES.txt'
+[2.790s] running build
+[2.790s] running build_py
+[2.790s] running install
+[2.798s] running install_lib
+[2.843s] running install_data
+[2.844s] running install_egg_info
+[2.895s] removing '/home/ehoaglin/ros2_ws/install/dualsense_interface/lib/python3.12/site-packages/dualsense_interface-0.0.0-py3.12.egg-info' (and everything under it)
+[2.895s] Copying ../../build/dualsense_interface/dualsense_interface.egg-info to /home/ehoaglin/ros2_ws/install/dualsense_interface/lib/python3.12/site-packages/dualsense_interface-0.0.0-py3.12.egg-info
+[2.898s] running install_scripts
+[3.135s] Installing hidraw_to_joy script to /home/ehoaglin/ros2_ws/install/dualsense_interface/lib/dualsense_interface
+[3.135s] writing list of installed files to '/home/ehoaglin/ros2_ws/build/dualsense_interface/install.log'
+[3.212s] Invoked command in '/home/ehoaglin/ros2_ws/src/dualsense_interface' returned '0': PYTHONPATH=/home/ehoaglin/ros2_ws/build/dualsense_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ehoaglin/ros2_ws/install/dualsense_interface/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dualsense_interface build --build-base /home/ehoaglin/ros2_ws/build/dualsense_interface/build install --record /home/ehoaglin/ros2_ws/build/dualsense_interface/install.log --single-version-externally-managed install_data

@@ -7,6 +7,7 @@ class Command:
 
     def __init__(self):
         self.horizontal_velocity = np.array([0, 0])
+        self.arm_movement = np.array([0, -75, 160, 180])
         self.yaw_rate = 0.0
         self.height = -0.28
         self.pitch = 0.0
@@ -19,6 +20,7 @@ class Command:
         
         self.hop_event = False
         self.trot_event = False
+        self.arm_event = False
         self.joystick_control_event = False
     
     def __repr__(self):

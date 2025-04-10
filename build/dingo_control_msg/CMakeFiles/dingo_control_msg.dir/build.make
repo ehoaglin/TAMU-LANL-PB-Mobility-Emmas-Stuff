@@ -67,6 +67,7 @@ include CMakeFiles/dingo_control_msg.dir/compiler_depend.make
 include CMakeFiles/dingo_control_msg.dir/progress.make
 
 CMakeFiles/dingo_control_msg: /home/ehoaglin/ros2_ws/src/dingo_control_msg/msg/Angle.msg
+CMakeFiles/dingo_control_msg: /home/ehoaglin/ros2_ws/src/dingo_control_msg/msg/ArmAngle.msg
 CMakeFiles/dingo_control_msg: /home/ehoaglin/ros2_ws/src/dingo_control_msg/msg/JointSpace.msg
 CMakeFiles/dingo_control_msg: /home/ehoaglin/ros2_ws/src/dingo_control_msg/msg/TaskSpace.msg
 CMakeFiles/dingo_control_msg: /opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl

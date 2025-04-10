@@ -4,11 +4,13 @@
   "template_dir": "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource",
   "idl_tuples": [
     "/home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_adapter/dingo_control_msg:msg/Angle.idl",
+    "/home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_adapter/dingo_control_msg:msg/ArmAngle.idl",
     "/home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_adapter/dingo_control_msg:msg/JointSpace.idl",
     "/home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_adapter/dingo_control_msg:msg/TaskSpace.idl"
   ],
   "ros_interface_files": [
     "/home/ehoaglin/ros2_ws/src/dingo_control_msg/msg/Angle.msg",
+    "/home/ehoaglin/ros2_ws/src/dingo_control_msg/msg/ArmAngle.msg",
     "/home/ehoaglin/ros2_ws/src/dingo_control_msg/msg/JointSpace.msg",
     "/home/ehoaglin/ros2_ws/src/dingo_control_msg/msg/TaskSpace.msg"
   ],
@@ -99,6 +101,7 @@
     "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.c.em",
     "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
     "/home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_adapter/dingo_control_msg/msg/Angle.idl",
+    "/home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_adapter/dingo_control_msg/msg/ArmAngle.idl",
     "/home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_adapter/dingo_control_msg/msg/JointSpace.idl",
     "/home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_adapter/dingo_control_msg/msg/TaskSpace.idl",
     "/opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl",
@@ -168,6 +171,7 @@
   ],
   "type_description_tuples": [
     "msg/Angle.idl:/home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_generator_type_description/dingo_control_msg/msg/Angle.json",
+    "msg/ArmAngle.idl:/home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_generator_type_description/dingo_control_msg/msg/ArmAngle.json",
     "msg/JointSpace.idl:/home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_generator_type_description/dingo_control_msg/msg/JointSpace.json",
     "msg/TaskSpace.idl:/home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_generator_type_description/dingo_control_msg/msg/TaskSpace.json"
   ]

@@ -27,6 +27,10 @@
 // Member `rl_foot`
 // Member `rr_foot`
 #include "dingo_control_msg/msg/detail/angle__rosidl_typesupport_introspection_c.h"
+// Member `exc_arm`
+#include "dingo_control_msg/msg/arm_angle.h"
+// Member `exc_arm`
+#include "dingo_control_msg/msg/detail/arm_angle__rosidl_typesupport_introspection_c.h"
 
 #ifdef __cplusplus
 extern "C"
@@ -47,7 +51,7 @@ void dingo_control_msg__msg__JointSpace__rosidl_typesupport_introspection_c__Joi
   dingo_control_msg__msg__JointSpace__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember dingo_control_msg__msg__JointSpace__rosidl_typesupport_introspection_c__JointSpace_message_member_array[5] = {
+static rosidl_typesupport_introspection_c__MessageMember dingo_control_msg__msg__JointSpace__rosidl_typesupport_introspection_c__JointSpace_message_member_array[6] = {
   {
     "header",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
@@ -137,13 +141,31 @@ static rosidl_typesupport_introspection_c__MessageMember dingo_control_msg__msg_
     NULL,  // fetch(index, &value) function pointer
     NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
+  },
+  {
+    "exc_arm",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message (initialized later)
+    false,  // is key
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(dingo_control_msg__msg__JointSpace, exc_arm),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
   }
 };
 
 static const rosidl_typesupport_introspection_c__MessageMembers dingo_control_msg__msg__JointSpace__rosidl_typesupport_introspection_c__JointSpace_message_members = {
   "dingo_control_msg__msg",  // message namespace
   "JointSpace",  // message name
-  5,  // number of fields
+  6,  // number of fields
   sizeof(dingo_control_msg__msg__JointSpace),
   false,  // has_any_key_member_
   dingo_control_msg__msg__JointSpace__rosidl_typesupport_introspection_c__JointSpace_message_member_array,  // message members
@@ -175,6 +197,8 @@ ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspecti
     ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, dingo_control_msg, msg, Angle)();
   dingo_control_msg__msg__JointSpace__rosidl_typesupport_introspection_c__JointSpace_message_member_array[4].members_ =
     ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, dingo_control_msg, msg, Angle)();
+  dingo_control_msg__msg__JointSpace__rosidl_typesupport_introspection_c__JointSpace_message_member_array[5].members_ =
+    ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, dingo_control_msg, msg, ArmAngle)();
   if (!dingo_control_msg__msg__JointSpace__rosidl_typesupport_introspection_c__JointSpace_message_type_support_handle.typesupport_identifier) {
     dingo_control_msg__msg__JointSpace__rosidl_typesupport_introspection_c__JointSpace_message_type_support_handle.typesupport_identifier =
       rosidl_typesupport_introspection_c__identifier;

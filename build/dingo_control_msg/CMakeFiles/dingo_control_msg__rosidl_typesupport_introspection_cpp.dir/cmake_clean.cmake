@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/dingo_control_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dingo_control_msg/msg/detail/angle__type_support.cpp.o"
   "CMakeFiles/dingo_control_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dingo_control_msg/msg/detail/angle__type_support.cpp.o.d"
+  "CMakeFiles/dingo_control_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dingo_control_msg/msg/detail/arm_angle__type_support.cpp.o"
+  "CMakeFiles/dingo_control_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dingo_control_msg/msg/detail/arm_angle__type_support.cpp.o.d"
   "CMakeFiles/dingo_control_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dingo_control_msg/msg/detail/joint_space__type_support.cpp.o"
   "CMakeFiles/dingo_control_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dingo_control_msg/msg/detail/joint_space__type_support.cpp.o.d"
   "CMakeFiles/dingo_control_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dingo_control_msg/msg/detail/task_space__type_support.cpp.o"
@@ -9,6 +11,8 @@ file(REMOVE_RECURSE
   "libdingo_control_msg__rosidl_typesupport_introspection_cpp.so"
   "rosidl_typesupport_introspection_cpp/dingo_control_msg/msg/detail/angle__rosidl_typesupport_introspection_cpp.hpp"
   "rosidl_typesupport_introspection_cpp/dingo_control_msg/msg/detail/angle__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/dingo_control_msg/msg/detail/arm_angle__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/dingo_control_msg/msg/detail/arm_angle__type_support.cpp"
   "rosidl_typesupport_introspection_cpp/dingo_control_msg/msg/detail/joint_space__rosidl_typesupport_introspection_cpp.hpp"
   "rosidl_typesupport_introspection_cpp/dingo_control_msg/msg/detail/joint_space__type_support.cpp"
   "rosidl_typesupport_introspection_cpp/dingo_control_msg/msg/detail/task_space__rosidl_typesupport_introspection_cpp.hpp"

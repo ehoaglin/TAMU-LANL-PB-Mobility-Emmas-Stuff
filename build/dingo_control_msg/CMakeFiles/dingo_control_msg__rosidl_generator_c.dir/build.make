@@ -89,6 +89,7 @@ rosidl_generator_c/dingo_control_msg/msg/angle.h: /opt/ros/jazzy/share/rosidl_ge
 rosidl_generator_c/dingo_control_msg/msg/angle.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/srv__type_support.c.em
 rosidl_generator_c/dingo_control_msg/msg/angle.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/srv__type_support.h.em
 rosidl_generator_c/dingo_control_msg/msg/angle.h: rosidl_adapter/dingo_control_msg/msg/Angle.idl
+rosidl_generator_c/dingo_control_msg/msg/angle.h: rosidl_adapter/dingo_control_msg/msg/ArmAngle.idl
 rosidl_generator_c/dingo_control_msg/msg/angle.h: rosidl_adapter/dingo_control_msg/msg/JointSpace.idl
 rosidl_generator_c/dingo_control_msg/msg/angle.h: rosidl_adapter/dingo_control_msg/msg/TaskSpace.idl
 rosidl_generator_c/dingo_control_msg/msg/angle.h: /opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl
@@ -167,6 +168,18 @@ rosidl_generator_c/dingo_control_msg/msg/detail/angle__struct.h: rosidl_generato
 rosidl_generator_c/dingo_control_msg/msg/detail/angle__type_support.h: rosidl_generator_c/dingo_control_msg/msg/angle.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dingo_control_msg/msg/detail/angle__type_support.h
 
+rosidl_generator_c/dingo_control_msg/msg/arm_angle.h: rosidl_generator_c/dingo_control_msg/msg/angle.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dingo_control_msg/msg/arm_angle.h
+
+rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__functions.h: rosidl_generator_c/dingo_control_msg/msg/angle.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__functions.h
+
+rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__struct.h: rosidl_generator_c/dingo_control_msg/msg/angle.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__struct.h
+
+rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__type_support.h: rosidl_generator_c/dingo_control_msg/msg/angle.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__type_support.h
+
 rosidl_generator_c/dingo_control_msg/msg/joint_space.h: rosidl_generator_c/dingo_control_msg/msg/angle.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dingo_control_msg/msg/joint_space.h
 
@@ -199,6 +212,15 @@ rosidl_generator_c/dingo_control_msg/msg/detail/angle__functions.c: rosidl_gener
 
 rosidl_generator_c/dingo_control_msg/msg/detail/angle__type_support.c: rosidl_generator_c/dingo_control_msg/msg/angle.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dingo_control_msg/msg/detail/angle__type_support.c
+
+rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__description.c: rosidl_generator_c/dingo_control_msg/msg/angle.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__description.c
+
+rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__functions.c: rosidl_generator_c/dingo_control_msg/msg/angle.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__functions.c
+
+rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__type_support.c: rosidl_generator_c/dingo_control_msg/msg/angle.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__type_support.c
 
 rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__description.c: rosidl_generator_c/dingo_control_msg/msg/angle.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__description.c
@@ -260,10 +282,52 @@ CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_co
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/angle__type_support.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_generator_c/dingo_control_msg/msg/detail/angle__type_support.c -o CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/angle__type_support.c.s
 
+CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__description.c.o: CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/flags.make
+CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__description.c.o: rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__description.c
+CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__description.c.o: CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ehoaglin/ros2_ws/build/dingo_control_msg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__description.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__description.c.o -MF CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__description.c.o.d -o CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__description.c.o -c /home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__description.c
+
+CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__description.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__description.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__description.c > CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__description.c.i
+
+CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__description.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__description.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__description.c -o CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__description.c.s
+
+CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__functions.c.o: CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/flags.make
+CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__functions.c.o: rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__functions.c
+CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__functions.c.o: CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ehoaglin/ros2_ws/build/dingo_control_msg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__functions.c.o -MF CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__functions.c.o.d -o CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__functions.c.o -c /home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__functions.c
+
+CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__functions.c > CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__functions.c.i
+
+CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__functions.c -o CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__functions.c.s
+
+CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__type_support.c.o: CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/flags.make
+CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__type_support.c.o: rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__type_support.c
+CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__type_support.c.o: CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ehoaglin/ros2_ws/build/dingo_control_msg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__type_support.c.o -MF CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__type_support.c.o.d -o CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__type_support.c.o -c /home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__type_support.c
+
+CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__type_support.c > CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__type_support.c.i
+
+CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__type_support.c -o CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__type_support.c.s
+
 CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__description.c.o: CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/flags.make
 CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__description.c.o: rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__description.c
 CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__description.c.o: CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ehoaglin/ros2_ws/build/dingo_control_msg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__description.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ehoaglin/ros2_ws/build/dingo_control_msg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__description.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__description.c.o -MF CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__description.c.o.d -o CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__description.c.o -c /home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__description.c
 
 CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__description.c.i: cmake_force
@@ -277,7 +341,7 @@ CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_co
 CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__functions.c.o: CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/flags.make
 CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__functions.c.o: rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__functions.c
 CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__functions.c.o: CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ehoaglin/ros2_ws/build/dingo_control_msg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__functions.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ehoaglin/ros2_ws/build/dingo_control_msg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__functions.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__functions.c.o -MF CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__functions.c.o.d -o CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__functions.c.o -c /home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__functions.c
 
 CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__functions.c.i: cmake_force
@@ -291,7 +355,7 @@ CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_co
 CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__type_support.c.o: CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/flags.make
 CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__type_support.c.o: rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__type_support.c
 CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__type_support.c.o: CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ehoaglin/ros2_ws/build/dingo_control_msg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__type_support.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ehoaglin/ros2_ws/build/dingo_control_msg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__type_support.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__type_support.c.o -MF CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__type_support.c.o.d -o CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__type_support.c.o -c /home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__type_support.c
 
 CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__type_support.c.i: cmake_force
@@ -305,7 +369,7 @@ CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_co
 CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/task_space__description.c.o: CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/flags.make
 CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/task_space__description.c.o: rosidl_generator_c/dingo_control_msg/msg/detail/task_space__description.c
 CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/task_space__description.c.o: CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ehoaglin/ros2_ws/build/dingo_control_msg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/task_space__description.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ehoaglin/ros2_ws/build/dingo_control_msg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/task_space__description.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/task_space__description.c.o -MF CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/task_space__description.c.o.d -o CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/task_space__description.c.o -c /home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_generator_c/dingo_control_msg/msg/detail/task_space__description.c
 
 CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/task_space__description.c.i: cmake_force
@@ -319,7 +383,7 @@ CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_co
 CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/task_space__functions.c.o: CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/flags.make
 CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/task_space__functions.c.o: rosidl_generator_c/dingo_control_msg/msg/detail/task_space__functions.c
 CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/task_space__functions.c.o: CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ehoaglin/ros2_ws/build/dingo_control_msg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/task_space__functions.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ehoaglin/ros2_ws/build/dingo_control_msg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/task_space__functions.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/task_space__functions.c.o -MF CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/task_space__functions.c.o.d -o CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/task_space__functions.c.o -c /home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_generator_c/dingo_control_msg/msg/detail/task_space__functions.c
 
 CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/task_space__functions.c.i: cmake_force
@@ -333,7 +397,7 @@ CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_co
 CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/task_space__type_support.c.o: CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/flags.make
 CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/task_space__type_support.c.o: rosidl_generator_c/dingo_control_msg/msg/detail/task_space__type_support.c
 CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/task_space__type_support.c.o: CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ehoaglin/ros2_ws/build/dingo_control_msg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/task_space__type_support.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ehoaglin/ros2_ws/build/dingo_control_msg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/task_space__type_support.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/task_space__type_support.c.o -MF CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/task_space__type_support.c.o.d -o CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/task_space__type_support.c.o -c /home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_generator_c/dingo_control_msg/msg/detail/task_space__type_support.c
 
 CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/task_space__type_support.c.i: cmake_force
@@ -349,6 +413,9 @@ dingo_control_msg__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/angle__description.c.o" \
 "CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/angle__functions.c.o" \
 "CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/angle__type_support.c.o" \
+"CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__description.c.o" \
+"CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__functions.c.o" \
+"CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__type_support.c.o" \
 "CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__description.c.o" \
 "CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__functions.c.o" \
 "CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__type_support.c.o" \
@@ -362,6 +429,9 @@ dingo_control_msg__rosidl_generator_c_EXTERNAL_OBJECTS =
 libdingo_control_msg__rosidl_generator_c.so: CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/angle__description.c.o
 libdingo_control_msg__rosidl_generator_c.so: CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/angle__functions.c.o
 libdingo_control_msg__rosidl_generator_c.so: CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/angle__type_support.c.o
+libdingo_control_msg__rosidl_generator_c.so: CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__description.c.o
+libdingo_control_msg__rosidl_generator_c.so: CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__functions.c.o
+libdingo_control_msg__rosidl_generator_c.so: CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__type_support.c.o
 libdingo_control_msg__rosidl_generator_c.so: CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__description.c.o
 libdingo_control_msg__rosidl_generator_c.so: CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__functions.c.o
 libdingo_control_msg__rosidl_generator_c.so: CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__type_support.c.o
@@ -375,7 +445,7 @@ libdingo_control_msg__rosidl_generator_c.so: /opt/ros/jazzy/lib/libbuiltin_inter
 libdingo_control_msg__rosidl_generator_c.so: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 libdingo_control_msg__rosidl_generator_c.so: /opt/ros/jazzy/lib/librcutils.so
 libdingo_control_msg__rosidl_generator_c.so: CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ehoaglin/ros2_ws/build/dingo_control_msg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C shared library libdingo_control_msg__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ehoaglin/ros2_ws/build/dingo_control_msg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking C shared library libdingo_control_msg__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -387,12 +457,19 @@ CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/clean:
 .PHONY : CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/clean
 
 CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/depend: rosidl_generator_c/dingo_control_msg/msg/angle.h
+CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/depend: rosidl_generator_c/dingo_control_msg/msg/arm_angle.h
 CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/depend: rosidl_generator_c/dingo_control_msg/msg/detail/angle__description.c
 CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/depend: rosidl_generator_c/dingo_control_msg/msg/detail/angle__functions.c
 CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/depend: rosidl_generator_c/dingo_control_msg/msg/detail/angle__functions.h
 CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/depend: rosidl_generator_c/dingo_control_msg/msg/detail/angle__struct.h
 CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/depend: rosidl_generator_c/dingo_control_msg/msg/detail/angle__type_support.c
 CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/depend: rosidl_generator_c/dingo_control_msg/msg/detail/angle__type_support.h
+CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/depend: rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__description.c
+CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/depend: rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__functions.c
+CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/depend: rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__functions.h
+CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/depend: rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__struct.h
+CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/depend: rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__type_support.c
+CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/depend: rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__type_support.h
 CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/depend: rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__description.c
 CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/depend: rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__functions.c
 CMakeFiles/dingo_control_msg__rosidl_generator_c.dir/depend: rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__functions.h

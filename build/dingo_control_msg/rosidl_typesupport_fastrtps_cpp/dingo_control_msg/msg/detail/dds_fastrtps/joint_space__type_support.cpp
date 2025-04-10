@@ -95,6 +95,41 @@ max_serialized_size_key_Angle(
 
 // functions for dingo_control_msg::msg::Angle already declared above
 
+namespace dingo_control_msg
+{
+namespace msg
+{
+namespace typesupport_fastrtps_cpp
+{
+bool cdr_serialize(
+  const dingo_control_msg::msg::ArmAngle &,
+  eprosima::fastcdr::Cdr &);
+bool cdr_deserialize(
+  eprosima::fastcdr::Cdr &,
+  dingo_control_msg::msg::ArmAngle &);
+size_t get_serialized_size(
+  const dingo_control_msg::msg::ArmAngle &,
+  size_t current_alignment);
+size_t
+max_serialized_size_ArmAngle(
+  bool & full_bounded,
+  bool & is_plain,
+  size_t current_alignment);
+bool cdr_serialize_key(
+  const dingo_control_msg::msg::ArmAngle &,
+  eprosima::fastcdr::Cdr &);
+size_t get_serialized_size_key(
+  const dingo_control_msg::msg::ArmAngle &,
+  size_t current_alignment);
+size_t
+max_serialized_size_key_ArmAngle(
+  bool & full_bounded,
+  bool & is_plain,
+  size_t current_alignment);
+}  // namespace typesupport_fastrtps_cpp
+}  // namespace msg
+}  // namespace dingo_control_msg
+
 
 namespace dingo_control_msg
 {
@@ -137,6 +172,11 @@ cdr_serialize(
     ros_message.rr_foot,
     cdr);
 
+  // Member: exc_arm
+  dingo_control_msg::msg::typesupport_fastrtps_cpp::cdr_serialize(
+    ros_message.exc_arm,
+    cdr);
+
   return true;
 }
 
@@ -165,6 +205,10 @@ cdr_deserialize(
   // Member: rr_foot
   dingo_control_msg::msg::typesupport_fastrtps_cpp::cdr_deserialize(
     cdr, ros_message.rr_foot);
+
+  // Member: exc_arm
+  dingo_control_msg::msg::typesupport_fastrtps_cpp::cdr_deserialize(
+    cdr, ros_message.exc_arm);
 
   return true;
 }
@@ -207,6 +251,11 @@ get_serialized_size(
   current_alignment +=
     dingo_control_msg::msg::typesupport_fastrtps_cpp::get_serialized_size(
     ros_message.rr_foot, current_alignment);
+
+  // Member: exc_arm
+  current_alignment +=
+    dingo_control_msg::msg::typesupport_fastrtps_cpp::get_serialized_size(
+    ros_message.exc_arm, current_alignment);
 
   return current_alignment - initial_alignment;
 }
@@ -311,6 +360,22 @@ max_serialized_size_JointSpace(
       is_plain &= inner_is_plain;
     }
   }
+  // Member: exc_arm
+  {
+    size_t array_size = 1;
+    last_member_size = 0;
+    for (size_t index = 0; index < array_size; ++index) {
+      bool inner_full_bounded;
+      bool inner_is_plain;
+      size_t inner_size =
+        dingo_control_msg::msg::typesupport_fastrtps_cpp::max_serialized_size_ArmAngle(
+        inner_full_bounded, inner_is_plain, current_alignment);
+      last_member_size += inner_size;
+      current_alignment += inner_size;
+      full_bounded &= inner_full_bounded;
+      is_plain &= inner_is_plain;
+    }
+  }
 
   size_t ret_val = current_alignment - initial_alignment;
   if (is_plain) {
@@ -320,7 +385,7 @@ max_serialized_size_JointSpace(
     using DataType = dingo_control_msg::msg::JointSpace;
     is_plain =
       (
-      offsetof(DataType, rr_foot) +
+      offsetof(DataType, exc_arm) +
       last_member_size
       ) == ret_val;
   }
@@ -357,6 +422,11 @@ cdr_serialize_key(
   // Member: rr_foot
   dingo_control_msg::msg::typesupport_fastrtps_cpp::cdr_serialize_key(
     ros_message.rr_foot,
+    cdr);
+
+  // Member: exc_arm
+  dingo_control_msg::msg::typesupport_fastrtps_cpp::cdr_serialize_key(
+    ros_message.exc_arm,
     cdr);
 
   return true;
@@ -399,6 +469,11 @@ get_serialized_size_key(
   current_alignment +=
     dingo_control_msg::msg::typesupport_fastrtps_cpp::get_serialized_size_key(
     ros_message.rr_foot, current_alignment);
+
+  // Member: exc_arm
+  current_alignment +=
+    dingo_control_msg::msg::typesupport_fastrtps_cpp::get_serialized_size_key(
+    ros_message.exc_arm, current_alignment);
 
   return current_alignment - initial_alignment;
 }
@@ -507,6 +582,23 @@ max_serialized_size_key_JointSpace(
     }
   }
 
+  // Member: exc_arm
+  {
+    size_t array_size = 1;
+    last_member_size = 0;
+    for (size_t index = 0; index < array_size; ++index) {
+      bool inner_full_bounded;
+      bool inner_is_plain;
+      size_t inner_size =
+        dingo_control_msg::msg::typesupport_fastrtps_cpp::max_serialized_size_key_ArmAngle(
+        inner_full_bounded, inner_is_plain, current_alignment);
+      last_member_size += inner_size;
+      current_alignment += inner_size;
+      full_bounded &= inner_full_bounded;
+      is_plain &= inner_is_plain;
+    }
+  }
+
   size_t ret_val = current_alignment - initial_alignment;
   if (is_plain) {
     // All members are plain, and type is not empty.
@@ -515,7 +607,7 @@ max_serialized_size_key_JointSpace(
     using DataType = dingo_control_msg::msg::JointSpace;
     is_plain =
       (
-      offsetof(DataType, rr_foot) +
+      offsetof(DataType, exc_arm) +
       last_member_size
       ) == ret_val;
   }

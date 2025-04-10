@@ -4,6 +4,7 @@
   "template_dir": "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource",
   "idl_tuples": [
     "/home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_adapter/dingo_control_msg:msg/Angle.idl",
+    "/home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_adapter/dingo_control_msg:msg/ArmAngle.idl",
     "/home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_adapter/dingo_control_msg:msg/JointSpace.idl",
     "/home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_adapter/dingo_control_msg:msg/TaskSpace.idl"
   ],
@@ -94,6 +95,7 @@
     "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/srv__traits.hpp.em",
     "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/srv__type_support.hpp.em",
     "/home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_adapter/dingo_control_msg/msg/Angle.idl",
+    "/home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_adapter/dingo_control_msg/msg/ArmAngle.idl",
     "/home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_adapter/dingo_control_msg/msg/JointSpace.idl",
     "/home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_adapter/dingo_control_msg/msg/TaskSpace.idl",
     "/opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl",
@@ -163,6 +165,7 @@
   ],
   "type_description_tuples": [
     "msg/Angle.idl:/home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_generator_type_description/dingo_control_msg/msg/Angle.json",
+    "msg/ArmAngle.idl:/home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_generator_type_description/dingo_control_msg/msg/ArmAngle.json",
     "msg/JointSpace.idl:/home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_generator_type_description/dingo_control_msg/msg/JointSpace.json",
     "msg/TaskSpace.idl:/home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_generator_type_description/dingo_control_msg/msg/TaskSpace.json"
   ]

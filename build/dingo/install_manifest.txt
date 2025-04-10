@@ -9,9 +9,9 @@
 /home/ehoaglin/ros2_ws/install/dingo/lib/dingo/dingo_driver.py
 /home/ehoaglin/ros2_ws/install/dingo/lib/dingo/run_robot.py
 /home/ehoaglin/ros2_ws/install/dingo/share/dingo/launch/dingo_simulator.launch
+/home/ehoaglin/ros2_ws/install/dingo/share/dingo/launch/dingo_launch.py
 /home/ehoaglin/ros2_ws/install/dingo/share/dingo/launch/dingo.launch
 /home/ehoaglin/ros2_ws/install/dingo/share/dingo/launch/dingo_simulator.launch.py
-/home/ehoaglin/ros2_ws/install/dingo/share/dingo/launch/dingo.launch.py
 /home/ehoaglin/ros2_ws/install/dingo/share/ament_index/resource_index/package_run_dependencies/dingo
 /home/ehoaglin/ros2_ws/install/dingo/share/ament_index/resource_index/parent_prefix_path/dingo
 /home/ehoaglin/ros2_ws/install/dingo/share/dingo/environment/ament_prefix_path.sh

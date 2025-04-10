@@ -3,6 +3,7 @@
 // generated code does not contain a copyright notice
 
 #include "dingo_control_msg/msg/Angle.idl"
+#include "dingo_control_msg/msg/ArmAngle.idl"
 #include "std_msgs/msg/Header.idl"
 
 module dingo_control_msg {
@@ -17,6 +18,8 @@ module dingo_control_msg {
       dingo_control_msg::msg::Angle rl_foot;
 
       dingo_control_msg::msg::Angle rr_foot;
+
+      dingo_control_msg::msg::ArmAngle exc_arm;
     };
   };
 };

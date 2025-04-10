@@ -11,10 +11,9 @@ import rclpy
 
 class Kinematics:
     def __init__(self, node, config):
-        #self.node = rclpy.create_node('kinematics_node') # adding this
-        self.node = node
+        self.node = node # This builds on the existing node which is required for ROS2 because we cannot have multiple nodes spinning with one launch
         self.config = config
-        
+    
 
     def leg_explicit_inverse_kinematics(self, r_body_foot, leg_index):
         """Find the joint angles corresponding to the given body-relative foot position for a given leg and configuration
@@ -59,6 +58,7 @@ class Kinematics:
 
         # length of vector projected on the YZ plane. equiv. to len_A = sqrt(y**2 + z**2)
         len_A = norm([0,y,z])   
+
         # a_1 : angle from the positive y-axis to the end-effector (0 <= a_1 < 2pi)
         # a_2 : angle bewtween len_A and leg's projection line on YZ plane
         # a_3 : angle between link1 and length len_A
@@ -93,13 +93,12 @@ class Kinematics:
         # handling mathematically invalid input, i.e., point too far away to reach
         if len_B >= (self.config.L2 + self.config.L3): 
             len_B = (self.config.L2 + self.config.L3) * 0.8
-            self.node.get_logger().warn('target coordinate: [%f %f %f] too far away {x, y, z}')  #originally rospy.logwarn => changed to rclpy node.get_logger().debug('target coordinate: [%f %f %f] too far away', x, y, z)
+            self.node.get_logger().warn(f"Target coordinate [{x_:.2f}, {y_:.2f}, {z_:.2f}] is too far away.")  #originally rospy.logwarn => changed to rclpy node.get_logger().debug('target coordinate: [%f %f %f] too far away', x, y, z)
         
         # b_1 : angle between +ve x-axis and len_B (0 <= b_1 < 2pi)
         # b_2 : angle between len_B and link_2
         # b_3 : angle between link_2 and link_3
         b_1 = point_to_rad(x_, z_)  
-        #print(self.config.L2, self.config.L3)
         b_2 = acos((self.config.L2**2 + len_B**2 - self.config.L3**2) / (2 * self.config.L2 * len_B)) 
         b_3 = acos((self.config.L2**2 + self.config.L3**2 - len_B**2) / (2 * self.config.L2 * self.config.L3))  
         
@@ -108,6 +107,7 @@ class Kinematics:
 
         # modify angles to match robot's configuration (i.e., adding offsets)
         angles = self.angle_corrector(angles=[theta_1, theta_2, theta_3])
+
         return np.array(angles)
 
 
@@ -127,7 +127,6 @@ class Kinematics:
         numpy array (3,4)
             Matrix of corresponding joint angles.
         """
-        # print('r_body_foot: \n',np.round(r_body_foot,3))
         alpha = np.zeros((3, 4))
         for i in range(4):
             body_offset = self.config.LEG_ORIGINS[:, i]
@@ -135,6 +134,7 @@ class Kinematics:
                 r_body_foot[:, i] - body_offset, i
             )
         return alpha #[Front Right, Front Left, Back Right, Back Left]
+
 
     def forward_kinematics(self, angles, is_right = 0):
         """Find the foot position corresponding to the given joint angles for a given leg and configuration

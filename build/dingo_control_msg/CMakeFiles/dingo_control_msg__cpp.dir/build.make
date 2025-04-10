@@ -71,6 +71,11 @@ CMakeFiles/dingo_control_msg__cpp: rosidl_generator_cpp/dingo_control_msg/msg/de
 CMakeFiles/dingo_control_msg__cpp: rosidl_generator_cpp/dingo_control_msg/msg/detail/angle__struct.hpp
 CMakeFiles/dingo_control_msg__cpp: rosidl_generator_cpp/dingo_control_msg/msg/detail/angle__traits.hpp
 CMakeFiles/dingo_control_msg__cpp: rosidl_generator_cpp/dingo_control_msg/msg/detail/angle__type_support.hpp
+CMakeFiles/dingo_control_msg__cpp: rosidl_generator_cpp/dingo_control_msg/msg/arm_angle.hpp
+CMakeFiles/dingo_control_msg__cpp: rosidl_generator_cpp/dingo_control_msg/msg/detail/arm_angle__builder.hpp
+CMakeFiles/dingo_control_msg__cpp: rosidl_generator_cpp/dingo_control_msg/msg/detail/arm_angle__struct.hpp
+CMakeFiles/dingo_control_msg__cpp: rosidl_generator_cpp/dingo_control_msg/msg/detail/arm_angle__traits.hpp
+CMakeFiles/dingo_control_msg__cpp: rosidl_generator_cpp/dingo_control_msg/msg/detail/arm_angle__type_support.hpp
 CMakeFiles/dingo_control_msg__cpp: rosidl_generator_cpp/dingo_control_msg/msg/joint_space.hpp
 CMakeFiles/dingo_control_msg__cpp: rosidl_generator_cpp/dingo_control_msg/msg/detail/joint_space__builder.hpp
 CMakeFiles/dingo_control_msg__cpp: rosidl_generator_cpp/dingo_control_msg/msg/detail/joint_space__struct.hpp
@@ -103,6 +108,7 @@ rosidl_generator_cpp/dingo_control_msg/msg/angle.hpp: /opt/ros/jazzy/share/rosid
 rosidl_generator_cpp/dingo_control_msg/msg/angle.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/dingo_control_msg/msg/angle.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/srv__type_support.hpp.em
 rosidl_generator_cpp/dingo_control_msg/msg/angle.hpp: rosidl_adapter/dingo_control_msg/msg/Angle.idl
+rosidl_generator_cpp/dingo_control_msg/msg/angle.hpp: rosidl_adapter/dingo_control_msg/msg/ArmAngle.idl
 rosidl_generator_cpp/dingo_control_msg/msg/angle.hpp: rosidl_adapter/dingo_control_msg/msg/JointSpace.idl
 rosidl_generator_cpp/dingo_control_msg/msg/angle.hpp: rosidl_adapter/dingo_control_msg/msg/TaskSpace.idl
 rosidl_generator_cpp/dingo_control_msg/msg/angle.hpp: /opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl
@@ -184,6 +190,21 @@ rosidl_generator_cpp/dingo_control_msg/msg/detail/angle__traits.hpp: rosidl_gene
 rosidl_generator_cpp/dingo_control_msg/msg/detail/angle__type_support.hpp: rosidl_generator_cpp/dingo_control_msg/msg/angle.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dingo_control_msg/msg/detail/angle__type_support.hpp
 
+rosidl_generator_cpp/dingo_control_msg/msg/arm_angle.hpp: rosidl_generator_cpp/dingo_control_msg/msg/angle.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dingo_control_msg/msg/arm_angle.hpp
+
+rosidl_generator_cpp/dingo_control_msg/msg/detail/arm_angle__builder.hpp: rosidl_generator_cpp/dingo_control_msg/msg/angle.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dingo_control_msg/msg/detail/arm_angle__builder.hpp
+
+rosidl_generator_cpp/dingo_control_msg/msg/detail/arm_angle__struct.hpp: rosidl_generator_cpp/dingo_control_msg/msg/angle.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dingo_control_msg/msg/detail/arm_angle__struct.hpp
+
+rosidl_generator_cpp/dingo_control_msg/msg/detail/arm_angle__traits.hpp: rosidl_generator_cpp/dingo_control_msg/msg/angle.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dingo_control_msg/msg/detail/arm_angle__traits.hpp
+
+rosidl_generator_cpp/dingo_control_msg/msg/detail/arm_angle__type_support.hpp: rosidl_generator_cpp/dingo_control_msg/msg/angle.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dingo_control_msg/msg/detail/arm_angle__type_support.hpp
+
 rosidl_generator_cpp/dingo_control_msg/msg/joint_space.hpp: rosidl_generator_cpp/dingo_control_msg/msg/angle.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dingo_control_msg/msg/joint_space.hpp
 
@@ -219,10 +240,15 @@ rosidl_generator_cpp/dingo_control_msg/msg/rosidl_generator_cpp__visibility_cont
 
 dingo_control_msg__cpp: CMakeFiles/dingo_control_msg__cpp
 dingo_control_msg__cpp: rosidl_generator_cpp/dingo_control_msg/msg/angle.hpp
+dingo_control_msg__cpp: rosidl_generator_cpp/dingo_control_msg/msg/arm_angle.hpp
 dingo_control_msg__cpp: rosidl_generator_cpp/dingo_control_msg/msg/detail/angle__builder.hpp
 dingo_control_msg__cpp: rosidl_generator_cpp/dingo_control_msg/msg/detail/angle__struct.hpp
 dingo_control_msg__cpp: rosidl_generator_cpp/dingo_control_msg/msg/detail/angle__traits.hpp
 dingo_control_msg__cpp: rosidl_generator_cpp/dingo_control_msg/msg/detail/angle__type_support.hpp
+dingo_control_msg__cpp: rosidl_generator_cpp/dingo_control_msg/msg/detail/arm_angle__builder.hpp
+dingo_control_msg__cpp: rosidl_generator_cpp/dingo_control_msg/msg/detail/arm_angle__struct.hpp
+dingo_control_msg__cpp: rosidl_generator_cpp/dingo_control_msg/msg/detail/arm_angle__traits.hpp
+dingo_control_msg__cpp: rosidl_generator_cpp/dingo_control_msg/msg/detail/arm_angle__type_support.hpp
 dingo_control_msg__cpp: rosidl_generator_cpp/dingo_control_msg/msg/detail/joint_space__builder.hpp
 dingo_control_msg__cpp: rosidl_generator_cpp/dingo_control_msg/msg/detail/joint_space__struct.hpp
 dingo_control_msg__cpp: rosidl_generator_cpp/dingo_control_msg/msg/detail/joint_space__traits.hpp

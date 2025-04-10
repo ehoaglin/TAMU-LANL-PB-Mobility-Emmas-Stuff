@@ -19,6 +19,8 @@
 // Member `rl_foot`
 // Member `rr_foot`
 #include "dingo_control_msg/msg/detail/angle__functions.h"
+// Member `exc_arm`
+#include "dingo_control_msg/msg/detail/arm_angle__functions.h"
 
 bool
 dingo_control_msg__msg__JointSpace__init(dingo_control_msg__msg__JointSpace * msg)
@@ -51,6 +53,11 @@ dingo_control_msg__msg__JointSpace__init(dingo_control_msg__msg__JointSpace * ms
     dingo_control_msg__msg__JointSpace__fini(msg);
     return false;
   }
+  // exc_arm
+  if (!dingo_control_msg__msg__ArmAngle__init(&msg->exc_arm)) {
+    dingo_control_msg__msg__JointSpace__fini(msg);
+    return false;
+  }
   return true;
 }
 
@@ -70,6 +77,8 @@ dingo_control_msg__msg__JointSpace__fini(dingo_control_msg__msg__JointSpace * ms
   dingo_control_msg__msg__Angle__fini(&msg->rl_foot);
   // rr_foot
   dingo_control_msg__msg__Angle__fini(&msg->rr_foot);
+  // exc_arm
+  dingo_control_msg__msg__ArmAngle__fini(&msg->exc_arm);
 }
 
 bool
@@ -105,6 +114,12 @@ dingo_control_msg__msg__JointSpace__are_equal(const dingo_control_msg__msg__Join
   // rr_foot
   if (!dingo_control_msg__msg__Angle__are_equal(
       &(lhs->rr_foot), &(rhs->rr_foot)))
+  {
+    return false;
+  }
+  // exc_arm
+  if (!dingo_control_msg__msg__ArmAngle__are_equal(
+      &(lhs->exc_arm), &(rhs->exc_arm)))
   {
     return false;
   }
@@ -146,6 +161,12 @@ dingo_control_msg__msg__JointSpace__copy(
   // rr_foot
   if (!dingo_control_msg__msg__Angle__copy(
       &(input->rr_foot), &(output->rr_foot)))
+  {
+    return false;
+  }
+  // exc_arm
+  if (!dingo_control_msg__msg__ArmAngle__copy(
+      &(input->exc_arm), &(output->exc_arm)))
   {
     return false;
   }

@@ -3,6 +3,7 @@
   "output_dir": "/home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_generator_type_description/dingo_control_msg",
   "idl_tuples": [
     "/home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_adapter/dingo_control_msg:msg/Angle.idl",
+    "/home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_adapter/dingo_control_msg:msg/ArmAngle.idl",
     "/home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_adapter/dingo_control_msg:msg/JointSpace.idl",
     "/home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_adapter/dingo_control_msg:msg/TaskSpace.idl"
   ],

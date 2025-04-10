@@ -7,8 +7,6 @@ from std_msgs.msg import Float64
 import signal
 import socket
 import platform
-
-# Remove sys.path.append and use absolute imports
 from dingo_peripheral_interfacing_msg.msg import ElectricalMeasurements
 
 # Fetching is_sim and is_physical from arguments

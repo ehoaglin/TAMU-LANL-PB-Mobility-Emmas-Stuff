@@ -76,6 +76,7 @@ rosidl_typesupport_cpp/dingo_control_msg/msg/angle__type_support.cpp: /opt/ros/j
 rosidl_typesupport_cpp/dingo_control_msg/msg/angle__type_support.cpp: /opt/ros/jazzy/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em
 rosidl_typesupport_cpp/dingo_control_msg/msg/angle__type_support.cpp: /opt/ros/jazzy/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em
 rosidl_typesupport_cpp/dingo_control_msg/msg/angle__type_support.cpp: rosidl_adapter/dingo_control_msg/msg/Angle.idl
+rosidl_typesupport_cpp/dingo_control_msg/msg/angle__type_support.cpp: rosidl_adapter/dingo_control_msg/msg/ArmAngle.idl
 rosidl_typesupport_cpp/dingo_control_msg/msg/angle__type_support.cpp: rosidl_adapter/dingo_control_msg/msg/JointSpace.idl
 rosidl_typesupport_cpp/dingo_control_msg/msg/angle__type_support.cpp: rosidl_adapter/dingo_control_msg/msg/TaskSpace.idl
 rosidl_typesupport_cpp/dingo_control_msg/msg/angle__type_support.cpp: /opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl
@@ -145,6 +146,9 @@ rosidl_typesupport_cpp/dingo_control_msg/msg/angle__type_support.cpp: /opt/ros/j
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ehoaglin/ros2_ws/build/dingo_control_msg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ type support dispatch for ROS interfaces"
 	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp --generator-arguments-file /home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_typesupport_cpp__arguments.json --typesupports rosidl_typesupport_fastrtps_cpp rosidl_typesupport_introspection_cpp
 
+rosidl_typesupport_cpp/dingo_control_msg/msg/arm_angle__type_support.cpp: rosidl_typesupport_cpp/dingo_control_msg/msg/angle__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_cpp/dingo_control_msg/msg/arm_angle__type_support.cpp
+
 rosidl_typesupport_cpp/dingo_control_msg/msg/joint_space__type_support.cpp: rosidl_typesupport_cpp/dingo_control_msg/msg/angle__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_cpp/dingo_control_msg/msg/joint_space__type_support.cpp
 
@@ -165,10 +169,24 @@ CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dingo_control_msg/msg/angle__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_typesupport_cpp/dingo_control_msg/msg/angle__type_support.cpp -o CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dingo_control_msg/msg/angle__type_support.cpp.s
 
+CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dingo_control_msg/msg/arm_angle__type_support.cpp.o: CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/flags.make
+CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dingo_control_msg/msg/arm_angle__type_support.cpp.o: rosidl_typesupport_cpp/dingo_control_msg/msg/arm_angle__type_support.cpp
+CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dingo_control_msg/msg/arm_angle__type_support.cpp.o: CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ehoaglin/ros2_ws/build/dingo_control_msg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dingo_control_msg/msg/arm_angle__type_support.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dingo_control_msg/msg/arm_angle__type_support.cpp.o -MF CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dingo_control_msg/msg/arm_angle__type_support.cpp.o.d -o CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dingo_control_msg/msg/arm_angle__type_support.cpp.o -c /home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_typesupport_cpp/dingo_control_msg/msg/arm_angle__type_support.cpp
+
+CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dingo_control_msg/msg/arm_angle__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dingo_control_msg/msg/arm_angle__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_typesupport_cpp/dingo_control_msg/msg/arm_angle__type_support.cpp > CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dingo_control_msg/msg/arm_angle__type_support.cpp.i
+
+CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dingo_control_msg/msg/arm_angle__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dingo_control_msg/msg/arm_angle__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_typesupport_cpp/dingo_control_msg/msg/arm_angle__type_support.cpp -o CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dingo_control_msg/msg/arm_angle__type_support.cpp.s
+
 CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dingo_control_msg/msg/joint_space__type_support.cpp.o: CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/flags.make
 CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dingo_control_msg/msg/joint_space__type_support.cpp.o: rosidl_typesupport_cpp/dingo_control_msg/msg/joint_space__type_support.cpp
 CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dingo_control_msg/msg/joint_space__type_support.cpp.o: CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ehoaglin/ros2_ws/build/dingo_control_msg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dingo_control_msg/msg/joint_space__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ehoaglin/ros2_ws/build/dingo_control_msg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dingo_control_msg/msg/joint_space__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dingo_control_msg/msg/joint_space__type_support.cpp.o -MF CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dingo_control_msg/msg/joint_space__type_support.cpp.o.d -o CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dingo_control_msg/msg/joint_space__type_support.cpp.o -c /home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_typesupport_cpp/dingo_control_msg/msg/joint_space__type_support.cpp
 
 CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dingo_control_msg/msg/joint_space__type_support.cpp.i: cmake_force
@@ -182,7 +200,7 @@ CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/
 CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dingo_control_msg/msg/task_space__type_support.cpp.o: CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/flags.make
 CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dingo_control_msg/msg/task_space__type_support.cpp.o: rosidl_typesupport_cpp/dingo_control_msg/msg/task_space__type_support.cpp
 CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dingo_control_msg/msg/task_space__type_support.cpp.o: CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ehoaglin/ros2_ws/build/dingo_control_msg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dingo_control_msg/msg/task_space__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ehoaglin/ros2_ws/build/dingo_control_msg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dingo_control_msg/msg/task_space__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dingo_control_msg/msg/task_space__type_support.cpp.o -MF CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dingo_control_msg/msg/task_space__type_support.cpp.o.d -o CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dingo_control_msg/msg/task_space__type_support.cpp.o -c /home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_typesupport_cpp/dingo_control_msg/msg/task_space__type_support.cpp
 
 CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dingo_control_msg/msg/task_space__type_support.cpp.i: cmake_force
@@ -196,6 +214,7 @@ CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/
 # Object files for target dingo_control_msg__rosidl_typesupport_cpp
 dingo_control_msg__rosidl_typesupport_cpp_OBJECTS = \
 "CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dingo_control_msg/msg/angle__type_support.cpp.o" \
+"CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dingo_control_msg/msg/arm_angle__type_support.cpp.o" \
 "CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dingo_control_msg/msg/joint_space__type_support.cpp.o" \
 "CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dingo_control_msg/msg/task_space__type_support.cpp.o"
 
@@ -203,6 +222,7 @@ dingo_control_msg__rosidl_typesupport_cpp_OBJECTS = \
 dingo_control_msg__rosidl_typesupport_cpp_EXTERNAL_OBJECTS =
 
 libdingo_control_msg__rosidl_typesupport_cpp.so: CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dingo_control_msg/msg/angle__type_support.cpp.o
+libdingo_control_msg__rosidl_typesupport_cpp.so: CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dingo_control_msg/msg/arm_angle__type_support.cpp.o
 libdingo_control_msg__rosidl_typesupport_cpp.so: CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dingo_control_msg/msg/joint_space__type_support.cpp.o
 libdingo_control_msg__rosidl_typesupport_cpp.so: CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dingo_control_msg/msg/task_space__type_support.cpp.o
 libdingo_control_msg__rosidl_typesupport_cpp.so: CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/build.make
@@ -218,7 +238,7 @@ libdingo_control_msg__rosidl_typesupport_cpp.so: /opt/ros/jazzy/lib/libbuiltin_i
 libdingo_control_msg__rosidl_typesupport_cpp.so: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 libdingo_control_msg__rosidl_typesupport_cpp.so: /opt/ros/jazzy/lib/librcutils.so
 libdingo_control_msg__rosidl_typesupport_cpp.so: CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ehoaglin/ros2_ws/build/dingo_control_msg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libdingo_control_msg__rosidl_typesupport_cpp.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ehoaglin/ros2_ws/build/dingo_control_msg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library libdingo_control_msg__rosidl_typesupport_cpp.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -230,6 +250,7 @@ CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/clean:
 .PHONY : CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/clean
 
 CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/depend: rosidl_typesupport_cpp/dingo_control_msg/msg/angle__type_support.cpp
+CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/depend: rosidl_typesupport_cpp/dingo_control_msg/msg/arm_angle__type_support.cpp
 CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/depend: rosidl_typesupport_cpp/dingo_control_msg/msg/joint_space__type_support.cpp
 CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/depend: rosidl_typesupport_cpp/dingo_control_msg/msg/task_space__type_support.cpp
 	cd /home/ehoaglin/ros2_ws/build/dingo_control_msg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ehoaglin/ros2_ws/src/dingo_control_msg /home/ehoaglin/ros2_ws/src/dingo_control_msg /home/ehoaglin/ros2_ws/build/dingo_control_msg /home/ehoaglin/ros2_ws/build/dingo_control_msg /home/ehoaglin/ros2_ws/build/dingo_control_msg/CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/DependInfo.cmake "--color=$(COLOR)"

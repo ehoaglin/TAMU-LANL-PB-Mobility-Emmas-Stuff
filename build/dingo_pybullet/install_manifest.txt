@@ -9,7 +9,6 @@
 /home/ehoaglin/ros2_ws/install/dingo_pybullet/lib/python3.12/site-packages/dingo_pybullet-1.0.0-py3.12.egg-info/SOURCES.txt
 /home/ehoaglin/ros2_ws/install/dingo_pybullet/lib/python3.12/site-packages/dingo_pybullet-1.0.0-py3.12.egg-info/PKG-INFO
 /home/ehoaglin/ros2_ws/install/dingo_pybullet/lib/python3.12/site-packages/dingo_pybullet/__init__.py
-/home/ehoaglin/ros2_ws/install/dingo_pybullet/lib/python3.12/site-packages/dingo_pybullet/scripts
 /home/ehoaglin/ros2_ws/install/dingo_pybullet/share/ament_index/resource_index/package_run_dependencies/dingo_pybullet
 /home/ehoaglin/ros2_ws/install/dingo_pybullet/share/ament_index/resource_index/parent_prefix_path/dingo_pybullet
 /home/ehoaglin/ros2_ws/install/dingo_pybullet/share/dingo_pybullet/environment/ament_prefix_path.sh

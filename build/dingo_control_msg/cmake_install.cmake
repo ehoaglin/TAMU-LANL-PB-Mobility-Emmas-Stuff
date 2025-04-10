@@ -51,6 +51,10 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dingo_control_msg/msg" TYPE FILE FILES "/home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_generator_type_description/dingo_control_msg/msg/ArmAngle.json")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dingo_control_msg/msg" TYPE FILE FILES "/home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_generator_type_description/dingo_control_msg/msg/JointSpace.json")
 endif()
 
@@ -375,6 +379,10 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dingo_control_msg/msg" TYPE FILE FILES "/home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_adapter/dingo_control_msg/msg/ArmAngle.idl")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dingo_control_msg/msg" TYPE FILE FILES "/home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_adapter/dingo_control_msg/msg/JointSpace.idl")
 endif()
 
@@ -384,6 +392,10 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dingo_control_msg/msg" TYPE FILE FILES "/home/ehoaglin/ros2_ws/src/dingo_control_msg/msg/Angle.msg")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dingo_control_msg/msg" TYPE FILE FILES "/home/ehoaglin/ros2_ws/src/dingo_control_msg/msg/ArmAngle.msg")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)

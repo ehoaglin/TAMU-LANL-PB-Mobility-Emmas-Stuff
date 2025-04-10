@@ -73,8 +73,7 @@ class HardwareInterface(Node):
         
         # Convert to servo angles
         self.joint_angles_to_servo_angles(possible_joint_angles)
-
-        # print('Final angles for actuation: ',self.servo_angles)    
+  
         for leg_index in range(4):
             for axis_index in range(3):
                 try:
@@ -118,12 +117,9 @@ class HardwareInterface(Node):
             self.servo_angles[0,leg] = m.degrees(joint_angles[0,leg]) # servo zero is same as IK zero
             self.servo_angles[1,leg] = m.degrees(THETA2)              # servo zero is same as IK zero
             self.servo_angles[2,leg] = m.degrees(m.pi/2 + m.pi-THETA0) # servo zero is different to IK zero
-        # print('Uncorrected servo_angles: ',self.servo_angles)
 
         # Adding final physical offset angles from servo calibration and clipping to 180 degree max
         self.servo_angles = np.clip(self.servo_angles + self.physical_calibration_offsets, 0, 180)
-        
-        # print('Unflipped servo_angles: ',self.servo_angles)
 
         # Accounting for difference in configuration of servos (some are mounted backwards)
         self.servo_angles = np.round(np.multiply(self.servo_angles, self.servo_multipliers) + self.complementary_angle, 1)

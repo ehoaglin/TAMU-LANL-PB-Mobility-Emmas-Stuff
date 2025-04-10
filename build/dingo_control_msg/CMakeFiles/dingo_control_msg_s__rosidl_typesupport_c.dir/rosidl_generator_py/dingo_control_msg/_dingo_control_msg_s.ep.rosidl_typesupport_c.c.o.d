@@ -233,6 +233,9 @@ CMakeFiles/dingo_control_msg_s__rosidl_typesupport_c.dir/rosidl_generator_py/din
  /home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_generator_c/dingo_control_msg/msg/rosidl_generator_c__visibility_control.h \
  /home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_generator_c/dingo_control_msg/msg/detail/angle__struct.h \
  /home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_generator_c/dingo_control_msg/msg/detail/angle__functions.h \
+ /home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__type_support.h \
+ /home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__struct.h \
+ /home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__functions.h \
  /home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__type_support.h \
  /home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__struct.h \
  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.h \

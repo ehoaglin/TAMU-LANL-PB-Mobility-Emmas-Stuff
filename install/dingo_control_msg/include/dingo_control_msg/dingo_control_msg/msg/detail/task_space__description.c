@@ -23,8 +23,8 @@ dingo_control_msg__msg__TaskSpace__get_type_hash(
 #include <string.h>
 
 // Include directives for referenced types
-#include "builtin_interfaces/msg/detail/time__functions.h"
 #include "std_msgs/msg/detail/header__functions.h"
+#include "builtin_interfaces/msg/detail/time__functions.h"
 
 // Hashes for external referenced types
 #ifndef NDEBUG
@@ -146,6 +146,7 @@ static char toplevel_type_raw_source[] =
   "float64[3] fr_foot\n"
   "float64[3] rl_foot\n"
   "float64[3] rr_foot\n"
+  "# float64[4] arm_angles\n"
   "# geometry_msgs/Point fl_foot\n"
   "# geometry_msgs/Point fr_foot\n"
   "# geometry_msgs/Point rl_foot\n"
@@ -163,7 +164,7 @@ dingo_control_msg__msg__TaskSpace__get_individual_type_description_source(
   static const rosidl_runtime_c__type_description__TypeSource source = {
     {dingo_control_msg__msg__TaskSpace__TYPE_NAME, 31, 31},
     {msg_encoding, 3, 3},
-    {toplevel_type_raw_source, 218, 218},
+    {toplevel_type_raw_source, 242, 242},
   };
   return &source;
 }

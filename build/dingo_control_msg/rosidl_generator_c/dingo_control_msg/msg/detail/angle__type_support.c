@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "dingo_control_msg/msg/detail/angle__functions.h"
-#include "dingo_control_msg/msg/detail/angle__struct.h"
-#include "dingo_control_msg/msg/detail/angle__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "dingo_control_msg/msg/detail/angle__functions.h"
+#include "dingo_control_msg/msg/detail/angle__type_support.h"
+#include "dingo_control_msg/msg/detail/angle__struct.h"
 
 #ifdef __cplusplus
 extern "C"

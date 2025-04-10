@@ -78,6 +78,7 @@ CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/
  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.h \
  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
  /home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_generator_c/dingo_control_msg/msg/detail/angle__struct.h \
+ /home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__struct.h \
  /home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_generator_cpp/dingo_control_msg/msg/detail/joint_space__struct.hpp \
  /usr/include/c++/13/algorithm /usr/include/c++/13/bits/stl_algobase.h \
  /usr/include/c++/13/bits/functexcept.h \
@@ -194,6 +195,7 @@ CMakeFiles/dingo_control_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/
  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp \
  /home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_generator_cpp/dingo_control_msg/msg/detail/angle__struct.hpp \
+ /home/ehoaglin/ros2_ws/build/dingo_control_msg/rosidl_generator_cpp/dingo_control_msg/msg/detail/arm_angle__struct.hpp \
  /opt/ros/jazzy/include/rosidl_typesupport_cpp/rosidl_typesupport_cpp/identifier.hpp \
  /opt/ros/jazzy/include/rosidl_typesupport_cpp/rosidl_typesupport_cpp/visibility_control.h \
  /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \

@@ -26,6 +26,8 @@
 // Member 'rl_foot'
 // Member 'rr_foot'
 #include "dingo_control_msg/msg/detail/angle__struct.hpp"
+// Member 'exc_arm'
+#include "dingo_control_msg/msg/detail/arm_angle__struct.hpp"
 
 #ifndef _WIN32
 # define DEPRECATED__dingo_control_msg__msg__JointSpace __attribute__((deprecated))
@@ -50,7 +52,8 @@ struct JointSpace_
     fl_foot(_init),
     fr_foot(_init),
     rl_foot(_init),
-    rr_foot(_init)
+    rr_foot(_init),
+    exc_arm(_init)
   {
     (void)_init;
   }
@@ -60,7 +63,8 @@ struct JointSpace_
     fl_foot(_alloc, _init),
     fr_foot(_alloc, _init),
     rl_foot(_alloc, _init),
-    rr_foot(_alloc, _init)
+    rr_foot(_alloc, _init),
+    exc_arm(_alloc, _init)
   {
     (void)_init;
   }
@@ -81,6 +85,9 @@ struct JointSpace_
   using _rr_foot_type =
     dingo_control_msg::msg::Angle_<ContainerAllocator>;
   _rr_foot_type rr_foot;
+  using _exc_arm_type =
+    dingo_control_msg::msg::ArmAngle_<ContainerAllocator>;
+  _exc_arm_type exc_arm;
 
   // setters for named parameter idiom
   Type & set__header(
@@ -111,6 +118,12 @@ struct JointSpace_
     const dingo_control_msg::msg::Angle_<ContainerAllocator> & _arg)
   {
     this->rr_foot = _arg;
+    return *this;
+  }
+  Type & set__exc_arm(
+    const dingo_control_msg::msg::ArmAngle_<ContainerAllocator> & _arg)
+  {
+    this->exc_arm = _arg;
     return *this;
   }
 
@@ -169,6 +182,9 @@ struct JointSpace_
       return false;
     }
     if (this->rr_foot != other.rr_foot) {
+      return false;
+    }
+    if (this->exc_arm != other.exc_arm) {
       return false;
     }
     return true;

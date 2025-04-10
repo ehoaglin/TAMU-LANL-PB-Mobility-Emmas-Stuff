@@ -5,6 +5,9 @@ CMakeFiles/dingo_control_msg_s__rosidl_typesupport_c.dir/rosidl_generator_py/din
   rosidl_generator_c/dingo_control_msg/msg/detail/angle__functions.h \
   rosidl_generator_c/dingo_control_msg/msg/detail/angle__struct.h \
   rosidl_generator_c/dingo_control_msg/msg/detail/angle__type_support.h \
+  rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__functions.h \
+  rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__struct.h \
+  rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__type_support.h \
   rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__functions.h \
   rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__struct.h \
   rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__type_support.h \
@@ -316,15 +319,9 @@ CMakeFiles/dingo_control_msg_s__rosidl_typesupport_c.dir/rosidl_generator_py/din
 
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
-/usr/include/python3.12/memoryobject.h:
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
-/usr/include/python3.12/cpython/pyctype.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
-
-/usr/include/python3.12/listobject.h:
-
-/usr/include/python3.12/pystrtod.h:
+/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
 
 /usr/include/python3.12/iterobject.h:
 
@@ -365,6 +362,12 @@ CMakeFiles/dingo_control_msg_s__rosidl_typesupport_c.dir/rosidl_generator_py/din
 /usr/include/python3.12/cpython/longobject.h:
 
 /usr/include/x86_64-linux-gnu/bits/time64.h:
+
+/usr/include/python3.12/cpython/pyctype.h:
+
+/usr/include/python3.12/memoryobject.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
@@ -422,11 +425,9 @@ rosidl_generator_c/dingo_control_msg/msg/detail/task_space__type_support.h:
 
 /usr/include/python3.12/cpython/classobject.h:
 
-/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_hash.h:
-
 /usr/include/python3.12/compile.h:
 
-/usr/include/python3.12/codecs.h:
+/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_hash.h:
 
 /usr/include/x86_64-linux-gnu/bits/endian.h:
 
@@ -437,6 +438,22 @@ rosidl_generator_c/dingo_control_msg/msg/detail/task_space__type_support.h:
 /usr/include/python3.12/boolobject.h:
 
 /usr/include/python3.12/cpython/bytesobject.h:
+
+/usr/include/python3.12/abstract.h:
+
+/usr/include/x86_64-linux-gnu/bits/statx-generic.h:
+
+/usr/include/python3.12/cpython/pylifecycle.h:
+
+/usr/include/python3.12/cpython/pytime.h:
+
+/usr/include/python3.12/cpython/cellobject.h:
+
+rosidl_generator_c/dingo_control_msg/msg/detail/angle__functions.h:
+
+/usr/include/python3.12/dictobject.h:
+
+/usr/include/python3.12/Python.h:
 
 /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/individual_type_description__struct.h:
 
@@ -454,77 +471,7 @@ rosidl_generator_c/dingo_control_msg/msg/rosidl_generator_c__visibility_control.
 
 rosidl_generator_c/dingo_control_msg/msg/detail/angle__struct.h:
 
-/usr/include/python3.12/cpython/odictobject.h:
-
-/usr/include/alloca.h:
-
-/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h:
-
-/usr/include/python3.12/cpython/pydebug.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
-
-/opt/ros/jazzy/include/rcutils/rcutils/macros.h:
-
-/usr/include/python3.12/cpython/code.h:
-
-/usr/include/python3.12/cpython/abstract.h:
-
-/usr/include/python3.12/bltinmodule.h:
-
-/usr/include/python3.12/pymath.h:
-
-/usr/include/x86_64-linux-gnu/bits/errno.h:
-
-/usr/include/python3.12/cpython/ceval.h:
-
-/usr/include/python3.12/pybuffer.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_statx.h:
-
-/usr/include/python3.12/pyerrors.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-least.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
-
-/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_description__struct.h:
-
-/usr/include/inttypes.h:
-
-/usr/include/python3.12/fileobject.h:
-
-/opt/ros/jazzy/include/rcutils/rcutils/visibility_control_macros.h:
-
-/opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h:
-
-/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h:
-
-/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h:
-
-rosidl_generator_c/dingo_control_msg/msg/detail/angle__functions.h:
-
-/usr/include/python3.12/dictobject.h:
-
-/usr/include/python3.12/Python.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
-
-/usr/include/python3.12/cpython/longintrepr.h:
-
-/usr/include/python3.12/cpython/picklebufobject.h:
-
-/usr/include/python3.12/complexobject.h:
-
-/usr/include/linux/stddef.h:
-
-rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__functions.h:
-
-/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h:
-
-/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
-
-/opt/ros/jazzy/include/rcutils/rcutils/types/rcutils_ret.h:
+rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__type_support.h:
 
 /usr/include/python3.12/cpython/fileobject.h:
 
@@ -544,19 +491,21 @@ rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__functions.h:
 
 /usr/include/python3.12/pyframe.h:
 
-rosidl_generator_c/dingo_control_msg/msg/detail/task_space__struct.h:
+/usr/include/python3.12/fileobject.h:
 
-/usr/include/features.h:
+/opt/ros/jazzy/include/rcutils/rcutils/visibility_control_macros.h:
 
-/usr/include/python3.12/unicodeobject.h:
+/opt/ros/jazzy/include/rcutils/rcutils/types/rcutils_ret.h:
 
-/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_source__struct.h:
+/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h:
 
-/usr/include/asm-generic/errno-base.h:
+/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
-/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h:
+/usr/include/python3.12/cpython/picklebufobject.h:
 
-rosidl_generator_c/dingo_control_msg/msg/detail/task_space__functions.h:
+/usr/include/python3.12/complexobject.h:
+
+/usr/include/linux/stddef.h:
 
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
 
@@ -564,9 +513,83 @@ rosidl_generator_c/dingo_control_msg/msg/detail/task_space__functions.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
 
+/usr/include/python3.12/cpython/ceval.h:
+
+/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h:
+
+/opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h:
+
+/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h:
+
+/usr/include/python3.12/pyerrors.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-least.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
+
+/usr/include/python3.12/cpython/code.h:
+
+/usr/include/python3.12/cpython/abstract.h:
+
+/usr/include/python3.12/bltinmodule.h:
+
+/opt/ros/jazzy/include/rcutils/rcutils/macros.h:
+
+/usr/include/python3.12/pymath.h:
+
+/usr/include/x86_64-linux-gnu/bits/errno.h:
+
+/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h:
+
+/usr/include/python3.12/cpython/odictobject.h:
+
+/usr/include/alloca.h:
+
+/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h:
+
+/usr/include/python3.12/cpython/pydebug.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
+/usr/include/python3.12/codecs.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_statx.h:
+
+/usr/include/python3.12/pybuffer.h:
+
+rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__struct.h:
+
 /usr/include/python3.12/cpython/memoryobject.h:
 
 /usr/include/asm-generic/int-ll64.h:
+
+rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__functions.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h:
+
+rosidl_generator_c/dingo_control_msg/msg/detail/task_space__functions.h:
+
+rosidl_generator_c/dingo_control_msg/msg/detail/task_space__struct.h:
+
+/usr/include/features.h:
+
+/usr/include/python3.12/unicodeobject.h:
+
+/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_description__struct.h:
+
+/usr/include/python3.12/cpython/longintrepr.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
+/usr/include/inttypes.h:
+
+rosidl_generator_c/dingo_control_msg/msg/detail/arm_angle__functions.h:
+
+/usr/include/python3.12/cpython/dictobject.h:
+
+/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_source__struct.h:
 
 /usr/include/asm-generic/posix_types.h:
 
@@ -575,8 +598,6 @@ rosidl_generator_c/dingo_control_msg/msg/detail/task_space__functions.h:
 /usr/include/errno.h:
 
 /usr/include/python3.12/cpython/modsupport.h:
-
-/usr/include/python3.12/cpython/dictobject.h:
 
 /usr/include/pthread.h:
 
@@ -590,15 +611,7 @@ rosidl_generator_c/dingo_control_msg/msg/detail/task_space__functions.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
-/usr/include/python3.12/cpython/pylifecycle.h:
-
-/usr/include/python3.12/cpython/pytime.h:
-
-/usr/include/python3.12/cpython/cellobject.h:
-
 /usr/include/limits.h:
-
-/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h:
 
 /usr/include/linux/limits.h:
 
@@ -618,9 +631,9 @@ rosidl_generator_c/dingo_control_msg/msg/detail/task_space__functions.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h:
 
-/usr/include/python3.12/abstract.h:
+/usr/include/python3.12/listobject.h:
 
-/usr/include/x86_64-linux-gnu/bits/statx-generic.h:
+/usr/include/python3.12/pystrtod.h:
 
 /usr/include/python3.12/methodobject.h:
 
@@ -639,8 +652,6 @@ rosidl_generator_c/dingo_control_msg/msg/detail/task_space__functions.h:
 /usr/include/python3.12/cpython/pythonrun.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
 
 /usr/include/python3.12/osmodule.h:
 
@@ -668,6 +679,12 @@ rosidl_generator_py/dingo_control_msg/_dingo_control_msg_s.ep.rosidl_typesupport
 
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
+
+/usr/include/python3.12/pymem.h:
+
+/usr/include/python3.12/pystate.h:
+
 /usr/include/string.h:
 
 /usr/include/stdc-predef.h:
@@ -686,12 +703,6 @@ rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__struct.h:
 
 /usr/include/python3.12/pytypedefs.h:
 
-/usr/include/python3.12/pymem.h:
-
-/usr/include/python3.12/pystate.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
-
 /usr/include/python3.12/structseq.h:
 
 /usr/include/python3.12/sysmodule.h:
@@ -704,11 +715,11 @@ rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__struct.h:
 
 /usr/include/python3.12/tracemalloc.h:
 
-/usr/include/python3.12/longobject.h:
-
 /usr/include/python3.12/cpython/tupleobject.h:
 
 /usr/include/x86_64-linux-gnu/asm/errno.h:
+
+/usr/include/python3.12/longobject.h:
 
 /usr/include/python3.12/tupleobject.h:
 
@@ -822,9 +833,9 @@ rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__struct.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
-/usr/include/asm-generic/bitsperlong.h:
-
 /usr/include/asm-generic/types.h:
+
+/usr/include/asm-generic/bitsperlong.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
@@ -837,5 +848,3 @@ rosidl_generator_c/dingo_control_msg/msg/detail/joint_space__struct.h:
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
-
-/usr/include/x86_64-linux-gnu/bits/typesizes.h:

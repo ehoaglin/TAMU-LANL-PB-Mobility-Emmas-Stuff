@@ -1,0 +1,62 @@
+Built target ament_cmake_python_copy_dingo_control
+running egg_info
+writing dingo_control.egg-info/PKG-INFO
+writing dependency_links to dingo_control.egg-info/dependency_links.txt
+writing top-level names to dingo_control.egg-info/top_level.txt
+reading manifest file 'dingo_control.egg-info/SOURCES.txt'
+writing manifest file 'dingo_control.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_dingo_control_egg
+-- Install configuration: ""
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control/share/dingo_control/environment/pythonpath.sh
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control/share/dingo_control/environment/pythonpath.dsv
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control-0.0.0-py3.12.egg-info
+-- Installing: /home/ehoaglin/ros2_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control-0.0.0-py3.12.egg-info/top_level.txt
+-- Installing: /home/ehoaglin/ros2_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/ehoaglin/ros2_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/ehoaglin/ros2_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control-0.0.0-py3.12.egg-info/PKG-INFO
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control/util.py
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control/__init__.py
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control/State.py
+-- Installing: /home/ehoaglin/ros2_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control/Kinematics.py
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control/dingo_utilities
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control/dingo_utilities/CMakeLists.txt
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control/dingo_utilities/package.xml
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control/dingo_utilities/Open Notebook.onetoc2
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control/dingo_utilities/src
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control/dingo_utilities/src/dingo_utilities
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control/dingo_utilities/src/dingo_utilities/__init__.py
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control/dingo_utilities/src/dingo_utilities/Tests.py
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control/dingo_utilities/src/dingo_utilities/Utilities.py
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control/dingo_utilities/src/dingo_utilities/Open Notebook.onetoc2
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control/dingo_utilities/src/Open Notebook.onetoc2
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control/dingo_utilities/setup.py
+-- Installing: /home/ehoaglin/ros2_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control/Controller.py
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control/Gaits.py
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control/StanceController.py
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control/SwingLegController.py
+-- Installing: /home/ehoaglin/ros2_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control/Config.py
+-- Installing: /home/ehoaglin/ros2_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control/Command.py
+Listing '/home/ehoaglin/ros2_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control'...
+Compiling '/home/ehoaglin/ros2_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control/Command.py'...
+Compiling '/home/ehoaglin/ros2_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control/Config.py'...
+Compiling '/home/ehoaglin/ros2_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control/Controller.py'...
+Compiling '/home/ehoaglin/ros2_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control/Kinematics.py'...
+Listing '/home/ehoaglin/ros2_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control/dingo_utilities'...
+Listing '/home/ehoaglin/ros2_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control/dingo_utilities/src'...
+Listing '/home/ehoaglin/ros2_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control/dingo_utilities/src/dingo_utilities'...
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control/share/ament_index/resource_index/package_run_dependencies/dingo_control
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control/share/ament_index/resource_index/parent_prefix_path/dingo_control
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control/share/dingo_control/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control/share/dingo_control/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control/share/dingo_control/environment/path.sh
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control/share/dingo_control/environment/path.dsv
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control/share/dingo_control/local_setup.bash
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control/share/dingo_control/local_setup.sh
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control/share/dingo_control/local_setup.zsh
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control/share/dingo_control/local_setup.dsv
+-- Installing: /home/ehoaglin/ros2_ws/install/dingo_control/share/dingo_control/package.dsv
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control/share/ament_index/resource_index/packages/dingo_control
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control/share/dingo_control/cmake/dingo_controlConfig.cmake
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control/share/dingo_control/cmake/dingo_controlConfig-version.cmake
+-- Up-to-date: /home/ehoaglin/ros2_ws/install/dingo_control/share/dingo_control/package.xml

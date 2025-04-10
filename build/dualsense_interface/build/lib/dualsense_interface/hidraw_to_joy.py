@@ -36,8 +36,6 @@ class HIDRawJoyNode(Node):
                 if not raw_data:
                     continue
 
-                #self.get_logger().info(f"Raw HID data: {raw_data}")
-
                 # Process raw HID data
                 joy_msg = self.parse_hidraw(raw_data)
 
@@ -46,6 +44,7 @@ class HIDRawJoyNode(Node):
             except Exception as e:
                 self.get_logger().error(f"Error reading HIDRAW device: {e}")
                 break
+
 
     def parse_hidraw(self, data):
         """ Parse raw HID data into a Joy message """
@@ -87,20 +86,8 @@ class HIDRawJoyNode(Node):
 
             joy_msg.axes.extend(list(dpad))  # Ensure list format
 
+
             # Extract buttons (example mapping, may need adjustments)
-            # joy_msg.buttons = list([
-            #     (data[8] & 0x20) >> 5,  # Cross (X) button
-            #     (data[8] & 0x10) >> 4,  # Square           
-            #     (data[8] & 0x40) >> 6,  # Circle
-            #     (data[8] & 0x80) >> 7,  # Triangle
-            #     (data[9] & 0x01),       # L1
-            #     (data[9] & 0x02) >> 1,  # R1
-            #     (data[9] & 0x10) >> 4,  # Share
-            #     (data[9] & 0x20) >> 5,  # Options
-            #     #(data[8] & 0x0F),       # hat_switch
-            # ])
-            
-            # Extract buttons
             joy_msg.buttons = list([
                 (data[8] & 0x10) >> 4,  # Square
                 (data[8] & 0x20) >> 5,  # Cross (X)
@@ -133,6 +120,6 @@ def main():
 
 if __name__ == '__main__':
     main()
-# to run, in split terminal first run python hidraw_to_joy.py
-# in other terminal run ros2 topic echo /joy
+# to run, in split terminal first run 'python3 hidraw_to_joy.py'
+# in other terminal run 'ros2 topic echo /joy'
 

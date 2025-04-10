@@ -25,6 +25,8 @@
 // Member 'rl_foot'
 // Member 'rr_foot'
 #include "dingo_control_msg/msg/detail/angle__traits.hpp"
+// Member 'exc_arm'
+#include "dingo_control_msg/msg/detail/arm_angle__traits.hpp"
 
 namespace dingo_control_msg
 {
@@ -69,6 +71,13 @@ inline void to_flow_style_yaml(
   {
     out << "rr_foot: ";
     to_flow_style_yaml(msg.rr_foot, out);
+    out << ", ";
+  }
+
+  // member: exc_arm
+  {
+    out << "exc_arm: ";
+    to_flow_style_yaml(msg.exc_arm, out);
   }
   out << "}";
 }  // NOLINT(readability/fn_size)
@@ -121,6 +130,15 @@ inline void to_block_style_yaml(
     out << "rr_foot:\n";
     to_block_style_yaml(msg.rr_foot, out, indentation + 2);
   }
+
+  // member: exc_arm
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "exc_arm:\n";
+    to_block_style_yaml(msg.exc_arm, out, indentation + 2);
+  }
 }  // NOLINT(readability/fn_size)
 
 inline std::string to_yaml(const JointSpace & msg, bool use_flow_style = false)
@@ -169,11 +187,11 @@ inline const char * name<dingo_control_msg::msg::JointSpace>()
 
 template<>
 struct has_fixed_size<dingo_control_msg::msg::JointSpace>
-  : std::integral_constant<bool, has_fixed_size<dingo_control_msg::msg::Angle>::value && has_fixed_size<std_msgs::msg::Header>::value> {};
+  : std::integral_constant<bool, has_fixed_size<dingo_control_msg::msg::Angle>::value && has_fixed_size<dingo_control_msg::msg::ArmAngle>::value && has_fixed_size<std_msgs::msg::Header>::value> {};
 
 template<>
 struct has_bounded_size<dingo_control_msg::msg::JointSpace>
-  : std::integral_constant<bool, has_bounded_size<dingo_control_msg::msg::Angle>::value && has_bounded_size<std_msgs::msg::Header>::value> {};
+  : std::integral_constant<bool, has_bounded_size<dingo_control_msg::msg::Angle>::value && has_bounded_size<dingo_control_msg::msg::ArmAngle>::value && has_bounded_size<std_msgs::msg::Header>::value> {};
 
 template<>
 struct is_message<dingo_control_msg::msg::JointSpace>
