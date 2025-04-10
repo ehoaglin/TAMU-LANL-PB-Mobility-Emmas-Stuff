@@ -11,7 +11,8 @@ class Command:
         self.arm_joint1_rate = 0.0
         self.arm_joint2_rate = 0.0
         self.arm_joint3_rate = 0.0
-        self.arm_joint4_rate = 0.0
+        self.arm_joint4_rate_open = 0.0
+        self.arm_joint4_rate_close = 0.0
         self.yaw_rate = 0.0
         self.height = -0.28
         self.pitch = 0.0
