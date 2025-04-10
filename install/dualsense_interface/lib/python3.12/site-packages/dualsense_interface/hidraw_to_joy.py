@@ -52,13 +52,16 @@ class HIDRawJoyNode(Node):
             joy_msg = Joy()
             joy_msg.header.stamp = self.get_clock().now().to_msg()
 
+            # Define deadzone threshold
+            deadzone = 0.3
+
             # Extract joystick axes (left & right stick)
             joy_msg.axes = list([
                 
-                (data[1] - 128) / (128.0),  # Left stick X (-1 to 1)
-                (data[2] - 128) / (-128.0),     # Left stick Y (-1 to 1)
-                (data[3] - 128) / (128.0),  # Right stick X (-1 to 1)
-                (data[4] - 128) / (-128.0),     # Right stick Y (-1 to 1)
+                self.apply_deadzone((data[1] - 128) / (128.0), deadzone),  # Left stick X (-1 to 1)
+                self.apply_deadzone((data[2] - 128) / (-128.0), deadzone),     # Left stick Y (-1 to 1)
+                self.apply_deadzone((data[3] - 128) / (128.0), deadzone),  # Right stick X (-1 to 1)
+                self.apply_deadzone((data[4] - 128) / (-128.0), deadzone),     # Right stick Y (-1 to 1)
                 (data[5]) / 255,       # L2
                 (data[6]) / 255,       # R2
             ])
@@ -110,6 +113,12 @@ class HIDRawJoyNode(Node):
         except Exception as e:
             self.get_logger().error(f"Error parsing HID data: {e}")
             return None
+        
+    def apply_deadzone(self, value, deadzone):
+        """ Apply deadzone to joystick axis value """
+        if abs(value) < deadzone:
+            return 0.0
+        return value
 
 def main():
     rclpy.init()
