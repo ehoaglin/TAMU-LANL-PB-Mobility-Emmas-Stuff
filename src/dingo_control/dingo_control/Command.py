@@ -7,7 +7,11 @@ class Command:
 
     def __init__(self):
         self.horizontal_velocity = np.array([0, 0])
-        self.arm_movement = np.array([0, -75, 160, 180])
+        #self.arm_movement = np.array([0, -75, 160, 180])
+        self.arm_joint1_rate = 0.0
+        self.arm_joint2_rate = 0.0
+        self.arm_joint3_rate = 0.0
+        self.arm_joint4_rate = 0.0
         self.yaw_rate = 0.0
         self.height = -0.28
         self.pitch = 0.0

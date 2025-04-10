@@ -188,7 +188,7 @@ class PyBulletSimNode(Node):
         self.get_logger().info('Ground plane added.')
 
         # Set robot initial position and orientation
-        robotStartPos = [0, 0, 0.25]  # Slightly above the ground
+        robotStartPos = [0, 0, 0.18]  # Slightly above the ground
         robotStartOrientation = p.getQuaternionFromEuler([0, 0, 0])
 
         # Load the robot URDF

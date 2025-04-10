@@ -20,8 +20,9 @@ class Configuration:
         
         #################### ARM ####################
         
-        self.arm_joint1 = 0.0
-        self.arm_joint2 = -75
+        self.max_joint_rate = 0.3
+        self.max_joint1 = 180
+        self.max_joint2 = 225
         self.arm_joint3 = 160.0
         self.arm_joint4 = 180.0
 

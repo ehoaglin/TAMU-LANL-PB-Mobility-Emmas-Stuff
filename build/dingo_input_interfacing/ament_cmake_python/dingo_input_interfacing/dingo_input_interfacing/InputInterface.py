@@ -89,12 +89,16 @@ class InputInterface:
 
         # I did this one myself so it's a little messed up but this creates an array of the 
         # arm joint angle command values and enforces the physical allowable range of movement
-        self.developing_command.arm_movement = np.round(np.array([np.clip(arm_joint_1,-180, 180), 
-                                                                  np.clip(arm_joint_2,-15, 255), 
-                                                                  np.clip(arm_joint_3,-160, 20), 
-                                                                  np.clip(arm_joint_4,-115,0)]), self.rounding_dp)
-
-        self.developing_command.yaw_rate = np.round(msg.axes[2],self.rounding_dp) * self.config.max_yaw_rate #rx
+        # self.developing_command.arm_movement = np.round(np.array([np.clip(arm_joint_1,-180, 180), 
+        #                                                           np.round(msg.axes[3],self.rounding_dp) * self.config.max_joint_rate, 
+        #                                                           np.clip(arm_joint_3,-160, 20), 
+        #                                                           np.clip(arm_joint_4,-115,0)]), self.rounding_dp)
+        
+        self.developing_command.arm_joint1_rate = np.round(msg.axes[2],self.rounding_dp) * self.config.max_joint_rate
+        self.developing_command.arm_joint2_rate = np.round(msg.axes[3],self.rounding_dp) * self.config.max_joint_rate
+        self.developing_command.arm_joint3_rate = np.round(msg.axes[1],self.rounding_dp) * self.config.max_joint_rate
+        self.developing_command.arm_joint4_rate = np.round(msg.axes[0],self.rounding_dp) * self.config.max_joint_rate
+        self.developing_command.yaw_rate = np.round(msg.axes[2],self.rounding_dp) * self.config.max_yaw_rate #rx 
 
         self.developing_command.pitch = np.round(msg.axes[3],self.rounding_dp) * self.config.max_pitch #ry
         self.developing_command.height_movement = np.round(msg.axes[6],self.rounding_dp) #dpady
@@ -119,12 +123,14 @@ class InputInterface:
         deadbanded_pitch = deadband(
             self.current_command.pitch, self.config.pitch_deadband
         )
+        #print(deadband)
         pitch_rate = clipped_first_order_filter(
             state.pitch,
             deadbanded_pitch,
             self.config.max_pitch_rate,
             self.config.pitch_time_constant,
         )
+        #print(pitch_rate)
         
         self.current_command.pitch  = np.clip(state.pitch + message_dt * pitch_rate, -0.35,0.35)
         self.current_command.height = np.clip(state.height - message_dt * self.config.z_speed * self.current_command.height_movement,-0.27,-0.08)

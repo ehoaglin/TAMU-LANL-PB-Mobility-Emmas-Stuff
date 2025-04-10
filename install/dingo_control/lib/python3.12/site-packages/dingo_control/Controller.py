@@ -242,9 +242,8 @@ class Controller:
             )
             state.rotated_foot_locations = rotated_foot_locations
             
-            # Set the arm angles to the default arm position plus the command
-            state.arm_joint_angles = (self.config.default_arm
-                                  + command.arm_movement)
+            # Update the arm angles from the current position using the command rates
+            state.arm_joint_angles = self.arm_joint_angles(state, command)
             
             # Reshape the arm joint angles to match the expected input shape
             state.arm_joint_angles = state.arm_joint_angles.reshape(1,4)
@@ -254,17 +253,27 @@ class Controller:
         state.roll = command.roll
         state.height = command.height
 
+
     def set_pose_to_default(self, state):
         state.foot_locations = (
             self.config.default_stance
             + np.array([0, 0, self.config.default_z_ref])[:, np.newaxis]
         )
-        #print(state.foot_locations)
+
         state.joint_angles = self.inverse_kinematics(
             state.foot_locations, self.config
         )
         return state.joint_angles
     
+
+    def arm_joint_angles(self, state, command):
+        state.arm_joint_angles[0,0] = np.clip(state.arm_joint_angles[0,0] + command.arm_joint1_rate, -180,180)
+        state.arm_joint_angles[0,1] = np.clip(state.arm_joint_angles[0,1] + command.arm_joint2_rate, -15,225)
+        state.arm_joint_angles[0,2] = np.clip(state.arm_joint_angles[0,2] + command.arm_joint3_rate, -160,20)
+        state.arm_joint_angles[0,3] = np.clip(state.arm_joint_angles[0,3] + command.arm_joint4_rate, -115,0)
+
+        return state.arm_joint_angles
+
 
     def stabilise_with_IMU(self,foot_locations,orientation):
         ''' Applies euler orientatin data of pitch roll and yaw to stabilise hte robt. Current only applying to pitch.'''
