@@ -1,6 +1,6 @@
-/home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/urdf/dingo_copy.urdf
 /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/urdf/urdf of dingo + arm not connected.urdf
 /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/urdf/dingo.urdf
+/home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/urdf/dingoplusbucket.urdf
 /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/urdf/Open Notebook.onetoc2
 /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/urdf/dingo_description.csv
 /home/ehoaglin/ros2_ws/install/dingo_description/share/dingo_description/meshes/body_obj.obj

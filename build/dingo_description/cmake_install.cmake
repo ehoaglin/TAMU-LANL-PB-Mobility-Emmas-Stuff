@@ -43,11 +43,11 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dingo_description/urdf" TYPE DIRECTORY FILES "/home/ehoaglin/ros2_ws/src/dingo_description/Combined_Simulation_Documents/dingo_description/urdf/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dingo_description/urdf" TYPE DIRECTORY FILES "/home/ehoaglin/ros2_ws/src/dingo_description/dingo_description_new/dingo_description/urdf/")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dingo_description/meshes" TYPE DIRECTORY FILES "/home/ehoaglin/ros2_ws/src/dingo_description/Combined_Simulation_Documents/dingo_description/meshes/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dingo_description/meshes" TYPE DIRECTORY FILES "/home/ehoaglin/ros2_ws/src/dingo_description/dingo_description_new/dingo_description/meshes/")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)

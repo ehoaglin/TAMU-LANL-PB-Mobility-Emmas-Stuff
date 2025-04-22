@@ -97,8 +97,8 @@ class InputInterface:
         self.developing_command.arm_joint1_rate = np.round(msg.axes[2],self.rounding_dp) * self.config.max_joint_rate
         self.developing_command.arm_joint2_rate = np.round(msg.axes[3],self.rounding_dp) * self.config.max_joint_rate
         self.developing_command.arm_joint3_rate = np.round(msg.axes[1],self.rounding_dp) * self.config.max_joint_rate
-        self.developing_command.arm_joint4_rate_close = np.round(msg.axes[6],self.rounding_dp) * self.config.max_joint_rate
-        self.developing_command.arm_joint4_rate_open = np.round(msg.axes[5],self.rounding_dp) * self.config.max_joint_rate
+        self.developing_command.arm_joint4_rate_close = np.round(msg.axes[5],self.rounding_dp) * self.config.max_joint_rate
+        self.developing_command.arm_joint4_rate_open = np.round(msg.axes[4],self.rounding_dp) * self.config.max_joint_rate
         self.developing_command.yaw_rate = np.round(msg.axes[2],self.rounding_dp) * self.config.max_yaw_rate #rx 
 
         self.developing_command.pitch = np.round(msg.axes[3],self.rounding_dp) * self.config.max_pitch #ry

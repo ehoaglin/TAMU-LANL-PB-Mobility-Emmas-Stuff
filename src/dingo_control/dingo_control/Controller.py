@@ -270,8 +270,8 @@ class Controller:
         state.arm_joint_angles[0,0] = np.clip(state.arm_joint_angles[0,0] + command.arm_joint1_rate, -180,180)
         state.arm_joint_angles[0,1] = np.clip(state.arm_joint_angles[0,1] + command.arm_joint2_rate, -15,225)
         state.arm_joint_angles[0,2] = np.clip(state.arm_joint_angles[0,2] + command.arm_joint3_rate, -20,160)
-        state.arm_joint_angles[0,3] = np.clip(state.arm_joint_angles[0,3] + command.arm_joint4_rate_close, 0,115)
-        state.arm_joint_angles[0,3] = np.clip(state.arm_joint_angles[0,3] - command.arm_joint4_rate_open, 0,115)
+        state.arm_joint_angles[0,3] = np.clip(state.arm_joint_angles[0,3] + command.arm_joint4_rate_close, -115,0)
+        state.arm_joint_angles[0,3] = np.clip(state.arm_joint_angles[0,3] - command.arm_joint4_rate_open, -115,0)
 
         return state.arm_joint_angles
 

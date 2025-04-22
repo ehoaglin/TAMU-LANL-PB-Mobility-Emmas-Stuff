@@ -23,7 +23,7 @@ class PyBulletSimNode(Node):
         self.subscription = self.create_subscription(JointSpace, '/joint_space_goals', self.joint_states_callback, 10)
         self.get_logger().info('Subscription to /joint_space_goals topic created.')
         # Initialize the robot in PyBullet
-        self.robot_init_flat(dt=0.0083, body_pos=[0, 0, 0.18], fixed=False)
+        self.robot_init_terrain(dt=0.0083, body_pos=[0, 0, 0.18], fixed=False)
         # self.robot_init_terrain(dt=0.0083, body_pos=[0, 0, 0.18], fixed=False)
 
 
@@ -124,7 +124,7 @@ class PyBulletSimNode(Node):
 
         # Get the path to the URDF file
         dingo_description_path = get_package_share_directory('dingo_description')
-        urdf_file = os.path.join(dingo_description_path, 'urdf', 'dingo.urdf')
+        urdf_file = os.path.join(dingo_description_path, 'urdf', 'dingoplusbucket.urdf')
 
         body_id = p.loadURDF(urdf_file, robotStartPos, robotStartOrientation)
         for i in range(150):
@@ -193,7 +193,7 @@ class PyBulletSimNode(Node):
 
         # Load the robot URDF
         dingo_description_path = get_package_share_directory('dingo_description')
-        urdf_file = os.path.join(dingo_description_path,'urdf', 'dingo_copy.urdf')
+        urdf_file = os.path.join(dingo_description_path, 'urdf', 'dingoplusbucket.urdf')
         self.body_id = p.loadURDF(urdf_file, robotStartPos, robotStartOrientation)
 
         # Step the simulation to stabilize the robot
